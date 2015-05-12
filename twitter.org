@@ -1,0 +1,9 @@
+
+* [[markup.rocks][markup.rocks  - pandoc to markdown preview]]
+** Posted By: Gabriel Gonzalez
+   
+* [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]]
+** Posted By: Tim Dysinger
+* [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]
+** Posted By: Chris Allen  
+* 
