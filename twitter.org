@@ -1,4 +1,4 @@
-
+* All Twitter Bookmarks
 * [[markup.rocks][markup.rocks  - pandoc to markdown preview]]
 ** Posted By: Gabriel Gonzalez
    
@@ -6,4 +6,9 @@
 ** Posted By: Tim Dysinger
 * [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]
 ** Posted By: Chris Allen  
-* 
+* [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]]
+* [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
+* [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]
+* [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]
+* [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]]
+
