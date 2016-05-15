@@ -59,3 +59,8 @@
 
 ** Performance Related
 *** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  
+
+
+** Security related
+*** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][IOS security]]
+   
