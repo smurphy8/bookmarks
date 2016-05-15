@@ -1,4 +1,4 @@
-* All Twitter Bookmarks
+* All Bookmarks
 ** [[markup.rocks][markup.rocks  - pandoc to markdown preview]]
 ** Posted By: Gabriel Gonzalez   
 ** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]]
