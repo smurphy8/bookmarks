@@ -1,21 +1,61 @@
-* All Bookmarks
-** [[markup.rocks][markup.rocks  - pandoc to markdown preview]]
-** Posted By: Gabriel Gonzalez   
-** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]]
-** Posted By: Tim Dysinger
-** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]
-** Posted By: Chris Allen  
-** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]]
-** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
-** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]
-** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]
-** [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]]
-** [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf][Total Functional Programming From Haskell]]
-** [[http://homepage.cs.uiowa.edu/~slonnegr/plf/Book/][syntax and semantics in haskell]]
 
-* UnRead
-** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]
-** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]
-** [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/][Why Monads Matter]]
-** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]  
-** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]
+
+
+
+
+* All
+
+** Haskell 
+
+*** Interesting Libraries
+**** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]         
+
+
+*** Nuts and Bolts stuff
+**** [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]]
+
+**** [[http://homepage.cs.uiowa.edu/~slonnegr/plf/Book/][syntax and semantics in haskell]]
+
+
+*** Spirit of haskell
+**** [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf][Total Functional Programming From Haskell]]
+      
+
+
+** Signal Processing
+*** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]  
+
+
+** FP General
+*** [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/][Why Monads Matter]]  
+*** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]]
+*** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
+
+
+
+** Developer Tools   
+*** [[markup.rocks][markup.rocks  - pandoc to markdown preview]]
+*** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]
+    
+
+
+** Math
+*** meta math
+**** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]   
+**** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]
+     
+
+*** Geometry
+**** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]   
+
+
+***  CS Theory
+**** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]]
+**** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
+
+
+** UX UI API DSL
+*** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]]
+
+** Performance Related
+*** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  
