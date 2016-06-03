@@ -1,16 +1,14 @@
-
-
-
-
-
 * All
+
+** Business
+*** [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]   
 
 ** Haskell 
 
 *** Interesting Libraries
 **** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]         
 
-
+**** [[http://r6.ca/blog/20110808T035622Z.html][shortest path algorithm]]
 *** Nuts and Bolts stuff
 **** [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]]
 
@@ -21,10 +19,8 @@
 **** [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf][Total Functional Programming From Haskell]]
       
 
-
 ** Signal Processing
 *** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]  
-
 
 ** FP General
 *** [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/][Why Monads Matter]]  
@@ -32,12 +28,10 @@
 *** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
 
 
-
 ** Developer Tools   
 *** [[markup.rocks][markup.rocks  - pandoc to markdown preview]]
 *** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]
     
-
 
 ** Math
 *** meta math
@@ -52,14 +46,12 @@
 ***  CS Theory
 **** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]]
 **** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
-
-
+**** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]]
 ** UX UI API DSL
 *** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]]
 
 ** Performance Related
 *** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  
-
 
 ** Security related
 *** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][IOS security]]
