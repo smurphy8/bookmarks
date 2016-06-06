@@ -6,19 +6,23 @@
 ** Haskell 
 
 *** Interesting Libraries
-**** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]         
-
-**** [[http://r6.ca/blog/20110808T035622Z.html][shortest path algorithm]]
+**** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     
+**** [[https://hackage.haskell.org/package/Frames-0.1.4?utm_source=twitterfeed&utm_medium=twitter][Data Frames]]
+**** [[http://r6.ca/blog/20110808T035622Z.html][shortest path algorithm (star-semiring)]]
 *** Nuts and Bolts stuff
 **** [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]]
 
 **** [[http://homepage.cs.uiowa.edu/~slonnegr/plf/Book/][syntax and semantics in haskell]]
 
-
+*** Type Families
+**** [[https://typesandkinds.wordpress.com/2015/09/09/what-are-type-families/][Eisenberg on Type Families]]
 *** Spirit of haskell
 **** [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf][Total Functional Programming From Haskell]]
       
-
+** Coq
+*** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]]
+** CSS
+*** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]]
 ** Signal Processing
 *** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]  
 
@@ -43,10 +47,15 @@
 **** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]   
 
 
-***  CS Theory
+**  CS Theory
 **** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]]
 **** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
 **** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]]
+
+** Economics and Econometrics
+*** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][Effective economic modeling techniques]]
+*** [[http://press.princeton.edu/chapters/s10363.pdf][Mastering Metrics]]
+*** [[http://www.mostlyharmlesseconometrics.com/book-contents/][Mostly Harmless Econometrics]]
 ** UX UI API DSL
 *** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]]
 
@@ -56,3 +65,6 @@
 ** Security related
 *** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][IOS security]]
    
+** Database Related
+*** [[http://www.lirmm.fr/~mugnier/ArticlesPostscript/MugnierRR2011-keynote.pdf][Advanced Datalog]]
+*** [[http://arxiv.org/pdf/1210.2316v1.pdf][Disjunctive Quantifiers for Datalog]]
