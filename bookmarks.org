@@ -46,7 +46,9 @@
 *** Geometry
 **** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]   
 
-
+*** Linear
+**** [[https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/][Taxonomy of Matricies]]
+**** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][Simplex as a Vector Space]]
 **  CS Theory
 **** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]]
 **** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
