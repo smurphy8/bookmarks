@@ -9,6 +9,8 @@
 **** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     
 **** [[https://hackage.haskell.org/package/Frames-0.1.4?utm_source=twitterfeed&utm_medium=twitter][Data Frames]]
 **** [[http://r6.ca/blog/20110808T035622Z.html][shortest path algorithm (star-semiring)]]
+**** [[http://hackage.haskell.org/package/aivika-lattice][Haskell Library for agent modeling and simulation]]
+
 *** Nuts and Bolts stuff
 **** [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]]
 
@@ -54,10 +56,12 @@
 **** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
 **** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]]
 
+
 ** Economics and Econometrics
 *** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][Effective economic modeling techniques]]
 *** [[http://press.princeton.edu/chapters/s10363.pdf][Mastering Metrics]]
 *** [[http://www.mostlyharmlesseconometrics.com/book-contents/][Mostly Harmless Econometrics]]
+
 ** UX UI API DSL
 *** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]]
 
