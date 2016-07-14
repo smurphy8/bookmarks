@@ -43,8 +43,9 @@
 *** meta math
 **** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]   
 **** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]
-     
-
+  
+*** Probability
+**** [[https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Literate-Programming][Kolmogrov Smirnov, Knuth]]
 *** Geometry
 **** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]   
 
