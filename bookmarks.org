@@ -20,7 +20,8 @@
 **** [[https://typesandkinds.wordpress.com/2015/09/09/what-are-type-families/][Eisenberg on Type Families]]
 *** Spirit of haskell
 **** [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf][Total Functional Programming From Haskell]]
-      
+*** Haskell Techniques
+**** [[http://clathomasprime.github.io/hask/freeDecision][Decision Trees as Free Monads]]
 ** Coq
 *** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]]
 ** CSS
