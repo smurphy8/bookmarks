@@ -4,7 +4,6 @@
 *** [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]   
 
 ** Haskell 
-
 *** Interesting Libraries
 **** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     
 **** [[https://hackage.haskell.org/package/Frames-0.1.4?utm_source=twitterfeed&utm_medium=twitter][Data Frames]]
@@ -12,18 +11,24 @@
 **** [[http://hackage.haskell.org/package/aivika-lattice][Haskell Library for agent modeling and simulation]]
 
 *** Nuts and Bolts stuff
+**** [[https://www.haskell.org/onlinereport/lexemes.html][Haskell Report Syntax]]
 **** [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]]
-
 **** [[http://homepage.cs.uiowa.edu/~slonnegr/plf/Book/][syntax and semantics in haskell]]
 
+**** [[http://www.stephendiehl.com/posts/ghc_01.html][GHC Compiler]]
 *** Type Families
 **** [[https://typesandkinds.wordpress.com/2015/09/09/what-are-type-families/][Eisenberg on Type Families]]
 *** Spirit of haskell
 **** [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf][Total Functional Programming From Haskell]]
 *** Haskell Techniques
 **** [[http://clathomasprime.github.io/hask/freeDecision][Decision Trees as Free Monads]]
+**** [[https://oleksandrmanzyuk.wordpress.com/2014/06/18/from-object-algebras-to-finally-tagless-interpreters-2/][Final Tagless vs Object Algebras]]
+
+** Javascript
+*** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]]
 ** Coq
 *** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]]
+*** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]]
 ** CSS
 *** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]]
 ** Signal Processing
@@ -34,12 +39,16 @@
 *** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]]
 *** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
 
+## Machine Code
+[[http://www.sizecoding.org/wiki/Main_Page][Small Programs for 80x86]]
 
 ** Developer Tools   
 *** [[markup.rocks][markup.rocks  - pandoc to markdown preview]]
 *** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]
     
-
+*** [[http://unicodelookup.com/][Unicode Lookup Table]]
+** Machine Learning
+*** [[http://videolectures.net/deeplearning2016_montreal/][Deep learning summer school]]
 ** Math
 *** meta math
 **** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]   
@@ -47,19 +56,23 @@
   
 *** Probability
 **** [[https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Literate-Programming][Kolmogrov Smirnov, Knuth]]
+
 *** Geometry
 **** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]   
-
+**** [[http://erikdemaine.org/papers/CGTA2000/paper.pdf][Algorithmic paper folding]]
+**** [[https://www.scribd.com/document/190482625/A-practical-algorithm-for-decomposing-polygonal-domains-into-convex-polygons-by-diagonals][Convex Hull Decomposition]]
 *** Linear
 **** [[https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/][Taxonomy of Matricies]]
 **** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][Simplex as a Vector Space]]
 
-**  CS Theory
+** CS Theory
 **** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]]
 **** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
 **** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]]
 **** [[http://www.cl.cam.ac.uk/~mpf23/talks/Types2011.pdf][Type Space Graph]]
+**** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP01][Functional Graph Theory]]
 
+**** [[http://plzoo.andrej.com/index.html][Programming Language Zoo]]
 ** Economics and Econometrics
 *** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][Effective economic modeling techniques]]
 *** [[http://press.princeton.edu/chapters/s10363.pdf][Mastering Metrics]]
@@ -77,3 +90,6 @@
 ** Database Related
 *** [[http://www.lirmm.fr/~mugnier/ArticlesPostscript/MugnierRR2011-keynote.pdf][Advanced Datalog]]
 *** [[http://arxiv.org/pdf/1210.2316v1.pdf][Disjunctive Quantifiers for Datalog]]
+** Electrical Engineering
+*** Embedded Hardware Teardowns
+**** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][Open Source Stick Computer]]    
