@@ -57,6 +57,8 @@
 *** Probability
 **** [[https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Literate-Programming][Kolmogrov Smirnov, Knuth]]
 
+*** Statistics
+**** [[http://www.stat.uchicago.edu/~pmcc/tensorbook/][Tensor Methods in Statistics]]
 *** Geometry
 **** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]   
 **** [[http://erikdemaine.org/papers/CGTA2000/paper.pdf][Algorithmic paper folding]]
