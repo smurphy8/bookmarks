@@ -49,6 +49,7 @@
 *** [[http://unicodelookup.com/][Unicode Lookup Table]]
 ** Machine Learning
 *** [[http://videolectures.net/deeplearning2016_montreal/][Deep learning summer school]]
+*** [[http://www.asimovinstitute.org/neural-network-zoo/][Neural Network Zoo]]
 ** Math
 *** meta math
 **** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]   
