@@ -71,6 +71,7 @@
 ** CS Theory
 **** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]]
 **** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
+**** [[http://tata.gforge.inria.fr/][Tree Automata]]
 **** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]]
 **** [[http://www.cl.cam.ac.uk/~mpf23/talks/Types2011.pdf][Type Space Graph]]
 **** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP01][Functional Graph Theory]]
