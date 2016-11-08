@@ -1,5 +1,5 @@
 * All
-
+  
 ** Business
 *** [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]   
 
@@ -50,7 +50,10 @@
 ** Machine Learning
 *** [[http://videolectures.net/deeplearning2016_montreal/][Deep learning summer school]]
 *** [[http://www.asimovinstitute.org/neural-network-zoo/][Neural Network Zoo]]
+*** [[https://github.com/ZuzooVn/machine-learning-for-software-engineers][Machine Learning For Software engineers]]
 ** Math
+*** Graph Theory
+[[http://web.stanford.edu/~saberi/sis2.pdf][Random Graph Generation]]   
 *** meta math
 **** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]   
 **** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]
@@ -68,9 +71,11 @@
 **** [[https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/][Taxonomy of Matricies]]
 **** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][Simplex as a Vector Space]]
 
+**** [[http://www-math.mit.edu/~etingof/egnobookfinal.pdf][Tensor Categories]]
 ** CS Theory
 **** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]]
 **** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
+**** [[https://www.cs.utexas.edu/~wcook/Drafts/2012/graphs.pdf][Functional Programming With Structured Graphs]]
 **** [[http://tata.gforge.inria.fr/][Tree Automata]]
 **** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]]
 **** [[http://www.cl.cam.ac.uk/~mpf23/talks/Types2011.pdf][Type Space Graph]]
@@ -97,3 +102,5 @@
 ** Electrical Engineering
 *** Embedded Hardware Teardowns
 **** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][Open Source Stick Computer]]    
+** Logic
+*** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][Linear Logic and Equality]]
