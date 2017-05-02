@@ -102,4 +102,4 @@
 ** Logic
 *** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][Linear Logic and Equality]]
 ** GIFS
-[[https://i.imgur.com/aFT0yT4.gifv]]
+[[https://i.imgur.com/aFT0yT4.gif]]
