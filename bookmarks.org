@@ -44,6 +44,7 @@
 *** [[http://videolectures.net/deeplearning2016_montreal/][Deep learning summer school]]
 *** [[http://www.asimovinstitute.org/neural-network-zoo/][Neural Network Zoo]]
 *** [[https://github.com/ZuzooVn/machine-learning-for-software-engineers][Machine Learning For Software engineers]]
+*** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]]
 ** Physics
 *** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]]
 ** Math
@@ -54,6 +55,7 @@
 **** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]  
 *** Probability
 **** [[https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Literate-Programming][Kolmogrov Smirnov, Knuth]]
+**** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]]
 *** Statistics
 **** [[http://www.stat.uchicago.edu/~pmcc/tensorbook/][Tensor Methods in Statistics]]
 *** Geometry
@@ -71,7 +73,7 @@
 **** [[http://homepages.inf.ed.ac.uk/gdp/publications/Abstract_Syn.pdf][Marcelo Fiore Abstract Syntax Variable Binding]]
 **** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwjWl4qBpLnRAhWoi1QKHaiGAJMQFggjMAI&url=http%3A%2F%2Fresearchmap.jp%2F%3Faction%3Dcv_download_main%26upload_id%3D50501&usg=AFQjCNFV2JrOKhvMqbP_4cRyJfCxcrvpng][Mako Hamana, Syntax]]
 **** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][Basic Proof Theory]]
-** CS Theory
+** CS Theory PL
 **** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]]
 **** [[https://www.cs.utexas.edu/~wcook/Drafts/2012/graphs.pdf][Functional Programming With Structured Graphs]]
 **** [[http://tata.gforge.inria.fr/][Tree Automata]]
@@ -79,6 +81,8 @@
 **** [[http://www.cl.cam.ac.uk/~mpf23/talks/Types2011.pdf][Type Space Graph]]
 **** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP01][Functional Graph Theory]]
 **** [[http://plzoo.andrej.com/index.html][Programming Language Zoo]]
+** CS Theory Algorithms
+**** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][Tuning Linear Algebra Kernels]]   
 ** Economics and Econometrics
 *** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][Effective economic modeling techniques]]
 *** [[http://press.princeton.edu/chapters/s10363.pdf][Mastering Metrics]]
@@ -97,3 +101,5 @@
 **** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][Open Source Stick Computer]]    
 ** Logic
 *** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][Linear Logic and Equality]]
+** GIFS
+[[https://i.imgur.com/aFT0yT4.gifv]]
