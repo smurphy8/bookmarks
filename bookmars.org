@@ -1,0 +1,132 @@
+* [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]                                            :Business:
+* Haskell
+** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
+** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell:                            :Library:
+** [[https://hackage.haskell.org/package/Frames-0.1.4?utm_source=twitterfeed&utm_medium=twitter][Data Frames]] :Haskell:                                            :Library:
+** [[http://r6.ca/blog/20110808T035622Z.html][shortest path algorithm (star-semiring)]] :Haskell:                :Library:
+** [[http://hackage.haskell.org/package/aivika-lattice][Haskell Library for agent modeling and simulation]] :Haskell:      :Library:
+** [[https://blog.jle.im/entry/introducing-the-hamilton-library.html#.WDxpf_lLz-U.twitter][General purpose physics simulator]] :Haskell:                      :Library:
+** [[https://www.haskell.org/onlinereport/lexemes.html][Haskell Report Syntax]] :Haskell:                                   :DevOps:
+** [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]] :Haskell:                     :DevOps:
+** [[http://homepage.cs.uiowa.edu/~slonnegr/plf/Book/][syntax and semantics in haskell]] :Haskell:                         :DevOps:
+** [[http://www.stephendiehl.com/posts/ghc_01.html][GHC Compiler]] :Haskell:                                            :DevOps:
+** [[https://typesandkinds.wordpress.com/2015/09/09/what-are-type-families/][Eisenberg on Type Families]] :Haskell:                        :TypeFamilies:
+** [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf][Total Functional Programming From Haskell]]  :Haskell: :FP:         :Theory:
+** [[http://clathomasprime.github.io/hask/freeDecision][Decision Trees as Free Monads]] :Haskell: :Theory:                      :FP:
+** [[https://oleksandrmanzyuk.wordpress.com/2014/06/18/from-object-algebras-to-finally-tagless-interpreters-2/][Final Tagless vs Object Algebras]] :Haskell:                        :Theory: 
+** [[https://functor.tokyo/blog/2017-07-28-ghc-warnings-you-should-enable][Warnings that should should enable]] :Haskell: :Tools:
+* SML, Ocaml, Reason
+** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
+** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
+
+* ATS 
+*** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]] :ATS:
+* Javascript
+*** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
+* Coq
+*** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq: :Library:
+*** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
+*** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT: :FormalVerification:
+* CSS
+*** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
+* Signal Processing
+** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]                           :SignalProcessing: 
+* FP General
+** [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/][Why Monads Matter]]   :FP:                                          :Theory:
+** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]] :Rust:                                              :Ivory: 
+** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :FP: :Theory:
+* Machine Code
+[[http://www.sizecoding.org/wiki/Main_Page][Small Programs for 80x86]] :Assembly:
+* Developer Tools   
+** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
+** [[markup.rocks][markup.rocks  - pandoc to markdown preview]]                      :DevTools: :Markdown: :Pandoc:
+** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]     :DevTools: :Testing:
+** [[http://unicodelookup.com/][Unicode Lookup Table]] :DevTools: :Unicode:
+** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
+* Networking
+*** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
+* Machine Learning
+** [[https://arxiv.org/abs/1707.09627][Graphics Inference]] :MachineLearning:
+** [[https://arxiv.org/pdf/1706.08605.pdf][Correct Machine Learning]] :MachineLearning:
+** [[https://arxiv.org/abs/1612.04858][bayesian optimization for ML]] :MachineLearning:
+** [[http://www.inference.vc/everything-that-works-works-because-its-bayesian-2/][everything that works]] :MachineLearning:
+** [[http://videolectures.net/deeplearning2016_montreal/][Deep learning summer school]] :MachineLearning:
+** [[http://karpathy.github.io/2015/05/21/rnn-effectiveness/][Unreasonable effectiveness of neural network]] :MachineLearning:
+** [[http://www.asimovinstitute.org/neural-network-zoo/][Neural Network Zoo]] :MachineLearning:
+** [[https://github.com/ZuzooVn/machine-learning-for-software-engineers][Machine Learning For Software engineers]] :MachineLearning:
+** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
+** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
+** Physics
+*** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
+**** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
+*** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]] :Physics:
+* Math
+** Graph Theory 
+*** [[http://web.stanford.edu/~saberi/sis2.pdf][Random Graph Generation]]   :Math:                            :GraphTheory:
+** meta math
+*** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]   :Math: :GraphTheory:               :Tao:
+*** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]  :Math:                                         :History:
+** Probability
+*** [[https://research.neustar.biz/2012/04/18/statistical-toolbox-the-kolmogorov-smirnov-test/][Kolmogorov Smirnov Test]] :Math: :Probability:                       :Stat:
+** Calculus
+*** [[https://www.semanticscholar.org/paper/The-Solution-of-the-Problem-of-Integration-in-Fini-RISCH/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingPapersSort=is-influential&citingPapersLimit=10&citingPapersOffset=10&citedPapersSort=is-influential&citedPapersLimit=10&citedPapersOffset=0][Risch algorithm]] :Calculus:
+** Statistics
+*** [[http://www.stat.uchicago.edu/~pmcc/tensorbook/][Tensor Methods in Statistics]]  :Math: :Stat:                      :Tensor:
+** Geometry
+*** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]   :Math:                     :Geometry:
+*** [[http://erikdemaine.org/papers/CGTA2000/paper.pdf][Algorithmic paper folding]] :Math: :Geometry:                     :Origami:
+*** [[https://www.scribd.com/document/190482625/A-practical-algorithm-for-decomposing-polygonal-domains-into-convex-polygons-by-diagonals][Convex Hull Decomposition]] :Math: :Geometry:       :ComputationalGeometry:
+** Linear
+*** [[https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/][Taxonomy of Matricies]] :Math:                                     :Linear:
+*** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][Simplex as a Vector Space]] :Math:                                 :Linear:
+*** [[http://www-math.mit.edu/~etingof/egnobookfinal.pdf][Tensor Categories]] :Math:                                         :Linear:
+* Distributed Computing
+** [[https://www.info.ucl.ac.be/~pvr/book.html][Concepts Techniques]] :CS: :Distributed:                              :Book:
+** [[http://www.sosp.org/2001/papers/welsh.pdf][Stage Driven Event Architecture]] :Distributed: :CS: :Paper:
+* Type Theory
+** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]] :TypeTheory: :Loh: :Papers:
+*** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][Foundations of Programming Languages Pfenning]] :TypeTheory: :Book:
+*** [[http://www.cs.cmu.edu/~rwh/courses/hott/][Bob Harper HOTT]] :Book: :TypeTheory: :PL:
+*** [[http://homepages.inf.ed.ac.uk/gdp/publications/Abstract_Syn.pdf][Marcelo Fiore Abstract Syntax Variable Binding]] :CS:
+*** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwjWl4qBpLnRAhWoi1QKHaiGAJMQFggjMAI&url=http%3A%2F%2Fresearchmap.jp%2F%3Faction%3Dcv_download_main%26upload_id%3D50501&usg=AFQjCNFV2JrOKhvMqbP_4cRyJfCxcrvpng][Mako Hamana, Syntax]] :CS: :PL:
+*** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][Basic Proof Theory]] :CS: :Lectures: :Course:
+* CS Theory PL
+*** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :PL: :CS: :Theory:
+*** [[https://www.cs.utexas.edu/~wcook/Drafts/2012/graphs.pdf][Functional Programming With Structured Graphs]] :PL: :CS: :Theory:
+*** [[http://tata.gforge.inria.fr/][Tree Automata]] :PL: :CS: :Theory:
+*** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]] :PL: :CS: :Theory:
+*** [[http://www.cl.cam.ac.uk/~mpf23/talks/Types2011.pdf][Type Space Graph]] :PL: :CS: :Theory:
+*** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP01][Functional Graph Theory]] :PL: :CS: :Theory:
+*** [[http://plzoo.andrej.com/index.html][Programming Language Zoo]] :PL: :CS: :Theory:
+* CS Theory Algorithms
+*** [[https://arxiv.org/pdf/1708.03486.pdf][P Vs NP]] :CS: :Theory: :Complexity:
+*** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][Tuning Linear Algebra Kernels]]    :CS: :Theory: :Algorithms:
+* Economics and Econometrics
+** [[http://andrewgelman.com/2017/09/07/local-data-centralized-data-analysis-local-decision-making/][Market vs government]]
+** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][Effective economic modeling techniques]] :Econometrics:
+** [[http://press.princeton.edu/chapters/s10363.pdf][Mastering Metrics]] :Econometrics:
+** [[http://www.mostlyharmlesseconometrics.com/book-contents/][Mostly Harmless Econometrics]] :Econometrics:
+* UX UI API DSL 
+** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]] :History: :ME:
+* Performance Related
+** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :Optimization: :Assembly:
+* Security related
+** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][IOS security]] :Security:
+** [[https://webcache.googleusercontent.com/search?q=cache:JTkf6Wuc348J:https://humblesec.wordpress.com/2017/07/05/assemby-to-pseudo-code-manually/][Assembly to Pseudo Code]] :Security:
+** [[http://www.phrack.org/papers/attacking_javascript_engines.html][Attacking Javascript Engines]] :Security:
+** [[https://github.com/brannondorsey/wifi-cracking][wifi crack]] :Security: 
+* Database Related
+** [[http://www.lirmm.fr/~mugnier/ArticlesPostscript/MugnierRR2011-keynote.pdf][Advanced Datalog]] :DB:  :DataLog:
+** [[http://arxiv.org/pdf/1210.2316v1.pdf][Disjunctive Quantifiers for Datalog]] :DB: :DataLog:
+* Electrical Engineering
+** Embedded Hardware Teardowns
+*** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][Open Source Stick Computer]]    :EE:
+* Logic 
+** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][Linear Logic and Equality]] :Logic:
+* Oilfield
+** [[https://www.scribd.com/document/97677521/ABB-Totalflow-Plunger-User-Guide][ABB TOTAL FLOW]]  :PlungerLift: :Oil:
+* GIFS
+[[https://i.imgur.com/aFT0yT4.gif]]
+* Marketing
+** Pricing 
+*** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][Understand your Pricing Strategy]]
