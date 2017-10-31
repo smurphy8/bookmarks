@@ -20,6 +20,7 @@
 ** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
 
 * ATS 
+*** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]] :Pointers:ATS:FP:LinearTypes:
 *** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]] :ATS:
 * Javascript
 *** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
@@ -45,6 +46,7 @@
 ** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
 * Networking
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
+*** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
 * Machine Learning
 ** [[https://arxiv.org/abs/1707.09627][Graphics Inference]] :MachineLearning:
 ** [[https://arxiv.org/pdf/1706.08605.pdf][Correct Machine Learning]] :MachineLearning:
