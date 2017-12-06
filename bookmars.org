@@ -48,7 +48,10 @@
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
 *** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
 * Machine Learning
+
 ** [[https://arxiv.org/abs/1707.09627][Graphics Inference]] :MachineLearning:
+
+** [[https://arxiv.org/pdf/1312.6184.pdf][Do Deep nets need to be deep]]
 ** [[https://arxiv.org/pdf/1706.08605.pdf][Correct Machine Learning]] :MachineLearning:
 ** [[https://arxiv.org/abs/1612.04858][bayesian optimization for ML]] :MachineLearning:
 ** [[http://www.inference.vc/everything-that-works-works-because-its-bayesian-2/][everything that works]] :MachineLearning:
@@ -58,7 +61,8 @@
 ** [[https://github.com/ZuzooVn/machine-learning-for-software-engineers][Machine Learning For Software engineers]] :MachineLearning:
 ** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
 ** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
-** Physics
+** [[https://arxiv.org/pdf/1707.04615.pdf][Machine Learning Models]]
+* Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
 *** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]] :Physics:
@@ -119,6 +123,7 @@
 ** [[https://github.com/brannondorsey/wifi-cracking][wifi crack]] :Security: 
 * Database Related
 ** [[http://www.lirmm.fr/~mugnier/ArticlesPostscript/MugnierRR2011-keynote.pdf][Advanced Datalog]] :DB:  :DataLog:
+** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][Datalog with Existensials]]
 ** [[http://arxiv.org/pdf/1210.2316v1.pdf][Disjunctive Quantifiers for Datalog]] :DB: :DataLog:
 * Electrical Engineering
 ** Embedded Hardware Teardowns
