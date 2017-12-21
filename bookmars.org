@@ -137,3 +137,5 @@
 * Marketing
 ** Pricing 
 *** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][Understand your Pricing Strategy]]
+* Design 
+** [[https://practicaltypography.com/][practical typography]  :Typography:Design:
