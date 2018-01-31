@@ -22,6 +22,7 @@
 * ATS 
 *** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]] :Pointers:ATS:FP:LinearTypes:
 *** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]] :ATS:
+*** [[https://bluishcoder.co.nz/2017/12/02/cross-compiling-ats-programs.html][cross compiling ats programs]] :ATS:Building:
 * Javascript
 *** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
 * Coq
@@ -62,6 +63,7 @@
 ** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
 ** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
 ** [[https://arxiv.org/pdf/1707.04615.pdf][Machine Learning Models]]
+** [[https://insidebigdata.com/2017/02/03/pmml-pfa-way-forward-deploying-predictive-analytics/][PFA and PMML Machine learning interchange]] :MachineLearning:
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
@@ -126,8 +128,13 @@
 ** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][Datalog with Existensials]]
 ** [[http://arxiv.org/pdf/1210.2316v1.pdf][Disjunctive Quantifiers for Datalog]] :DB: :DataLog:
 * Electrical Engineering
+** Telemetry 
+*** [[https://mikrotik.com/calculator][microtik range calculator]]
 ** Embedded Hardware Teardowns
 *** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][Open Source Stick Computer]]    :EE:
+* Mechanical Engineering 
+** Electric Motors 
+*** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][Electric Machines]] :EE: :ME: :Motors: :Drives:
 * Logic 
 ** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][Linear Logic and Equality]] :Logic:
 * Oilfield
