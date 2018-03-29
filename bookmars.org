@@ -18,7 +18,6 @@
 * SML, Ocaml, Reason
 ** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 ** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
-
 * ATS 
 *** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]] :Pointers:ATS:FP:LinearTypes:
 *** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]] :ATS:
@@ -98,12 +97,14 @@
 *** [[http://homepages.inf.ed.ac.uk/gdp/publications/Abstract_Syn.pdf][Marcelo Fiore Abstract Syntax Variable Binding]] :CS:
 *** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwjWl4qBpLnRAhWoi1QKHaiGAJMQFggjMAI&url=http%3A%2F%2Fresearchmap.jp%2F%3Faction%3Dcv_download_main%26upload_id%3D50501&usg=AFQjCNFV2JrOKhvMqbP_4cRyJfCxcrvpng][Mako Hamana, Syntax]] :CS: :PL:
 *** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][Basic Proof Theory]] :CS: :Lectures: :Course:
+** [[https://arxiv.org/abs/1803.02294][A self-contained, brief and complete formulation of Voevodsky's Univalence Axiom]] :TypeTheory: :Univalence:
 * CS Theory PL
 *** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :PL: :CS: :Theory:
 *** [[https://www.cs.utexas.edu/~wcook/Drafts/2012/graphs.pdf][Functional Programming With Structured Graphs]] :PL: :CS: :Theory:
 *** [[http://tata.gforge.inria.fr/][Tree Automata]] :PL: :CS: :Theory:
 *** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]] :PL: :CS: :Theory:
 *** [[http://www.cl.cam.ac.uk/~mpf23/talks/Types2011.pdf][Type Space Graph]] :PL: :CS: :Theory:
+*** [[https://gitlab.inria.fr/fpottier/mpri-2.4-public][Functional programming and type systems (2017-2018)]]
 *** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP01][Functional Graph Theory]] :PL: :CS: :Theory:
 *** [[http://plzoo.andrej.com/index.html][Programming Language Zoo]] :PL: :CS: :Theory:
 * CS Theory Algorithms
@@ -132,6 +133,9 @@
 *** [[https://mikrotik.com/calculator][microtik range calculator]]
 ** Embedded Hardware Teardowns
 *** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][Open Source Stick Computer]]    :EE:
+** Embedded Programming 
++ [[http://electronut.in/stm32-returns/][STM32 Tool Chain]]
++ [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][STM32 arm abi firmware chain]]
 * Mechanical Engineering 
 ** Electric Motors 
 *** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][Electric Machines]] :EE: :ME: :Motors: :Drives:
