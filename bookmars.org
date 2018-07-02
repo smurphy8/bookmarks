@@ -15,6 +15,8 @@
 ** [[http://clathomasprime.github.io/hask/freeDecision][Decision Trees as Free Monads]] :Haskell: :Theory:                      :FP:
 ** [[https://oleksandrmanzyuk.wordpress.com/2014/06/18/from-object-algebras-to-finally-tagless-interpreters-2/][Final Tagless vs Object Algebras]] :Haskell:                        :Theory: 
 ** [[https://functor.tokyo/blog/2017-07-28-ghc-warnings-you-should-enable][Warnings that should should enable]] :Haskell: :Tools:
+** [[https://www.reddit.com/r/programming/comments/w4gs6/levenshtein_distance_in_haskell/c5a6jjz/][Levenshtein Distance]] :Haskell: :Optimization:
+** [[http://hackage.haskell.org/package/generic-lens-1.0.0.1/docs/Data-Generics-Product-Fields.html#t:HasField][Generic Lens]] :Haskell: :Lens:
 * SML, Ocaml, Reason
 ** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 ** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
@@ -150,3 +152,11 @@
 *** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][Understand your Pricing Strategy]]
 * Design 
 ** [[https://practicaltypography.com/][practical typography]  :Typography:Design:
+* Dev Ops
+** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :Dev Ops:
+** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
+
+* Web Specs
+** [[https://tools.ietf.org/html/rfc3986#section-3.3][General HTTP URI]] 
+
+* Gas Temp Alarm
