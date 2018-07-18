@@ -92,6 +92,7 @@
 * Distributed Computing
 ** [[https://www.info.ucl.ac.be/~pvr/book.html][Concepts Techniques]] :CS: :Distributed:                              :Book:
 ** [[http://www.sosp.org/2001/papers/welsh.pdf][Stage Driven Event Architecture]] :Distributed: :CS: :Paper:
+** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=ANoY7cqV4V3ed2LVttCmV-owtkGaRk9XTIQ95SdSaN_j2r4ecmBQYEOFkFp6EzugI24OltGUUrABzBAvPE7YvjA5KJ2xJ-zhvmSbNZ8G9TPTI2tfv3jr57wBIwKb9JfnIFxS5u5tX5PP5Sn7Vbd9p5HIzsFScFMaiqIZBabaPJbD9YHPrNFxpPF0H3eC3VvcIPWnGPpAtxRq9Ciwu9lfQn8TkjwQfD9SS3nwOprGk_6dkVskZfG5Bgs%3D&attredirects=0][Incremental parallel]] :Incremental:Distributed:CS:Paper:
 * Type Theory
 ** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]] :TypeTheory: :Loh: :Papers:
 *** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][Foundations of Programming Languages Pfenning]] :TypeTheory: :Book:
@@ -100,6 +101,8 @@
 *** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwjWl4qBpLnRAhWoi1QKHaiGAJMQFggjMAI&url=http%3A%2F%2Fresearchmap.jp%2F%3Faction%3Dcv_download_main%26upload_id%3D50501&usg=AFQjCNFV2JrOKhvMqbP_4cRyJfCxcrvpng][Mako Hamana, Syntax]] :CS: :PL:
 *** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][Basic Proof Theory]] :CS: :Lectures: :Course:
 ** [[https://arxiv.org/abs/1803.02294][A self-contained, brief and complete formulation of Voevodsky's Univalence Axiom]] :TypeTheory: :Univalence:
+** [[https://vrahli.github.io/articles/FCS-long.pdf][Computability beyond Choice Sequences]] :TypeTheory: :Intuitionist:
+** [[https://github.com/OPLSS/introduction-to-algebraic-effects-and-handlers][Introduction to Algebraic Effects]] :Andrej:TypeTheory:AlgebraicEffects:
 * CS Theory PL
 *** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :PL: :CS: :Theory:
 *** [[https://www.cs.utexas.edu/~wcook/Drafts/2012/graphs.pdf][Functional Programming With Structured Graphs]] :PL: :CS: :Theory:
@@ -158,5 +161,7 @@
 
 * Web Specs
 ** [[https://tools.ietf.org/html/rfc3986#section-3.3][General HTTP URI]] 
-
 * Gas Temp Alarm
+* Competitors
+** [[https://openautomationsoftware.com/video-links/][Open Automation]] :Scada:
+
