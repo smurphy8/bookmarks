@@ -40,6 +40,7 @@
 ** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :FP: :Theory:
 * Machine Code
 [[http://www.sizecoding.org/wiki/Main_Page][Small Programs for 80x86]] :Assembly:
+[[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 * Developer Tools   
 ** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
 ** [[markup.rocks][markup.rocks  - pandoc to markdown preview]]                      :DevTools: :Markdown: :Pandoc:
@@ -122,6 +123,7 @@
 ** [[http://www.mostlyharmlesseconometrics.com/book-contents/][Mostly Harmless Econometrics]] :Econometrics:
 * UX UI API DSL 
 ** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]] :History: :ME:
+** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :Fonts:UI:Design:
 * Performance Related
 ** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :Optimization: :Assembly:
 * Security related
