@@ -24,6 +24,10 @@
 *** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]] :Pointers:ATS:FP:LinearTypes:
 *** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]] :ATS:
 *** [[https://bluishcoder.co.nz/2017/12/02/cross-compiling-ats-programs.html][cross compiling ats programs]] :ATS:Building:
+*** [[https://github.com/githwxi/ATS-Postiats/wiki/keywords][Keywords in ats]]:ATS:FP:
+*** [[http://ats-lang.sourceforge.net/DOCUMENT/ATS2TUTORIAL/HTML/ATS2TUTORIAL-BOOK-onechunk.html][Keywords in ats contd]] :ATS:FP:
+*** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][Keywords in ats contd 2]] :ATS:FP:
+*** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]]
 * Javascript
 *** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
 * Coq
@@ -32,6 +36,8 @@
 *** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT: :FormalVerification:
 * CSS
 *** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
+* Text and Content Editing
+** [[http://ergoemacs.org/emacs/elisp_syntax_coloring.html][Syntax Highlighting example in emacs]] :emacs:typography:
 * Signal Processing
 ** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]                           :SignalProcessing: 
 * FP General
@@ -41,6 +47,7 @@
 * Machine Code
 [[http://www.sizecoding.org/wiki/Main_Page][Small Programs for 80x86]] :Assembly:
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
+[[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Developer Tools   
 ** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
 ** [[markup.rocks][markup.rocks  - pandoc to markdown preview]]                      :DevTools: :Markdown: :Pandoc:
@@ -66,6 +73,10 @@
 ** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
 ** [[https://arxiv.org/pdf/1707.04615.pdf][Machine Learning Models]]
 ** [[https://insidebigdata.com/2017/02/03/pmml-pfa-way-forward-deploying-predictive-analytics/][PFA and PMML Machine learning interchange]] :MachineLearning:
+** Clustering Algorithms
+*** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
+*** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
+*** [[ https://en.wikipedia.org/wiki/Affinity_propagation ][ Affinity Propgation Clustering ]]
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
@@ -83,7 +94,7 @@
 ** Statistics
 *** [[http://www.stat.uchicago.edu/~pmcc/tensorbook/][Tensor Methods in Statistics]]  :Math: :Stat:                      :Tensor:
 ** Geometry
-*** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]]   :Math:                     :Geometry:
+*** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]] :Math:                       :Geometry:
 *** [[http://erikdemaine.org/papers/CGTA2000/paper.pdf][Algorithmic paper folding]] :Math: :Geometry:                     :Origami:
 *** [[https://www.scribd.com/document/190482625/A-practical-algorithm-for-decomposing-polygonal-domains-into-convex-polygons-by-diagonals][Convex Hull Decomposition]] :Math: :Geometry:       :ComputationalGeometry:
 ** Linear
@@ -116,6 +127,7 @@
 * CS Theory Algorithms
 *** [[https://arxiv.org/pdf/1708.03486.pdf][P Vs NP]] :CS: :Theory: :Complexity:
 *** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][Tuning Linear Algebra Kernels]]    :CS: :Theory: :Algorithms:
+
 * Economics and Econometrics
 ** [[http://andrewgelman.com/2017/09/07/local-data-centralized-data-analysis-local-decision-making/][Market vs government]]
 ** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][Effective economic modeling techniques]] :Econometrics:
@@ -161,12 +173,18 @@
 ** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :Dev Ops:
 ** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
 
+** [[https://martinfowler.com/bliki/CircuitBreaker.html][Circuit Breaker]] :SystemDesign:Microservices:CircuitBreaker
 * Web Specs
 ** [[https://tools.ietf.org/html/rfc3986#section-3.3][General HTTP URI]] 
 * Gas Temp Alarm
 * Competitors
 ** [[https://openautomationsoftware.com/video-links/][Open Automation]] :Scada:
+** [[http://video.andium.com/][Andium Solutions]] :TankMeasurement:MachineLearning:
 * ExamplePrograms
 ** [[https://graphs.grevian.org/example][Graphviz]] :GraphViz:Examples:
 * Makefiles
 ** [[https://www.gnu.org/software/make/manual/html_node/Static-Usage.html][Makefile manual static usage]] :Makefile:
+* Management & Business
+** [[https://stripe.com/atlas/guides/scaling-eng][Scaling an engineering organization]]
+* Industrial Automation
+** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
