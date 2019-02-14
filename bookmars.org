@@ -148,6 +148,7 @@
 ** [[http://www.lirmm.fr/~mugnier/ArticlesPostscript/MugnierRR2011-keynote.pdf][Advanced Datalog]] :DB:  :DataLog:
 ** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][Datalog with Existensials]]
 ** [[http://arxiv.org/pdf/1210.2316v1.pdf][Disjunctive Quantifiers for Datalog]] :DB: :DataLog:
+** [[https://www.infoq.com/presentations/storage-algorithms][Modern DB Algorithms]] :DB:Algorithms:
 * Electrical Engineering
 ** Telemetry 
 *** [[https://mikrotik.com/calculator][microtik range calculator]]
