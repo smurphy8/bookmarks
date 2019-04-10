@@ -74,10 +74,12 @@
 ** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
 ** [[https://arxiv.org/pdf/1707.04615.pdf][Machine Learning Models]]
 ** [[https://insidebigdata.com/2017/02/03/pmml-pfa-way-forward-deploying-predictive-analytics/][PFA and PMML Machine learning interchange]] :MachineLearning:
+** [[https://blog.jle.im/entry/practical-dependent-types-in-haskell-1.html][Neural Network example in haskell]] :Haskell:MachineLearning:
 ** Clustering Algorithms
 *** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
 *** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
 *** [[ https://en.wikipedia.org/wiki/Affinity_propagation ][ Affinity Propgation Clustering ]]
+
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
@@ -189,5 +191,6 @@
 ** [[https://www.gnu.org/software/make/manual/html_node/Static-Usage.html][Makefile manual static usage]] :Makefile:
 * Management & Business
 ** [[https://stripe.com/atlas/guides/scaling-eng][Scaling an engineering organization]]
+** [[https://fs.blog/mental-models/][Mental Models]]:Business:MentalModels:FarnumStreet:
 * Industrial Automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
