@@ -79,7 +79,10 @@
 *** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
 *** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
 *** [[ https://en.wikipedia.org/wiki/Affinity_propagation ][ Affinity Propgation Clustering ]]
-
+** Decision Trees
+*** [[https://victorzhou.com/blog/intro-to-random-forests/][Intro to random forests]]
+[[./decisiontree.png]]
+Decision trees and random forest, an understandable introduction to me.
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
@@ -192,5 +195,6 @@
 * Management & Business
 ** [[https://stripe.com/atlas/guides/scaling-eng][Scaling an engineering organization]]
 ** [[https://fs.blog/mental-models/][Mental Models]]:Business:MentalModels:FarnumStreet:
+** [[https://optimistictypes.com/moderating-sexual-assault/][Sexual Assault guidelines]] :Management:HR:
 * Industrial Automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
