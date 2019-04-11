@@ -99,6 +99,10 @@ Decision trees and random forest, an understandable introduction to me.
 *** [[https://www.semanticscholar.org/paper/The-Solution-of-the-Problem-of-Integration-in-Fini-RISCH/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingPapersSort=is-influential&citingPapersLimit=10&citingPapersOffset=10&citedPapersSort=is-influential&citedPapersLimit=10&citedPapersOffset=0][Risch algorithm]] :Calculus:
 ** Statistics
 *** [[http://www.stat.uchicago.edu/~pmcc/tensorbook/][Tensor Methods in Statistics]]  :Math: :Stat:                      :Tensor:
+*** [[https://lindeloev.github.io/tests-as-linear/][Statistical tests as linear models]]
+[[./linear-models-statistical-tests.png]]
+
+Common statistical tests can be viewed as linear models
 ** Geometry
 *** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]] :Math:                       :Geometry:
 *** [[http://erikdemaine.org/papers/CGTA2000/paper.pdf][Algorithmic paper folding]] :Math: :Geometry:                     :Origami:
