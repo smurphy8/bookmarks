@@ -200,5 +200,11 @@ Common statistical tests can be viewed as linear models
 ** [[https://stripe.com/atlas/guides/scaling-eng][Scaling an engineering organization]]
 ** [[https://fs.blog/mental-models/][Mental Models]]:Business:MentalModels:FarnumStreet:
 ** [[https://optimistictypes.com/moderating-sexual-assault/][Sexual Assault guidelines]] :Management:HR:
+** [[https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html][Project Estimation in Software development]]:ProjectManagement:Business:
+[[./SoftwareProjectEstimation.png]]
+Estimating Software Timelines is difficult this is a nice breakdown of
+some possible reasons.
+[[https://news.ycombinator.com/item?id=19671673][Interesting notes in the comments]]
+
 * Industrial Automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
