@@ -21,6 +21,23 @@
 ** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 ** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
 ** [[http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html][Ocaml To Haskell]] :Haskell:OCaml:Reason:
+* Agda
+** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
+Probability Monads in Cubical Agda
+Posted on April 17, 2019
+Tags: Agda, Probability
+
+Cubical Agda has just come out, and I’ve been playing around with it for a bit. 
+There’s a bunch of info out there on the theory of cubical types, 
+and Homotopy Type Theory more generally 
+(cubical type theory is kind of like an “implementation” of Homotopy type theory), 
+but I wanted to make a post demonstrating cubical Agda in practice, and one of 
+its cool uses from a programming perspective.
+So What is Cubical Agda?
+I don’t really know! Cubical type theory is quite complex (even for a type theory), 
+and I’m not nearly qualified to properly explain it. In lieu of a proper 
+first-principles explanation, then, I’ll try and give a few examples of how 
+it differs from normal Agda, before moving on to the main example of this post. 
 * ATS 
 *** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]] :Pointers:ATS:FP:LinearTypes:
 *** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]] :ATS:
