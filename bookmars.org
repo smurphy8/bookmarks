@@ -183,6 +183,20 @@ Common statistical tests can be viewed as linear models
 ** Embedded Programming 
 + [[http://electronut.in/stm32-returns/][STM32 Tool Chain]]
 + [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][STM32 arm abi firmware chain]]
+** RF Theory
+*** [[http://www.antenna-theory.com/m/index.php][Antenna Theory Website]] :Antenna:RFTheory:
+ About this Site:
+
+Antennas and Antenna Theory has always been a fascinating subject for me, 
+and it is this excitement that leads me to present this tutorial. 
+In my life, I have found that once I thoroughly understand a subject, 
+I am amazed at how simple it seems, despite the initial complexity. 
+This I have found true for a wide range of activities, be 
+it riding a motorcycle, learning about antennas, or understanding 
+physical phenomena such as electromagnetics. With that in mind, 
+I endeavor to write this Antenna Theory website in the simplest 
+of all possible manners. 
+
 * Mechanical Engineering 
 ** Electric Motors 
 *** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][Electric Machines]] :EE: :ME: :Motors: :Drives:
