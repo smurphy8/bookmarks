@@ -17,6 +17,8 @@
 ** [[https://functor.tokyo/blog/2017-07-28-ghc-warnings-you-should-enable][Warnings that should should enable]] :Haskell: :Tools:
 ** [[https://www.reddit.com/r/programming/comments/w4gs6/levenshtein_distance_in_haskell/c5a6jjz/][Levenshtein Distance]] :Haskell: :Optimization:
 ** [[http://hackage.haskell.org/package/generic-lens-1.0.0.1/docs/Data-Generics-Product-Fields.html#t:HasField][Generic Lens]] :Haskell: :Lens:
+** [[https://github.com/haskell-suite/haskell-src-exts/blob/master/tests/examples/DerivingVia.hs#L165][Deriving Via Example]]
+
 * SML, Ocaml, Reason
 ** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 ** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
@@ -56,6 +58,37 @@ it differs from normal Agda, before moving on to the main example of this post.
 *** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
 * Text and Content Editing
 ** [[http://ergoemacs.org/emacs/elisp_syntax_coloring.html][Syntax Highlighting example in emacs]] :emacs:typography:
+** [[https://joaotavora.github.io/yasnippet/snippet-development.html][YaSnippet examples]]
+Really nice examples of using YaSnippet including the one I forget all the time 
+
+#+BEGIN_SRC markdown
+
+Tab stop fields
+
+Tab stops are fields that you can navigate back and forth by TAB and S-TAB. They are written by $ followed with a number. $0 has the special meaning of the exit point of a snippet. That is the last place to go when you've traveled all the fields. Here's a typical example:
+
+<div$1>
+    $0
+</div>
+
+Placeholder fields
+
+Tab stops can have default values – a.k.a placeholders. The syntax is like this:
+
+${N:default value}
+
+They act as the default value for a tab stop. But when you first type at a tab stop, the default value will be replaced by your typing. The number can be omitted if you don't want to create mirrors or transformations for this field.
+Mirrors
+
+We refer the tab stops with placeholders as a field. A field can have mirrors. All mirrors get updated whenever you update any field text. Here's an example:
+
+\begin{${1:enumerate}}
+    $0
+\end{$1}
+
+
+#+END_SRC
+
 * Signal Processing
 ** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]                           :SignalProcessing: 
 * FP General
@@ -68,7 +101,6 @@ it differs from normal Agda, before moving on to the main example of this post.
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Developer Tools   
 ** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
-** [[markup.rocks][markup.rocks  - pandoc to markdown preview]]                      :DevTools: :Markdown: :Pandoc:
 ** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]     :DevTools: :Testing:
 ** [[http://unicodelookup.com/][Unicode Lookup Table]] :DevTools: :Unicode:
 ** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
@@ -212,6 +244,8 @@ of all possible manners.
 * Design 
 ** [[https://practicaltypography.com/][practical typography]  :Typography:Design:
 ** [[https://ciechanow.ski/color-spaces/][Perception of Color Spaces]] :Design:Color:ColorTheory:Goete:Physics:
+** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][Dont use MD]]
+What we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
 * Dev Ops
 ** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :Dev Ops:
 ** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
