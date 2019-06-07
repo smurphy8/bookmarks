@@ -121,6 +121,8 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 ** [[https://github.com/ZuzooVn/machine-learning-for-software-engineers][Machine Learning For Software engineers]] :MachineLearning:
 ** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
 ** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
+** [[https://blog.floydhub.com/][genetic algorithms]] :MachineLearning
+When you're solving a problem, how do you know if the answer you've found is correct? 
 ** [[https://arxiv.org/pdf/1707.04615.pdf][Machine Learning Models]]
 ** [[https://insidebigdata.com/2017/02/03/pmml-pfa-way-forward-deploying-predictive-analytics/][PFA and PMML Machine learning interchange]] :MachineLearning:
 ** [[https://blog.jle.im/entry/practical-dependent-types-in-haskell-1.html][Neural Network example in haskell]] :Haskell:MachineLearning:
