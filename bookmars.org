@@ -132,6 +132,10 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 *** [[https://victorzhou.com/blog/intro-to-random-forests/][Intro to random forests]]
 [[./decisiontree.png]]
 Decision trees and random forest, an understandable introduction to me.
+* Numerical Computing
+** [[https://cheatsheets.quantecon.org/][Rosetta Stone Matlab,python,julia]]:NumbericalComputing:Matlab:Python:Julia:
+A set of examples in Matlab Python and Julia
+[[./MatlabPythonRosetta.png]]
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
@@ -164,6 +168,7 @@ Common statistical tests can be viewed as linear models
 ** [[https://www.info.ucl.ac.be/~pvr/book.html][Concepts Techniques]] :CS: :Distributed:                              :Book:
 ** [[http://www.sosp.org/2001/papers/welsh.pdf][Stage Driven Event Architecture]] :Distributed: :CS: :Paper:
 ** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=ANoY7cqV4V3ed2LVttCmV-owtkGaRk9XTIQ95SdSaN_j2r4ecmBQYEOFkFp6EzugI24OltGUUrABzBAvPE7YvjA5KJ2xJ-zhvmSbNZ8G9TPTI2tfv3jr57wBIwKb9JfnIFxS5u5tX5PP5Sn7Vbd9p5HIzsFScFMaiqIZBabaPJbD9YHPrNFxpPF0H3eC3VvcIPWnGPpAtxRq9Ciwu9lfQn8TkjwQfD9SS3nwOprGk_6dkVskZfG5Bgs%3D&attredirects=0][Incremental parallel]] :Incremental:Distributed:CS:Paper:
+** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][Event Sourcing Doing it Wrong]] :EventSourcing:Distributed:
 * Type Theory
 ** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]] :TypeTheory: :Loh: :Papers:
 *** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][Foundations of Programming Languages Pfenning]] :TypeTheory: :Book:
@@ -197,6 +202,7 @@ Common statistical tests can be viewed as linear models
 ** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :Fonts:UI:Design:
 * Performance Related
 ** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :Optimization: :Assembly:
+** [[https://github.com/processone/tsung][Tsung Http]] :Optimization:Performance:Htt
 * Security related
 ** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][IOS security]] :Security:
 ** [[https://webcache.googleusercontent.com/search?q=cache:JTkf6Wuc348J:https://humblesec.wordpress.com/2017/07/05/assemby-to-pseudo-code-manually/][Assembly to Pseudo Code]] :Security:
@@ -207,6 +213,7 @@ Common statistical tests can be viewed as linear models
 ** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][Datalog with Existensials]]
 ** [[http://arxiv.org/pdf/1210.2316v1.pdf][Disjunctive Quantifiers for Datalog]] :DB: :DataLog:
 ** [[https://www.infoq.com/presentations/storage-algorithms][Modern DB Algorithms]] :DB:Algorithms:
+** [[https://www.nginx.com/blog/what-is-a-service-mesh/][Service Mesh]]
 * Electrical Engineering
 ** Telemetry 
 *** [[https://mikrotik.com/calculator][microtik range calculator]]
@@ -234,6 +241,10 @@ of all possible manners.
 *** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][Electric Machines]] :EE: :ME: :Motors: :Drives:
 * Logic 
 ** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][Linear Logic and Equality]] :Logic:
+** [[http://blog.ezyang.com/2013/09/induction-and-logical-relations/][Logical Relations]] :Logic:
+Induction and logical relations
+Logical relations are a proof technique which allow you to prove things such as normalization (all programs terminate) 
+and program equivalence (these two programs are observationally equivalent under all program contexts).
 * Oilfield
 ** [[https://www.scribd.com/document/97677521/ABB-Totalflow-Plunger-User-Guide][ABB TOTAL FLOW]]  :PlungerLift: :Oil:
 * GIFS
