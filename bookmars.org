@@ -238,6 +238,16 @@ physical phenomena such as electromagnetics. With that in mind,
 I endeavor to write this Antenna Theory website in the simplest 
 of all possible manners. 
 
+** Digital Electronics
+*** [[https://www.allaboutcircuits.com/technical-articles/universal-logic-gates/][Universal Gates]]
+Introduction
+
+A universal logic gate is a logic gate that can be used to construct all other logic gates.  
+There are many articles about how NAND and NOR are universal gates, but many of these articles 
+omit other gates that are also universal gates. This article covers two input logic gates, 
+demonstrates that the NAND gate is a universal gate, and demonstrates how other gates are 
+universal gates that can be used to construct any logic gate.
+[[./OtherUniversalGates.png]]
 * Mechanical Engineering 
 ** Electric Motors 
 *** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][Electric Machines]] :EE: :ME: :Motors: :Drives:
