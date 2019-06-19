@@ -298,3 +298,5 @@ some possible reasons.
 ** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][CAP Theorem and Development]] :CAPTheorem:Development:Management:
 * Industrial Automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
+* Personal
+** [[https://youthsoccerrankings.us/team.html?teamId=1603613][Soccer rankings]] :Soccer:
