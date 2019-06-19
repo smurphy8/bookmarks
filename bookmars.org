@@ -138,6 +138,7 @@ Decision trees and random forest, an understandable introduction to me.
 ** [[https://cheatsheets.quantecon.org/][Rosetta Stone Matlab,python,julia]]:NumbericalComputing:Matlab:Python:Julia:
 A set of examples in Matlab Python and Julia
 [[./MatlabPythonRosetta.png]]
+** [[https://news.ycombinator.com/item?id=20211201][Probabalistic Programming for end users]] :Probabalistic:Programming:
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
@@ -294,5 +295,6 @@ Estimating Software Timelines is difficult this is a nice breakdown of
 some possible reasons.
 [[https://news.ycombinator.com/item?id=19671673][Interesting notes in the comments]]
 
+** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][CAP Theorem and Development]] :CAPTheorem:Development:Management:
 * Industrial Automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
