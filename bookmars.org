@@ -268,6 +268,8 @@ and program equivalence (these two programs are observationally equivalent under
 * Design 
 ** [[https://practicaltypography.com/][practical typography]  :Typography:Design:
 ** [[https://ciechanow.ski/color-spaces/][Perception of Color Spaces]] :Design:Color:ColorTheory:Goete:Physics:
+** [[https://vega.github.io/vega/examples/tree-layout/][Vega Examples]] :Vega:D3:
+Example alternative language for D3
 ** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][Dont use MD]]
 What we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
 * Dev Ops
