@@ -126,6 +126,7 @@ When you're solving a problem, how do you know if the answer you've found is cor
 ** [[https://arxiv.org/pdf/1707.04615.pdf][Machine Learning Models]]
 ** [[https://insidebigdata.com/2017/02/03/pmml-pfa-way-forward-deploying-predictive-analytics/][PFA and PMML Machine learning interchange]] :MachineLearning:
 ** [[https://blog.jle.im/entry/practical-dependent-types-in-haskell-1.html][Neural Network example in haskell]] :Haskell:MachineLearning:
+** [[https://www.pnas.org/content/early/2019/06/21/1817218116][Principal Component Analysis]]
 ** Clustering Algorithms
 *** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
 *** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
@@ -146,6 +147,7 @@ A set of examples in Matlab Python and Julia
 * Math
 ** Graph Theory 
 *** [[http://web.stanford.edu/~saberi/sis2.pdf][Random Graph Generation]]   :Math:                            :GraphTheory:
+*** [[http://web.cs.elte.hu/~lovasz/bookxx/geomgraphbook/geombook2019.01.11.pdf][Graphs and Geometry]] :GraphTheory:Geometry:
 ** meta math
 *** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]   :Math: :GraphTheory:               :Tao:
 *** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]  :Math:                                         :History:
