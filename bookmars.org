@@ -1,4 +1,14 @@
 * [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]                                            :Business:
+* Nix
+** [[https://iohk.io/blog/how-we-use-nix-at-iohk/][IOHK How we use Nix]] :IOHK:Nix:
+Why Nix?
+There are many existing systems for software configuration management, 
+some with far more users than Nix. However, we believe that Nix has the 
+best available implementation of ‘Infrastructure as Code’, not only in 
+terms of features, but also in its design and potential.
+** [[https://nixos.wiki/wiki/Nix_Expression_Language][The Nix Expression Language]] :Nix:Language:
+This discussion article covers the syntax, semantics, typing, compilation, tooling and libraries of the Nix Expression Language. 
+
 * Haskell
 ** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
 ** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell:                            :Library:
@@ -127,6 +137,7 @@ When you're solving a problem, how do you know if the answer you've found is cor
 ** [[https://insidebigdata.com/2017/02/03/pmml-pfa-way-forward-deploying-predictive-analytics/][PFA and PMML Machine learning interchange]] :MachineLearning:
 ** [[https://blog.jle.im/entry/practical-dependent-types-in-haskell-1.html][Neural Network example in haskell]] :Haskell:MachineLearning:
 ** [[https://www.pnas.org/content/early/2019/06/21/1817218116][Principal Component Analysis]]
+** [[https://joellaity.com/2018/10/18/pca.html][PCA Spread Out]]
 ** Clustering Algorithms
 *** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
 *** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
@@ -279,6 +290,7 @@ What we need is to inform people better, and produce better and healthier guidel
 ** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
 
 ** [[https://martinfowler.com/bliki/CircuitBreaker.html][Circuit Breaker]] :SystemDesign:Microservices:CircuitBreaker
+** [[https://news.ycombinator.com/item?id=20442200][BPF Performance Tools]] :DevOps:BPF:D-trace:
 * Web Specs
 ** [[https://tools.ietf.org/html/rfc3986#section-3.3][General HTTP URI]] 
 * Gas Temp Alarm
