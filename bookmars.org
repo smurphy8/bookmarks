@@ -33,6 +33,7 @@ This discussion article covers the syntax, semantics, typing, compilation, tooli
 ** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 ** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
 ** [[http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html][Ocaml To Haskell]] :Haskell:OCaml:Reason:
+
 * Agda
 ** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
 Probability Monads in Cubical Agda
@@ -60,6 +61,7 @@ it differs from normal Agda, before moving on to the main example of this post.
 *** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]]
 * Javascript
 *** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
+*** [[https://overreacted.io/a-complete-guide-to-useeffect/][React Reason useEffect]] :javascript:hooks:react:Reason:Ocaml:BuckleScript:
 * Coq
 *** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq: :Library:
 *** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
@@ -176,6 +178,7 @@ Common statistical tests can be viewed as linear models
 *** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]] :Math:                       :Geometry:
 *** [[http://erikdemaine.org/papers/CGTA2000/paper.pdf][Algorithmic paper folding]] :Math: :Geometry:                     :Origami:
 *** [[https://www.scribd.com/document/190482625/A-practical-algorithm-for-decomposing-polygonal-domains-into-convex-polygons-by-diagonals][Convex Hull Decomposition]] :Math: :Geometry:       :ComputationalGeometry:
+*** [[https://www.cs.cmu.edu/~kmcrane/Projects/DGPDEC/paper.pdf][Discrete Differential Geometry]] :Geometry:DifferentialGeometry:
 ** Linear
 *** [[https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/][Taxonomy of Matricies]] :Math:                                     :Linear:
 *** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][Simplex as a Vector Space]] :Math:                                 :Linear:
@@ -216,6 +219,7 @@ Common statistical tests can be viewed as linear models
 * UX UI API DSL 
 ** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]] :History: :ME:
 ** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :Fonts:UI:Design:
+** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][Flexbox a guide]] :Flexbox:WebDesign:CSS:UI:
 * Performance Related
 ** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :Optimization: :Assembly:
 ** [[https://github.com/processone/tsung][Tsung Http]] :Optimization:Performance:Htt
@@ -235,6 +239,8 @@ Common statistical tests can be viewed as linear models
 *** [[https://mikrotik.com/calculator][microtik range calculator]]
 ** Embedded Hardware Teardowns
 *** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][Open Source Stick Computer]]    :EE:
+*** [[https://www.nand2tetris.org/][Nand 2 Tetris]]
+*** [[https://lwn.net/Articles/250967/][What every prog should know about memory]]
 ** Embedded Programming 
 + [[http://electronut.in/stm32-returns/][STM32 Tool Chain]]
 + [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][STM32 arm abi firmware chain]]
@@ -262,6 +268,7 @@ omit other gates that are also universal gates. This article covers two input lo
 demonstrates that the NAND gate is a universal gate, and demonstrates how other gates are 
 universal gates that can be used to construct any logic gate.
 [[./OtherUniversalGates.png]]
+
 * Mechanical Engineering 
 ** Electric Motors 
 *** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][Electric Machines]] :EE: :ME: :Motors: :Drives:
@@ -285,6 +292,7 @@ and program equivalence (these two programs are observationally equivalent under
 Example alternative language for D3
 ** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][Dont use MD]]
 What we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
+
 * Dev Ops
 ** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :Dev Ops:
 ** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
@@ -316,3 +324,5 @@ some possible reasons.
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
 * Personal
 ** [[https://youthsoccerrankings.us/team.html?teamId=1603613][Soccer rankings]] :Soccer:
+* Manufacturing
+** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][Garment Quality]] :Fashion:Quality:Manufacturing:
