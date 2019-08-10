@@ -326,3 +326,10 @@ some possible reasons.
 ** [[https://youthsoccerrankings.us/team.html?teamId=1603613][Soccer rankings]] :Soccer:
 * Manufacturing
 ** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][Garment Quality]] :Fashion:Quality:Manufacturing:
+* Particular Specifications
+** Excel Format
++ [[download.microsoft.com/download/3/E/3/3E3435BD-AA68-4B32-B84D-B633F0D0F90D/SpreadsheetMLBasics.ppt][Power Point Excel Format]]
++ [[http://www.ecma-international.org/publications/standards/Ecma-376.htm][Ecma standard]]
++ [[https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats][Wiki Page]]
++ [[https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.cell?redirectedfrom=MSDN&view=openxml-2.8.1][Doc format link]]
++ [[https://www.example-code.com/csharp/parse_xls.asp][Parser examples]]
