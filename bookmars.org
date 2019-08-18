@@ -62,6 +62,7 @@ it differs from normal Agda, before moving on to the main example of this post.
 * Javascript
 *** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
 *** [[https://overreacted.io/a-complete-guide-to-useeffect/][React Reason useEffect]] :javascript:hooks:react:Reason:Ocaml:BuckleScript:
+*** [[https://tools.ietf.org/html/draft-handrews-json-schema-01][json-schema]]
 * Coq
 *** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq: :Library:
 *** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
@@ -288,7 +289,7 @@ and program equivalence (these two programs are observationally equivalent under
 * Design 
 ** [[https://practicaltypography.com/][practical typography]  :Typography:Design:
 ** [[https://ciechanow.ski/color-spaces/][Perception of Color Spaces]] :Design:Color:ColorTheory:Goete:Physics:
-** [[https://vega.github.io/vega/examples/tree-layout/][Vega Examples]] :Vega:D3:
+   l** [[https://vega.github.io/vega/examples/tree-layout/][Vega Examples]] :Vega:D3:
 Example alternative language for D3
 ** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][Dont use MD]]
 What we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
