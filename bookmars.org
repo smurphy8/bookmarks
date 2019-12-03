@@ -29,11 +29,15 @@ This discussion article covers the syntax, semantics, typing, compilation, tooli
 ** [[http://hackage.haskell.org/package/generic-lens-1.0.0.1/docs/Data-Generics-Product-Fields.html#t:HasField][Generic Lens]] :Haskell: :Lens:
 ** [[https://github.com/haskell-suite/haskell-src-exts/blob/master/tests/examples/DerivingVia.hs#L165][Deriving Via Example]]
 
+** [[http://www.well-typed.com/blog/2019/09/eventful-ghc/][GHC Eventlog]] :EventLog:GHC:
 * SML, Ocaml, Reason
 ** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 ** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
 ** [[http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html][Ocaml To Haskell]] :Haskell:OCaml:Reason:
 
+** [[https://github.com/shrynx/awesome-ppx-reasonml][PPX resources]] :PPX:Ocaml:
+** [[https://jaredforsyth.com/posts/template-based-macros-for-reason-ocaml/][Forsythe PPX]]:PPX:Ocaml:
+** [[https://blog.hackages.io/reasonml-ppx-8ecd663d5640][A good walkthrough on Reason PPX]] :PPX:Ocaml:
 * Agda
 ** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
 Probability Monads in Cubical Agda
@@ -63,10 +67,20 @@ it differs from normal Agda, before moving on to the main example of this post.
 *** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
 *** [[https://overreacted.io/a-complete-guide-to-useeffect/][React Reason useEffect]] :javascript:hooks:react:Reason:Ocaml:BuckleScript:
 *** [[https://tools.ietf.org/html/draft-handrews-json-schema-01][json-schema]]
+* SMT and Static Analysis
+** [[https://cacm.acm.org/magazines/2019/8/238344-scaling-static-analyses-at-facebook/fulltext][Static Analysis]]  
+Static analysis tools are programs that examine, and attempt to draw conclusions about, 
+the source of other programs without running them. At Facebook, we have been investing 
+in advanced static analysis tools that employ reasoning techniques similar to those from 
+program verification. The tools we describe in this article (Infer and Zoncolan) target 
+issues related to crashes and to the security of our services, they perform sometimes 
+complex reasoning spanning many procedures or files, and they are integrated into 
+engineering workflows in a way that attempts to bring value while minimizing friction.
 * Coq
 *** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq: :Library:
 *** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
 *** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT: :FormalVerification:
+
 * CSS
 *** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
 * Text and Content Editing
@@ -141,6 +155,8 @@ When you're solving a problem, how do you know if the answer you've found is cor
 ** [[https://blog.jle.im/entry/practical-dependent-types-in-haskell-1.html][Neural Network example in haskell]] :Haskell:MachineLearning:
 ** [[https://www.pnas.org/content/early/2019/06/21/1817218116][Principal Component Analysis]]
 ** [[https://joellaity.com/2018/10/18/pca.html][PCA Spread Out]]
+** [[https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/][Machine Learning Bert]] :MachineLearning:NLP:Bert:
+** [[https://github.com/onnx/onnx][ONNX Open Neural Net Exchange]] :MachineLearning:DevOps:
 ** Clustering Algorithms
 *** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
 *** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
@@ -189,6 +205,9 @@ Common statistical tests can be viewed as linear models
 ** [[http://www.sosp.org/2001/papers/welsh.pdf][Stage Driven Event Architecture]] :Distributed: :CS: :Paper:
 ** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=ANoY7cqV4V3ed2LVttCmV-owtkGaRk9XTIQ95SdSaN_j2r4ecmBQYEOFkFp6EzugI24OltGUUrABzBAvPE7YvjA5KJ2xJ-zhvmSbNZ8G9TPTI2tfv3jr57wBIwKb9JfnIFxS5u5tX5PP5Sn7Vbd9p5HIzsFScFMaiqIZBabaPJbD9YHPrNFxpPF0H3eC3VvcIPWnGPpAtxRq9Ciwu9lfQn8TkjwQfD9SS3nwOprGk_6dkVskZfG5Bgs%3D&attredirects=0][Incremental parallel]] :Incremental:Distributed:CS:Paper:
 ** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][Event Sourcing Doing it Wrong]] :EventSourcing:Distributed:
+** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][TLA+ example]] :TLA:Distributed:Modeling:
+** [[https://lamport.azurewebsites.net/video/videos.html][TLA+ Videos Leslie Lamport]] :TLA:Distributed:Modeling:
+** [[https://github.com/elastic/elasticsearch-formal-models][Elastic Search Formal Model]] :TLA:Distributed:Modeling:Elastic:
 * Type Theory
 ** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]] :TypeTheory: :Loh: :Papers:
 *** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][Foundations of Programming Languages Pfenning]] :TypeTheory: :Book:
@@ -300,6 +319,8 @@ What we need is to inform people better, and produce better and healthier guidel
 
 ** [[https://martinfowler.com/bliki/CircuitBreaker.html][Circuit Breaker]] :SystemDesign:Microservices:CircuitBreaker
 ** [[https://news.ycombinator.com/item?id=20442200][BPF Performance Tools]] :DevOps:BPF:D-trace:
+** [[https://mxtoolbox.com/][Email MX records toolbox]] :Mail:MX:   
+Website MX record test health
 * Web Specs
 ** [[https://tools.ietf.org/html/rfc3986#section-3.3][General HTTP URI]] 
 * Gas Temp Alarm
@@ -334,3 +355,5 @@ some possible reasons.
 + [[https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats][Wiki Page]]
 + [[https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.cell?redirectedfrom=MSDN&view=openxml-2.8.1][Doc format link]]
 + [[https://www.example-code.com/csharp/parse_xls.asp][Parser examples]]
+* Productivity
+** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][Timezone app]] :Timezone:Scheduling:  
