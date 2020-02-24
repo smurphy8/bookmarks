@@ -30,6 +30,8 @@ This discussion article covers the syntax, semantics, typing, compilation, tooli
 ** [[https://github.com/haskell-suite/haskell-src-exts/blob/master/tests/examples/DerivingVia.hs#L165][Deriving Via Example]]
 
 ** [[http://www.well-typed.com/blog/2019/09/eventful-ghc/][GHC Eventlog]] :EventLog:GHC:
+
+** [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/][GHC Users Guide]] :GHC:Guide:Manual:
 * SML, Ocaml, Reason
 ** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 ** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
@@ -200,6 +202,8 @@ Common statistical tests can be viewed as linear models
 *** [[https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/][Taxonomy of Matricies]] :Math:                                     :Linear:
 *** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][Simplex as a Vector Space]] :Math:                                 :Linear:
 *** [[http://www-math.mit.edu/~etingof/egnobookfinal.pdf][Tensor Categories]] :Math:                                         :Linear:
+** Category Theory
++ [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#comments][Profunctor Optics a Categorical view]]
 * Distributed Computing
 ** [[https://www.info.ucl.ac.be/~pvr/book.html][Concepts Techniques]] :CS: :Distributed:                              :Book:
 ** [[http://www.sosp.org/2001/papers/welsh.pdf][Stage Driven Event Architecture]] :Distributed: :CS: :Paper:
@@ -261,6 +265,7 @@ Common statistical tests can be viewed as linear models
 *** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][Open Source Stick Computer]]    :EE:
 *** [[https://www.nand2tetris.org/][Nand 2 Tetris]]
 *** [[https://lwn.net/Articles/250967/][What every prog should know about memory]]
+*** [[https://www.seeedstudio.com/][Internet Of things stuff]] :IOT:Embedded:Market
 ** Embedded Programming 
 + [[http://electronut.in/stm32-returns/][STM32 Tool Chain]]
 + [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][STM32 arm abi firmware chain]]
@@ -313,6 +318,7 @@ Example alternative language for D3
 ** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][Dont use MD]]
 What we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
 
+** [[https://www.happyhues.co/palettes/14][Interesting UI COlor pallettes]] :Design:Color:UI:
 * Dev Ops
 ** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :Dev Ops:
 ** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
