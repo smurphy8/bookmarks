@@ -204,6 +204,20 @@ Common statistical tests can be viewed as linear models
 *** [[http://www-math.mit.edu/~etingof/egnobookfinal.pdf][Tensor Categories]] :Math:                                         :Linear:
 ** Category Theory
 + [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#comments][Profunctor Optics a Categorical view]]
+** Complexity and Information Theory
+*** [[https://necsi.edu/dynamics-of-complex-systems   ][Dynamics of Complex Systems]]
+Dynamics of Complex Systems is the first text describing the modern unified study of complex systems. 
+It is designed for upper-undergraduate/beginning graduate-level students, and covers a wide range of 
+applications in a wide array of disciplines. A central goal of this text is to develop models and 
+modeling techniques that are useful when applied to all complex systems. This is done by adopting 
+both analytic tools, from statistical mechanics to stochastic dynamics, and computer simulation techniques, 
+such as cellular automata and Monte Carlo. In four sets of paired, self-contained chapters, Yaneer Bar-Yam 
+discusses complex systems in the context of neural networks, protein folding, living organisms, and finally, 
+human civilization itself. He explores fundamental questions about the structure, dynamics, evolution, 
+development and quantitative complexity that apply to all complex systems. In the first chapter, 
+mathematical foundations such as iterative maps and chaos, probability theory and random walks, 
+thermodynamics, information and computation theory, fractals and scaling, are reviewed to 
+enable the text to be read by students and researchers with a variety of backgrounds.
 * Distributed Computing
 ** [[https://www.info.ucl.ac.be/~pvr/book.html][Concepts Techniques]] :CS: :Distributed:                              :Book:
 ** [[http://www.sosp.org/2001/papers/welsh.pdf][Stage Driven Event Architecture]] :Distributed: :CS: :Paper:
@@ -363,3 +377,6 @@ some possible reasons.
 + [[https://www.example-code.com/csharp/parse_xls.asp][Parser examples]]
 * Productivity
 ** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][Timezone app]] :Timezone:Scheduling:  
+* Arts and Crafts
+** [[http://www.supercoloring.com/][Coloring and Paper Craft]] 
+   
