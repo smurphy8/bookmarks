@@ -218,6 +218,15 @@ development and quantitative complexity that apply to all complex systems. In th
 mathematical foundations such as iterative maps and chaos, probability theory and random walks, 
 thermodynamics, information and computation theory, fractals and scaling, are reviewed to 
 enable the text to be read by students and researchers with a variety of backgrounds.
+** Constructive Mathematics 
+*** [[https://ncatlab.org/nlab/show/constructive+mathematics][NCat-Lab]]
+1. Idea
+
+Broadly speaking, constructive mathematics is mathematics done without the principle of excluded middle, 
+or other principles, such as the full axiom of choice, that imply it, hence without “non-constructive” 
+methods of formal proof, such as proof by contradiction. This is in contrast to classical mathematics, where such principles are taken to hold.
+
+
 * Distributed Computing
 ** [[https://www.info.ucl.ac.be/~pvr/book.html][Concepts Techniques]] :CS: :Distributed:                              :Book:
 ** [[http://www.sosp.org/2001/papers/welsh.pdf][Stage Driven Event Architecture]] :Distributed: :CS: :Paper:
