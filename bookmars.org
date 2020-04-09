@@ -236,6 +236,18 @@ methods of formal proof, such as proof by contradiction. This is in contrast to 
 ** [[https://lamport.azurewebsites.net/video/videos.html][TLA+ Videos Leslie Lamport]] :TLA:Distributed:Modeling:
 ** [[https://github.com/elastic/elasticsearch-formal-models][Elastic Search Formal Model]] :TLA:Distributed:Modeling:Elastic:
 * Type Theory
+** [[https://blog.burakemir.ch/2020/04/higher-order-logic-and-equality.html?m=1][Higher Order Logic and Equality]] :TypeTheory:Logic:LambdaCalculus:
+
+#+BEGIN_SRC
+In this post, I want to sketch a particular perspective on λ-calculus and higher-order logic and Church's simple theory of types. 
+I have a few motivations to write this up. One of them is that as an undergrad (ages ago), upon encountering first-order predicate logic, 
+I had endlessly wondered why one couldn't use "boolean functions" and something like functional programming for logic. 
+It was only much later that I discovered Church's 1940 typed λ calculus was in a sense, just that.
+
+
+#+END_SRC
+
+
 ** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]] :TypeTheory: :Loh: :Papers:
 *** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][Foundations of Programming Languages Pfenning]] :TypeTheory: :Book:
 *** [[http://www.cs.cmu.edu/~rwh/courses/hott/][Bob Harper HOTT]] :Book: :TypeTheory: :PL:
@@ -254,9 +266,12 @@ methods of formal proof, such as proof by contradiction. This is in contrast to 
 *** [[https://gitlab.inria.fr/fpottier/mpri-2.4-public][Functional programming and type systems (2017-2018)]]
 *** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP01][Functional Graph Theory]] :PL: :CS: :Theory:
 *** [[http://plzoo.andrej.com/index.html][Programming Language Zoo]] :PL: :CS: :Theory:
+
 * CS Theory Algorithms
 *** [[https://arxiv.org/pdf/1708.03486.pdf][P Vs NP]] :CS: :Theory: :Complexity:
 *** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][Tuning Linear Algebra Kernels]]    :CS: :Theory: :Algorithms:
+
+** [[http://graphblas.org/index.php?title=Graph_BLAS_Forum][Graph Blas]] :Graph Theory Project:
 
 * Economics and Econometrics
 ** [[http://andrewgelman.com/2017/09/07/local-data-centralized-data-analysis-local-decision-making/][Market vs government]]
