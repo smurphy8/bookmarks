@@ -8,7 +8,9 @@ best available implementation of ‘Infrastructure as Code’, not only in
 terms of features, but also in its design and potential.
 ** [[https://nixos.wiki/wiki/Nix_Expression_Language][The Nix Expression Language]] :Nix:Language:
 This discussion article covers the syntax, semantics, typing, compilation, tooling and libraries of the Nix Expression Language. 
-
+** [[https://blog.patchgirl.io/nixos/2020/03/31/nixos.html][Work through building a website in nix]]
+This is the last article of this series and will focus on my experience with NixOS.
+In a nutshell, NixOS is a operating system based on Linux that provides a declarative package and configuration management.
 * Haskell
 ** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
 ** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell:                            :Library:
@@ -237,7 +239,7 @@ methods of formal proof, such as proof by contradiction. This is in contrast to 
 ** [[https://github.com/elastic/elasticsearch-formal-models][Elastic Search Formal Model]] :TLA:Distributed:Modeling:Elastic:
 * Type Theory
 ** [[https://blog.burakemir.ch/2020/04/higher-order-logic-and-equality.html?m=1][Higher Order Logic and Equality]] :TypeTheory:Logic:LambdaCalculus:
-
+o5e59da95b58a0266fc00004c
 #+BEGIN_SRC
 In this post, I want to sketch a particular perspective on λ-calculus and higher-order logic and Church's simple theory of types. 
 I have a few motivations to write this up. One of them is that as an undergrad (ages ago), upon encountering first-order predicate logic, 
@@ -403,4 +405,4 @@ some possible reasons.
 ** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][Timezone app]] :Timezone:Scheduling:  
 * Arts and Crafts
 ** [[http://www.supercoloring.com/][Coloring and Paper Craft]] 
-   
+** [[https://peaksel.com/blog/18-free-printable-coloring-books-kids/][coloring books]]
