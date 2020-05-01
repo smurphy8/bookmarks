@@ -173,6 +173,11 @@ Decision trees and random forest, an understandable introduction to me.
 ** [[https://cheatsheets.quantecon.org/][Rosetta Stone Matlab,python,julia]]:NumbericalComputing:Matlab:Python:Julia:
 A set of examples in Matlab Python and Julia
 [[./MatlabPythonRosetta.png]]
+** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb][python numeric tutorial]] :NumericalComputing:Python:
+   :PROPERTIES:
+   :ORDERED:  t
+   :END:
+Jupyter Notebook course
 ** [[https://news.ycombinator.com/item?id=20211201][Probabalistic Programming for end users]] :Probabalistic:Programming:
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
