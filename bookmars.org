@@ -193,8 +193,17 @@ A set of examples in Matlab Python and Julia
 *** [[http://www.stat.uchicago.edu/~pmcc/tensorbook/][Tensor Methods in Statistics]]  :Math: :Stat:                      :Tensor:
 *** [[https://lindeloev.github.io/tests-as-linear/][Statistical tests as linear models]]
 [[./linear-models-statistical-tests.png]]
+*** [[https://link.springer.com/book/10.1007/978-3-319-29854-2][Time series Forecasting Textbook ]] :Math:Stat:forecasting:
+*** [[https://otexts.com/fpp2/][Forecasting Principles and Practice]] :Math:Stat:forecasting:
+The book is written for three audiences: (1) people finding themselves doing forecasting in business 
+when they may not have had any formal training in the area; (2) undergraduate students studying business; 
+(3) MBA students doing a forecasting elective. We use it ourselves for a third-year subject for 
+students undertaking a Bachelor of Commerce or a Bachelor of Business degree at Monash University, Australia.
+*** [[https://kanoki.org/2020/04/30/time-series-analysis-and-forecasting-with-arima-python/][Arima Forecasting]] :Math:Stat:forecasting:
+In the previous post we have seen how to visualize a time series data. In this post we will discuss 
+how to do a time series modelling using ARMA and ARIMA models. Here AR stands for Auto-Regressive and MA stands for Moving Average
 
-Common statistical tests can be viewed as linear models
+
 ** Geometry
 *** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]] :Math:                       :Geometry:
 *** [[http://erikdemaine.org/papers/CGTA2000/paper.pdf][Algorithmic paper folding]] :Math: :Geometry:                     :Origami:
@@ -227,7 +236,6 @@ enable the text to be read by students and researchers with a variety of backgro
 Broadly speaking, constructive mathematics is mathematics done without the principle of excluded middle, 
 or other principles, such as the full axiom of choice, that imply it, hence without “non-constructive” 
 methods of formal proof, such as proof by contradiction. This is in contrast to classical mathematics, where such principles are taken to hold.
-
 
 * Distributed Computing
 ** [[https://www.info.ucl.ac.be/~pvr/book.html][Concepts Techniques]] :CS: :Distributed:                              :Book:
