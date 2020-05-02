@@ -192,6 +192,7 @@ Jupyter Notebook course
 *** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]  :Math:                                         :History:
 ** Probability
 *** [[https://research.neustar.biz/2012/04/18/statistical-toolbox-the-kolmogorov-smirnov-test/][Kolmogorov Smirnov Test]] :Math: :Probability:                       :Stat:
+*** [[https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf][Distributions CheatSheet]] :Stat:Probability:Math:
 ** Calculus
 *** [[https://www.semanticscholar.org/paper/The-Solution-of-the-Problem-of-Integration-in-Fini-RISCH/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingPapersSort=is-influential&citingPapersLimit=10&citingPapersOffset=10&citedPapersSort=is-influential&citedPapersLimit=10&citedPapersOffset=0][Risch algorithm]] :Calculus:
 ** Statistics
