@@ -174,11 +174,11 @@ Decision trees and random forest, an understandable introduction to me.
 A set of examples in Matlab Python and Julia
 [[./MatlabPythonRosetta.png]]
 ** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb][python numeric tutorial]] :NumericalComputing:Python:
-   :PROPERTIES:
-   :ORDERED:  t
-   :END:
 Jupyter Notebook course
 ** [[https://news.ycombinator.com/item?id=20211201][Probabalistic Programming for end users]] :Probabalistic:Programming:
+** Jupyter Notebook Links
+*** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb][Introduction Plot Example]]
+*** [[https://tkf.github.io/emacs-ipython-notebook/#setup][Emacs Ipython Notbook]] 
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
@@ -207,8 +207,19 @@ students undertaking a Bachelor of Commerce or a Bachelor of Business degree at 
 *** [[https://kanoki.org/2020/04/30/time-series-analysis-and-forecasting-with-arima-python/][Arima Forecasting]] :Math:Stat:forecasting:
 In the previous post we have seen how to visualize a time series data. In this post we will discuss 
 how to do a time series modelling using ARMA and ARIMA models. Here AR stands for Auto-Regressive and MA stands for Moving Average
+** Vizualization
 
+*** [[https://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles][Sin plot style in python]]
+#+BEGIN_SRC 
+sns.set_style("dark")
+sinplot()
+#+END_SRC
+*** [[https://discourse.julialang.org/t/jupyter-integration-with-emacs/21496/5][Jupyter and Emacs ]]
+This is a nice blog post on emacs Jupyter 
+*** [[https://github.com/dzop/emacs-jupyter][emacs-jupyter package]]
 
+This is the actual package for emacs and jupyter integration 
+use jupyter-run-repl in org mode
 ** Geometry
 *** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]] :Math:                       :Geometry:
 *** [[http://erikdemaine.org/papers/CGTA2000/paper.pdf][Algorithmic paper folding]] :Math: :Geometry:                     :Origami:
