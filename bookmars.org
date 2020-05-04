@@ -176,6 +176,8 @@ A set of examples in Matlab Python and Julia
 ** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb][python numeric tutorial]] :NumericalComputing:Python:
 Jupyter Notebook course
 ** [[https://news.ycombinator.com/item?id=20211201][Probabalistic Programming for end users]] :Probabalistic:Programming:
+** [[https://en.m.wikipedia.org/wiki/Simulated_annealing][Simulated Annealing]] :Programming:Algorithms:NumericalComputing:
+[[./Travelling_salesman_problem_solved_with_simulated_annealing.gif]]
 ** Jupyter Notebook Links
 *** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb][Introduction Plot Example]]
 *** [[https://tkf.github.io/emacs-ipython-notebook/#setup][Emacs Ipython Notbook]] 
