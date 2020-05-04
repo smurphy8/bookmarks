@@ -415,6 +415,8 @@ some possible reasons.
 [[https://news.ycombinator.com/item?id=19671673][Interesting notes in the comments]]
 
 ** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][CAP Theorem and Development]] :CAPTheorem:Development:Management:
+**[[https://www.stephnass.com/blog/startup-financial-model][SaaS Financial Model]] :Business:Finance:Business Model:
+As a founder, there comes a time when you need a business plan, complete with financial forecasts, income statements, and fancy graphs that will impress your investors.
 * Industrial Automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
 * Personal
