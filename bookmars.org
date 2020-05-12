@@ -258,6 +258,8 @@ Broadly speaking, constructive mathematics is mathematics done without the princ
 or other principles, such as the full axiom of choice, that imply it, hence without “non-constructive” 
 methods of formal proof, such as proof by contradiction. This is in contrast to classical mathematics, where such principles are taken to hold.
 
+** Linear Algebra
+[[https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/index.htm][Linear Algebra Strang 2020]]
 * Distributed Computing
 ** [[https://www.info.ucl.ac.be/~pvr/book.html][Concepts Techniques]] :CS: :Distributed:                              :Book:
 ** [[http://www.sosp.org/2001/papers/welsh.pdf][Stage Driven Event Architecture]] :Distributed: :CS: :Paper:
