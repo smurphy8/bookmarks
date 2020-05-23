@@ -11,6 +11,7 @@ This discussion article covers the syntax, semantics, typing, compilation, tooli
 ** [[https://blog.patchgirl.io/nixos/2020/03/31/nixos.html][Work through building a website in nix]]
 This is the last article of this series and will focus on my experience with NixOS.
 In a nutshell, NixOS is a operating system based on Linux that provides a declarative package and configuration management.
+** [[https://engineering.shopify.com/blogs/engineering/what-is-nix][Motivational Nix blogpost]]  
 * Haskell
 ** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
 ** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell:                            :Library:
@@ -85,6 +86,8 @@ engineering workflows in a way that attempts to bring value while minimizing fri
 *** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
 *** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT: :FormalVerification:
 
+* CProgramming
+** [[https://www.lysator.liu.se/c/ten-commandments.html][Nice Reminders in C]] :C Programming:Lint:
 * CSS
 *** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
 * Text and Content Editing
