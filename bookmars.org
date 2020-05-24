@@ -88,6 +88,8 @@ engineering workflows in a way that attempts to bring value while minimizing fri
 
 * CProgramming
 ** [[https://www.lysator.liu.se/c/ten-commandments.html][Nice Reminders in C]] :C Programming:Lint:
+** [[https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/][Assembly's Perspective of C]] :C Programming:Lint:
+Really interesting blog post on C interacting with assembly.
 * CSS
 *** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
 * Text and Content Editing
@@ -198,8 +200,18 @@ Jupyter Notebook course
 *** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]   :Math: :GraphTheory:               :Tao:
 *** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]  :Math:                                         :History:
 ** Probability
+*** [[https://www.researchers.one/article/2020-03-9][Naive Probability]] :Probability:Math:Reasoning:
+Naive probabilism is the (naive) view, held by many technocrats and academics, 
+that all rational thought boils down to probability calculations. This viewpoint 
+is behind the obsession with `data-driven methods' that has overtaken the 
+hard sciences, soft sciences, pseudosciences and non-sciences. 
+It has infiltrated politics, society and business. 
+It's the workhorse of formal epistemology, decision theory and behavioral economics. 
 *** [[https://research.neustar.biz/2012/04/18/statistical-toolbox-the-kolmogorov-smirnov-test/][Kolmogorov Smirnov Test]] :Math: :Probability:                       :Stat:
 *** [[https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf][Distributions CheatSheet]] :Stat:Probability:Math:
+*** [[https://medium.com/@allenfarrington/a-tale-of-two-talebs-1775dff3302b][A Tale of Two Talebs, lots of links of Probability]]:Probability:Critique:Taleb
+While this is mostly a takedown of Nassim Taleb, there are lots of intersting links
+and thoughts from disciplines related to risk taking.
 ** Calculus
 *** [[https://www.semanticscholar.org/paper/The-Solution-of-the-Problem-of-Integration-in-Fini-RISCH/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingPapersSort=is-influential&citingPapersLimit=10&citingPapersOffset=10&citedPapersSort=is-influential&citedPapersLimit=10&citedPapersOffset=0][Risch algorithm]] :Calculus:
 ** Statistics
@@ -310,10 +322,17 @@ It was only much later that I discovered Church's 1940 typed λ calculus was in 
 ** [[http://graphblas.org/index.php?title=Graph_BLAS_Forum][Graph Blas]] :Graph Theory Project:
 
 * Economics and Econometrics
+** [[https://universa.net/riskmitigation.html][Risk Mitigation Universa]] :Risk:Economics:Markets:Investing:
+Universa Fund made a huge return in Covid, these are papers on tail risk trading.
 ** [[http://andrewgelman.com/2017/09/07/local-data-centralized-data-analysis-local-decision-making/][Market vs government]]
 ** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][Effective economic modeling techniques]] :Econometrics:
 ** [[http://press.princeton.edu/chapters/s10363.pdf][Mastering Metrics]] :Econometrics:
 ** [[http://www.mostlyharmlesseconometrics.com/book-contents/][Mostly Harmless Econometrics]] :Econometrics:
+** [[https://www.nature.com/articles/s41567-019-0732-0][Ergodicity in Economics]] :Ergodicity:Econometrics:
+The ergodic hypothesis is a key analytical device of equilibrium statistical mechanics. 
+It underlies the assumption that the time average and the expectation value of 
+an observable are the same. Where it is valid, dynamical descriptions can often 
+be replaced with much simpler probabilistic ones — time is essentially eliminated from the models.
 * UX UI API DSL 
 ** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]] :History: :ME:
 ** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :Fonts:UI:Design:
