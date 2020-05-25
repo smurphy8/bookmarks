@@ -207,6 +207,7 @@ is behind the obsession with `data-driven methods' that has overtaken the
 hard sciences, soft sciences, pseudosciences and non-sciences. 
 It has infiltrated politics, society and business. 
 It's the workhorse of formal epistemology, decision theory and behavioral economics. 
+
 *** [[https://research.neustar.biz/2012/04/18/statistical-toolbox-the-kolmogorov-smirnov-test/][Kolmogorov Smirnov Test]] :Math: :Probability:                       :Stat:
 *** [[https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf][Distributions CheatSheet]] :Stat:Probability:Math:
 *** [[https://medium.com/@allenfarrington/a-tale-of-two-talebs-1775dff3302b][A Tale of Two Talebs, lots of links of Probability]]:Probability:Critique:Taleb
@@ -445,6 +446,12 @@ some possible reasons.
 As a founder, there comes a time when you need a business plan, complete with financial forecasts, income statements, and fancy graphs that will impress your investors.
 * Industrial Automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
+** [[file:papers/Bainbridge_1983_Automatica.pdf][Irony of Automation]] :Industrial Automation:
+This paper discusses the ways in which automation of industrial processes may expand 
+rather than eliminate problems with the human operator. Some comments will be made on 
+methods of alleviating these problems within the "classic' approach of leaving the 
+operator with responsibility for abnormal conditions, and on the potential for 
+continued use of the human operator for on-line decision-making within human-computer collaboration.
 * Personal
 ** [[https://youthsoccerrankings.us/team.html?teamId=1603613][Soccer rankings]] :Soccer:
 * Manufacturing
