@@ -12,6 +12,7 @@ This discussion article covers the syntax, semantics, typing, compilation, tooli
 This is the last article of this series and will focus on my experience with NixOS.
 In a nutshell, NixOS is a operating system based on Linux that provides a declarative package and configuration management.
 ** [[https://engineering.shopify.com/blogs/engineering/what-is-nix][Motivational Nix blogpost]]  
+** [[https://nixos.org/nix/manual/#chap-writing-nix-expressions][Specific Nix Expression Building]]:Nix:Language:
 * Haskell
 ** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
 ** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell:                            :Library:
@@ -90,6 +91,7 @@ engineering workflows in a way that attempts to bring value while minimizing fri
 ** [[https://www.lysator.liu.se/c/ten-commandments.html][Nice Reminders in C]] :C Programming:Lint:
 ** [[https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/][Assembly's Perspective of C]] :C Programming:Lint:
 Really interesting blog post on C interacting with assembly.
+** [[http://www.avabodh.com/cin/cin.html][C structures]]:C Programming:Lint:
 * CSS
 *** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
 * Text and Content Editing
@@ -283,6 +285,8 @@ methods of formal proof, such as proof by contradiction. This is in contrast to 
 ** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][Event Sourcing Doing it Wrong]] :EventSourcing:Distributed:
 ** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][TLA+ example]] :TLA:Distributed:Modeling:
 ** [[https://lamport.azurewebsites.net/video/videos.html][TLA+ Videos Leslie Lamport]] :TLA:Distributed:Modeling:
+** [[https://github.com/tlaplus/Examples/tree/master/specifications/aba-asyn-byz][TLA+ Byzantine Example]] :TLA:Distributed:Example:Modeling:
++ [[file:papers/4221.214134.pdf][TLA+ Byzantine Paper]]
 ** [[https://github.com/elastic/elasticsearch-formal-models][Elastic Search Formal Model]] :TLA:Distributed:Modeling:Elastic:
 * Type Theory
 ** [[https://blog.burakemir.ch/2020/04/higher-order-logic-and-equality.html?m=1][Higher Order Logic and Equality]] :TypeTheory:Logic:LambdaCalculus:
@@ -397,6 +401,7 @@ universal gates that can be used to construct any logic gate.
 Induction and logical relations
 Logical relations are a proof technique which allow you to prove things such as normalization (all programs terminate) 
 and program equivalence (these two programs are observationally equivalent under all program contexts).
+** [[https://www.gutenberg.org/files/28696/28696-h/28696-h.htm][Lewis Carol Symbolic Logic]] :Logic:
 * Oilfield
 ** [[https://www.scribd.com/document/97677521/ABB-Totalflow-Plunger-User-Guide][ABB TOTAL FLOW]]  :PlungerLift: :Oil:
 * GIFS
@@ -413,6 +418,7 @@ Example alternative language for D3
 What we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
 
 ** [[https://www.happyhues.co/palettes/14][Interesting UI COlor pallettes]] :Design:Color:UI:
+** [[https://practicaltypography.com/font-recommendations.html][Font Rec]]:Fonts:Typography:
 * Dev Ops
 ** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :Dev Ops:
 ** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
@@ -468,3 +474,5 @@ continued use of the human operator for on-line decision-making within human-com
 * Arts and Crafts
 ** [[http://www.supercoloring.com/][Coloring and Paper Craft]] 
 ** [[https://peaksel.com/blog/18-free-printable-coloring-books-kids/][coloring books]]
+* Useful Applications
+** [[https://github.com/sickcodes/Docker-OSX][Docker OSX]] :Docker:OSX:Computer Applications:
