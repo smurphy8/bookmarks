@@ -232,6 +232,10 @@ In the previous post we have seen how to visualize a time series data. In this p
 how to do a time series modelling using ARMA and ARIMA models. Here AR stands for Auto-Regressive and MA stands for Moving Average
 ** Vizualization
 *** [[https://news.ycombinator.com/item?id=23430282][Penrose Math Formula visualization]] :Visualization:Math:
+A team of researchers from CMU and Technion recently introduced a new system, Penrose, 
+that can turn complex mathematical notations into various styles of simple diagrams. 
+The novel system rapidly attracted attention on social media as a promising visualization 
+tool for effectively communicating complex mathematical ideas and concepts.
 *** [[https://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles][Sin plot style in python]]
 #+BEGIN_SRC 
 sns.set_style("dark")
@@ -327,6 +331,11 @@ It was only much later that I discovered Church's 1940 typed λ calculus was in 
 ** [[http://graphblas.org/index.php?title=Graph_BLAS_Forum][Graph Blas]] :Graph Theory Project:
 
 * Economics and Econometrics
+** History of Econ
+*** [[https://www.econlib.org/five-more-books-revisionist-accounts-of-the-soviet-experience/][Revisionist Soviet Economic History ]] :History:Economics:Communism:Planning:
+*** [[https://www.econlib.org/understanding-soviet-socialism-twenty-five-books/][Understanding Soviet Socialism]] :History:Economics:Communism:
+*** [[https://www.econlib.org/five-books-on-the-soviet-economy/][Understanding Soviet Economy]] :History:Economics:Communism:
+
 ** [[https://universa.net/riskmitigation.html][Risk Mitigation Universa]] :Risk:Economics:Markets:Investing:
 Universa Fund made a huge return in Covid, these are papers on tail risk trading.
 ** [[http://andrewgelman.com/2017/09/07/local-data-centralized-data-analysis-local-decision-making/][Market vs government]]
@@ -410,6 +419,12 @@ and program equivalence (these two programs are observationally equivalent under
 ** Pricing 
 *** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][Understand your Pricing Strategy]]
 * Design 
+** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][Make your handwriting a font]] :Typography:Design:
+I wanted to make a font based on my handwriting using only free software. 
+It turns out that FontForge can be scripted with Python. I know just a little 
+about Python and even less about typography, but I managed to hack together 
+something that worked for me. If you’re reading this on my blog at https://sachachua.com/blog/ , 
+you’ll probably see the new font being used on the blog post titles. Whee!
 ** [[https://practicaltypography.com/][practical typography]  :Typography:Design:
 ** [[https://ciechanow.ski/color-spaces/][Perception of Color Spaces]] :Design:Color:ColorTheory:Goete:Physics:
    l** [[https://vega.github.io/vega/examples/tree-layout/][Vega Examples]] :Vega:D3:
