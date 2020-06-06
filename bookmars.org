@@ -231,7 +231,7 @@ students undertaking a Bachelor of Commerce or a Bachelor of Business degree at 
 In the previous post we have seen how to visualize a time series data. In this post we will discuss 
 how to do a time series modelling using ARMA and ARIMA models. Here AR stands for Auto-Regressive and MA stands for Moving Average
 ** Vizualization
-
+*** [[https://news.ycombinator.com/item?id=23430282][Penrose Math Formula visualization]] :Visualization:Math:
 *** [[https://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles][Sin plot style in python]]
 #+BEGIN_SRC 
 sns.set_style("dark")
