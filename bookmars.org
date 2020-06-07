@@ -259,6 +259,7 @@ use jupyter-run-repl in org mode
 ** Category Theory
 + [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#comments][Profunctor Optics a Categorical view]]
 ** Complexity and Information Theory
+*** [[https://www.waveform.com/blogs/main/5g-and-shannons-law][Shannons law]] :Information Theory:Shannon:
 *** [[https://necsi.edu/dynamics-of-complex-systems   ][Dynamics of Complex Systems]]
 Dynamics of Complex Systems is the first text describing the modern unified study of complex systems. 
 It is designed for upper-undergraduate/beginning graduate-level students, and covers a wide range of 
