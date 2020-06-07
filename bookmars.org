@@ -143,6 +143,7 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 ** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]     :DevTools: :Testing:
 ** [[http://unicodelookup.com/][Unicode Lookup Table]] :DevTools: :Unicode:
 ** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
+** [[https://blog.trailofbits.com/2020/06/05/breaking-the-solidity-compiler-with-a-fuzzer/][Usinga  fuzzer to break a compiler]] :DevTools:Fuzzer:
 * Networking
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
 *** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
