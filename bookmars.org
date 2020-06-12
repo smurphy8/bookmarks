@@ -36,6 +36,7 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 ** [[http://www.well-typed.com/blog/2019/09/eventful-ghc/][GHC Eventlog]] :EventLog:GHC:
 
 ** [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/][GHC Users Guide]] :GHC:Guide:Manual:
+** [[https://tech.fpcomplete.com/blog/2018/04/async-exception-handling-haskell/][Exception Handling Problems with Async]]:Haskell:Exceptions:Async:
 * SML, Ocaml, Reason
 ** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 ** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
@@ -87,6 +88,7 @@ engineering workflows in a way that attempts to bring value while minimizing fri
 *** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
 *** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT: :FormalVerification:
 
+*** [[https://arxiv.org/abs/2006.03525][Text Editor Paper]] :Coq:TextEditor:FormalVerification:
 * CProgramming
 ** [[https://www.lysator.liu.se/c/ten-commandments.html][Nice Reminders in C]] :C Programming:Lint:
 ** [[https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/][Assembly's Perspective of C]] :C Programming:Lint:
@@ -436,6 +438,7 @@ What we need is to inform people better, and produce better and healthier guidel
 
 ** [[https://www.happyhues.co/palettes/14][Interesting UI COlor pallettes]] :Design:Color:UI:
 ** [[https://practicaltypography.com/font-recommendations.html][Font Rec]]:Fonts:Typography:
+** [[https://www.typography.com/blog/text-for-proofing-fonts][Text For Proofing Fonts]] :Fonts:Typography:
 * Dev Ops
 ** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :Dev Ops:
 ** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
