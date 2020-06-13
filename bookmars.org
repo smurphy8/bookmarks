@@ -1,4 +1,8 @@
 * [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]                                            :Business:
+* Mathematicians 
+So sometimes I think someones whole work seems really cool but I am worried I won't remember their name.
+** [[https://en.wikipedia.org/wiki/Richard_E._Bellman][Richard Bellman]]:Mathematician:DynamicProgramming:CurseOfDimensionality:
+Richard Bellman invented Dynamic programming. What a cool thing to invent.
 * Nix
 ** [[https://iohk.io/blog/how-we-use-nix-at-iohk/][IOHK How we use Nix]] :IOHK:Nix:
 Why Nix?
@@ -94,6 +98,8 @@ engineering workflows in a way that attempts to bring value while minimizing fri
 ** [[https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/][Assembly's Perspective of C]] :C Programming:Lint:
 Really interesting blog post on C interacting with assembly.
 ** [[http://www.avabodh.com/cin/cin.html][C structures]]:C Programming:Lint:
+* Computer Graphics
+** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
 * CSS
 *** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
 * Text and Content Editing
@@ -146,6 +152,8 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 ** [[http://unicodelookup.com/][Unicode Lookup Table]] :DevTools: :Unicode:
 ** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
 ** [[https://blog.trailofbits.com/2020/06/05/breaking-the-solidity-compiler-with-a-fuzzer/][Usinga  fuzzer to break a compiler]] :DevTools:Fuzzer:
+* DevOps
+** [[https://blog.gitguardian.com/secrets-api-management/][Secrets Management]] :Security:DevOps:
 * Networking
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
 *** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
@@ -352,6 +360,8 @@ It underlies the assumption that the time average and the expectation value of
 an observable are the same. Where it is valid, dynamical descriptions can often 
 be replaced with much simpler probabilistic ones — time is essentially eliminated from the models.
 * UX UI API DSL 
+** [[https://www.dexplo.org/dexplot/][Dex Plot Table Plotting Library]] :Table:Plotting:
+This library is a possible helper for Custom Table
 ** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]] :History: :ME:
 ** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :Fonts:UI:Design:
 ** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][Flexbox a guide]] :Flexbox:WebDesign:CSS:UI:
@@ -470,6 +480,9 @@ some possible reasons.
 ** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][CAP Theorem and Development]] :CAPTheorem:Development:Management:
 **[[https://www.stephnass.com/blog/startup-financial-model][SaaS Financial Model]] :Business:Finance:Business Model:
 As a founder, there comes a time when you need a business plan, complete with financial forecasts, income statements, and fancy graphs that will impress your investors.
+** [[https://theotherlifenow.com/how-i-made-3300-on-a-short-niche-philosophy-book/][Post on Hard Tests]] :HardTests:Business:
+From the post: 
+A hard test is one that is unlikely to find evidence, so if you find it you have a winner.
 * Industrial Automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
 ** [[file:papers/Bainbridge_1983_Automatica.pdf][Irony of Automation]] :Industrial Automation:
