@@ -432,6 +432,9 @@ and program equivalence (these two programs are observationally equivalent under
 * Marketing
 ** Pricing 
 *** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][Understand your Pricing Strategy]]
+** Positioning
+*** [[https://www.thefxck.com/interviews/product-positioning-april-dunford][April Dunford, Product Positioning]]
+Really interesting Case study on product market fit
 * Design 
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][Make your handwriting a font]] :Typography:Design:
 I wanted to make a font based on my handwriting using only free software. 
