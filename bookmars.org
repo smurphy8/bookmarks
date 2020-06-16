@@ -379,6 +379,7 @@ This library is a possible helper for Custom Table
 ** [[http://arxiv.org/pdf/1210.2316v1.pdf][Disjunctive Quantifiers for Datalog]] :DB: :DataLog:
 ** [[https://www.infoq.com/presentations/storage-algorithms][Modern DB Algorithms]] :DB:Algorithms:
 ** [[https://www.nginx.com/blog/what-is-a-service-mesh/][Service Mesh]]
+** [[http://www.redbook.io/][Redbook]]:DB:Redbook:
 * Electrical Engineering
 ** Telemetry 
 *** [[https://mikrotik.com/calculator][microtik range calculator]]
