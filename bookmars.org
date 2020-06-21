@@ -158,6 +158,19 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
 *** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
 * Machine Learning
+** [[https://www.notion.so/Corrupt-sparse-irregular-and-ugly-Deep-learning-on-time-series-887b823df439417bb8428a3474d939b3][Time Series machine learning]] :MachineLearning:TimeSeries:
+** [[https://www.nature.com/articles/s41598-018-24271-9][Time Series Data Paper]]:MachineLearning:TimeSeries:
+** [[https://www.joelonsoftware.com/2020/06/18/hash-a-free-online-platform-for-modeling-the-world/][Hash AI]] :MachineLearning:AgentBasedSimulation:Modeling:
+Agent based simulation trys to avoid coming up with math models.
+Sometimes when you’re trying to figure out the way the world works, 
+basic math is enough to get you going. If we increase the hot water 
+flow by x, the temperature of the mixture goes up by y.
+
+Sometimes you’re working on something that’s just too complicated for that, 
+and you can’t even begin to guess how the inputs affect the outputs. 
+At the warehouse, everything seems to go fine when you have less than 
+four employees, but when you hit five employees, they get in each others’ 
+way so much that the fifth employee effectively does no additional work.
 ** [[https://medium.com/@vitali.usau/install-cuda-10-0-cudnn-7-3-and-build-tensorflow-gpu-from-source-on-ubuntu-18-04-3daf720b83fe][Installing tensor flow]] :TensorFlow:
 ** [[https://arxiv.org/abs/1707.09627][Graphics Inference]] :MachineLearning:
 
@@ -337,11 +350,14 @@ It was only much later that I discovered Church's 1940 typed λ calculus was in 
 *** [[http://plzoo.andrej.com/index.html][Programming Language Zoo]] :PL: :CS: :Theory:
 
 * CS Theory Algorithms
-*** [[https://arxiv.org/pdf/1708.03486.pdf][P Vs NP]] :CS: :Theory: :Complexity:
-*** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][Tuning Linear Algebra Kernels]]    :CS: :Theory: :Algorithms:
+** [[https://arxiv.org/pdf/1708.03486.pdf][P Vs NP]] :CS: :Theory:                                         :Complexity:
+** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][Tuning Linear Algebra Kernels]]    :CS: :Theory:                :Algorithms:
 
 ** [[http://graphblas.org/index.php?title=Graph_BLAS_Forum][Graph Blas]] :Graph Theory Project:
 
+
+** [[https://www.cs.virginia.edu/~jlp/75.knuth.trees.pdf][Knuth Trees]]:Algorithms:Graph Theory:Theory:CS:
+** [[https://medium.com/@guilherme.lb/understand-lucene-to-understand-elasticsearch-85037d5b7577#0a2a-6f579ef7ae80][lucene search]] :lucene search:elastic search:
 * Economics and Econometrics
 ** History of Econ
 *** [[https://www.econlib.org/five-more-books-revisionist-accounts-of-the-soviet-experience/][Revisionist Soviet Economic History ]] :History:Economics:Communism:Planning:
