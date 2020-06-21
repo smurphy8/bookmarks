@@ -158,6 +158,7 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
 *** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
 * Machine Learning
+** [[https://chollinger.com/blog/2019/12/tensorflow-on-edge-or-building-a-smart-security-camera-with-a-raspberry-pi/][Tensor Flow on a Pi]]:MachineLearning:TensorFlow:Pi:Embedded:
 ** [[https://www.notion.so/Corrupt-sparse-irregular-and-ugly-Deep-learning-on-time-series-887b823df439417bb8428a3474d939b3][Time Series machine learning]] :MachineLearning:TimeSeries:
 ** [[https://www.nature.com/articles/s41598-018-24271-9][Time Series Data Paper]]:MachineLearning:TimeSeries:
 ** [[https://www.joelonsoftware.com/2020/06/18/hash-a-free-online-platform-for-modeling-the-world/][Hash AI]] :MachineLearning:AgentBasedSimulation:Modeling:
