@@ -158,6 +158,8 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
 *** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
 * Machine Learning
+** [[https://dennybritz.com/blog/ai-trading/][AI Trading Platform]] :MachineLearning:TradingPlatform:CaseStudy:
+** [[https://github.com/jonathan-laurent/AlphaZero.jl][Alpha Go Zero in Julia]]   :MachineLearning:Julia:AlphaGo:
 ** [[https://chollinger.com/blog/2019/12/tensorflow-on-edge-or-building-a-smart-security-camera-with-a-raspberry-pi/][Tensor Flow on a Pi]]:MachineLearning:TensorFlow:Pi:Embedded:
 ** [[https://www.notion.so/Corrupt-sparse-irregular-and-ugly-Deep-learning-on-time-series-887b823df439417bb8428a3474d939b3][Time Series machine learning]] :MachineLearning:TimeSeries:
 ** [[https://www.nature.com/articles/s41598-018-24271-9][Time Series Data Paper]]:MachineLearning:TimeSeries:
@@ -215,6 +217,7 @@ Jupyter Notebook course
 ** Jupyter Notebook Links
 *** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb][Introduction Plot Example]]
 *** [[https://tkf.github.io/emacs-ipython-notebook/#setup][Emacs Ipython Notbook]] 
+** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]]   :LogisticRegression:NumericalComputing:
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
