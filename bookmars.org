@@ -153,6 +153,7 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 ** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
 ** [[https://blog.trailofbits.com/2020/06/05/breaking-the-solidity-compiler-with-a-fuzzer/][Usinga  fuzzer to break a compiler]] :DevTools:Fuzzer:
 * DevOps
+** [[https://codefaster.substack.com/p/mastering-jq-part-1-59c][jq mastery pt1]] :DevOps:jq:
 ** [[https://blog.gitguardian.com/secrets-api-management/][Secrets Management]] :Security:DevOps:
 * Networking
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
