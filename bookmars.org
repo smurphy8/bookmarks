@@ -147,6 +147,7 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Developer Tools   
+** [[https://jvns.ca/blog/2020/06/28/entr/][entr, run on change program]] :DevTools:
 ** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
 ** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]     :DevTools: :Testing:
 ** [[http://unicodelookup.com/][Unicode Lookup Table]] :DevTools: :Unicode:
@@ -516,6 +517,8 @@ rather than eliminate problems with the human operator. Some comments will be ma
 methods of alleviating these problems within the "classic' approach of leaving the 
 operator with responsibility for abnormal conditions, and on the potential for 
 continued use of the human operator for on-line decision-making within human-computer collaboration.
+** [[https://github.com/open62541/open62541/wiki/List-of-Open-Source-OPC-UA-Implementations][OPC UA Implementation]] :Industrial Automation:OPC UA:
+** [[https://opcfoundation.org/wp-content/uploads/2015/03/Keys-To-Developing-an-Embedded-UA-Server_Whitepaper_EN.pdf][OPC UA Overview]] :Industrial Automation:OPC UA:
 * Personal
 ** [[https://youthsoccerrankings.us/team.html?teamId=1603613][Soccer rankings]] :Soccer:
 * Manufacturing
