@@ -476,6 +476,7 @@ What we need is to inform people better, and produce better and healthier guidel
 ** [[https://practicaltypography.com/font-recommendations.html][Font Rec]]:Fonts:Typography:
 ** [[https://www.typography.com/blog/text-for-proofing-fonts][Text For Proofing Fonts]] :Fonts:Typography:
 * Dev Ops
+** [[https://ncase.me/loopy/][Loopy]] :GraphicalDesign:DevOps:
 ** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :Dev Ops:
 ** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
 
