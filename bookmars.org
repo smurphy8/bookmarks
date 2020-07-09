@@ -19,6 +19,7 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 ** [[https://nixos.org/nix/manual/#chap-writing-nix-expressions][Specific Nix Expression Building]]:Nix:Language:
 * Haskell
 ** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
+** [[https://hackage.haskell.org/package/massiv-0.5.1.0][massive an array library]]:Haskell:Library:Numeric:
 ** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell:                            :Library:
 ** [[https://hackage.haskell.org/package/Frames-0.1.4?utm_source=twitterfeed&utm_medium=twitter][Data Frames]] :Haskell:                                            :Library:
 ** [[http://r6.ca/blog/20110808T035622Z.html][shortest path algorithm (star-semiring)]] :Haskell:                :Library:
