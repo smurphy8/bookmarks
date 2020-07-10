@@ -157,6 +157,7 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 * DevOps
 ** [[https://codefaster.substack.com/p/mastering-jq-part-1-59c][jq mastery pt1]] :DevOps:jq:
 ** [[https://blog.gitguardian.com/secrets-api-management/][Secrets Management]] :Security:DevOps:
+** [[http://www.linuxfromscratch.org/~bdubbs/cross2-lfs-book/][Linux From Scratch]] :Devops:Linux:
 * Networking
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
 *** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
@@ -454,6 +455,8 @@ and program equivalence (these two programs are observationally equivalent under
 * GIFS
 [[https://i.imgur.com/aFT0yT4.gif]]
 * Marketing
+** Budgeting
+*** [[https://www.kracov.co/writing/the-math-behind-saas-marketing-teams][Math Behind SaaS Marketing]] :Marketing:Budget:SAAS:
 ** Pricing 
 *** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][Understand your Pricing Strategy]]
 ** Positioning
