@@ -103,6 +103,8 @@ Really interesting blog post on C interacting with assembly.
 ** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
 * CSS
 *** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
+* Other Programming Languages
+** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]] :Frink:AltProgramming:Unit:Units:
 * Text and Content Editing
 ** [[http://ergoemacs.org/emacs/elisp_syntax_coloring.html][Syntax Highlighting example in emacs]] :emacs:typography:
 ** [[https://joaotavora.github.io/yasnippet/snippet-development.html][YaSnippet examples]]
