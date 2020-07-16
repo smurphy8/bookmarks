@@ -88,6 +88,10 @@ program verification. The tools we describe in this article (Infer and Zoncolan)
 issues related to crashes and to the security of our services, they perform sometimes 
 complex reasoning spanning many procedures or files, and they are integrated into 
 engineering workflows in a way that attempts to bring value while minimizing friction.
+* Reverse Engineering
+** [[https://www.thirtythreeforty.net/posts/2020/05/hacking-reolink-cameras-for-fun-and-profit/][Reverse engineering ]]      :ReverseEngineering:
+** [[https://mika-s.github.io/wireshark/lua/dissector/2017/11/04/creating-a-wireshark-dissector-in-lua-1.html][Lua Scripts in wireshark]]   :ReverseEngineering:
+** [[https://ghidra-sre.org/][NSA hacking Tool ghidra]]:ReverseEngineering:
 * Coq
 *** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq: :Library:
 *** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
@@ -501,6 +505,7 @@ Website MX record test health
 * Makefiles
 ** [[https://www.gnu.org/software/make/manual/html_node/Static-Usage.html][Makefile manual static usage]] :Makefile:
 * Management & Business
+** [[https://blog.thinkst.com/2020/07/a-steve-jobs-masterclass-from-decade-ago.html?m=1][Steve Jobs masterclass]] :SteveJobs:Apple:Marketing:Strategy:
 ** [[https://stripe.com/atlas/guides/scaling-eng][Scaling an engineering organization]]
 ** [[https://fs.blog/mental-models/][Mental Models]]:Business:MentalModels:FarnumStreet:
 ** [[https://optimistictypes.com/moderating-sexual-assault/][Sexual Assault guidelines]] :Management:HR:
