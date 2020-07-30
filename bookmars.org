@@ -93,6 +93,7 @@ engineering workflows in a way that attempts to bring value while minimizing fri
 ** [[https://mika-s.github.io/wireshark/lua/dissector/2017/11/04/creating-a-wireshark-dissector-in-lua-1.html][Lua Scripts in wireshark]]   :ReverseEngineering:
 ** [[https://ghidra-sre.org/][NSA hacking Tool ghidra]]:ReverseEngineering:
 * Coq
+*** [[https://gopiandcode.uk/logs/log-bloomfilters-debunked.html][Bloom Filter Proof in Coq]]:FormalVerification:Coq:
 *** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq: :Library:
 *** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
 *** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT: :FormalVerification:
@@ -231,321 +232,330 @@ Jupyter Notebook course
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
-*** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]] :Physics:
-* Math
-** Graph Theory 
-*** [[http://web.stanford.edu/~saberi/sis2.pdf][Random Graph Generation]]   :Math:                            :GraphTheory:
-*** [[http://web.cs.elte.hu/~lovasz/bookxx/geomgraphbook/geombook2019.01.11.pdf][Graphs and Geometry]] :GraphTheory:Geometry:
+*** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]] :Physics:l
+* math
+** graph theory 
+*** [[http://web.stanford.edu/~saberi/sis2.pdf][random graph generation]]   :math:                            :graphtheory:
+*** [[http://web.cs.elte.hu/~lovasz/bookxx/geomgraphbook/geombook2019.01.11.pdf][graphs and geometry]] :graphtheory:geometry:
 ** meta math
-*** [[https://plus.google.com/u/0/+TerenceTao27/posts/6diqmz1JQrB][Terrance Tao, the meaning of =]]   :Math: :GraphTheory:               :Tao:
-*** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][History of math]]  :Math:                                         :History:
-** Probability
-*** [[https://www.researchers.one/article/2020-03-9][Naive Probability]] :Probability:Math:Reasoning:
-Naive probabilism is the (naive) view, held by many technocrats and academics, 
-that all rational thought boils down to probability calculations. This viewpoint 
+*** [[https://plus.google.com/u/0/+terencetao27/posts/6diqmz1jqrb][terrance tao, the meaning of =]]   :math: :graphtheory:               :tao:
+*** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][history of math]]  :math:                                         :history:
+** probability
+*** [[https://www.researchers.one/article/2020-03-9][naive probability]] :probability:math:reasoning:
+naive probabilism is the (naive) view, held by many technocrats and academics, 
+that all rational thought boils down to probability calculations. this viewpoint 
 is behind the obsession with `data-driven methods' that has overtaken the 
 hard sciences, soft sciences, pseudosciences and non-sciences. 
-It has infiltrated politics, society and business. 
-It's the workhorse of formal epistemology, decision theory and behavioral economics. 
+it has infiltrated politics, society and business. 
+it's the workhorse of formal epistemology, decision theory and behavioral economics. 
 
-*** [[https://research.neustar.biz/2012/04/18/statistical-toolbox-the-kolmogorov-smirnov-test/][Kolmogorov Smirnov Test]] :Math: :Probability:                       :Stat:
-*** [[https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf][Distributions CheatSheet]] :Stat:Probability:Math:
-*** [[https://medium.com/@allenfarrington/a-tale-of-two-talebs-1775dff3302b][A Tale of Two Talebs, lots of links of Probability]]:Probability:Critique:Taleb
-While this is mostly a takedown of Nassim Taleb, there are lots of intersting links
+*** [[https://research.neustar.biz/2012/04/18/statistical-toolbox-the-kolmogorov-smirnov-test/][kolmogorov smirnov test]] :math: :probability:                       :stat:
+*** [[https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf][distributions cheatsheet]] :stat:probability:math:
+*** [[https://medium.com/@allenfarrington/a-tale-of-two-talebs-1775dff3302b][a tale of two talebs, lots of links of probability]]:probability:critique:taleb
+while this is mostly a takedown of nassim taleb, there are lots of intersting links
 and thoughts from disciplines related to risk taking.
-** Calculus
-*** [[https://www.semanticscholar.org/paper/The-Solution-of-the-Problem-of-Integration-in-Fini-RISCH/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingPapersSort=is-influential&citingPapersLimit=10&citingPapersOffset=10&citedPapersSort=is-influential&citedPapersLimit=10&citedPapersOffset=0][Risch algorithm]] :Calculus:
-** Statistics
-*** [[http://www.stat.uchicago.edu/~pmcc/tensorbook/][Tensor Methods in Statistics]]  :Math: :Stat:                      :Tensor:
-*** [[https://lindeloev.github.io/tests-as-linear/][Statistical tests as linear models]]
+** calculus
+*** [[https://www.semanticscholar.org/paper/the-solution-of-the-problem-of-integration-in-fini-risch/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingpaperssort=is-influential&citingpaperslimit=10&citingpapersoffset=10&citedpaperssort=is-influential&citedpaperslimit=10&citedpapersoffset=0][risch algorithm]] :calculus:
+** statistics
+*** [[http://www.stat.uchicago.edu/~pmcc/tensorbook/][tensor methods in statistics]]  :math: :stat:                      :tensor:
+*** [[https://lindeloev.github.io/tests-as-linear/][statistical tests as linear models]]
 [[./linear-models-statistical-tests.png]]
-*** [[https://link.springer.com/book/10.1007/978-3-319-29854-2][Time series Forecasting Textbook ]] :Math:Stat:forecasting:
-*** [[https://otexts.com/fpp2/][Forecasting Principles and Practice]] :Math:Stat:forecasting:
-The book is written for three audiences: (1) people finding themselves doing forecasting in business 
+*** [[https://link.springer.com/book/10.1007/978-3-319-29854-2][time series forecasting textbook ]] :math:stat:forecasting:
+*** [[https://otexts.com/fpp2/][forecasting principles and practice]] :math:stat:forecasting:
+the book is written for three audiences: (1) people finding themselves doing forecasting in business 
 when they may not have had any formal training in the area; (2) undergraduate students studying business; 
-(3) MBA students doing a forecasting elective. We use it ourselves for a third-year subject for 
-students undertaking a Bachelor of Commerce or a Bachelor of Business degree at Monash University, Australia.
-*** [[https://kanoki.org/2020/04/30/time-series-analysis-and-forecasting-with-arima-python/][Arima Forecasting]] :Math:Stat:forecasting:
-In the previous post we have seen how to visualize a time series data. In this post we will discuss 
-how to do a time series modelling using ARMA and ARIMA models. Here AR stands for Auto-Regressive and MA stands for Moving Average
-** Vizualization
-*** [[https://news.ycombinator.com/item?id=23430282][Penrose Math Formula visualization]] :Visualization:Math:
-A team of researchers from CMU and Technion recently introduced a new system, Penrose, 
+(3) mba students doing a forecasting elective. we use it ourselves for a third-year subject for 
+students undertaking a bachelor of commerce or a bachelor of business degree at monash university, australia.
+*** [[https://kanoki.org/2020/04/30/time-series-analysis-and-forecasting-with-arima-python/][arima forecasting]] :math:stat:forecasting:
+in the previous post we have seen how to visualize a time series data. in this post we will discuss 
+how to do a time series modelling using arma and arima models. here ar stands for auto-regressive and ma stands for moving average
+** vizualization
+*** [[https://mathoverflow.net/questions/366070/what-are-the-benefits-of-writing-vector-inner-products-as-langle-u-v-rangle/366118#366118][Terry Tao on Notation]] :Notation:math:visualization:
+*** [[https://news.ycombinator.com/item?id=23430282][penrose math formula visualization]] :visualization:math:
+a team of researchers from cmu and technion recently introduced a new system, penrose, 
 that can turn complex mathematical notations into various styles of simple diagrams. 
-The novel system rapidly attracted attention on social media as a promising visualization 
+the novel system rapidly attracted attention on social media as a promising visualization 
 tool for effectively communicating complex mathematical ideas and concepts.
-*** [[https://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles][Sin plot style in python]]
-#+BEGIN_SRC 
+*** [[https://seaborn.pydata.org/tutorial/aesthetics.html#seaborn-figure-styles][sin plot style in python]]
+#+begin_src 
 sns.set_style("dark")
 sinplot()
-#+END_SRC
-*** [[https://discourse.julialang.org/t/jupyter-integration-with-emacs/21496/5][Jupyter and Emacs ]]
-This is a nice blog post on emacs Jupyter 
+#+end_src
+*** [[https://discourse.julialang.org/t/jupyter-integration-with-emacs/21496/5][jupyter and emacs ]]
+this is a nice blog post on emacs jupyter 
 *** [[https://github.com/dzop/emacs-jupyter][emacs-jupyter package]]
 
-This is the actual package for emacs and jupyter integration 
+this is the actual package for emacs and jupyter integration 
 use jupyter-run-repl in org mode
-** Geometry
-*** [[http://www.math.chalmers.se/~wastlund/Cosmic.pdf][Geometric Proof of Eulers Formula]] :Math:                       :Geometry:
-*** [[http://erikdemaine.org/papers/CGTA2000/paper.pdf][Algorithmic paper folding]] :Math: :Geometry:                     :Origami:
-*** [[https://www.scribd.com/document/190482625/A-practical-algorithm-for-decomposing-polygonal-domains-into-convex-polygons-by-diagonals][Convex Hull Decomposition]] :Math: :Geometry:       :ComputationalGeometry:
-*** [[https://www.cs.cmu.edu/~kmcrane/Projects/DGPDEC/paper.pdf][Discrete Differential Geometry]] :Geometry:DifferentialGeometry:
-** Linear
-*** [[https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/][Taxonomy of Matricies]] :Math:                                     :Linear:
-*** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][Simplex as a Vector Space]] :Math:                                 :Linear:
-*** [[http://www-math.mit.edu/~etingof/egnobookfinal.pdf][Tensor Categories]] :Math:                                         :Linear:
-** Category Theory
-+ [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#comments][Profunctor Optics a Categorical view]]
-** Complexity and Information Theory
-*** [[https://www.waveform.com/blogs/main/5g-and-shannons-law][Shannons law]] :Information Theory:Shannon:
-*** [[https://necsi.edu/dynamics-of-complex-systems   ][Dynamics of Complex Systems]]
-Dynamics of Complex Systems is the first text describing the modern unified study of complex systems. 
-It is designed for upper-undergraduate/beginning graduate-level students, and covers a wide range of 
-applications in a wide array of disciplines. A central goal of this text is to develop models and 
-modeling techniques that are useful when applied to all complex systems. This is done by adopting 
+** geometry
+*** [[http://www.math.chalmers.se/~wastlund/cosmic.pdf][geometric proof of eulers formula]] :math:                       :geometry:
+*** [[http://erikdemaine.org/papers/cgta2000/paper.pdf][algorithmic paper folding]] :math: :geometry:                     :origami:
+*** [[https://www.scribd.com/document/190482625/a-practical-algorithm-for-decomposing-polygonal-domains-into-convex-polygons-by-diagonals][convex hull decomposition]] :math: :geometry:       :computationalgeometry:
+*** [[https://www.cs.cmu.edu/~kmcrane/projects/dgpdec/paper.pdf][discrete differential geometry]] :geometry:differentialgeometry:
+** linear
+*** [[https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/][taxonomy of matricies]] :math:                                     :linear:
+*** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][simplex as a vector space]] :math:                                 :linear:
+*** [[http://www-math.mit.edu/~etingof/egnobookfinal.pdf][tensor categories]] :math:                                         :linear:
+** category theory
++ [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#comments][profunctor optics a categorical view]]
+** complexity and information theory
+*** [[https://www.waveform.com/blogs/main/5g-and-shannons-law][shannons law]] :information theory:shannon:
+*** [[https://necsi.edu/dynamics-of-complex-systems   ][dynamics of complex systems]]
+dynamics of complex systems is the first text describing the modern unified study of complex systems. 
+it is designed for upper-undergraduate/beginning graduate-level students, and covers a wide range of 
+applications in a wide array of disciplines. a central goal of this text is to develop models and 
+modeling techniques that are useful when applied to all complex systems. this is done by adopting 
 both analytic tools, from statistical mechanics to stochastic dynamics, and computer simulation techniques, 
-such as cellular automata and Monte Carlo. In four sets of paired, self-contained chapters, Yaneer Bar-Yam 
+such as cellular automata and monte carlo. in four sets of paired, self-contained chapters, yaneer bar-yam 
 discusses complex systems in the context of neural networks, protein folding, living organisms, and finally, 
-human civilization itself. He explores fundamental questions about the structure, dynamics, evolution, 
-development and quantitative complexity that apply to all complex systems. In the first chapter, 
+human civilization itself. he explores fundamental questions about the structure, dynamics, evolution, 
+development and quantitative complexity that apply to all complex systems. in the first chapter, 
 mathematical foundations such as iterative maps and chaos, probability theory and random walks, 
 thermodynamics, information and computation theory, fractals and scaling, are reviewed to 
 enable the text to be read by students and researchers with a variety of backgrounds.
-** Constructive Mathematics 
-*** [[https://ncatlab.org/nlab/show/constructive+mathematics][NCat-Lab]]
-1. Idea
+** constructive mathematics 
+*** [[https://ncatlab.org/nlab/show/constructive+mathematics][ncat-lab]]
+1. idea
 
-Broadly speaking, constructive mathematics is mathematics done without the principle of excluded middle, 
+broadly speaking, constructive mathematics is mathematics done without the principle of excluded middle, 
 or other principles, such as the full axiom of choice, that imply it, hence without “non-constructive” 
-methods of formal proof, such as proof by contradiction. This is in contrast to classical mathematics, where such principles are taken to hold.
+methods of formal proof, such as proof by contradiction. this is in contrast to classical mathematics, where such principles are taken to hold.
 
-** Linear Algebra
-[[https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/index.htm][Linear Algebra Strang 2020]]
-* Distributed Computing
-** [[https://www.info.ucl.ac.be/~pvr/book.html][Concepts Techniques]] :CS: :Distributed:                              :Book:
-** [[http://www.sosp.org/2001/papers/welsh.pdf][Stage Driven Event Architecture]] :Distributed: :CS: :Paper:
-** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=ANoY7cqV4V3ed2LVttCmV-owtkGaRk9XTIQ95SdSaN_j2r4ecmBQYEOFkFp6EzugI24OltGUUrABzBAvPE7YvjA5KJ2xJ-zhvmSbNZ8G9TPTI2tfv3jr57wBIwKb9JfnIFxS5u5tX5PP5Sn7Vbd9p5HIzsFScFMaiqIZBabaPJbD9YHPrNFxpPF0H3eC3VvcIPWnGPpAtxRq9Ciwu9lfQn8TkjwQfD9SS3nwOprGk_6dkVskZfG5Bgs%3D&attredirects=0][Incremental parallel]] :Incremental:Distributed:CS:Paper:
-** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][Event Sourcing Doing it Wrong]] :EventSourcing:Distributed:
-** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][TLA+ example]] :TLA:Distributed:Modeling:
-** [[https://lamport.azurewebsites.net/video/videos.html][TLA+ Videos Leslie Lamport]] :TLA:Distributed:Modeling:
-** [[https://github.com/tlaplus/Examples/tree/master/specifications/aba-asyn-byz][TLA+ Byzantine Example]] :TLA:Distributed:Example:Modeling:
-+ [[file:papers/4221.214134.pdf][TLA+ Byzantine Paper]]
-** [[https://github.com/elastic/elasticsearch-formal-models][Elastic Search Formal Model]] :TLA:Distributed:Modeling:Elastic:
-* Type Theory
-** [[https://blog.burakemir.ch/2020/04/higher-order-logic-and-equality.html?m=1][Higher Order Logic and Equality]] :TypeTheory:Logic:LambdaCalculus:
+** linear algebra
+[[https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/index.htm][linear algebra strang 2020]]
+* distributed computing
+** [[https://www.info.ucl.ac.be/~pvr/book.html][concepts techniques]] :cs: :distributed:                              :book:
+** [[http://www.sosp.org/2001/papers/welsh.pdf][stage driven event architecture]] :distributed: :cs: :paper:
+** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=anoy7cqv4v3ed2lvttcmv-owtkgark9xtiq95sdsan_j2r4ecmbqyeofkfp6ezugi24oltguurabzbavpe7yvja5kj2xj-zhvmsbnz8g9tpti2tfv3jr57wbiwkb9jfnifxs5u5tx5pp5sn7vbd9p5hizsfscfmaiqizbabapjbd9yhprnfxppf0h3ec3vvcipwngppatxrq9ciwu9lfqn8tkjwqfd9ss3nwoprgk_6dkvskzfg5bgs%3d&attredirects=0][incremental parallel]] :incremental:distributed:cs:paper:
+** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][event sourcing doing it wrong]] :eventsourcing:distributed:
+** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][tla+ example]] :tla:distributed:modeling:
+** [[https://lamport.azurewebsites.net/video/videos.html][tla+ videos leslie lamport]] :tla:distributed:modeling:
+** [[https://github.com/tlaplus/examples/tree/master/specifications/aba-asyn-byz][tla+ byzantine example]] :tla:distributed:example:modeling:
++ [[file:papers/4221.214134.pdf][tla+ byzantine paper]]
+** [[https://github.com/elastic/elasticsearch-formal-models][elastic search formal model]] :tla:distributed:modeling:elastic:
+* type theory
+** [[https://blog.burakemir.ch/2020/04/higher-order-logic-and-equality.html?m=1][higher order logic and equality]] :typetheory:logic:lambdacalculus:
 o5e59da95b58a0266fc00004c
-#+BEGIN_SRC
-In this post, I want to sketch a particular perspective on λ-calculus and higher-order logic and Church's simple theory of types. 
-I have a few motivations to write this up. One of them is that as an undergrad (ages ago), upon encountering first-order predicate logic, 
-I had endlessly wondered why one couldn't use "boolean functions" and something like functional programming for logic. 
-It was only much later that I discovered Church's 1940 typed λ calculus was in a sense, just that.
+#+begin_src
+in this post, i want to sketch a particular perspective on λ-calculus and higher-order logic and church's simple theory of types. 
+i have a few motivations to write this up. one of them is that as an undergrad (ages ago), upon encountering first-order predicate logic, 
+i had endlessly wondered why one couldn't use "boolean functions" and something like functional programming for logic. 
+it was only much later that i discovered church's 1940 typed λ calculus was in a sense, just that.
 
 
-#+END_SRC
+#+end_src
 
 
-** [[https://github.com/michaelt/martin-lof][Collected Works of Per Martin Loh]] :TypeTheory: :Loh: :Papers:
-*** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][Foundations of Programming Languages Pfenning]] :TypeTheory: :Book:
-*** [[http://www.cs.cmu.edu/~rwh/courses/hott/][Bob Harper HOTT]] :Book: :TypeTheory: :PL:
-*** [[http://homepages.inf.ed.ac.uk/gdp/publications/Abstract_Syn.pdf][Marcelo Fiore Abstract Syntax Variable Binding]] :CS:
-*** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahUKEwjWl4qBpLnRAhWoi1QKHaiGAJMQFggjMAI&url=http%3A%2F%2Fresearchmap.jp%2F%3Faction%3Dcv_download_main%26upload_id%3D50501&usg=AFQjCNFV2JrOKhvMqbP_4cRyJfCxcrvpng][Mako Hamana, Syntax]] :CS: :PL:
-*** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][Basic Proof Theory]] :CS: :Lectures: :Course:
-** [[https://arxiv.org/abs/1803.02294][A self-contained, brief and complete formulation of Voevodsky's Univalence Axiom]] :TypeTheory: :Univalence:
-** [[https://vrahli.github.io/articles/FCS-long.pdf][Computability beyond Choice Sequences]] :TypeTheory: :Intuitionist:
-** [[https://github.com/OPLSS/introduction-to-algebraic-effects-and-handlers][Introduction to Algebraic Effects]] :Andrej:TypeTheory:AlgebraicEffects:
-* CS Theory PL
-*** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :PL: :CS: :Theory:
-*** [[https://www.cs.utexas.edu/~wcook/Drafts/2012/graphs.pdf][Functional Programming With Structured Graphs]] :PL: :CS: :Theory:
-*** [[http://tata.gforge.inria.fr/][Tree Automata]] :PL: :CS: :Theory:
-*** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]] :PL: :CS: :Theory:
-*** [[http://www.cl.cam.ac.uk/~mpf23/talks/Types2011.pdf][Type Space Graph]] :PL: :CS: :Theory:
-*** [[https://gitlab.inria.fr/fpottier/mpri-2.4-public][Functional programming and type systems (2017-2018)]]
-*** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#JFP01][Functional Graph Theory]] :PL: :CS: :Theory:
-*** [[http://plzoo.andrej.com/index.html][Programming Language Zoo]] :PL: :CS: :Theory:
+** [[https://github.com/michaelt/martin-lof][collected works of per martin loh]] :typetheory: :loh: :papers:
+*** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][foundations of programming languages pfenning]] :typetheory: :book:
+*** [[http://www.cs.cmu.edu/~rwh/courses/hott/][bob harper hott]] :book: :typetheory: :pl:
+*** [[http://homepages.inf.ed.ac.uk/gdp/publications/abstract_syn.pdf][marcelo fiore abstract syntax variable binding]] :cs:
+*** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahukewjwl4qbplnrahwoi1qkhaigajmqfggjmai&url=http%3a%2f%2fresearchmap.jp%2f%3faction%3dcv_download_main%26upload_id%3d50501&usg=afqjcnfv2jrokhvmqbp_4cryjfcxcrvpng][mako hamana, syntax]] :cs: :pl:
+*** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][basic proof theory]] :cs: :lectures: :course:
+** [[https://arxiv.org/abs/1803.02294][a self-contained, brief and complete formulation of voevodsky's univalence axiom]] :typetheory: :univalence:
+** [[https://vrahli.github.io/articles/fcs-long.pdf][computability beyond choice sequences]] :typetheory: :intuitionist:
+** [[https://github.com/oplss/introduction-to-algebraic-effects-and-handlers][introduction to algebraic effects]] :andrej:typetheory:algebraiceffects:
+* cs theory pl
+*** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][graph models of the lambda calculus]] :pl: :cs: :theory:
+*** [[https://www.cs.utexas.edu/~wcook/drafts/2012/graphs.pdf][functional programming with structured graphs]] :pl: :cs: :theory:
+*** [[http://tata.gforge.inria.fr/][tree automata]] :pl: :cs: :theory:
+*** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]] :pl: :cs: :theory:
+*** [[http://www.cl.cam.ac.uk/~mpf23/talks/types2011.pdf][type space graph]] :pl: :cs: :theory:
+*** [[https://gitlab.inria.fr/fpottier/mpri-2.4-public][functional programming and type systems (2017-2018)]]
+*** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#jfp01][functional graph theory]] :pl: :cs: :theory:
+*** [[http://plzoo.andrej.com/index.html][programming language zoo]] :pl: :cs: :theory:
 
-* CS Theory Algorithms
-** [[https://arxiv.org/pdf/1708.03486.pdf][P Vs NP]] :CS: :Theory:                                         :Complexity:
-** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][Tuning Linear Algebra Kernels]]    :CS: :Theory:                :Algorithms:
+* cs theory algorithms
+** [[https://arxiv.org/pdf/1708.03486.pdf][p vs np]] :cs: :theory:                                         :complexity:
+** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][tuning linear algebra kernels]]    :cs: :theory:                :algorithms:
 
-** [[http://graphblas.org/index.php?title=Graph_BLAS_Forum][Graph Blas]] :Graph Theory Project:
+** [[http://graphblas.org/index.php?title=graph_blas_forum][graph blas]] :graph theory project:
+*** [[http://www.mit.edu/~kepner/GraphBLAS/GraphBLAS-Math-release.pdf][Graph Blas Math Definitions]] :graph theory:GraphBlas:
 
-
-** [[https://www.cs.virginia.edu/~jlp/75.knuth.trees.pdf][Knuth Trees]]:Algorithms:Graph Theory:Theory:CS:
+** [[https://www.cs.virginia.edu/~jlp/75.knuth.trees.pdf][knuth trees]]:algorithms:graph theory:theory:cs:
 ** [[https://medium.com/@guilherme.lb/understand-lucene-to-understand-elasticsearch-85037d5b7577#0a2a-6f579ef7ae80][lucene search]] :lucene search:elastic search:
-* Economics and Econometrics
-** History of Econ
-*** [[https://www.econlib.org/five-more-books-revisionist-accounts-of-the-soviet-experience/][Revisionist Soviet Economic History ]] :History:Economics:Communism:Planning:
-*** [[https://www.econlib.org/understanding-soviet-socialism-twenty-five-books/][Understanding Soviet Socialism]] :History:Economics:Communism:
-*** [[https://www.econlib.org/five-books-on-the-soviet-economy/][Understanding Soviet Economy]] :History:Economics:Communism:
+* economics and econometrics
+** history of econ
+*** [[https://www.econlib.org/five-more-books-revisionist-accounts-of-the-soviet-experience/][revisionist soviet economic history ]] :history:economics:communism:planning:
+*** [[https://www.econlib.org/understanding-soviet-socialism-twenty-five-books/][understanding soviet socialism]] :history:economics:communism:
+*** [[https://www.econlib.org/five-books-on-the-soviet-economy/][understanding soviet economy]] :history:economics:communism:
 
-** [[https://universa.net/riskmitigation.html][Risk Mitigation Universa]] :Risk:Economics:Markets:Investing:
-Universa Fund made a huge return in Covid, these are papers on tail risk trading.
-** [[http://andrewgelman.com/2017/09/07/local-data-centralized-data-analysis-local-decision-making/][Market vs government]]
-** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][Effective economic modeling techniques]] :Econometrics:
-** [[http://press.princeton.edu/chapters/s10363.pdf][Mastering Metrics]] :Econometrics:
-** [[http://www.mostlyharmlesseconometrics.com/book-contents/][Mostly Harmless Econometrics]] :Econometrics:
-** [[https://www.nature.com/articles/s41567-019-0732-0][Ergodicity in Economics]] :Ergodicity:Econometrics:
-The ergodic hypothesis is a key analytical device of equilibrium statistical mechanics. 
-It underlies the assumption that the time average and the expectation value of 
-an observable are the same. Where it is valid, dynamical descriptions can often 
+** [[https://universa.net/riskmitigation.html][risk mitigation universa]] :risk:economics:markets:investing:
+universa fund made a huge return in covid, these are papers on tail risk trading.
+** [[http://andrewgelman.com/2017/09/07/local-data-centralized-data-analysis-local-decision-making/][market vs government]]
+** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][effective economic modeling techniques]] :econometrics:
+** [[http://press.princeton.edu/chapters/s10363.pdf][mastering metrics]] :econometrics:
+** [[http://www.mostlyharmlesseconometrics.com/book-contents/][mostly harmless econometrics]] :econometrics:
+** [[https://www.nature.com/articles/s41567-019-0732-0][ergodicity in economics]] :ergodicity:econometrics:
+the ergodic hypothesis is a key analytical device of equilibrium statistical mechanics. 
+it underlies the assumption that the time average and the expectation value of 
+an observable are the same. where it is valid, dynamical descriptions can often 
 be replaced with much simpler probabilistic ones — time is essentially eliminated from the models.
-* UX UI API DSL 
-** [[https://www.dexplo.org/dexplot/][Dex Plot Table Plotting Library]] :Table:Plotting:
-This library is a possible helper for Custom Table
-** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][Babbages Mechanical Notation]] :History: :ME:
-** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :Fonts:UI:Design:
-** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][Flexbox a guide]] :Flexbox:WebDesign:CSS:UI:
-* Performance Related
-** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :Optimization: :Assembly:
-** [[https://github.com/processone/tsung][Tsung Http]] :Optimization:Performance:Htt
-* Security related
-** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][IOS security]] :Security:
-** [[https://webcache.googleusercontent.com/search?q=cache:JTkf6Wuc348J:https://humblesec.wordpress.com/2017/07/05/assemby-to-pseudo-code-manually/][Assembly to Pseudo Code]] :Security:
-** [[http://www.phrack.org/papers/attacking_javascript_engines.html][Attacking Javascript Engines]] :Security:
-** [[https://github.com/brannondorsey/wifi-cracking][wifi crack]] :Security: 
-* Database Related
-** [[http://www.lirmm.fr/~mugnier/ArticlesPostscript/MugnierRR2011-keynote.pdf][Advanced Datalog]] :DB:  :DataLog:
-** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][Datalog with Existensials]]
-** [[http://arxiv.org/pdf/1210.2316v1.pdf][Disjunctive Quantifiers for Datalog]] :DB: :DataLog:
-** [[https://www.infoq.com/presentations/storage-algorithms][Modern DB Algorithms]] :DB:Algorithms:
-** [[https://www.nginx.com/blog/what-is-a-service-mesh/][Service Mesh]]
-** [[http://www.redbook.io/][Redbook]]:DB:Redbook:
-* Electrical Engineering
-** Telemetry 
+* ux ui api dsl 
+** [[https://www.dexplo.org/dexplot/][dex plot table plotting library]] :table:plotting:
+this library is a possible helper for custom table
+** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][babbages mechanical notation]] :history: :me:
+** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :fonts:ui:design:
+** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][flexbox a guide]] :flexbox:webdesign:css:ui:
+* performance related
+** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :optimization: :assembly:
+** [[https://github.com/processone/tsung][tsung http]] :optimization:performance:htt
+** [[https://lwn.net/SubscriberLink/827180/a1c1305686bfea67/][Lockless Algorithms for mere mortals]] :optimization:performance:linux kernel:
+* security related
+** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][ios security]] :security:
+** [[https://webcache.googleusercontent.com/search?q=cache:jtkf6wuc348j:https://humblesec.wordpress.com/2017/07/05/assemby-to-pseudo-code-manually/][assembly to pseudo code]] :security:
+** [[http://www.phrack.org/papers/attacking_javascript_engines.html][attacking javascript engines]] :security:
+** [[https://github.com/brannondorsey/wifi-cracking][wifi crack]] :security: 
+* database related
+** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db:  :datalog:
+** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][datalog with existensials]]
+** [[http://arxiv.org/pdf/1210.2316v1.pdf][disjunctive quantifiers for datalog]] :db: :datalog:
+** [[https://www.infoq.com/presentations/storage-algorithms][modern db algorithms]] :db:algorithms:
+** [[https://www.nginx.com/blog/what-is-a-service-mesh/][service mesh]]
+** [[http://www.redbook.io/][redbook]]:db:redbook:
+* electrical engineering
+** telemetry 
 *** [[https://mikrotik.com/calculator][microtik range calculator]]
-** Embedded Hardware Teardowns
-*** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][Open Source Stick Computer]]    :EE:
-*** [[https://www.nand2tetris.org/][Nand 2 Tetris]]
-*** [[https://lwn.net/Articles/250967/][What every prog should know about memory]]
-*** [[https://www.seeedstudio.com/][Internet Of things stuff]] :IOT:Embedded:Market
-** Embedded Programming 
-+ [[http://electronut.in/stm32-returns/][STM32 Tool Chain]]
-+ [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][STM32 arm abi firmware chain]]
-** RF Theory
-*** [[http://www.antenna-theory.com/m/index.php][Antenna Theory Website]] :Antenna:RFTheory:
- About this Site:
+** embedded hardware teardowns
+*** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][open source stick computer]]    :ee:
+*** [[https://www.nand2tetris.org/][nand 2 tetris]]
+*** [[https://lwn.net/articles/250967/][what every prog should know about memory]]
+*** [[https://www.seeedstudio.com/][internet of things stuff]] :iot:embedded:market
+** embedded programming 
++ [[http://electronut.in/stm32-returns/][stm32 tool chain]]
++ [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][stm32 arm abi firmware chain]]
+** rf theory
+*** [[http://www.antenna-theory.com/m/index.php][antenna theory website]] :antenna:rftheory:
+ about this site:
 
-Antennas and Antenna Theory has always been a fascinating subject for me, 
+antennas and antenna theory has always been a fascinating subject for me, 
 and it is this excitement that leads me to present this tutorial. 
-In my life, I have found that once I thoroughly understand a subject, 
-I am amazed at how simple it seems, despite the initial complexity. 
-This I have found true for a wide range of activities, be 
+in my life, i have found that once i thoroughly understand a subject, 
+i am amazed at how simple it seems, despite the initial complexity. 
+this i have found true for a wide range of activities, be 
 it riding a motorcycle, learning about antennas, or understanding 
-physical phenomena such as electromagnetics. With that in mind, 
-I endeavor to write this Antenna Theory website in the simplest 
+physical phenomena such as electromagnetics. with that in mind, 
+i endeavor to write this antenna theory website in the simplest 
 of all possible manners. 
 
-** Digital Electronics
-*** [[https://www.allaboutcircuits.com/technical-articles/universal-logic-gates/][Universal Gates]]
-Introduction
+*** [[https://www.analog.com/en/applications/technology/smartmesh-pavilion-home.html#][smart mesh]]:mesh:IOT:Dust:
+** digital electronics
+*** [[https://www.allaboutcircuits.com/technical-articles/universal-logic-gates/][universal gates]]
+introduction
 
-A universal logic gate is a logic gate that can be used to construct all other logic gates.  
-There are many articles about how NAND and NOR are universal gates, but many of these articles 
-omit other gates that are also universal gates. This article covers two input logic gates, 
-demonstrates that the NAND gate is a universal gate, and demonstrates how other gates are 
+a universal logic gate is a logic gate that can be used to construct all other logic gates.  
+there are many articles about how nand and nor are universal gates, but many of these articles 
+omit other gates that are also universal gates. this article covers two input logic gates, 
+demonstrates that the nand gate is a universal gate, and demonstrates how other gates are 
 universal gates that can be used to construct any logic gate.
-[[./OtherUniversalGates.png]]
+[[./otheruniversalgates.png]]
 
-* Mechanical Engineering 
-** Electric Motors 
-*** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][Electric Machines]] :EE: :ME: :Motors: :Drives:
-* Logic 
-** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][Linear Logic and Equality]] :Logic:
-** [[http://blog.ezyang.com/2013/09/induction-and-logical-relations/][Logical Relations]] :Logic:
-Induction and logical relations
-Logical relations are a proof technique which allow you to prove things such as normalization (all programs terminate) 
+
+* mechanical engineering 
+** electric motors 
+*** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][electric machines]] :ee: :me: :motors: :drives:
+* logic 
+** Logic History 
+*** [[https://www.britishwittgensteinsociety.org/wp-content/uploads/documents/lectures/Turing-and-Wittgenstein-on-Logic-and-Mathematics.pdf][Alan Turing, Wittgenstein]] :History:Logic:
+** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][linear logic and equality]] :logic:
+** [[http://blog.ezyang.com/2013/09/induction-and-logical-relations/][logical relations]] :logic:
+induction and logical relations
+logical relations are a proof technique which allow you to prove things such as normalization (all programs terminate) 
 and program equivalence (these two programs are observationally equivalent under all program contexts).
-** [[https://www.gutenberg.org/files/28696/28696-h/28696-h.htm][Lewis Carol Symbolic Logic]] :Logic:
-* Oilfield
-** [[https://www.scribd.com/document/97677521/ABB-Totalflow-Plunger-User-Guide][ABB TOTAL FLOW]]  :PlungerLift: :Oil:
-* GIFS
-[[https://i.imgur.com/aFT0yT4.gif]]
-* Marketing
-** Budgeting
-*** [[https://www.kracov.co/writing/the-math-behind-saas-marketing-teams][Math Behind SaaS Marketing]] :Marketing:Budget:SAAS:
-** Pricing 
-*** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][Understand your Pricing Strategy]]
-** Positioning
-*** [[https://www.thefxck.com/interviews/product-positioning-april-dunford][April Dunford, Product Positioning]]
-Really interesting Case study on product market fit
-* Design 
-** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][Make your handwriting a font]] :Typography:Design:
-I wanted to make a font based on my handwriting using only free software. 
-It turns out that FontForge can be scripted with Python. I know just a little 
-about Python and even less about typography, but I managed to hack together 
-something that worked for me. If you’re reading this on my blog at https://sachachua.com/blog/ , 
-you’ll probably see the new font being used on the blog post titles. Whee!
-** [[https://practicaltypography.com/][practical typography]  :Typography:Design:
-** [[https://ciechanow.ski/color-spaces/][Perception of Color Spaces]] :Design:Color:ColorTheory:Goete:Physics:
-   l** [[https://vega.github.io/vega/examples/tree-layout/][Vega Examples]] :Vega:D3:
-Example alternative language for D3
-** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][Dont use MD]]
-What we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
+** [[https://www.gutenberg.org/files/28696/28696-h/28696-h.htm][lewis carol symbolic logic]] :logic:
+* oilfield
+** [[https://www.scribd.com/document/97677521/abb-totalflow-plunger-user-guide][abb total flow]]  :plungerlift: :oil:
+* gifs
+[[https://i.imgur.com/aft0yt4.gif]]
+* marketing
+** budgeting
+*** [[https://www.kracov.co/writing/the-math-behind-saas-marketing-teams][math behind saas marketing]] :marketing:budget:saas:
+** pricing 
+*** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][understand your pricing strategy]]
+** positioning
+*** [[https://www.thefxck.com/interviews/product-positioning-april-dunford][april dunford, product positioning]]
+really interesting case study on product market fit
+* design 
+** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
+i wanted to make a font based on my handwriting using only free software. 
+it turns out that fontforge can be scripted with python. i know just a little 
+about python and even less about typography, but i managed to hack together 
+something that worked for me. if you’re reading this on my blog at https://sachachua.com/blog/ , 
+you’ll probably see the new font being used on the blog post titles. whee!
+** [[https://practicaltypography.com/][practical typography]  :typography:design:
+** [[https://ciechanow.ski/color-spaces/][perception of color spaces]] :design:color:colortheory:goete:physics:
+   l** [[https://vega.github.io/vega/examples/tree-layout/][vega examples]] :vega:d3:
+example alternative language for d3
+** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][dont use md]]
+what we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
 
-** [[https://www.happyhues.co/palettes/14][Interesting UI COlor pallettes]] :Design:Color:UI:
-** [[https://practicaltypography.com/font-recommendations.html][Font Rec]]:Fonts:Typography:
-** [[https://www.typography.com/blog/text-for-proofing-fonts][Text For Proofing Fonts]] :Fonts:Typography:
-* Dev Ops
-** [[https://ncase.me/loopy/][Loopy]] :GraphicalDesign:DevOps:
-** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :Dev Ops:
-** [[https://www.openpolicyagent.org/][DataLog Like Policy Agent (Open Policy Agent)]] :DataLog: :Murica:
+** [[https://www.happyhues.co/palettes/14][interesting ui color pallettes]] :design:color:ui:
+** [[https://practicaltypography.com/font-recommendations.html][font rec]]:fonts:typography:
+** [[https://www.typography.com/blog/text-for-proofing-fonts][text for proofing fonts]] :fonts:typography:
+* dev ops
+** [[https://ncase.me/loopy/][loopy]] :graphicaldesign:devops:
+** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :dev ops:
+** [[https://www.openpolicyagent.org/][datalog like policy agent (open policy agent)]] :datalog: :murica:
 
-** [[https://martinfowler.com/bliki/CircuitBreaker.html][Circuit Breaker]] :SystemDesign:Microservices:CircuitBreaker
-** [[https://news.ycombinator.com/item?id=20442200][BPF Performance Tools]] :DevOps:BPF:D-trace:
-** [[https://mxtoolbox.com/][Email MX records toolbox]] :Mail:MX:   
-Website MX record test health
-* Web Specs
-** [[https://tools.ietf.org/html/rfc3986#section-3.3][General HTTP URI]] 
-* Gas Temp Alarm
-* Competitors
-** [[https://openautomationsoftware.com/video-links/][Open Automation]] :Scada:
-** [[http://video.andium.com/][Andium Solutions]] :TankMeasurement:MachineLearning:
-* ExamplePrograms
-** [[https://graphs.grevian.org/example][Graphviz]] :GraphViz:Examples:
-* Makefiles
-** [[https://www.gnu.org/software/make/manual/html_node/Static-Usage.html][Makefile manual static usage]] :Makefile:
-* Management & Business
-** [[https://blog.thinkst.com/2020/07/a-steve-jobs-masterclass-from-decade-ago.html?m=1][Steve Jobs masterclass]] :SteveJobs:Apple:Marketing:Strategy:
-** [[https://stripe.com/atlas/guides/scaling-eng][Scaling an engineering organization]]
-** [[https://fs.blog/mental-models/][Mental Models]]:Business:MentalModels:FarnumStreet:
-** [[https://optimistictypes.com/moderating-sexual-assault/][Sexual Assault guidelines]] :Management:HR:
-** [[https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html][Project Estimation in Software development]]:ProjectManagement:Business:
-[[./SoftwareProjectEstimation.png]]
-Estimating Software Timelines is difficult this is a nice breakdown of
+** [[https://martinfowler.com/bliki/circuitbreaker.html][circuit breaker]] :systemdesign:microservices:circuitbreaker
+** [[https://news.ycombinator.com/item?id=20442200][bpf performance tools]] :devops:bpf:d-trace:
+** [[https://mxtoolbox.com/][email mx records toolbox]] :mail:mx:   
+website mx record test health
+* web specs
+** [[https://tools.ietf.org/html/rfc3986#section-3.3][general http uri]] 
+* gas temp alarm
+* competitors
+** [[https://openautomationsoftware.com/video-links/][open automation]] :scada:
+** [[http://video.andium.com/][andium solutions]] :tankmeasurement:machinelearning:
+* exampleprograms
+** [[https://graphs.grevian.org/example][graphviz]] :graphviz:examples:
+* makefiles
+** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
+* management & business
+** [[https://blog.thinkst.com/2020/07/a-steve-jobs-masterclass-from-decade-ago.html?m=1][steve jobs masterclass]] :stevejobs:apple:marketing:strategy:
+** [[https://stripe.com/atlas/guides/scaling-eng][scaling an engineering organization]]
+** [[https://fs.blog/mental-models/][mental models]]:business:mentalmodels:farnumstreet:
+** [[https://optimistictypes.com/moderating-sexual-assault/][sexual assault guidelines]] :management:hr:
+** [[https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html][project estimation in software development]]:projectmanagement:business:
+[[./softwareprojectestimation.png]]
+estimating software timelines is difficult this is a nice breakdown of
 some possible reasons.
-[[https://news.ycombinator.com/item?id=19671673][Interesting notes in the comments]]
+[[https://news.ycombinator.com/item?id=19671673][interesting notes in the comments]]
 
-** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][CAP Theorem and Development]] :CAPTheorem:Development:Management:
-**[[https://www.stephnass.com/blog/startup-financial-model][SaaS Financial Model]] :Business:Finance:Business Model:
-As a founder, there comes a time when you need a business plan, complete with financial forecasts, income statements, and fancy graphs that will impress your investors.
-** [[https://theotherlifenow.com/how-i-made-3300-on-a-short-niche-philosophy-book/][Post on Hard Tests]] :HardTests:Business:
-From the post: 
-A hard test is one that is unlikely to find evidence, so if you find it you have a winner.
-* Industrial Automation
-** [[https://www.plcacademy.com/ladder-logic-tutorial/][Ladder Logic Programming]]
-** [[file:papers/Bainbridge_1983_Automatica.pdf][Irony of Automation]] :Industrial Automation:
-This paper discusses the ways in which automation of industrial processes may expand 
-rather than eliminate problems with the human operator. Some comments will be made on 
+** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][cap theorem and development]] :captheorem:development:management:
+**[[https://www.stephnass.com/blog/startup-financial-model][saas financial model]] :business:finance:business model:
+as a founder, there comes a time when you need a business plan, complete with financial forecasts, income statements, and fancy graphs that will impress your investors.
+** [[https://theotherlifenow.com/how-i-made-3300-on-a-short-niche-philosophy-book/][post on hard tests]] :hardtests:business:
+from the post: 
+a hard test is one that is unlikely to find evidence, so if you find it you have a winner.
+* industrial automation
+** [[https://www.plcacademy.com/ladder-logic-tutorial/][ladder logic programming]]
+** [[file:papers/bainbridge_1983_automatica.pdf][irony of automation]] :industrial automation:
+this paper discusses the ways in which automation of industrial processes may expand 
+rather than eliminate problems with the human operator. some comments will be made on 
 methods of alleviating these problems within the "classic' approach of leaving the 
 operator with responsibility for abnormal conditions, and on the potential for 
 continued use of the human operator for on-line decision-making within human-computer collaboration.
-** [[https://github.com/open62541/open62541/wiki/List-of-Open-Source-OPC-UA-Implementations][OPC UA Implementation]] :Industrial Automation:OPC UA:
-** [[https://opcfoundation.org/wp-content/uploads/2015/03/Keys-To-Developing-an-Embedded-UA-Server_Whitepaper_EN.pdf][OPC UA Overview]] :Industrial Automation:OPC UA:
-* Personal
-** [[https://youthsoccerrankings.us/team.html?teamId=1603613][Soccer rankings]] :Soccer:
-* Manufacturing
-** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][Garment Quality]] :Fashion:Quality:Manufacturing:
-* Particular Specifications
-** Excel Format
-+ [[download.microsoft.com/download/3/E/3/3E3435BD-AA68-4B32-B84D-B633F0D0F90D/SpreadsheetMLBasics.ppt][Power Point Excel Format]]
-+ [[http://www.ecma-international.org/publications/standards/Ecma-376.htm][Ecma standard]]
-+ [[https://en.wikipedia.org/wiki/Microsoft_Office_XML_formats][Wiki Page]]
-+ [[https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.cell?redirectedfrom=MSDN&view=openxml-2.8.1][Doc format link]]
-+ [[https://www.example-code.com/csharp/parse_xls.asp][Parser examples]]
-* Productivity
-** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][Timezone app]] :Timezone:Scheduling:  
-* Arts and Crafts
-** [[http://www.supercoloring.com/][Coloring and Paper Craft]] 
+** [[https://github.com/open62541/open62541/wiki/list-of-open-source-opc-ua-implementations][opc ua implementation]] :industrial automation:opc ua:
+** [[https://opcfoundation.org/wp-content/uploads/2015/03/keys-to-developing-an-embedded-ua-server_whitepaper_en.pdf][opc ua overview]] :industrial automation:opc ua:
+* personal
+** [[https://youthsoccerrankings.us/team.html?teamid=1603613][soccer rankings]] :soccer:
+* manufacturing
+** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][garment quality]] :fashion:quality:manufacturing:
+* particular specifications
+** excel format
++ [[download.microsoft.com/download/3/e/3/3e3435bd-aa68-4b32-b84d-b633f0d0f90d/spreadsheetmlbasics.ppt][power point excel format]]
++ [[http://www.ecma-international.org/publications/standards/ecma-376.htm][ecma standard]]
++ [[https://en.wikipedia.org/wiki/microsoft_office_xml_formats][wiki page]]
++ [[https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.cell?redirectedfrom=msdn&view=openxml-2.8.1][doc format link]]
++ [[https://www.example-code.com/csharp/parse_xls.asp][parser examples]]
+* productivity
+** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][timezone app]] :timezone:scheduling:  
+* arts and crafts
+** [[http://www.supercoloring.com/][coloring and paper craft]] 
 ** [[https://peaksel.com/blog/18-free-printable-coloring-books-kids/][coloring books]]
+* kids stuff
+** [[https://www.math-salamanders.com/math-puzzle-worksheets.html][Math Puzzles for Ellie (2nd grade)]]:MathPuzzles:Kids:
 * Useful Applications
 ** [[https://github.com/sickcodes/Docker-OSX][Docker OSX]] :Docker:OSX:Computer Applications:
+(setq helm-locate-fuzzy-match t)
