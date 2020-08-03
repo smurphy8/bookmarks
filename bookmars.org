@@ -165,6 +165,8 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 ** [[https://codefaster.substack.com/p/mastering-jq-part-1-59c][jq mastery pt1]] :DevOps:jq:
 ** [[https://blog.gitguardian.com/secrets-api-management/][Secrets Management]] :Security:DevOps:
 ** [[http://www.linuxfromscratch.org/~bdubbs/cross2-lfs-book/][Linux From Scratch]] :Devops:Linux:
+** [[https://techbeacon.com/enterprise-it/monitoring-demystified-guide-logging-tracing-metrics][Really nice guide on Logging, tracing and metrics]] :Logging:Tracing:Metrics:DevOps:
+** [[https://www.oreilly.com/library/view/anomaly-detection-for/9781492042341/][Anolmaly detection and monitoring]]:DevOps:Monitoring:AnomalyDetection:
 * Networking
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
 *** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
@@ -187,7 +189,7 @@ four employees, but when you hit five employees, they get in each others’
 way so much that the fifth employee effectively does no additional work.
 ** [[https://medium.com/@vitali.usau/install-cuda-10-0-cudnn-7-3-and-build-tensorflow-gpu-from-source-on-ubuntu-18-04-3daf720b83fe][Installing tensor flow]] :TensorFlow:
 ** [[https://arxiv.org/abs/1707.09627][Graphics Inference]] :MachineLearning:
-
+** [[https://arxiv.org/abs/2007.04929][Graph Algorithms]] :MachineLearning:GraphTheory:
 ** [[https://arxiv.org/pdf/1312.6184.pdf][Do Deep nets need to be deep]]
 ** [[https://arxiv.org/pdf/1706.08605.pdf][Correct Machine Learning]] :MachineLearning:
 ** [[https://arxiv.org/abs/1612.04858][bayesian optimization for ML]] :MachineLearning:
@@ -207,6 +209,7 @@ When you're solving a problem, how do you know if the answer you've found is cor
 ** [[https://joellaity.com/2018/10/18/pca.html][PCA Spread Out]]
 ** [[https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/][Machine Learning Bert]] :MachineLearning:NLP:Bert:
 ** [[https://github.com/onnx/onnx][ONNX Open Neural Net Exchange]] :MachineLearning:DevOps:
+** [[https://github.com/abarbu/haskell-torch][haskell torch]] :MachineLearning:Haskell:Torch:
 ** Clustering Algorithms
 *** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
 *** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
