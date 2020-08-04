@@ -244,6 +244,7 @@ Jupyter Notebook course
 *** [[https://plus.google.com/u/0/+terencetao27/posts/6diqmz1jqrb][terrance tao, the meaning of =]]   :math: :graphtheory:               :tao:
 *** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][history of math]]  :math:                                         :history:
 ** probability
+*** [[https://petermchale.github.io/Math175/lectures/L1%20The%20Longest%20Run%20of%20Heads.pdf][Longest Run of Heads]]:Probability:   
 *** [[https://www.researchers.one/article/2020-03-9][naive probability]] :probability:math:reasoning:
 naive probabilism is the (naive) view, held by many technocrats and academics, 
 that all rational thought boils down to probability calculations. this viewpoint 
@@ -562,3 +563,4 @@ continued use of the human operator for on-line decision-making within human-com
 * Useful Applications
 ** [[https://github.com/sickcodes/Docker-OSX][Docker OSX]] :Docker:OSX:Computer Applications:
 (setq helm-locate-fuzzy-match t)
+
