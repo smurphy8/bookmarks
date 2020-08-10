@@ -1,22 +1,191 @@
 * [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]                                            :Business:
-* Mathematicians 
-So sometimes I think someones whole work seems really cool but I am worried I won't remember their name.
-** [[https://en.wikipedia.org/wiki/Richard_E._Bellman][Richard Bellman]]:Mathematician:DynamicProgramming:CurseOfDimensionality:
-Richard Bellman invented Dynamic programming. What a cool thing to invent.
-* Nix
-** [[https://iohk.io/blog/how-we-use-nix-at-iohk/][IOHK How we use Nix]] :IOHK:Nix:
-Why Nix?
-There are many existing systems for software configuration management, 
-some with far more users than Nix. However, we believe that Nix has the 
-best available implementation of ‘Infrastructure as Code’, not only in 
-terms of features, but also in its design and potential.
-** [[https://nixos.wiki/wiki/Nix_Expression_Language][The Nix Expression Language]] :Nix:Language:
-This discussion article covers the syntax, semantics, typing, compilation, tooling and libraries of the Nix Expression Language. 
-** [[https://blog.patchgirl.io/nixos/2020/03/31/nixos.html][Work through building a website in nix]]
-This is the last article of this series and will focus on my experience with NixOS.
-In a nutshell, NixOS is a operating system based on Linux that provides a declarative package and configuration management.
-** [[https://engineering.shopify.com/blogs/engineering/what-is-nix][Motivational Nix blogpost]]  
-** [[https://nixos.org/nix/manual/#chap-writing-nix-expressions][Specific Nix Expression Building]]:Nix:Language:
+* Agda
+** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
+Probability Monads in Cubical Agda
+Posted on April 17, 2019
+Tags: Agda, Probability
+
+Cubical Agda has just come out, and I’ve been playing around with it for a bit. 
+There’s a bunch of info out there on the theory of cubical types, 
+and Homotopy Type Theory more generally 
+(cubical type theory is kind of like an “implementation” of Homotopy type theory), 
+but I wanted to make a post demonstrating cubical Agda in practice, and one of 
+its cool uses from a programming perspective.
+So What is Cubical Agda?
+I don’t really know! Cubical type theory is quite complex (even for a type theory), 
+and I’m not nearly qualified to properly explain it. In lieu of a proper 
+first-principles explanation, then, I’ll try and give a few examples of how 
+it differs from normal Agda, before moving on to the main example of this post. 
+* arts and crafts
+** [[http://www.supercoloring.com/][coloring and paper craft]] 
+** [[https://peaksel.com/blog/18-free-printable-coloring-books-kids/][coloring books]]
+* ATS 
+*** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]] :Pointers:ATS:FP:LinearTypes:
+*** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]] :ATS:
+*** [[https://bluishcoder.co.nz/2017/12/02/cross-compiling-ats-programs.html][cross compiling ats programs]] :ATS:Building:
+*** [[https://github.com/githwxi/ATS-Postiats/wiki/keywords][Keywords in ats]]:ATS:FP:
+*** [[http://ats-lang.sourceforge.net/DOCUMENT/ATS2TUTORIAL/HTML/ATS2TUTORIAL-BOOK-onechunk.html][Keywords in ats contd]] :ATS:FP:
+*** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][Keywords in ats contd 2]] :ATS:FP:
+*** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]]
+* competitors
+** [[https://openautomationsoftware.com/video-links/][open automation]] :scada:
+** [[http://video.andium.com/][andium solutions]] :tankmeasurement:machinelearning:
+* Computer Graphics
+** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
+* Coq
+*** [[https://gopiandcode.uk/logs/log-bloomfilters-debunked.html][Bloom Filter Proof in Coq]]:FormalVerification:Coq:
+*** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq: :Library:
+*** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
+*** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT: :FormalVerification:
+
+*** [[https://arxiv.org/abs/2006.03525][Text Editor Paper]] :Coq:TextEditor:FormalVerification:
+* CProgramming
+** [[https://www.lysator.liu.se/c/ten-commandments.html][Nice Reminders in C]] :C Programming:Lint:
+** [[https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/][Assembly's Perspective of C]] :C Programming:Lint:
+Really interesting blog post on C interacting with assembly.
+** [[http://www.avabodh.com/cin/cin.html][C structures]]:C Programming:Lint:
+* CSS
+*** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
+* cs theory algorithms
+** [[https://arxiv.org/pdf/1708.03486.pdf][p vs np]] :cs: :theory:                                         :complexity:
+** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][tuning linear algebra kernels]]    :cs: :theory:                :algorithms:
+
+** [[http://graphblas.org/index.php?title=graph_blas_forum][graph blas]] :graph theory project:
+*** [[http://www.mit.edu/~kepner/GraphBLAS/GraphBLAS-Math-release.pdf][Graph Blas Math Definitions]] :graph theory:GraphBlas:
+
+** [[https://www.cs.virginia.edu/~jlp/75.knuth.trees.pdf][knuth trees]]:algorithms:graph theory:theory:cs:
+** [[https://medium.com/@guilherme.lb/understand-lucene-to-understand-elasticsearch-85037d5b7577#0a2a-6f579ef7ae80][lucene search]] :lucene search:elastic search:
+* cs theory pl
+*** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][graph models of the lambda calculus]] :pl: :cs: :theory:
+*** [[https://www.cs.utexas.edu/~wcook/drafts/2012/graphs.pdf][functional programming with structured graphs]] :pl: :cs: :theory:
+*** [[http://tata.gforge.inria.fr/][tree automata]] :pl: :cs: :theory:
+*** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]] :pl: :cs: :theory:
+*** [[http://www.cl.cam.ac.uk/~mpf23/talks/types2011.pdf][type space graph]] :pl: :cs: :theory:
+*** [[https://gitlab.inria.fr/fpottier/mpri-2.4-public][functional programming and type systems (2017-2018)]]
+*** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#jfp01][functional graph theory]] :pl: :cs: :theory:
+*** [[http://plzoo.andrej.com/index.html][programming language zoo]] :pl: :cs: :theory:
+
+* database related
+** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db:  :datalog:
+** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][datalog with existensials]]
+** [[http://arxiv.org/pdf/1210.2316v1.pdf][disjunctive quantifiers for datalog]] :db: :datalog:
+** [[https://www.infoq.com/presentations/storage-algorithms][modern db algorithms]] :db:algorithms:
+** [[https://www.nginx.com/blog/what-is-a-service-mesh/][service mesh]]
+** [[http://www.redbook.io/][redbook]]:db:redbook:
+* design 
+** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
+i wanted to make a font based on my handwriting using only free software. 
+it turns out that fontforge can be scripted with python. i know just a little 
+about python and even less about typography, but i managed to hack together 
+something that worked for me. if you’re reading this on my blog at https://sachachua.com/blog/ , 
+you’ll probably see the new font being used on the blog post titles. whee!
+** [[https://practicaltypography.com/][practical typography]  :typography:design:
+** [[https://ciechanow.ski/color-spaces/][perception of color spaces]] :design:color:colortheory:goete:physics:
+   l** [[https://vega.github.io/vega/examples/tree-layout/][vega examples]] :vega:d3:
+example alternative language for d3
+** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][dont use md]]
+what we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
+
+** [[https://www.happyhues.co/palettes/14][interesting ui color pallettes]] :design:color:ui:
+** [[https://practicaltypography.com/font-recommendations.html][font rec]]:fonts:typography:
+** [[https://www.typography.com/blog/text-for-proofing-fonts][text for proofing fonts]] :fonts:typography:
+* Developer Tools   
+** [[https://jvns.ca/blog/2020/06/28/entr/][entr, run on change program]] :DevTools:
+** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
+** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]     :DevTools: :Testing:
+** [[http://unicodelookup.com/][Unicode Lookup Table]] :DevTools: :Unicode:
+** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
+** [[https://blog.trailofbits.com/2020/06/05/breaking-the-solidity-compiler-with-a-fuzzer/][Usinga  fuzzer to break a compiler]] :DevTools:Fuzzer:
+* DevOps
+** [[https://codefaster.substack.com/p/mastering-jq-part-1-59c][jq mast                                                        :DevOps:jq:
+
+ery pt1]]
+** [[https://blog.gitguardian.com/secrets-api-management/][Secrets Management]] :Security:DevOps:
+** [[http://www.linuxfromscratch.org/~bdubbs/cross2-lfs-book/][Linux From Scratch]] :Devops:Linux:
+** [[https://techbeacon.com/enterprise-it/monitoring-demystified-guide-logging-tracing-metrics][Really nice guide on Logging, tracing and metrics]] :Logging:Tracing:Metrics:DevOps:
+** [[https://www.oreilly.com/library/view/anomaly-detection-for/9781492042341/][Anolmaly detection and monitoring]]:DevOps:Monitoring:AnomalyDetection:
+* dev ops
+** [[https://ncase.me/loopy/][loopy]] :graphicaldesign:devops:
+** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :dev ops:
+** [[https://www.openpolicyagent.org/][datalog like policy agent (open policy agent)]] :datalog: :murica:
+
+** [[https://martinfowler.com/bliki/circuitbreaker.html][circuit breaker]] :systemdesign:microservices:circuitbreaker
+** [[https://news.ycombinator.com/item?id=20442200][bpf performance tools]] :devops:bpf:d-trace:
+** [[https://mxtoolbox.com/][email mx records toolbox]] :mail:mx:   
+website mx record test health
+* distributed computing
+** [[https://www.info.ucl.ac.be/~pvr/book.html][concepts techniques]] :cs: :distributed:                              :book:
+** [[http://www.sosp.org/2001/papers/welsh.pdf][stage driven event architecture]] :distributed: :cs: :paper:
+** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=anoy7cqv4v3ed2lvttcmv-owtkgark9xtiq95sdsan_j2r4ecmbqyeofkfp6ezugi24oltguurabzbavpe7yvja5kj2xj-zhvmsbnz8g9tpti2tfv3jr57wbiwkb9jfnifxs5u5tx5pp5sn7vbd9p5hizsfscfmaiqizbabapjbd9yhprnfxppf0h3ec3vvcipwngppatxrq9ciwu9lfqn8tkjwqfd9ss3nwoprgk_6dkvskzfg5bgs%3d&attredirects=0][incremental parallel]] :incremental:distributed:cs:paper:
+** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][event sourcing doing it wrong]] :eventsourcing:distributed:
+** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][tla+ example]] :tla:distributed:modeling:
+** [[https://lamport.azurewebsites.net/video/videos.html][tla+ videos leslie lamport]] :tla:distributed:modeling:
+** [[https://github.com/tlaplus/examples/tree/master/specifications/aba-asyn-byz][tla+ byzantine example]] :tla:distributed:example:modeling:
++ [[file:papers/4221.214134.pdf][tla+ byzantine paper]]
+** [[https://github.com/elastic/elasticsearch-formal-models][elastic search formal model]] :tla:distributed:modeling:elastic:
+* economics and econometrics
+** history of econ
+*** [[https://www.econlib.org/five-more-books-revisionist-accounts-of-the-soviet-experience/][revisionist soviet economic history ]] :history:economics:communism:planning:
+*** [[https://www.econlib.org/understanding-soviet-socialism-twenty-five-books/][understanding soviet socialism]] :history:economics:communism:
+*** [[https://www.econlib.org/five-books-on-the-soviet-economy/][understanding soviet economy]] :history:economics:communism:
+
+** [[https://universa.net/riskmitigation.html][risk mitigation universa]] :risk:economics:markets:investing:
+universa fund made a huge return in covid, these are papers on tail risk trading.
+** [[http://andrewgelman.com/2017/09/07/local-data-centralized-data-analysis-local-decision-making/][market vs government]]
+** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][effective economic modeling techniques]] :econometrics:
+** [[http://press.princeton.edu/chapters/s10363.pdf][mastering metrics]] :econometrics:
+** [[http://www.mostlyharmlesseconometrics.com/book-contents/][mostly harmless econometrics]] :econometrics:
+** [[https://www.nature.com/articles/s41567-019-0732-0][ergodicity in economics]] :ergodicity:econometrics:
+the ergodic hypothesis is a key analytical device of equilibrium statistical mechanics. 
+it underlies the assumption that the time average and the expectation value of 
+an observable are the same. where it is valid, dynamical descriptions can often 
+be replaced with much simpler probabilistic ones — time is essentially eliminated from the models.
+* electrical engineering
+** telemetry 
+*** [[https://mikrotik.com/calculator][microtik range calculator]]
+** embedded hardware teardowns
+*** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][open source stick computer]]    :ee:
+*** [[https://www.nand2tetris.org/][nand 2 tetris]]
+*** [[https://lwn.net/articles/250967/][what every prog should know about memory]]
+*** [[https://www.seeedstudio.com/][internet of things stuff]] :iot:embedded:market
+** embedded programming 
++ [[http://electronut.in/stm32-returns/][stm32 tool chain]]
++ [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][stm32 arm abi firmware chain]]
+** rf theory
+*** [[http://www.antenna-theory.com/m/index.php][antenna theory website]] :antenna:rftheory:
+ about this site:
+
+antennas and antenna theory has always been a fascinating subject for me, 
+and it is this excitement that leads me to present this tutorial. 
+in my life, i have found that once i thoroughly understand a subject, 
+i am amazed at how simple it seems, despite the initial complexity. 
+this i have found true for a wide range of activities, be 
+it riding a motorcycle, learning about antennas, or understanding 
+physical phenomena such as electromagnetics. with that in mind, 
+i endeavor to write this antenna theory website in the simplest 
+of all possible manners. 
+
+*** [[https://www.analog.com/en/applications/technology/smartmesh-pavilion-home.html#][smart mesh]]:mesh:IOT:Dust:
+** digital electronics
+*** [[https://www.allaboutcircuits.com/technical-articles/universal-logic-gates/][universal gates]]
+introduction
+
+a universal logic gate is a logic gate that can be used to construct all other logic gates.  
+there are many articles about how nand and nor are universal gates, but many of these articles 
+omit other gates that are also universal gates. this article covers two input logic gates, 
+demonstrates that the nand gate is a universal gate, and demonstrates how other gates are 
+universal gates that can be used to construct any logic gate.
+[[./otheruniversalgates.png]]
+
+* exampleprograms
+** [[https://graphs.grevian.org/example][graphviz]] :graphviz:examples:
+* FP General
+** [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/][Why Monads Matter]]   :FP:                                          :Theory:
+** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]] :Rust:                                              :Ivory: 
+** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :FP: :Theory:
+* gas temp alarm
+* gifs
+[[https://i.imgur.com/aft0yt4.gif]]
 * Haskell
 ** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
 ** [[https://hackage.haskell.org/package/massiv-0.5.1.0][massive an array library]]:Haskell:Library:Numeric:
@@ -42,134 +211,37 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 
 ** [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/][GHC Users Guide]] :GHC:Guide:Manual:
 ** [[https://tech.fpcomplete.com/blog/2018/04/async-exception-handling-haskell/][Exception Handling Problems with Async]]:Haskell:Exceptions:Async:
-* SML, Ocaml, Reason
-** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
-** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
-** [[http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html][Ocaml To Haskell]] :Haskell:OCaml:Reason:
-
-** [[https://github.com/shrynx/awesome-ppx-reasonml][PPX resources]] :PPX:Ocaml:
-** [[https://jaredforsyth.com/posts/template-based-macros-for-reason-ocaml/][Forsythe PPX]]:PPX:Ocaml:
-** [[https://blog.hackages.io/reasonml-ppx-8ecd663d5640][A good walkthrough on Reason PPX]] :PPX:Ocaml:
-* Agda
-** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
-Probability Monads in Cubical Agda
-Posted on April 17, 2019
-Tags: Agda, Probability
-
-Cubical Agda has just come out, and I’ve been playing around with it for a bit. 
-There’s a bunch of info out there on the theory of cubical types, 
-and Homotopy Type Theory more generally 
-(cubical type theory is kind of like an “implementation” of Homotopy type theory), 
-but I wanted to make a post demonstrating cubical Agda in practice, and one of 
-its cool uses from a programming perspective.
-So What is Cubical Agda?
-I don’t really know! Cubical type theory is quite complex (even for a type theory), 
-and I’m not nearly qualified to properly explain it. In lieu of a proper 
-first-principles explanation, then, I’ll try and give a few examples of how 
-it differs from normal Agda, before moving on to the main example of this post. 
-* ATS 
-*** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]] :Pointers:ATS:FP:LinearTypes:
-*** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]] :ATS:
-*** [[https://bluishcoder.co.nz/2017/12/02/cross-compiling-ats-programs.html][cross compiling ats programs]] :ATS:Building:
-*** [[https://github.com/githwxi/ATS-Postiats/wiki/keywords][Keywords in ats]]:ATS:FP:
-*** [[http://ats-lang.sourceforge.net/DOCUMENT/ATS2TUTORIAL/HTML/ATS2TUTORIAL-BOOK-onechunk.html][Keywords in ats contd]] :ATS:FP:
-*** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][Keywords in ats contd 2]] :ATS:FP:
-*** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]]
+* industrial automation
+** [[https://www.plcacademy.com/ladder-logic-tutorial/][ladder logic programming]]
+** [[file:papers/bainbridge_1983_automatica.pdf][irony of automation]] :industrial automation:
+this paper discusses the ways in which automation of industrial processes may expand 
+rather than eliminate problems with the human operator. some comments will be made on 
+methods of alleviating these problems within the "classic' approach of leaving the 
+operator with responsibility for abnormal conditions, and on the potential for 
+continued use of the human operator for on-line decision-making within human-computer collaboration.
+** [[https://github.com/open62541/open62541/wiki/list-of-open-source-opc-ua-implementations][opc ua implementation]] :industrial automation:opc ua:
+** [[https://opcfoundation.org/wp-content/uploads/2015/03/keys-to-developing-an-embedded-ua-server_whitepaper_en.pdf][opc ua overview]] :industrial automation:opc ua:
 * Javascript
 *** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
 *** [[https://overreacted.io/a-complete-guide-to-useeffect/][React Reason useEffect]] :javascript:hooks:react:Reason:Ocaml:BuckleScript:
 *** [[https://tools.ietf.org/html/draft-handrews-json-schema-01][json-schema]]
-* SMT and Static Analysis
-** [[https://cacm.acm.org/magazines/2019/8/238344-scaling-static-analyses-at-facebook/fulltext][Static Analysis]]  
-Static analysis tools are programs that examine, and attempt to draw conclusions about, 
-the source of other programs without running them. At Facebook, we have been investing 
-in advanced static analysis tools that employ reasoning techniques similar to those from 
-program verification. The tools we describe in this article (Infer and Zoncolan) target 
-issues related to crashes and to the security of our services, they perform sometimes 
-complex reasoning spanning many procedures or files, and they are integrated into 
-engineering workflows in a way that attempts to bring value while minimizing friction.
-* Reverse Engineering
-** [[https://www.thirtythreeforty.net/posts/2020/05/hacking-reolink-cameras-for-fun-and-profit/][Reverse engineering ]]      :ReverseEngineering:
-** [[https://mika-s.github.io/wireshark/lua/dissector/2017/11/04/creating-a-wireshark-dissector-in-lua-1.html][Lua Scripts in wireshark]]   :ReverseEngineering:
-** [[https://ghidra-sre.org/][NSA hacking Tool ghidra]]:ReverseEngineering:
-* Coq
-*** [[https://gopiandcode.uk/logs/log-bloomfilters-debunked.html][Bloom Filter Proof in Coq]]:FormalVerification:Coq:
-*** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq: :Library:
-*** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
-*** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT: :FormalVerification:
-
-*** [[https://arxiv.org/abs/2006.03525][Text Editor Paper]] :Coq:TextEditor:FormalVerification:
-* CProgramming
-** [[https://www.lysator.liu.se/c/ten-commandments.html][Nice Reminders in C]] :C Programming:Lint:
-** [[https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/][Assembly's Perspective of C]] :C Programming:Lint:
-Really interesting blog post on C interacting with assembly.
-** [[http://www.avabodh.com/cin/cin.html][C structures]]:C Programming:Lint:
-* Computer Graphics
-** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
-* CSS
-*** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
-* Other Programming Languages
-** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]] :Frink:AltProgramming:Unit:Units:
-* Text and Content Editing
-** [[http://ergoemacs.org/emacs/elisp_syntax_coloring.html][Syntax Highlighting example in emacs]] :emacs:typography:
-** [[https://joaotavora.github.io/yasnippet/snippet-development.html][YaSnippet examples]]
-Really nice examples of using YaSnippet including the one I forget all the time 
-
-#+BEGIN_SRC markdown
-
-Tab stop fields
-
-Tab stops are fields that you can navigate back and forth by TAB and S-TAB. They are written by $ followed with a number. $0 has the special meaning of the exit point of a snippet. That is the last place to go when you've traveled all the fields. Here's a typical example:
-
-<div$1>
-    $0
-</div>
-
-Placeholder fields
-
-Tab stops can have default values – a.k.a placeholders. The syntax is like this:
-
-${N:default value}
-
-They act as the default value for a tab stop. But when you first type at a tab stop, the default value will be replaced by your typing. The number can be omitted if you don't want to create mirrors or transformations for this field.
-Mirrors
-
-We refer the tab stops with placeholders as a field. A field can have mirrors. All mirrors get updated whenever you update any field text. Here's an example:
-
-\begin{${1:enumerate}}
-    $0
-\end{$1}
-
-
-#+END_SRC
-
-** [[https://orgmode.org/org.html#Structure-templates][structure-templates for src control]]
-* Signal Processing
-** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]                           :SignalProcessing: 
-* FP General
-** [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/][Why Monads Matter]]   :FP:                                          :Theory:
-** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]] :Rust:                                              :Ivory: 
-** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :FP: :Theory:
+* kids stuff
+** [[https://www.math-salamanders.com/math-puzzle-worksheets.html][Math Puzzles for Ellie (`2nd grade)]]:MathPuzzles:Kids:
+* logic 
+** Methods of Reasoning
+*** [[https://www.ukessays.com/essays/data-analysis/difference-between-deductive-inductive-and-abductive-research.php][Deductive, Inductive Abductive]] :logic:reason:
+** Logic History 
+*** [[https://www.britishwittgensteinsociety.org/wp-content/uploads/documents/lectures/Turing-and-Wittgenstein-on-Logic-and-Mathematics.pdf][Alan Turing, Wittgenstein]] :History:Logic:
+** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][linear logic and equality]] :logic:
+** [[http://blog.ezyang.com/2013/09/induction-and-logical-relations/][logical relations]] :logic:
+induction and logical relations
+logical relations are a proof technique which allow you to prove things such as normalization (all programs terminate) 
+and program equivalence (these two programs are observationally equivalent under all program contexts).
+** [[https://www.gutenberg.org/files/28696/28696-h/28696-h.htm][lewis carol symbolic logic]] :logic:
 * Machine Code
 [[http://www.sizecoding.org/wiki/Main_Page][Small Programs for 80x86]] :Assembly:
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
-* Developer Tools   
-** [[https://jvns.ca/blog/2020/06/28/entr/][entr, run on change program]] :DevTools:
-** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
-** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]     :DevTools: :Testing:
-** [[http://unicodelookup.com/][Unicode Lookup Table]] :DevTools: :Unicode:
-** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
-** [[https://blog.trailofbits.com/2020/06/05/breaking-the-solidity-compiler-with-a-fuzzer/][Usinga  fuzzer to break a compiler]] :DevTools:Fuzzer:
-* DevOps
-** [[https://codefaster.substack.com/p/mastering-jq-part-1-59c][jq mastery pt1]] :DevOps:jq:
-** [[https://blog.gitguardian.com/secrets-api-management/][Secrets Management]] :Security:DevOps:
-** [[http://www.linuxfromscratch.org/~bdubbs/cross2-lfs-book/][Linux From Scratch]] :Devops:Linux:
-** [[https://techbeacon.com/enterprise-it/monitoring-demystified-guide-logging-tracing-metrics][Really nice guide on Logging, tracing and metrics]] :Logging:Tracing:Metrics:DevOps:
-** [[https://www.oreilly.com/library/view/anomaly-detection-for/9781492042341/][Anolmaly detection and monitoring]]:DevOps:Monitoring:AnomalyDetection:
-* Networking
-*** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
-*** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
 * Machine Learning
 ** [[https://dennybritz.com/blog/ai-trading/][AI Trading Platform]] :MachineLearning:TradingPlatform:CaseStudy:
 ** [[https://github.com/jonathan-laurent/AlphaZero.jl][Alpha Go Zero in Julia]]   :MachineLearning:Julia:AlphaGo:
@@ -218,24 +290,35 @@ When you're solving a problem, how do you know if the answer you've found is cor
 *** [[https://victorzhou.com/blog/intro-to-random-forests/][Intro to random forests]]
 [[./decisiontree.png]]
 Decision trees and random forest, an understandable introduction to me.
-* Numerical Computing
-** [[https://cheatsheets.quantecon.org/][Rosetta Stone Matlab,python,julia]]:NumbericalComputing:Matlab:Python:Julia:
-A set of examples in Matlab Python and Julia
-[[./MatlabPythonRosetta.png]]
-** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb][python numeric tutorial]] :NumericalComputing:Python:
-Jupyter Notebook course
-** [[https://news.ycombinator.com/item?id=20211201][Probabalistic Programming for end users]] :Probabalistic:Programming:
-** [[https://en.m.wikipedia.org/wiki/Simulated_annealing][Simulated Annealing]] :Programming:Algorithms:NumericalComputing:
-[[./Travelling_salesman_problem_solved_with_simulated_annealing.gif]]
-** [[https://turing.ml/dev/][Turing.jl]] :Probabilistic:Probramming:Julia:
-** Jupyter Notebook Links
-*** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb][Introduction Plot Example]]
-*** [[https://tkf.github.io/emacs-ipython-notebook/#setup][Emacs Ipython Notbook]] 
-** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]]   :LogisticRegression:NumericalComputing:
-* Physics
-*** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
-**** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
-*** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]] :Physics:l
+* makefiles
+** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
+* management & business
+** [[https://blog.thinkst.com/2020/07/a-steve-jobs-masterclass-from-decade-ago.html?m=1][steve jobs masterclass]] :stevejobs:apple:marketing:strategy:
+** [[https://stripe.com/atlas/guides/scaling-eng][scaling an engineering organization]]
+** [[https://fs.blog/mental-models/][mental models]]:business:mentalmodels:farnumstreet:
+** [[https://optimistictypes.com/moderating-sexual-assault/][sexual assault guidelines]] :management:hr:
+** [[https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html][project estimation in software development]]:projectmanagement:business:
+[[./softwareprojectestimation.png]]
+estimating software timelines is difficult this is a nice breakdown of
+some possible reasons.
+[[https://news.ycombinator.com/item?id=19671673][interesting notes in the comments]]
+
+** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][cap theorem and development]] :captheorem:development:management:
+**[[https://www.stephnass.com/blog/startup-financial-model][saas financial model]] :business:finance:business model:
+as a founder, there comes a time when you need a business plan, complete with financial forecasts, income statements, and fancy graphs that will impress your investors.
+** [[https://theotherlifenow.com/how-i-made-3300-on-a-short-niche-philosophy-book/][post on hard tests]] :hardtests:business:
+from the post: 
+a hard test is one that is unlikely to find evidence, so if you find it you have a winner.
+* manufacturing
+** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][garment quality]] :fashion:quality:manufacturing:
+* marketing
+** budgeting
+*** [[https://www.kracov.co/writing/the-math-behind-saas-marketing-teams][math behind saas marketing]] :marketing:budget:saas:
+** pricing 
+*** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][understand your pricing strategy]]
+** positioning
+*** [[https://www.thefxck.com/interviews/product-positioning-april-dunford][april dunford, product positioning]]
+really interesting case study on product market fit
 * math
 ** graph theory 
 *** [[http://web.stanford.edu/~saberi/sis2.pdf][random graph generation]]   :math:                            :graphtheory:
@@ -327,16 +410,130 @@ methods of formal proof, such as proof by contradiction. this is in contrast to 
 
 ** linear algebra
 [[https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/index.htm][linear algebra strang 2020]]
-* distributed computing
-** [[https://www.info.ucl.ac.be/~pvr/book.html][concepts techniques]] :cs: :distributed:                              :book:
-** [[http://www.sosp.org/2001/papers/welsh.pdf][stage driven event architecture]] :distributed: :cs: :paper:
-** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=anoy7cqv4v3ed2lvttcmv-owtkgark9xtiq95sdsan_j2r4ecmbqyeofkfp6ezugi24oltguurabzbavpe7yvja5kj2xj-zhvmsbnz8g9tpti2tfv3jr57wbiwkb9jfnifxs5u5tx5pp5sn7vbd9p5hizsfscfmaiqizbabapjbd9yhprnfxppf0h3ec3vvcipwngppatxrq9ciwu9lfqn8tkjwqfd9ss3nwoprgk_6dkvskzfg5bgs%3d&attredirects=0][incremental parallel]] :incremental:distributed:cs:paper:
-** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][event sourcing doing it wrong]] :eventsourcing:distributed:
-** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][tla+ example]] :tla:distributed:modeling:
-** [[https://lamport.azurewebsites.net/video/videos.html][tla+ videos leslie lamport]] :tla:distributed:modeling:
-** [[https://github.com/tlaplus/examples/tree/master/specifications/aba-asyn-byz][tla+ byzantine example]] :tla:distributed:example:modeling:
-+ [[file:papers/4221.214134.pdf][tla+ byzantine paper]]
-** [[https://github.com/elastic/elasticsearch-formal-models][elastic search formal model]] :tla:distributed:modeling:elastic:
+* Mathematicians 
+So sometimes I think someones whole work seems really cool but I am worried I won't remember their name.
+** [[https://en.wikipedia.org/wiki/Richard_E._Bellman][Richard Bellman]]:Mathematician:DynamicProgramming:CurseOfDimensionality:
+Richard Bellman invented Dynamic programming. What a cool thing to invent.
+* mechanical engineering 
+** electric motors 
+*** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][electric machines]] :ee: :me: :motors: :drives:
+* Networking
+*** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
+*** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
+* Nix
+** [[https://iohk.io/blog/how-we-use-nix-at-iohk/][IOHK How we use Nix]] :IOHK:Nix:
+Why Nix?
+There are many existing systems for software configuration management, 
+some with far more users than Nix. However, we believe that Nix has the 
+best available implementation of ‘Infrastructure as Code’, not only in 
+terms of features, but also in its design and potential.
+** [[https://nixos.wiki/wiki/Nix_Expression_Language][The Nix Expression Language]] :Nix:Language:
+This discussion article covers the syntax, semantics, typing, compilation, tooling and libraries of the Nix Expression Language. 
+** [[https://blog.patchgirl.io/nixos/2020/03/31/nixos.html][Work through building a website in nix]]
+This is the last article of this series and will focus on my experience with NixOS.
+In a nutshell, NixOS is a operating system based on Linux that provides a declarative package and configuration management.
+** [[https://engineering.shopify.com/blogs/engineering/what-is-nix][Motivational Nix blogpost]]  
+** [[https://nixos.org/nix/manual/#chap-writing-nix-expressions][Specific Nix Expression Building]]:Nix:Language:
+* Numerical Computing
+** [[https://cheatsheets.quantecon.org/][Rosetta Stone Matlab,python,julia]]:NumbericalComputing:Matlab:Python:Julia:
+A set of examples in Matlab Python and Julia
+[[./MatlabPythonRosetta.png]]
+** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb][python numeric tutorial]] :NumericalComputing:Python:
+Jupyter Notebook course
+** [[https://news.ycombinator.com/item?id=20211201][Probabalistic Programming for end users]] :Probabalistic:Programming:
+** [[https://en.m.wikipedia.org/wiki/Simulated_annealing][Simulated Annealing]] :Programming:Algorithms:NumericalComputing:
+[[./Travelling_salesman_problem_solved_with_simulated_annealing.gif]]
+** [[https://turing.ml/dev/][Turing.jl]] :Probabilistic:Probramming:Julia:
+** Jupyter Notebook Links
+*** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb][Introduction Plot Example]]
+*** [[https://tkf.github.io/emacs-ipython-notebook/#setup][Emacs Ipython Notbook]] 
+** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]]   :LogisticRegression:NumericalComputing:
+* oilfield
+** [[https://www.scribd.com/document/97677521/abb-totalflow-plunger-user-guide][abb total flow]]  :plungerlift: :oil:
+* Other Programming Languages
+** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]] :Frink:AltProgramming:Unit:Units:
+* particular specifications
+** excel format
++ [[download.microsoft.com/download/3/e/3/3e3435bd-aa68-4b32-b84d-b633f0d0f90d/spreadsheetmlbasics.ppt][power point excel format]]
++ [[http://www.ecma-international.org/publications/standards/ecma-376.htm][ecma standard]]
++ [[https://en.wikipedia.org/wiki/microsoft_office_xml_formats][wiki page]]
++ [[https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.cell?redirectedfrom=msdn&view=openxml-2.8.1][doc format link]]
++ [[https://www.example-code.com/csharp/parse_xls.asp][parser examples]]
+* performance related
+** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :optimization: :assembly:
+** [[https://github.com/processone/tsung][tsung http]] :optimization:performance:htt
+** [[https://lwn.net/SubscriberLink/827180/a1c1305686bfea67/][Lockless Algorithms for mere mortals]] :optimization:performance:linux kernel:
+* personal
+** [[https://youthsoccerrankings.us/team.html?teamid=1603613][soccer rankings]] :soccer:
+* Physics
+*** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
+**** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
+*** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]] :Physics:l
+* productivity
+** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][timezone app]] :timezone:scheduling:  
+* Reverse Engineering
+** [[https://www.thirtythreeforty.net/posts/2020/05/hacking-reolink-cameras-for-fun-and-profit/][Reverse engineering ]]      :ReverseEngineering:
+** [[https://mika-s.github.io/wireshark/lua/dissector/2017/11/04/creating-a-wireshark-dissector-in-lua-1.html][Lua Scripts in wireshark]]   :ReverseEngineering:
+** [[https://ghidra-sre.org/][NSA hacking Tool ghidra]]:ReverseEngineering:
+* security related
+** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][ios security]] :security:
+** [[https://webcache.googleusercontent.com/search?q=cache:jtkf6wuc348j:https://humblesec.wordpress.com/2017/07/05/assemby-to-pseudo-code-manually/][assembly to pseudo code]] :security:
+** [[http://www.phrack.org/papers/attacking_javascript_engines.html][attacking javascript engines]] :security:
+** [[https://github.com/brannondorsey/wifi-cracking][wifi crack]] :security: 
+* Signal Processing
+** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]                           :SignalProcessing: 
+* SML, Ocaml, Reason
+** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
+** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
+** [[http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html][Ocaml To Haskell]] :Haskell:OCaml:Reason:
+
+** [[https://github.com/shrynx/awesome-ppx-reasonml][PPX resources]] :PPX:Ocaml:
+** [[https://jaredforsyth.com/posts/template-based-macros-for-reason-ocaml/][Forsythe PPX]]:PPX:Ocaml:
+** [[https://blog.hackages.io/reasonml-ppx-8ecd663d5640][A good walkthrough on Reason PPX]] :PPX:Ocaml:
+** [[http://www.weaselhat.com/2020/08/07/formulog-ml-datalog-smt/][Formulog]] :ML:SMT:DataLog:
+* SMT and Static Analysis
+** [[https://cacm.acm.org/magazines/2019/8/238344-scaling-static-analyses-at-facebook/fulltext][Static Analysis]]  
+Static analysis tools are programs that examine, and attempt to draw conclusions about, 
+the source of other programs without running them. At Facebook, we have been investing 
+in advanced static analysis tools that employ reasoning techniques similar to those from 
+program verification. The tools we describe in this article (Infer and Zoncolan) target 
+issues related to crashes and to the security of our services, they perform sometimes 
+complex reasoning spanning many procedures or files, and they are integrated into 
+engineering workflows in a way that attempts to bring value while minimizing friction.
+* Text and Content Editing
+** [[http://ergoemacs.org/emacs/elisp_syntax_coloring.html][Syntax Highlighting example in emacs]] :emacs:typography:
+** [[https://joaotavora.github.io/yasnippet/snippet-development.html][YaSnippet examples]]
+Really nice examples of using YaSnippet including the one I forget all the time 
+
+#+BEGIN_SRC markdown
+
+Tab stop fields
+
+Tab stops are fields that you can navigate back and forth by TAB and S-TAB. They are written by $ followed with a number. $0 has the special meaning of the exit point of a snippet. That is the last place to go when you've traveled all the fields. Here's a typical example:
+
+<div$1>
+    $0
+</div>
+
+Placeholder fields
+
+Tab stops can have default values – a.k.a placeholders. The syntax is like this:
+
+${N:default value}
+
+They act as the default value for a tab stop. But when you first type at a tab stop, the default value will be replaced by your typing. The number can be omitted if you don't want to create mirrors or transformations for this field.
+Mirrors
+
+We refer the tab stops with placeholders as a field. A field can have mirrors. All mirrors get updated whenever you update any field text. Here's an example:
+
+\begin{${1:enumerate}}
+    $0
+\end{$1}
+
+
+#+END_SRC
+
+** [[https://orgmode.org/org.html#Structure-templates][structure-templates for src control]]
 * type theory
 ** [[https://blog.burakemir.ch/2020/04/higher-order-logic-and-equality.html?m=1][higher order logic and equality]] :typetheory:logic:lambdacalculus:
 o5e59da95b58a0266fc00004c
@@ -359,208 +556,15 @@ it was only much later that i discovered church's 1940 typed λ calculus was in 
 ** [[https://arxiv.org/abs/1803.02294][a self-contained, brief and complete formulation of voevodsky's univalence axiom]] :typetheory: :univalence:
 ** [[https://vrahli.github.io/articles/fcs-long.pdf][computability beyond choice sequences]] :typetheory: :intuitionist:
 ** [[https://github.com/oplss/introduction-to-algebraic-effects-and-handlers][introduction to algebraic effects]] :andrej:typetheory:algebraiceffects:
-* cs theory pl
-*** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][graph models of the lambda calculus]] :pl: :cs: :theory:
-*** [[https://www.cs.utexas.edu/~wcook/drafts/2012/graphs.pdf][functional programming with structured graphs]] :pl: :cs: :theory:
-*** [[http://tata.gforge.inria.fr/][tree automata]] :pl: :cs: :theory:
-*** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]] :pl: :cs: :theory:
-*** [[http://www.cl.cam.ac.uk/~mpf23/talks/types2011.pdf][type space graph]] :pl: :cs: :theory:
-*** [[https://gitlab.inria.fr/fpottier/mpri-2.4-public][functional programming and type systems (2017-2018)]]
-*** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#jfp01][functional graph theory]] :pl: :cs: :theory:
-*** [[http://plzoo.andrej.com/index.html][programming language zoo]] :pl: :cs: :theory:
+* Useful Applications
+** [[https://github.com/sickcodes/Docker-OSX][Docker OSX]] :Docker:OSX:Computer Applications:
+(setq helm-locate-fuzzy-match t)
 
-* cs theory algorithms
-** [[https://arxiv.org/pdf/1708.03486.pdf][p vs np]] :cs: :theory:                                         :complexity:
-** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][tuning linear algebra kernels]]    :cs: :theory:                :algorithms:
-
-** [[http://graphblas.org/index.php?title=graph_blas_forum][graph blas]] :graph theory project:
-*** [[http://www.mit.edu/~kepner/GraphBLAS/GraphBLAS-Math-release.pdf][Graph Blas Math Definitions]] :graph theory:GraphBlas:
-
-** [[https://www.cs.virginia.edu/~jlp/75.knuth.trees.pdf][knuth trees]]:algorithms:graph theory:theory:cs:
-** [[https://medium.com/@guilherme.lb/understand-lucene-to-understand-elasticsearch-85037d5b7577#0a2a-6f579ef7ae80][lucene search]] :lucene search:elastic search:
-* economics and econometrics
-** history of econ
-*** [[https://www.econlib.org/five-more-books-revisionist-accounts-of-the-soviet-experience/][revisionist soviet economic history ]] :history:economics:communism:planning:
-*** [[https://www.econlib.org/understanding-soviet-socialism-twenty-five-books/][understanding soviet socialism]] :history:economics:communism:
-*** [[https://www.econlib.org/five-books-on-the-soviet-economy/][understanding soviet economy]] :history:economics:communism:
-
-** [[https://universa.net/riskmitigation.html][risk mitigation universa]] :risk:economics:markets:investing:
-universa fund made a huge return in covid, these are papers on tail risk trading.
-** [[http://andrewgelman.com/2017/09/07/local-data-centralized-data-analysis-local-decision-making/][market vs government]]
-** [[https://www.bloomberg.com/view/articles/2014-12-31/heres-what-economics-gets-right][effective economic modeling techniques]] :econometrics:
-** [[http://press.princeton.edu/chapters/s10363.pdf][mastering metrics]] :econometrics:
-** [[http://www.mostlyharmlesseconometrics.com/book-contents/][mostly harmless econometrics]] :econometrics:
-** [[https://www.nature.com/articles/s41567-019-0732-0][ergodicity in economics]] :ergodicity:econometrics:
-the ergodic hypothesis is a key analytical device of equilibrium statistical mechanics. 
-it underlies the assumption that the time average and the expectation value of 
-an observable are the same. where it is valid, dynamical descriptions can often 
-be replaced with much simpler probabilistic ones — time is essentially eliminated from the models.
 * ux ui api dsl 
 ** [[https://www.dexplo.org/dexplot/][dex plot table plotting library]] :table:plotting:
 this library is a possible helper for custom table
 ** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][babbages mechanical notation]] :history: :me:
 ** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :fonts:ui:design:
 ** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][flexbox a guide]] :flexbox:webdesign:css:ui:
-* performance related
-** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :optimization: :assembly:
-** [[https://github.com/processone/tsung][tsung http]] :optimization:performance:htt
-** [[https://lwn.net/SubscriberLink/827180/a1c1305686bfea67/][Lockless Algorithms for mere mortals]] :optimization:performance:linux kernel:
-* security related
-** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][ios security]] :security:
-** [[https://webcache.googleusercontent.com/search?q=cache:jtkf6wuc348j:https://humblesec.wordpress.com/2017/07/05/assemby-to-pseudo-code-manually/][assembly to pseudo code]] :security:
-** [[http://www.phrack.org/papers/attacking_javascript_engines.html][attacking javascript engines]] :security:
-** [[https://github.com/brannondorsey/wifi-cracking][wifi crack]] :security: 
-* database related
-** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db:  :datalog:
-** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][datalog with existensials]]
-** [[http://arxiv.org/pdf/1210.2316v1.pdf][disjunctive quantifiers for datalog]] :db: :datalog:
-** [[https://www.infoq.com/presentations/storage-algorithms][modern db algorithms]] :db:algorithms:
-** [[https://www.nginx.com/blog/what-is-a-service-mesh/][service mesh]]
-** [[http://www.redbook.io/][redbook]]:db:redbook:
-* electrical engineering
-** telemetry 
-*** [[https://mikrotik.com/calculator][microtik range calculator]]
-** embedded hardware teardowns
-*** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][open source stick computer]]    :ee:
-*** [[https://www.nand2tetris.org/][nand 2 tetris]]
-*** [[https://lwn.net/articles/250967/][what every prog should know about memory]]
-*** [[https://www.seeedstudio.com/][internet of things stuff]] :iot:embedded:market
-** embedded programming 
-+ [[http://electronut.in/stm32-returns/][stm32 tool chain]]
-+ [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][stm32 arm abi firmware chain]]
-** rf theory
-*** [[http://www.antenna-theory.com/m/index.php][antenna theory website]] :antenna:rftheory:
- about this site:
-
-antennas and antenna theory has always been a fascinating subject for me, 
-and it is this excitement that leads me to present this tutorial. 
-in my life, i have found that once i thoroughly understand a subject, 
-i am amazed at how simple it seems, despite the initial complexity. 
-this i have found true for a wide range of activities, be 
-it riding a motorcycle, learning about antennas, or understanding 
-physical phenomena such as electromagnetics. with that in mind, 
-i endeavor to write this antenna theory website in the simplest 
-of all possible manners. 
-
-*** [[https://www.analog.com/en/applications/technology/smartmesh-pavilion-home.html#][smart mesh]]:mesh:IOT:Dust:
-** digital electronics
-*** [[https://www.allaboutcircuits.com/technical-articles/universal-logic-gates/][universal gates]]
-introduction
-
-a universal logic gate is a logic gate that can be used to construct all other logic gates.  
-there are many articles about how nand and nor are universal gates, but many of these articles 
-omit other gates that are also universal gates. this article covers two input logic gates, 
-demonstrates that the nand gate is a universal gate, and demonstrates how other gates are 
-universal gates that can be used to construct any logic gate.
-[[./otheruniversalgates.png]]
-
-
-* mechanical engineering 
-** electric motors 
-*** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][electric machines]] :ee: :me: :motors: :drives:
-* logic 
-** Logic History 
-*** [[https://www.britishwittgensteinsociety.org/wp-content/uploads/documents/lectures/Turing-and-Wittgenstein-on-Logic-and-Mathematics.pdf][Alan Turing, Wittgenstein]] :History:Logic:
-** [[http://iml.univ-mrs.fr/~girard/trsy3.pdf][linear logic and equality]] :logic:
-** [[http://blog.ezyang.com/2013/09/induction-and-logical-relations/][logical relations]] :logic:
-induction and logical relations
-logical relations are a proof technique which allow you to prove things such as normalization (all programs terminate) 
-and program equivalence (these two programs are observationally equivalent under all program contexts).
-** [[https://www.gutenberg.org/files/28696/28696-h/28696-h.htm][lewis carol symbolic logic]] :logic:
-* oilfield
-** [[https://www.scribd.com/document/97677521/abb-totalflow-plunger-user-guide][abb total flow]]  :plungerlift: :oil:
-* gifs
-[[https://i.imgur.com/aft0yt4.gif]]
-* marketing
-** budgeting
-*** [[https://www.kracov.co/writing/the-math-behind-saas-marketing-teams][math behind saas marketing]] :marketing:budget:saas:
-** pricing 
-*** [[https://blog.reifyworks.com/developing-your-pricing-strategy-15b5bb2f2b3a][understand your pricing strategy]]
-** positioning
-*** [[https://www.thefxck.com/interviews/product-positioning-april-dunford][april dunford, product positioning]]
-really interesting case study on product market fit
-* design 
-** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
-i wanted to make a font based on my handwriting using only free software. 
-it turns out that fontforge can be scripted with python. i know just a little 
-about python and even less about typography, but i managed to hack together 
-something that worked for me. if you’re reading this on my blog at https://sachachua.com/blog/ , 
-you’ll probably see the new font being used on the blog post titles. whee!
-** [[https://practicaltypography.com/][practical typography]  :typography:design:
-** [[https://ciechanow.ski/color-spaces/][perception of color spaces]] :design:color:colortheory:goete:physics:
-   l** [[https://vega.github.io/vega/examples/tree-layout/][vega examples]] :vega:d3:
-example alternative language for d3
-** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][dont use md]]
-what we need is to inform people better, and produce better and healthier guidelines that address fundamental human perception paradigms.
-
-** [[https://www.happyhues.co/palettes/14][interesting ui color pallettes]] :design:color:ui:
-** [[https://practicaltypography.com/font-recommendations.html][font rec]]:fonts:typography:
-** [[https://www.typography.com/blog/text-for-proofing-fonts][text for proofing fonts]] :fonts:typography:
-* dev ops
-** [[https://ncase.me/loopy/][loopy]] :graphicaldesign:devops:
-** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :dev ops:
-** [[https://www.openpolicyagent.org/][datalog like policy agent (open policy agent)]] :datalog: :murica:
-
-** [[https://martinfowler.com/bliki/circuitbreaker.html][circuit breaker]] :systemdesign:microservices:circuitbreaker
-** [[https://news.ycombinator.com/item?id=20442200][bpf performance tools]] :devops:bpf:d-trace:
-** [[https://mxtoolbox.com/][email mx records toolbox]] :mail:mx:   
-website mx record test health
 * web specs
 ** [[https://tools.ietf.org/html/rfc3986#section-3.3][general http uri]] 
-* gas temp alarm
-* competitors
-** [[https://openautomationsoftware.com/video-links/][open automation]] :scada:
-** [[http://video.andium.com/][andium solutions]] :tankmeasurement:machinelearning:
-* exampleprograms
-** [[https://graphs.grevian.org/example][graphviz]] :graphviz:examples:
-* makefiles
-** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
-* management & business
-** [[https://blog.thinkst.com/2020/07/a-steve-jobs-masterclass-from-decade-ago.html?m=1][steve jobs masterclass]] :stevejobs:apple:marketing:strategy:
-** [[https://stripe.com/atlas/guides/scaling-eng][scaling an engineering organization]]
-** [[https://fs.blog/mental-models/][mental models]]:business:mentalmodels:farnumstreet:
-** [[https://optimistictypes.com/moderating-sexual-assault/][sexual assault guidelines]] :management:hr:
-** [[https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html][project estimation in software development]]:projectmanagement:business:
-[[./softwareprojectestimation.png]]
-estimating software timelines is difficult this is a nice breakdown of
-some possible reasons.
-[[https://news.ycombinator.com/item?id=19671673][interesting notes in the comments]]
-
-** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][cap theorem and development]] :captheorem:development:management:
-**[[https://www.stephnass.com/blog/startup-financial-model][saas financial model]] :business:finance:business model:
-as a founder, there comes a time when you need a business plan, complete with financial forecasts, income statements, and fancy graphs that will impress your investors.
-** [[https://theotherlifenow.com/how-i-made-3300-on-a-short-niche-philosophy-book/][post on hard tests]] :hardtests:business:
-from the post: 
-a hard test is one that is unlikely to find evidence, so if you find it you have a winner.
-* industrial automation
-** [[https://www.plcacademy.com/ladder-logic-tutorial/][ladder logic programming]]
-** [[file:papers/bainbridge_1983_automatica.pdf][irony of automation]] :industrial automation:
-this paper discusses the ways in which automation of industrial processes may expand 
-rather than eliminate problems with the human operator. some comments will be made on 
-methods of alleviating these problems within the "classic' approach of leaving the 
-operator with responsibility for abnormal conditions, and on the potential for 
-continued use of the human operator for on-line decision-making within human-computer collaboration.
-** [[https://github.com/open62541/open62541/wiki/list-of-open-source-opc-ua-implementations][opc ua implementation]] :industrial automation:opc ua:
-** [[https://opcfoundation.org/wp-content/uploads/2015/03/keys-to-developing-an-embedded-ua-server_whitepaper_en.pdf][opc ua overview]] :industrial automation:opc ua:
-* personal
-** [[https://youthsoccerrankings.us/team.html?teamid=1603613][soccer rankings]] :soccer:
-* manufacturing
-** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][garment quality]] :fashion:quality:manufacturing:
-* particular specifications
-** excel format
-+ [[download.microsoft.com/download/3/e/3/3e3435bd-aa68-4b32-b84d-b633f0d0f90d/spreadsheetmlbasics.ppt][power point excel format]]
-+ [[http://www.ecma-international.org/publications/standards/ecma-376.htm][ecma standard]]
-+ [[https://en.wikipedia.org/wiki/microsoft_office_xml_formats][wiki page]]
-+ [[https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.cell?redirectedfrom=msdn&view=openxml-2.8.1][doc format link]]
-+ [[https://www.example-code.com/csharp/parse_xls.asp][parser examples]]
-* productivity
-** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][timezone app]] :timezone:scheduling:  
-* arts and crafts
-** [[http://www.supercoloring.com/][coloring and paper craft]] 
-** [[https://peaksel.com/blog/18-free-printable-coloring-books-kids/][coloring books]]
-* kids stuff
-** [[https://www.math-salamanders.com/math-puzzle-worksheets.html][Math Puzzles for Ellie (2nd grade)]]:MathPuzzles:Kids:
-* Useful Applications
-** [[https://github.com/sickcodes/Docker-OSX][Docker OSX]] :Docker:OSX:Computer Applications:
-(setq helm-locate-fuzzy-match t)
-
