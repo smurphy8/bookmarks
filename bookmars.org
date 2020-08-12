@@ -227,6 +227,10 @@ continued use of the human operator for on-line decision-making within human-com
 *** [[https://tools.ietf.org/html/draft-handrews-json-schema-01][json-schema]]
 * kids stuff
 ** [[https://www.math-salamanders.com/math-puzzle-worksheets.html][Math Puzzles for Ellie (`2nd grade)]]:MathPuzzles:Kids:
+* Latex 
+** A Deep Dive Through the Latex Tool Chaining
+*** [[https://tug.org/texinfohtml/kpathsea.html][kpathsea is how tex looks up paths]]
+*** [[https://www.overleaf.com/learn/latex/Articles/An_introduction_to_Kpathsea_and_how_TeX_engines_search_for_files][More on kpathsea]]
 * logic 
 ** Methods of Reasoning
 *** [[https://www.ukessays.com/essays/data-analysis/difference-between-deductive-inductive-and-abductive-research.php][Deductive, Inductive Abductive]] :logic:reason:
@@ -450,6 +454,7 @@ Jupyter Notebook course
 ** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]]   :LogisticRegression:NumericalComputing:
 * oilfield
 ** [[https://www.scribd.com/document/97677521/abb-totalflow-plunger-user-guide][abb total flow]]  :plungerlift: :oil:
+** [[https://www.shaletec.com/home/faq/which-algorithm/][Plunger Lift Optimization]] :plungerlift:oil:
 * Other Programming Languages
 ** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]] :Frink:AltProgramming:Unit:Units:
 * particular specifications
