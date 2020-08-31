@@ -248,7 +248,8 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
-** [[https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university][Amazon Machine Learning]] :MachienLearning:Amazon:
+** [[https://www.jeremyjordan.me/testing-ml/][Effective Testing in Machine Learning]] :MachineLearning:Testing:
+** [[https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university][Amazon Machine Learning]] :MachineLearning:Amazon:
 ** [[https://dennybritz.com/blog/ai-trading/][AI Trading Platform]] :MachineLearning:TradingPlatform:CaseStudy:
 ** [[https://github.com/jonathan-laurent/AlphaZero.jl][Alpha Go Zero in Julia]]   :MachineLearning:Julia:AlphaGo:
 ** [[https://chollinger.com/blog/2019/12/tensorflow-on-edge-or-building-a-smart-security-camera-with-a-raspberry-pi/][Tensor Flow on a Pi]]:MachineLearning:TensorFlow:Pi:Embedded:
@@ -310,7 +311,7 @@ some possible reasons.
 [[https://news.ycombinator.com/item?id=19671673][interesting notes in the comments]]
 
 ** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][cap theorem and development]] :captheorem:development:management:
-**[[https://www.stephnass.com/blog/startup-financial-model][saas financial model]] :business:finance:business model:
+** [[https://www.stephnass.com/blog/startup-financial-model][saas financial model]] :business:finance:business model:
 as a founder, there comes a time when you need a business plan, complete with financial forecasts, income statements, and fancy graphs that will impress your investors.
 ** [[https://theotherlifenow.com/how-i-made-3300-on-a-short-niche-philosophy-book/][post on hard tests]] :hardtests:business:
 from the post: 
@@ -500,6 +501,7 @@ Jupyter Notebook course
 ** [[https://jaredforsyth.com/posts/template-based-macros-for-reason-ocaml/][Forsythe PPX]]:PPX:Ocaml:
 ** [[https://blog.hackages.io/reasonml-ppx-8ecd663d5640][A good walkthrough on Reason PPX]] :PPX:Ocaml:
 ** [[http://www.weaselhat.com/2020/08/07/formulog-ml-datalog-smt/][Formulog]] :ML:SMT:DataLog:
+** [[http://caml.inria.fr/pub/docs/u3-ocaml/index.html][Understanding the OCaml language]]:ML:Ocaml:
 * SMT and Static Analysis
 ** [[https://cacm.acm.org/magazines/2019/8/238344-scaling-static-analyses-at-facebook/fulltext][Static Analysis]]  
 Static analysis tools are programs that examine, and attempt to draw conclusions about, 
