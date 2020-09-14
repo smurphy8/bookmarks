@@ -292,7 +292,7 @@ When you're solving a problem, how do you know if the answer you've found is cor
 ** Clustering Algorithms
 *** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
 *** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
-*** [[ https://en.wikipedia.org/wiki/Affinity_propagation ][ Affinity Propgation Clustering ]]
+*** [[https://en.wikipedia.org/wiki/Affinity_propagation][ Affinity Propgation Clustering ]
 ** Decision Trees
 *** [[https://victorzhou.com/blog/intro-to-random-forests/][Intro to random forests]]
 [[./decisiontree.png]]
@@ -335,6 +335,11 @@ really interesting case study on product market fit
 *** [[https://plus.google.com/u/0/+terencetao27/posts/6diqmz1jqrb][terrance tao, the meaning of =]]   :math: :graphtheory:               :tao:
 *** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][history of math]]  :math:                                         :history:
 ** probability
+*** [[file:papers/316-m-resone.pdf][History of Probability D'Alembert]] :math:probability:stat:gambling:
+In this article, we ask a question not so often addressed: what made various bettingsystems 
+so attractive to novice gamblers?  Because the systems were often touted bycasinos to encourage 
+more gambling, we can sharpen the question by asking what aspectsof the systems helped blind the 
+casinos’ customers to the risks they were taking.
 *** [[https://petermchale.github.io/Math175/lectures/L1%20The%20Longest%20Run%20of%20Heads.pdf][Longest Run of Heads]]:Probability:   
 *** [[https://www.researchers.one/article/2020-03-9][naive probability]] :probability:math:reasoning:
 naive probabilism is the (naive) view, held by many technocrats and academics, 
@@ -364,6 +369,21 @@ students undertaking a bachelor of commerce or a bachelor of business degree at 
 *** [[https://kanoki.org/2020/04/30/time-series-analysis-and-forecasting-with-arima-python/][arima forecasting]] :math:stat:forecasting:
 in the previous post we have seen how to visualize a time series data. in this post we will discuss 
 how to do a time series modelling using arma and arima models. here ar stands for auto-regressive and ma stands for moving average
+** Serialization
+*** [[https://formats.kaitai.io/][KaiTai]] :KaiTai:Serialization
+
+
+Possible addition to dhall 
+Format Gallery
+
+All formats in this gallery have formal specifications in Kaitai Struct language. They can be used:
+
+    as is — as a concise text reference,
+    as visual block diagram (thanks to GraphViz),
+    to explore hex dump in detail (with a visualizer),
+    as a ready-made library in any of supported target programming languages (after compiling it with Kaitai Struct compiler).
+
+    
 ** vizualization
 *** [[https://mathoverflow.net/questions/366070/what-are-the-benefits-of-writing-vector-inner-products-as-langle-u-v-rangle/366118#366118][Terry Tao on Notation]] :Notation:math:visualization:
 *** [[https://news.ycombinator.com/item?id=23430282][penrose math formula visualization]] :visualization:math:
