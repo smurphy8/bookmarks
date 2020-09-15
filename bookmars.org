@@ -597,6 +597,7 @@ it was only much later that i discovered church's 1940 typed λ calculus was in 
 this library is a possible helper for custom table
 ** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][babbages mechanical notation]] :history: :me:
 ** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :fonts:ui:design:
+** [[https://venam.nixers.net/blog/unix/2020/09/14/playing_with_fonts.html][Fonts under the hood]]    :fonts:ui:DeepDive:
 ** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][flexbox a guide]] :flexbox:webdesign:css:ui:
 * web specs
 ** [[https://tools.ietf.org/html/rfc3986#section-3.3][general http uri]] 
