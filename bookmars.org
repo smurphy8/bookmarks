@@ -1,4 +1,7 @@
 * [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]                                            :Business:
+* [[https://a16z.com/2020/09/07/on-productivity-scheduling-reading-habits-marc-andreessen/][Marc Andreessen]] :Business:Productivity:
+The thing I’ve tried to do the last few years is really “barbell” the inputs. 
+I basically read things that are either up to this minute or things that are timeless–
 * Agda
 ** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
 Probability Monads in Cubical Agda
@@ -66,6 +69,10 @@ Really interesting blog post on C interacting with assembly.
 *** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#jfp01][functional graph theory]] :pl: :cs: :theory:
 *** [[http://plzoo.andrej.com/index.html][programming language zoo]] :pl: :cs: :theory:
 
+* cs practical
+** Type Driven Design 
+*** [[https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/][Parse Don't Validate]] :TypeDrivenDesign:
+*** [[https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable/][Making Illegal States Unrepresentable]] :TypeDrivenDesign:    
 * database related
 ** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db:  :datalog:
 ** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][datalog with existensials]]
@@ -484,7 +491,7 @@ Jupyter Notebook course
 ** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]] :Frink:AltProgramming:Unit:Units:
 * particular specifications
 ** excel format
-+ [[download.microsoft.com/download/3/e/3/3e3435bd-aa68-4b32-b84d-b633f0d0f90d/spreadsheetmlbasics.ppt][power point excel format]]
++ [[http://download.microsoft.com/download/3/e/3/3e3435bd-aa68-4b32-b84d-b633f0d0f90d/spreadsheetmlbasics.ppt][power point excel format]]
 + [[http://www.ecma-international.org/publications/standards/ecma-376.htm][ecma standard]]
 + [[https://en.wikipedia.org/wiki/microsoft_office_xml_formats][wiki page]]
 + [[https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.cell?redirectedfrom=msdn&view=openxml-2.8.1][doc format link]]
@@ -598,6 +605,11 @@ this library is a possible helper for custom table
 ** [[https://archive.org/stream/philtrans09445034/09445034#page/n11/mode/2up][babbages mechanical notation]] :history: :me:
 ** [[https://fontawesome.com/cheatsheet?from=io][font-awesome cheatsheet]] :fonts:ui:design:
 ** [[https://venam.nixers.net/blog/unix/2020/09/14/playing_with_fonts.html][Fonts under the hood]]    :fonts:ui:DeepDive:
+Freetype, included in the font stack on Unix, is quite complex. There are so many layers to get it to do what it does that it’s easy to get lost. 
+From finding the font, to actually rendering it, and everything in between. Like most of the world, I use a rather low screens 
+definition (1366x768 with 96 dpi) and rather old-ish laptop, unlike some font designers that live in a filter bubble 
+where everyone has the latest macbook. Thus, good and legible font rendering is important. Let’s play with lesser known 
+toggles available to us when it comes to font rendering and see what they do, let’s have fun and explore possibilities.   
 ** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][flexbox a guide]] :flexbox:webdesign:css:ui:
 * web specs
 ** [[https://tools.ietf.org/html/rfc3986#section-3.3][general http uri]] 
