@@ -1,78 +1,136 @@
 * [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]                                            :Business:
-* [[https://a16z.com/2020/09/07/on-productivity-scheduling-reading-habits-marc-andreessen/][Marc Andreessen]] :Business:Productivity:
-The thing I’ve tried to do the last few years is really “barbell” the inputs. 
-I basically read things that are either up to this minute or things that are timeless–
-* Agda
-** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
-Probability Monads in Cubical Agda
-Posted on April 17, 2019
-Tags: Agda, Probability
-
-Cubical Agda has just come out, and I’ve been playing around with it for a bit. 
-There’s a bunch of info out there on the theory of cubical types, 
-and Homotopy Type Theory more generally 
-(cubical type theory is kind of like an “implementation” of Homotopy type theory), 
-but I wanted to make a post demonstrating cubical Agda in practice, and one of 
-its cool uses from a programming perspective.
-So What is Cubical Agda?
-I don’t really know! Cubical type theory is quite complex (even for a type theory), 
-and I’m not nearly qualified to properly explain it. In lieu of a proper 
-first-principles explanation, then, I’ll try and give a few examples of how 
-it differs from normal Agda, before moving on to the main example of this post. 
 * arts and crafts
 ** [[http://www.supercoloring.com/][coloring and paper craft]] 
 ** [[https://peaksel.com/blog/18-free-printable-coloring-books-kids/][coloring books]]
-* ATS 
-*** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]] :Pointers:ATS:FP:LinearTypes:
-*** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]] :ATS:
-*** [[https://bluishcoder.co.nz/2017/12/02/cross-compiling-ats-programs.html][cross compiling ats programs]] :ATS:Building:
-*** [[https://github.com/githwxi/ATS-Postiats/wiki/keywords][Keywords in ats]]:ATS:FP:
-*** [[http://ats-lang.sourceforge.net/DOCUMENT/ATS2TUTORIAL/HTML/ATS2TUTORIAL-BOOK-onechunk.html][Keywords in ats contd]] :ATS:FP:
-*** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][Keywords in ats contd 2]] :ATS:FP:
-*** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]]
 * competitors
 ** [[https://openautomationsoftware.com/video-links/][open automation]] :scada:
 ** [[http://video.andium.com/][andium solutions]] :tankmeasurement:machinelearning:
 * Computer Graphics
 ** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
-* Coq
-*** [[https://gopiandcode.uk/logs/log-bloomfilters-debunked.html][Bloom Filter Proof in Coq]]:FormalVerification:Coq:
-*** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq: :Library:
-*** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq: :Book:
-*** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT: :FormalVerification:
+* Computer Programming
+** Programming Methodology
+*** Type Driven Design 
+**** [[https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/][Parse Don't Validate]] :TypeDrivenDesign:
+**** [[https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable/][Making Illegal States Unrepresentable]] :TypeDrivenDesign:    
+*** Gotchas
+**** [[https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/][People have names]] :Gotchas:Names:
+** ComputerScience Theory Programming Languages
+**** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][graph models of the lambda calculus]] :ProgrammingLanguages: :ComputerScience: :theory:
+**** [[https://www.cs.utexas.edu/~wcook/drafts/2012/graphs.pdf][functional programming with structured graphs]] :ProgrammingLanguages: :ComputerScience: :theory:
+**** [[http://tata.gforge.inria.fr/][tree automata]] :ProgrammingLanguages: :ComputerScience: :theory:
+**** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]] :ProgrammingLanguages: :ComputerScience: :theory:
+**** [[http://www.cl.cam.ac.uk/~mpf23/talks/types2011.pdf][type space graph]] :ProgrammingLanguages: :ComputerScience: :theory:
+**** [[https://gitlab.inria.fr/fpottier/mpri-2.4-public][functional programming and type systems (2017-2018)]]
+**** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#jfp01][functional graph theory]] :ProgrammingLanguages: :ComputerScience: :theory:
+**** [[http://plzoo.andrej.com/index.html][programming language zoo]] :ProgrammingLanguages: :ComputerScience: :theory:
 
-*** [[https://arxiv.org/abs/2006.03525][Text Editor Paper]] :Coq:TextEditor:FormalVerification:
-* CProgramming
-** [[https://www.lysator.liu.se/c/ten-commandments.html][Nice Reminders in C]] :C Programming:Lint:
-** [[https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/][Assembly's Perspective of C]] :C Programming:Lint:
-Really interesting blog post on C interacting with assembly.
-** [[http://www.avabodh.com/cin/cin.html][C structures]]:C Programming:Lint:
-* CSS
-*** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS: :Example:
-* cs theory algorithms
-** [[https://arxiv.org/pdf/1708.03486.pdf][p vs np]] :cs: :theory:                                         :complexity:
-** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][tuning linear algebra kernels]]    :cs: :theory:                :algorithms:
+** Computer Science Theory algorithms
+*** [[https://arxiv.org/pdf/1708.03486.pdf][p vs np]] :Computer Science: :theory: :complexity:
+*** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][tuning linear algebra kernels]]    :ComputerScience: :theory: :algorithms:
 
-** [[https://www.jsoftware.com/books/pdf/cmc.pdf][Concrete Mathematics]] :math:discreteMath:
-** [[http://graphblas.org/index.php?title=graph_blas_forum][graph blas]] :graph theory project:
-*** [[http://www.mit.edu/~kepner/GraphBLAS/GraphBLAS-Math-release.pdf][Graph Blas Math Definitions]] :graph theory:GraphBlas:
+*** [[https://www.jsoftware.com/books/pdf/cmc.pdf][Concrete Mathematics]] :math:discreteMath:
+*** [[http://graphblas.org/index.php?title=graph_blas_forum][graph blas]] :graph theory project:
+**** [[http://www.mit.edu/~kepner/GraphBLAS/GraphBLAS-Math-release.pdf][Graph Blas Math Definitions]] :graph theory:GraphBlas:
 
-** [[https://www.cs.virginia.edu/~jlp/75.knuth.trees.pdf][knuth trees]]:algorithms:graph theory:theory:cs:
-** [[https://medium.com/@guilherme.lb/understand-lucene-to-understand-elasticsearch-85037d5b7577#0a2a-6f579ef7ae80][lucene search]] :lucene search:elastic search:
-* cs theory pl
-*** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][graph models of the lambda calculus]] :pl: :cs: :theory:
-*** [[https://www.cs.utexas.edu/~wcook/drafts/2012/graphs.pdf][functional programming with structured graphs]] :pl: :cs: :theory:
-*** [[http://tata.gforge.inria.fr/][tree automata]] :pl: :cs: :theory:
-*** [[https://blog.acolyer.org/2016/05/31/how-to-build-static-checking-systems-using-orders-of-magnitude-less-code/][micro parsers]] :pl: :cs: :theory:
-*** [[http://www.cl.cam.ac.uk/~mpf23/talks/types2011.pdf][type space graph]] :pl: :cs: :theory:
-*** [[https://gitlab.inria.fr/fpottier/mpri-2.4-public][functional programming and type systems (2017-2018)]]
-*** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#jfp01][functional graph theory]] :pl: :cs: :theory:
-*** [[http://plzoo.andrej.com/index.html][programming language zoo]] :pl: :cs: :theory:
+*** [[https://www.cs.virginia.edu/~jlp/75.knuth.trees.pdf][knuth trees]]:algorithms:graph theory:theory:ComputerScience:
+*** [[https://medium.com/@guilherme.lb/understand-lucene-to-understand-elasticsearch-85037d5b7577#0a2a-6f579ef7ae80][lucene search]] :lucene search:elastic search:
+** Languages
+*** Coq
+**** [[https://gopiandcode.uk/logs/log-bloomfilters-debunked.html][Bloom Filter Proof in Coq]]:FormalVerification:Coq:
+**** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq:                                                   :Library:
+**** [[http://adam.chlipala.net/cpdt/html/Cpdt.StackMachine.html][CPDT book]] :Coq:                                                   :Book:
+**** [[http://lambda.jstolarek.com/2017/07/deepspec-summer-school-2017-a-summary/][Deep Spec Summer School]] :Coq: :SMT:                 :FormalVerification:
 
-* cs practical
-** Type Driven Design 
-*** [[https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/][Parse Don't Validate]] :TypeDrivenDesign:
-*** [[https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable/][Making Illegal States Unrepresentable]] :TypeDrivenDesign:    
+**** [[https://arxiv.org/abs/2006.03525][Text Editor Paper]]                    :Coq:TextEditor:FormalVerification:
+
+*** CProgramming
+**** [[https://www.lysator.liu.se/c/ten-commandments.html][Nice Reminders in C]] :C Programming:Lint:
+**** [[https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/][Assembly's Perspective of C]] :C Programming:Lint:
+  Really interesting blog post on C interacting with assembly.
+**** [[http://www.avabodh.com/cin/cin.html][C structures]]:C Programming:Lint:
+
+*** ATS 
+**** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]]                            :Pointers:ATS:FP:LinearTypes:
+**** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]]                                                           :ATS:
+**** [[https://bluishcoder.co.nz/2017/12/02/cross-compiling-ats-programs.html][cross compiling ats programs]]                              :ATS:Building:
+**** [[https://github.com/githwxi/ATS-Postiats/wiki/keywords][Keywords in ats]]:ATS:FP:
+**** [[http://ats-lang.sourceforge.net/DOCUMENT/ATS2TUTORIAL/HTML/ATS2TUTORIAL-BOOK-onechunk.html][Keywords in ats contd]]                                           :ATS:FP:
+**** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][Keywords in ats contd 2]]                                         :ATS:FP:
+**** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]]
+      
+*** CSS
+**** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS:                                 :Example:
+*** Haskell
+**** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
+**** [[https://hackage.haskell.org/package/massiv-0.5.1.0][massive an array library]]:Haskell:Library:Numeric:
+**** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell: :Library:
+**** [[https://hackage.haskell.org/package/Frames-0.1.4?utm_source=twitterfeed&utm_medium=twitter][Data Frames]] :Haskell: :Library:
+**** [[http://r6.ca/blog/20110808T035622Z.html][shortest path algorithm (star-semiring)]] :Haskell: :Library:
+**** [[http://hackage.haskell.org/package/aivika-lattice][Haskell Library for agent modeling and simulation]] :Haskell: :Library:
+**** [[https://blog.jle.im/entry/introducing-the-hamilton-library.html#.WDxpf_lLz-U.twitter][General purpose physics simulator]] :Haskell: :Library:
+**** [[https://www.haskell.org/onlinereport/lexemes.html][Haskell Report Syntax]] :Haskell: :DevOps:
+**** [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]] :Haskell: :DevOps:
+**** [[http://homepage.cs.uiowa.edu/~slonnegr/plf/Book/][syntax and semantics in haskell]] :Haskell: :DevOps:
+**** [[http://www.stephendiehl.com/posts/ghc_01.html][GHC Compiler]] :Haskell: :DevOps:
+**** [[https://typesandkinds.wordpress.com/2015/09/09/what-are-type-families/][Eisenberg on Type Families]] :Haskell: :TypeFamilies:
+**** [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf][Total Functional Programming From Haskell]]  :Haskell: :FP: :Theory:
+**** [[http://clathomasprime.github.io/hask/freeDecision][Decision Trees as Free Monads]] :Haskell: :Theory: :FP:
+**** [[https://oleksandrmanzyuk.wordpress.com/2014/06/18/from-object-algebras-to-finally-tagless-interpreters-2/][Final Tagless vs Object Algebras]] :Haskell: :Theory: 
+**** [[https://functor.tokyo/blog/2017-07-28-ghc-warnings-you-should-enable][Warnings that should should enable]] :Haskell: :Tools:
+**** [[https://www.reddit.com/r/programming/comments/w4gs6/levenshtein_distance_in_haskell/c5a6jjz/][Levenshtein Distance]] :Haskell: :Optimization:
+**** [[http://hackage.haskell.org/package/generic-lens-1.0.0.1/docs/Data-Generics-Product-Fields.html#t:HasField][Generic Lens]] :Haskell: :Lens:
+**** [[https://github.com/haskell-suite/haskell-src-exts/blob/master/tests/examples/DerivingVia.hs#L165][Deriving Via Example]]
+
+**** [[http://www.well-typed.com/blog/2019/09/eventful-ghc/][GHC Eventlog]] :EventLog:GHC:
+
+**** [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/][GHC Users Guide]] :GHC:Guide:Manual:
+**** [[https://tech.fpcomplete.com/blog/2018/04/async-exception-handling-haskell/][Exception Handling Problems with Async]]:Haskell:Exceptions:Async:
+**** [[https://hackage.haskell.org/package/gdiff-1.1/docs/Data-Generic-Diff.html][Diff patch library in haskell]] :DiffPatch:Haskell:
+*** Agda
+**** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
+  Probability Monads in Cubical Agda
+  Posted on April 17, 2019
+  Tags: Agda, Probability
+
+  Cubical Agda has just come out, and I’ve been playing around with it for a bit. 
+  There’s a bunch of info out there on the theory of cubical types, 
+  and Homotopy Type Theory more generally 
+  (cubical type theory is kind of like an “implementation” of Homotopy type theory), 
+  but I wanted to make a post demonstrating cubical Agda in practice, and one of 
+  its cool uses from a programming perspective.
+  So What is Cubical Agda?
+  I don’t really know! Cubical type theory is quite complex (even for a type theory), 
+  and I’m not nearly qualified to properly explain it. In lieu of a proper 
+  first-principles explanation, then, I’ll try and give a few examples of how 
+  it differs from normal Agda, before moving on to the main example of this post. 
+*** SML, Ocaml, Reason
+**** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
+**** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
+**** [[http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html][Ocaml To Haskell]] :Haskell:OCaml:Reason:
+
+**** [[https://github.com/shrynx/awesome-ppx-reasonml][PPX resources]] :PPX:Ocaml:
+**** [[https://jaredforsyth.com/posts/template-based-macros-for-reason-ocaml/][Forsythe PPX]]:PPX:Ocaml:
+**** [[https://blog.hackages.io/reasonml-ppx-8ecd663d5640][A good walkthrough on Reason PPX]] :PPX:Ocaml:
+**** [[http://www.weaselhat.com/2020/08/07/formulog-ml-datalog-smt/][Formulog]] :ML:SMT:DataLog:
+**** [[http://caml.inria.fr/pub/docs/u3-ocaml/index.html][Understanding the OCaml language]]:ML:Ocaml:
+** Numerical Computing
+
+*** [[https://en.wikipedia.org/wiki/row-_and_column-major_order][row major columm major wiki entry (popular method)]] :matrixrepresentation:numericalcomputing:
+*** [[https://news.ycombinator.com/item?id=24681914][Sparse Matrix Representation]] :MatrixRepresentation:SparseMatrix:NumericalComputing:
+*** [[https://fgiesen.wordpress.com/2011/05/04/row-major-vs-column-major-and-gl-es/][Row Major Blog post]] :MatrixRepresentation:NumericalComputing:
+*** [[https://cheatsheets.quantecon.org/][Rosetta Stone Matlab,python,julia]]:NumbericalComputing:Matlab:Python:Julia:
+ A set of examples in Matlab Python and Julia
+ [[./MatlabPythonRosetta.png]]
+*** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb][python numeric tutorial]] :NumericalComputing:Python:
+ Jupyter Notebook course
+*** [[https://news.ycombinator.com/item?id=20211201][Probabalistic Programming for end users]] :Probabalistic:Programming:
+*** [[https://en.m.wikipedia.org/wiki/Simulated_annealing][Simulated Annealing]] :Programming:Algorithms:NumericalComputing:
+ [[./Travelling_salesman_problem_solved_with_simulated_annealing.gif]]
+*** [[https://turing.ml/dev/][Turing.jl]]   :Probabilistic:Probramming:Julia:
+*** Jupyter Notebook Links
+**** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb][Introduction Plot Example]]
+**** [[https://tkf.github.io/emacs-ipython-notebook/#setup][Emacs Ipython Notbook]] 
+*** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]] :LogisticRegression:NumericalComputing:
 * database related
 ** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db:  :datalog:
 ** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][datalog with existensials]]
@@ -81,6 +139,7 @@ Really interesting blog post on C interacting with assembly.
 ** [[https://www.nginx.com/blog/what-is-a-service-mesh/][service mesh]]
 ** [[http://www.redbook.io/][redbook]]:db:redbook:
 * design 
+** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
 i wanted to make a font based on my handwriting using only free software. 
 it turns out that fontforge can be scripted with python. i know just a little 
@@ -122,9 +181,9 @@ ery pt1]]
 ** [[https://mxtoolbox.com/][email mx records toolbox]] :mail:mx:   
 website mx record test health
 * distributed computing
-** [[https://www.info.ucl.ac.be/~pvr/book.html][concepts techniques]] :cs: :distributed:                              :book:
-** [[http://www.sosp.org/2001/papers/welsh.pdf][stage driven event architecture]] :distributed: :cs: :paper:
-** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=anoy7cqv4v3ed2lvttcmv-owtkgark9xtiq95sdsan_j2r4ecmbqyeofkfp6ezugi24oltguurabzbavpe7yvja5kj2xj-zhvmsbnz8g9tpti2tfv3jr57wbiwkb9jfnifxs5u5tx5pp5sn7vbd9p5hizsfscfmaiqizbabapjbd9yhprnfxppf0h3ec3vvcipwngppatxrq9ciwu9lfqn8tkjwqfd9ss3nwoprgk_6dkvskzfg5bgs%3d&attredirects=0][incremental parallel]] :incremental:distributed:cs:paper:
+** [[https://www.info.ucl.ac.be/~pvr/book.html][concepts techniques]] :ComputerScience: :distributed:                              :book:
+** [[http://www.sosp.org/2001/papers/welsh.pdf][stage driven event architecture]] :distributed: :ComputerScience: :paper:
+** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=anoy7cqv4v3ed2lvttcmv-owtkgark9xtiq95sdsan_j2r4ecmbqyeofkfp6ezugi24oltguurabzbavpe7yvja5kj2xj-zhvmsbnz8g9tpti2tfv3jr57wbiwkb9jfnifxs5u5tx5pp5sn7vbd9p5hizsfscfmaiqizbabapjbd9yhprnfxppf0h3ec3vvcipwngppatxrq9ciwu9lfqn8tkjwqfd9ss3nwoprgk_6dkvskzfg5bgs%3d&attredirects=0][incremental parallel]] :incremental:distributed:ComputerScience:paper:
 ** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][event sourcing doing it wrong]] :eventsourcing:distributed:
 ** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][tla+ example]] :tla:distributed:modeling:
 ** [[https://lamport.azurewebsites.net/video/videos.html][tla+ videos leslie lamport]] :tla:distributed:modeling:
@@ -194,31 +253,6 @@ universal gates that can be used to construct any logic gate.
 * gas temp alarm
 * gifs
 [[https://i.imgur.com/aft0yt4.gif]]
-* Haskell
-** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
-** [[https://hackage.haskell.org/package/massiv-0.5.1.0][massive an array library]]:Haskell:Library:Numeric:
-** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell:                            :Library:
-** [[https://hackage.haskell.org/package/Frames-0.1.4?utm_source=twitterfeed&utm_medium=twitter][Data Frames]] :Haskell:                                            :Library:
-** [[http://r6.ca/blog/20110808T035622Z.html][shortest path algorithm (star-semiring)]] :Haskell:                :Library:
-** [[http://hackage.haskell.org/package/aivika-lattice][Haskell Library for agent modeling and simulation]] :Haskell:      :Library:
-** [[https://blog.jle.im/entry/introducing-the-hamilton-library.html#.WDxpf_lLz-U.twitter][General purpose physics simulator]] :Haskell:                      :Library:
-** [[https://www.haskell.org/onlinereport/lexemes.html][Haskell Report Syntax]] :Haskell:                                   :DevOps:
-** [[https://github.com/ghcjs/ghcjs/wiki/Porting-GHCJS-Template-Haskell-to-GHC][Luite's advice on porting TH to GHC]] :Haskell:                     :DevOps:
-** [[http://homepage.cs.uiowa.edu/~slonnegr/plf/Book/][syntax and semantics in haskell]] :Haskell:                         :DevOps:
-** [[http://www.stephendiehl.com/posts/ghc_01.html][GHC Compiler]] :Haskell:                                            :DevOps:
-** [[https://typesandkinds.wordpress.com/2015/09/09/what-are-type-families/][Eisenberg on Type Families]] :Haskell:                        :TypeFamilies:
-** [[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.364&rep=rep1&type=pdf][Total Functional Programming From Haskell]]  :Haskell: :FP:         :Theory:
-** [[http://clathomasprime.github.io/hask/freeDecision][Decision Trees as Free Monads]] :Haskell: :Theory:                      :FP:
-** [[https://oleksandrmanzyuk.wordpress.com/2014/06/18/from-object-algebras-to-finally-tagless-interpreters-2/][Final Tagless vs Object Algebras]] :Haskell:                        :Theory: 
-** [[https://functor.tokyo/blog/2017-07-28-ghc-warnings-you-should-enable][Warnings that should should enable]] :Haskell: :Tools:
-** [[https://www.reddit.com/r/programming/comments/w4gs6/levenshtein_distance_in_haskell/c5a6jjz/][Levenshtein Distance]] :Haskell: :Optimization:
-** [[http://hackage.haskell.org/package/generic-lens-1.0.0.1/docs/Data-Generics-Product-Fields.html#t:HasField][Generic Lens]] :Haskell: :Lens:
-** [[https://github.com/haskell-suite/haskell-src-exts/blob/master/tests/examples/DerivingVia.hs#L165][Deriving Via Example]]
-
-** [[http://www.well-typed.com/blog/2019/09/eventful-ghc/][GHC Eventlog]] :EventLog:GHC:
-
-** [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/][GHC Users Guide]] :GHC:Guide:Manual:
-** [[https://tech.fpcomplete.com/blog/2018/04/async-exception-handling-haskell/][Exception Handling Problems with Async]]:Haskell:Exceptions:Async:
 * industrial automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][ladder logic programming]]
 ** [[file:papers/bainbridge_1983_automatica.pdf][irony of automation]] :industrial automation:
@@ -326,6 +360,9 @@ a hard test is one that is unlikely to find evidence, so if you find it you have
 ** [[https://news.ycombinator.com/item?id=24149020][Adventures in Improving AI]]
 * manufacturing
 ** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][garment quality]] :fashion:quality:manufacturing:
+* [[https://a16z.com/2020/09/07/on-productivity-scheduling-reading-habits-marc-andreessen/][Marc Andreessen]] :Business:Productivity:
+The thing I’ve tried to do the last few years is really “barbell” the inputs. 
+I basically read things that are either up to this minute or things that are timeless–
 * marketing
 ** budgeting
 *** [[https://www.kracov.co/writing/the-math-behind-saas-marketing-teams][math behind saas marketing]] :marketing:budget:saas:
@@ -470,20 +507,6 @@ This is the last article of this series and will focus on my experience with Nix
 In a nutshell, NixOS is a operating system based on Linux that provides a declarative package and configuration management.
 ** [[https://engineering.shopify.com/blogs/engineering/what-is-nix][Motivational Nix blogpost]]  
 ** [[https://nixos.org/nix/manual/#chap-writing-nix-expressions][Specific Nix Expression Building]]:Nix:Language:
-* Numerical Computing
-** [[https://cheatsheets.quantecon.org/][Rosetta Stone Matlab,python,julia]]:NumbericalComputing:Matlab:Python:Julia:
-A set of examples in Matlab Python and Julia
-[[./MatlabPythonRosetta.png]]
-** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb][python numeric tutorial]] :NumericalComputing:Python:
-Jupyter Notebook course
-** [[https://news.ycombinator.com/item?id=20211201][Probabalistic Programming for end users]] :Probabalistic:Programming:
-** [[https://en.m.wikipedia.org/wiki/Simulated_annealing][Simulated Annealing]] :Programming:Algorithms:NumericalComputing:
-[[./Travelling_salesman_problem_solved_with_simulated_annealing.gif]]
-** [[https://turing.ml/dev/][Turing.jl]] :Probabilistic:Probramming:Julia:
-** Jupyter Notebook Links
-*** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb][Introduction Plot Example]]
-*** [[https://tkf.github.io/emacs-ipython-notebook/#setup][Emacs Ipython Notbook]] 
-** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]]   :LogisticRegression:NumericalComputing:
 * oilfield
 ** [[https://www.scribd.com/document/97677521/abb-totalflow-plunger-user-guide][abb total flow]]  :plungerlift: :oil:
 ** [[https://www.shaletec.com/home/faq/which-algorithm/][Plunger Lift Optimization]] :plungerlift:oil:
@@ -519,16 +542,6 @@ Jupyter Notebook course
 ** [[https://github.com/brannondorsey/wifi-cracking][wifi crack]] :security: 
 * Signal Processing
 ** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]                           :SignalProcessing: 
-* SML, Ocaml, Reason
-** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
-** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
-** [[http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html][Ocaml To Haskell]] :Haskell:OCaml:Reason:
-
-** [[https://github.com/shrynx/awesome-ppx-reasonml][PPX resources]] :PPX:Ocaml:
-** [[https://jaredforsyth.com/posts/template-based-macros-for-reason-ocaml/][Forsythe PPX]]:PPX:Ocaml:
-** [[https://blog.hackages.io/reasonml-ppx-8ecd663d5640][A good walkthrough on Reason PPX]] :PPX:Ocaml:
-** [[http://www.weaselhat.com/2020/08/07/formulog-ml-datalog-smt/][Formulog]] :ML:SMT:DataLog:
-** [[http://caml.inria.fr/pub/docs/u3-ocaml/index.html][Understanding the OCaml language]]:ML:Ocaml:
 * SMT and Static Analysis
 ** [[https://cacm.acm.org/magazines/2019/8/238344-scaling-static-analyses-at-facebook/fulltext][Static Analysis]]  
 Static analysis tools are programs that examine, and attempt to draw conclusions about, 
@@ -588,10 +601,10 @@ it was only much later that i discovered church's 1940 typed λ calculus was in 
 
 ** [[https://github.com/michaelt/martin-lof][collected works of per martin loh]] :typetheory: :loh: :papers:
 *** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][foundations of programming languages pfenning]] :typetheory: :book:
-*** [[http://www.cs.cmu.edu/~rwh/courses/hott/][bob harper hott]] :book: :typetheory: :pl:
-*** [[http://homepages.inf.ed.ac.uk/gdp/publications/abstract_syn.pdf][marcelo fiore abstract syntax variable binding]] :cs:
-*** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahukewjwl4qbplnrahwoi1qkhaigajmqfggjmai&url=http%3a%2f%2fresearchmap.jp%2f%3faction%3dcv_download_main%26upload_id%3d50501&usg=afqjcnfv2jrokhvmqbp_4cryjfcxcrvpng][mako hamana, syntax]] :cs: :pl:
-*** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][basic proof theory]] :cs: :lectures: :course:
+*** [[http://www.cs.cmu.edu/~rwh/courses/hott/][bob harper hott]] :book: :typetheory: :ProgrammingLanguages:
+*** [[http://homepages.inf.ed.ac.uk/gdp/publications/abstract_syn.pdf][marcelo fiore abstract syntax variable binding]] :ComputerScience:
+*** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahukewjwl4qbplnrahwoi1qkhaigajmqfggjmai&url=http%3a%2f%2fresearchmap.jp%2f%3faction%3dcv_download_main%26upload_id%3d50501&usg=afqjcnfv2jrokhvmqbp_4cryjfcxcrvpng][mako hamana, syntax]] :ComputerScience: :ProgrammingLanguages:
+*** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][basic proof theory]] :ComputerScience: :lectures:                  :course:
 ** [[https://arxiv.org/abs/1803.02294][a self-contained, brief and complete formulation of voevodsky's univalence axiom]] :typetheory: :univalence:
 ** [[https://vrahli.github.io/articles/fcs-long.pdf][computability beyond choice sequences]] :typetheory: :intuitionist:
 ** [[https://github.com/oplss/introduction-to-algebraic-effects-and-handlers][introduction to algebraic effects]] :andrej:typetheory:algebraiceffects:
