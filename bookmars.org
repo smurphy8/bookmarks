@@ -113,8 +113,11 @@
 **** [[https://blog.hackages.io/reasonml-ppx-8ecd663d5640][A good walkthrough on Reason PPX]] :PPX:Ocaml:
 **** [[http://www.weaselhat.com/2020/08/07/formulog-ml-datalog-smt/][Formulog]] :ML:SMT:DataLog:
 **** [[http://caml.inria.fr/pub/docs/u3-ocaml/index.html][Understanding the OCaml language]]:ML:Ocaml:
+*** Julia
+**** [[https://opensourc.es/blog/javis-v0.2-and-future/][animations in Julia]] :Julia:Animation:video:
+[[https://github.com/Wikunia/Javis.jl][Javis The actual library]] :Julia:Animation:
+[[file:img/eeg.gif]]
 ** Numerical Computing
-
 *** [[https://en.wikipedia.org/wiki/row-_and_column-major_order][row major columm major wiki entry (popular method)]] :matrixrepresentation:numericalcomputing:
 *** [[https://news.ycombinator.com/item?id=24681914][Sparse Matrix Representation]] :MatrixRepresentation:SparseMatrix:NumericalComputing:
 *** [[https://fgiesen.wordpress.com/2011/05/04/row-major-vs-column-major-and-gl-es/][Row Major Blog post]] :MatrixRepresentation:NumericalComputing:
