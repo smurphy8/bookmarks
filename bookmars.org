@@ -62,6 +62,8 @@
 **** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS:                                 :Example:
 *** Haskell
 **** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
+**** [[https://www.parsonsmatt.org/2020/10/13/unpack_your_existentials.html][Unpack your existentials]] :Haskell:Existentials:
+
 **** [[https://hackage.haskell.org/package/massiv-0.5.1.0][massive an array library]]:Haskell:Library:Numeric:
 **** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell: :Library:
 **** [[https://hackage.haskell.org/package/Frames-0.1.4?utm_source=twitterfeed&utm_medium=twitter][Data Frames]] :Haskell: :Library:
@@ -214,6 +216,24 @@ be replaced with much simpler probabilistic ones — time is essentially elimina
 ** telemetry 
 *** [[https://mikrotik.com/calculator][microtik range calculator]]
 ** embedded hardware teardowns
+*** [[https://jaycarlson.net/embedded-linux/][Embedded Linux  System]] :ee:EmbeddedLinux:
+After I published my $1 MCU write-up, several readers suggested I look at application processors — the MMU-endowed chips necessary to run real operating systems like Linux. Massive shifts over the last few years have seen internet-connected devices become more featureful (and hopefully, more secure), and I’m finding myself putting Linux into more and more places.
+
+Among beginner engineers, application processors supplicate reverence: one minor PCB bug and your $10,000 prototype becomes a paperweight. There’s an occult consortium of engineering pros who drop these chips into designs with utter confidence, while the uninitiated cower for their Raspberry Pis and overpriced industrial SOMs.
+
+This article is targeted at embedded engineers who are familiar with microcontrollers but not with microprocessors or Linux, so I wanted to put together something with a quick primer on why you’d want to run embedded Linux, a broad overview of what’s involved in designing around application processors, and then a dive into some specific parts you should check out — and others you should avoid — for entry-level embedded Linux systems.
+
+Just like my microcontroller article, the parts I picked range from the well-worn horses that have pulled along products for the better part of this decade, to fresh-faced ICs with intriguing capabilities that you can keep up your sleeve.
+
+If my mantra for the microcontroller article was that you should pick the right part for the job and not be afraid to learn new software ecosystems, my argument for this post is even simpler: once you’re booted into Linux on basically any of these parts, they become identical development environments.
+
+That makes chips running embedded Linux almost a commodity product: as long as your processor checks off the right boxes, your application code won’t know if it’s running on an ST or a Microchip part — even if one of those is a brand-new dual-core Cortex-A7 and the other is an old ARM9. Your I2C drivers, your GPIO calls — even your V4L-based image processing code — will all work seamlessly.
+
+At least, that’s the sales pitch. Getting a part booted is an entirely different ordeal altogether — that’s what we’ll be focused on. Except for some minor benchmarking at the end, once we get to a shell prompt, we’ll consider the job completed.
+
+As a departure from my microcontroller review, this time I’m focusing heavily on hardware design: unlike the microcontrollers I reviewed, these chips vary considerably in PCB design difficulty — a discussion I would be in error to omit. To this end, I designed a dev board from scratch for each application processor reviewed. Well, actually, many dev boards for each processor: roughly 25 different designs in total. This allowed me to try out different DDR layout and power management strategies — as well as fix some bugs along the way.
+
+I intentionally designed these boards from scratch rather than starting with someone else’s CAD files. This helped me discover little “gotchas” that each CPU has, as well as optimize the design for cost and hand-assembly. Each of these boards was designed across one or two days’ worth of time and used JLC’s low-cost 4-layer PCB manufacturing service.
 *** [[https://www.crowdsupply.com/inverse-path/usb-armory/manufacturing-process][open source stick computer]]    :ee:
 *** [[https://www.nand2tetris.org/][nand 2 tetris]]
 *** [[https://lwn.net/articles/250967/][what every prog should know about memory]]
