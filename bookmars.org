@@ -119,6 +119,10 @@
 **** [[https://opensourc.es/blog/javis-v0.2-and-future/][animations in Julia]] :Julia:Animation:video:
 [[https://github.com/Wikunia/Javis.jl][Javis The actual library]] :Julia:Animation:
 [[file:img/eeg.gif]]
+**** [[https://notamonadtutorial.com/julia-gpu-98a461d33e21][GPU processing in Julia]]
+We are living in a time where more and more data is being created every day as well as new techniques and complex algorithms that try to extract the most out of it. As such, CPU capabilities are approaching a bottleneck in their computing power. GPU computing opened its way into a new paradigm for high-performance and parallel computation a long time ago, but it was not until recently that it become massively used for data science.
+In this interview, Tim Besard, one of the main contributors to the JuliaGPU project, digs into some of the details about GPU computing and the features that make Julia a language suited for such tasks, not only from a performance perspective but also from a user one.
+     
 ** Numerical Computing
 *** [[https://en.wikipedia.org/wiki/row-_and_column-major_order][row major columm major wiki entry (popular method)]] :matrixrepresentation:numericalcomputing:
 *** [[https://news.ycombinator.com/item?id=24681914][Sparse Matrix Representation]] :MatrixRepresentation:SparseMatrix:NumericalComputing:
@@ -278,14 +282,17 @@ universal gates that can be used to construct any logic gate.
 [[https://i.imgur.com/aft0yt4.gif]]
 * industrial automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][ladder logic programming]]
-** [[file:papers/bainbridge_1983_automatica.pdf][irony of automation]] :industrial automation:
+** [[file:papers/bainbridge_1983_automatica.pdf][irony of automation]] :industrialautomation:
 this paper discusses the ways in which automation of industrial processes may expand 
 rather than eliminate problems with the human operator. some comments will be made on 
 methods of alleviating these problems within the "classic' approach of leaving the 
 operator with responsibility for abnormal conditions, and on the potential for 
 continued use of the human operator for on-line decision-making within human-computer collaboration.
-** [[https://github.com/open62541/open62541/wiki/list-of-open-source-opc-ua-implementations][opc ua implementation]] :industrial automation:opc ua:
-** [[https://opcfoundation.org/wp-content/uploads/2015/03/keys-to-developing-an-embedded-ua-server_whitepaper_en.pdf][opc ua overview]] :industrial automation:opc ua:
+** [[https://github.com/open62541/open62541/wiki/list-of-open-source-opc-ua-implementations][opc ua implementation]] :industrialautomation:opc ua:
+** [[https://opcfoundation.org/wp-content/uploads/2015/03/keys-to-developing-an-embedded-ua-server_whitepaper_en.pdf][opc ua overview]] :industrialautomation:opc ua:
+** [[https://www.redlion.net/flexedge/?utm_source=Social&utm_medium=Post&utm_campaign=Flexedge_Social_Fall2020][Red Lion IPC Flexedge]] :industrialautomation:ipc:redlion:
+[[./img/redlion.png]]
+Redlion is making some gorgeous hardware these days.
 * Javascript
 *** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
 *** [[https://overreacted.io/a-complete-guide-to-useeffect/][React Reason useEffect]] :javascript:hooks:react:Reason:Ocaml:BuckleScript:
