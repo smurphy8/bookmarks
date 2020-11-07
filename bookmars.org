@@ -24,6 +24,7 @@
 **** [[http://web.engr.oregonstate.edu/~erwig/papers/abstracts.html#jfp01][functional graph theory]] :ProgrammingLanguages: :ComputerScience: :theory:
 **** [[http://plzoo.andrej.com/index.html][programming language zoo]] :ProgrammingLanguages: :ComputerScience: :theory:
 
+**** [[file:papers/join_methods_actor_pattern.pdf][Complex Event Processing Advanced join patterns]] :ProgrammingLanguages:Algorithms:Events:
 ** Computer Science Theory algorithms
 *** [[https://arxiv.org/pdf/1708.03486.pdf][p vs np]] :Computer Science: :theory: :complexity:
 *** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][tuning linear algebra kernels]]    :ComputerScience: :theory: :algorithms:
@@ -570,6 +571,8 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 ** [[https://webcache.googleusercontent.com/search?q=cache:jtkf6wuc348j:https://humblesec.wordpress.com/2017/07/05/assemby-to-pseudo-code-manually/][assembly to pseudo code]] :security:
 ** [[http://www.phrack.org/papers/attacking_javascript_engines.html][attacking javascript engines]] :security:
 ** [[https://github.com/brannondorsey/wifi-cracking][wifi crack]] :security: 
+** [[https://embeddedbits.org/introduction-embedded-linux-security-part-1/][ Embedded Linux Security ]]
+[[./img/SecurityModel.png]]
 * Signal Processing
 ** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]                           :SignalProcessing: 
 * SMT and Static Analysis
