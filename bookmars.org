@@ -457,8 +457,7 @@ All formats in this gallery have formal specifications in Kaitai Struct language
     as visual block diagram (thanks to GraphViz),
     to explore hex dump in detail (with a visualizer),
     as a ready-made library in any of supported target programming languages (after compiling it with Kaitai Struct compiler).
-
-    
+   
 ** vizualization
 *** [[https://mathoverflow.net/questions/366070/what-are-the-benefits-of-writing-vector-inner-products-as-langle-u-v-rangle/366118#366118][Terry Tao on Notation]] :Notation:math:visualization:
 *** [[https://news.ycombinator.com/item?id=23430282][penrose math formula visualization]] :visualization:math:
@@ -514,6 +513,13 @@ methods of formal proof, such as proof by contradiction. this is in contrast to 
 
 ** linear algebra
 [[https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020/index.htm][linear algebra strang 2020]]
+** General Education
+*** [[https://betterexplained.com/][Better Explained]] :Education:Math:Probability:Trigonometry:
+
+[[./img/QuadraticFormula.png]]
+Better explained has a nice set of visualizations to make learning some math concepts more
+intuitive.
+
 * Mathematicians 
 So sometimes I think someones whole work seems really cool but I am worried I won't remember their name.
 ** [[https://en.wikipedia.org/wiki/Richard_E._Bellman][Richard Bellman]]:Mathematician:DynamicProgramming:CurseOfDimensionality:
