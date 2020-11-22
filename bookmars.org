@@ -5,9 +5,11 @@
 * competitors
 ** [[https://openautomationsoftware.com/video-links/][open automation]] :scada:
 ** [[http://video.andium.com/][andium solutions]] :tankmeasurement:machinelearning:
-* Computer Graphics
-** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
 * Computer Programming
+** FP General
+*** [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/][Why Monads Matter]]   :FP: :Theory:
+*** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]] :Rust: :Ivory: 
+*** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :FP: :Theory:
 ** Programming Methodology
 *** Type Driven Design 
 **** [[https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/][Parse Don't Validate]] :TypeDrivenDesign:
@@ -35,6 +37,13 @@
 
 *** [[https://www.cs.virginia.edu/~jlp/75.knuth.trees.pdf][knuth trees]]:algorithms:graph theory:theory:ComputerScience:
 *** [[https://medium.com/@guilherme.lb/understand-lucene-to-understand-elasticsearch-85037d5b7577#0a2a-6f579ef7ae80][lucene search]] :lucene search:elastic search:
+*** [[file:papers/SurveyPaperRNGMersenneTwister.pdf][RNG Mersenne Twister]] :probability:Random:Math:Algorithm:ComputerScience:
+[[./img/MersenneTwister.png]]
+Mersenne Twister” [22] is the collective name of a family of PRNGs (pseudorandom numbergenerators) based on
+F2-linear maps.1This means that the state of the generator is a vector ofbits of sizeninterpreted as ann-dimensional 
+vector on F2, the field with two elements, and thenext-state function of the generator is anF2-linear map. Since sum in
+F2is just xor, it is easy toimplement such maps so that they can be computed quickly. Several linear PRNGs indeed exist,such 
+as WELL [29] and xor shift[19
 ** Languages
 *** Coq
 **** [[https://gopiandcode.uk/logs/log-bloomfilters-debunked.html][Bloom Filter Proof in Coq]]:FormalVerification:Coq:
@@ -141,13 +150,27 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
 **** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb][Introduction Plot Example]]
 **** [[https://tkf.github.io/emacs-ipython-notebook/#setup][Emacs Ipython Notbook]] 
 *** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]] :LogisticRegression:NumericalComputing:
-* database related
-** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db:  :datalog:
-** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][datalog with existensials]]
-** [[http://arxiv.org/pdf/1210.2316v1.pdf][disjunctive quantifiers for datalog]] :db: :datalog:
-** [[https://www.infoq.com/presentations/storage-algorithms][modern db algorithms]] :db:algorithms:
-** [[https://www.nginx.com/blog/what-is-a-service-mesh/][service mesh]]
-** [[http://www.redbook.io/][redbook]]:db:redbook:
+** database related
+*** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db: :datalog:
+*** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][datalog with existensials]]
+*** [[http://arxiv.org/pdf/1210.2316v1.pdf][disjunctive quantifiers for datalog]] :db: :datalog:
+*** [[https://www.infoq.com/presentations/storage-algorithms][modern db algorithms]] :db:algorithms:
+*** [[https://www.nginx.com/blog/what-is-a-service-mesh/][service mesh]]
+*** [[http://www.redbook.io/][redbook]]:db:redbook:
+** distributed computing
+*** [[https://www.info.ucl.ac.be/~pvr/book.html][concepts techniques]] :ComputerScience: :distributed: :book:
+*** [[http://www.sosp.org/2001/papers/welsh.pdf][stage driven event architecture]] :distributed: :ComputerScience: :paper:
+*** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=anoy7cqv4v3ed2lvttcmv-owtkgark9xtiq95sdsan_j2r4ecmbqyeofkfp6ezugi24oltguurabzbavpe7yvja5kj2xj-zhvmsbnz8g9tpti2tfv3jr57wbiwkb9jfnifxs5u5tx5pp5sn7vbd9p5hizsfscfmaiqizbabapjbd9yhprnfxppf0h3ec3vvcipwngppatxrq9ciwu9lfqn8tkjwqfd9ss3nwoprgk_6dkvskzfg5bgs%3d&attredirects=0][incremental parallel]] :incremental:distributed:ComputerScience:paper:
+*** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][event sourcing doing it wrong]] :eventsourcing:distributed:
+*** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][tla+ example]] :tla:distributed:modeling:
+*** [[https://lamport.azurewebsites.net/video/videos.html][tla+ videos leslie lamport]] :tla:distributed:modeling:
+*** [[https://github.com/tlaplus/examples/tree/master/specifications/aba-asyn-byz][tla+ byzantine example]] :tla:distributed:example:modeling:
+ + [[file:papers/4221.214134.pdf][tla+ byzantine paper]]
+*** [[https://github.com/elastic/elasticsearch-formal-models][elastic search formal model]] :tla:distributed:modeling:elastic:
+** Computer Graphics
+*** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
+** exampleprograms
+*** [[https://graphs.grevian.org/example][graphviz]]      :graphviz:examples:
 * design 
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
@@ -181,7 +204,6 @@ ery pt1]]
 ** [[http://www.linuxfromscratch.org/~bdubbs/cross2-lfs-book/][Linux From Scratch]] :Devops:Linux:
 ** [[https://techbeacon.com/enterprise-it/monitoring-demystified-guide-logging-tracing-metrics][Really nice guide on Logging, tracing and metrics]] :Logging:Tracing:Metrics:DevOps:
 ** [[https://www.oreilly.com/library/view/anomaly-detection-for/9781492042341/][Anolmaly detection and monitoring]]:DevOps:Monitoring:AnomalyDetection:
-* dev ops
 ** [[https://ncase.me/loopy/][loopy]] :graphicaldesign:devops:
 ** https://landing.google.com/sre/book/chapters/monitoring-distributed-systems.html#xref_monitoring_golden-signals :dev ops:
 ** [[https://www.openpolicyagent.org/][datalog like policy agent (open policy agent)]] :datalog: :murica:
@@ -190,16 +212,6 @@ ery pt1]]
 ** [[https://news.ycombinator.com/item?id=20442200][bpf performance tools]] :devops:bpf:d-trace:
 ** [[https://mxtoolbox.com/][email mx records toolbox]] :mail:mx:   
 website mx record test health
-* distributed computing
-** [[https://www.info.ucl.ac.be/~pvr/book.html][concepts techniques]] :ComputerScience: :distributed:                              :book:
-** [[http://www.sosp.org/2001/papers/welsh.pdf][stage driven event architecture]] :distributed: :ComputerScience: :paper:
-** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=anoy7cqv4v3ed2lvttcmv-owtkgark9xtiq95sdsan_j2r4ecmbqyeofkfp6ezugi24oltguurabzbavpe7yvja5kj2xj-zhvmsbnz8g9tpti2tfv3jr57wbiwkb9jfnifxs5u5tx5pp5sn7vbd9p5hizsfscfmaiqizbabapjbd9yhprnfxppf0h3ec3vvcipwngppatxrq9ciwu9lfqn8tkjwqfd9ss3nwoprgk_6dkvskzfg5bgs%3d&attredirects=0][incremental parallel]] :incremental:distributed:ComputerScience:paper:
-** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][event sourcing doing it wrong]] :eventsourcing:distributed:
-** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][tla+ example]] :tla:distributed:modeling:
-** [[https://lamport.azurewebsites.net/video/videos.html][tla+ videos leslie lamport]] :tla:distributed:modeling:
-** [[https://github.com/tlaplus/examples/tree/master/specifications/aba-asyn-byz][tla+ byzantine example]] :tla:distributed:example:modeling:
-+ [[file:papers/4221.214134.pdf][tla+ byzantine paper]]
-** [[https://github.com/elastic/elasticsearch-formal-models][elastic search formal model]] :tla:distributed:modeling:elastic:
 * economics and econometrics
 ** history of econ
 *** [[https://www.econlib.org/five-more-books-revisionist-accounts-of-the-soviet-experience/][revisionist soviet economic history ]] :history:economics:communism:planning:
@@ -272,12 +284,6 @@ demonstrates that the nand gate is a universal gate, and demonstrates how other 
 universal gates that can be used to construct any logic gate.
 [[./otheruniversalgates.png]]
 
-* exampleprograms
-** [[https://graphs.grevian.org/example][graphviz]] :graphviz:examples:
-* FP General
-** [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/][Why Monads Matter]]   :FP:                                          :Theory:
-** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]] :Rust:                                              :Ivory: 
-** [[https://github.com/jozefg/drafts/blob/master/graphs.pdf][Graph models of the Lambda Calculus]] :FP: :Theory:
 * gas temp alarm
 * gifs
 [[https://i.imgur.com/aft0yt4.gif]]
@@ -389,6 +395,19 @@ as a founder, there comes a time when you need a business plan, complete with fi
 from the post: 
 a hard test is one that is unlikely to find evidence, so if you find it you have a winner.
 ** [[https://news.ycombinator.com/item?id=24149020][Adventures in Improving AI]]
+** [[https://paulosman.me/2019/12/30/production-oriented-development.html][Production Oriented Development]]
+Interesting discussion of ideas that I find myself agreeing with.
+8. Non-Production Environments Have Diminishing Returns
+
+A more direct heading for this section would be “Non-Production Environments are Bullshit”. 
+Environments like staging or pre-prod are a fucking lie. When you’re starting, they make a little sense, 
+but as you grow, changes happen more frequently and you experience drift. Also, by definition, 
+your non-prod environments aren’t getting traffic, which makes them fundamentally different. 
+The amount of effort required to maintain non-prod environments grows very quickly. You’ll never 
+prioritize work on non-prod like you will on prod, because customers don’t directly touch non-prod. 
+Eventually, you’ll be scrambling to keep this popsicle sticks and duct tape environment up and running 
+so you can test changes in it, lying to yourself, pretending it bears any resemblance to production.
+
 * manufacturing
 ** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][garment quality]] :fashion:quality:manufacturing:
 * [[https://a16z.com/2020/09/07/on-productivity-scheduling-reading-habits-marc-andreessen/][Marc Andreessen]] :Business:Productivity:
