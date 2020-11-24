@@ -356,7 +356,6 @@ way so much that the fifth employee effectively does no additional work.
 ** [[http://www.asimovinstitute.org/neural-network-zoo/][Neural Network Zoo]] :MachineLearning:
 ** [[https://github.com/ZuzooVn/machine-learning-for-software-engineers][Machine Learning For Software engineers]] :MachineLearning:
 ** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
-** [[http://queue.acm.org/detail.cfm?id=3055303][Meijr probabilistic machine learning models]] :MachineLearning:
 ** [[https://blog.floydhub.com/][genetic algorithms]] :MachineLearning
 When you're solving a problem, how do you know if the answer you've found is correct? 
 ** [[https://arxiv.org/pdf/1707.04615.pdf][Machine Learning Models]]
@@ -367,6 +366,8 @@ When you're solving a problem, how do you know if the answer you've found is cor
 ** [[https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/][Machine Learning Bert]] :MachineLearning:NLP:Bert:
 ** [[https://github.com/onnx/onnx][ONNX Open Neural Net Exchange]] :MachineLearning:DevOps:
 ** [[https://github.com/abarbu/haskell-torch][haskell torch]] :MachineLearning:Haskell:Torch:
+** ML Hardware 
+*** [[https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/][GPU Guide for Deep Learning]] :GPU:MachineLearning:Hardware:
 ** Clustering Algorithms
 *** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
 *** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
