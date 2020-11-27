@@ -201,6 +201,9 @@ what we need is to inform people better, and produce better and healthier guidel
 
 ery pt1]]
 ** [[https://blog.gitguardian.com/secrets-api-management/][Secrets Management]] :Security:DevOps:
+** [[https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/][urls as capabilities]]:Security:DevOps:
+Sometimes you might want to share a link as a secure copy of a piece of information.
+Using a URL is a way to do that, this post goes over how to do that securely 
 ** [[http://www.linuxfromscratch.org/~bdubbs/cross2-lfs-book/][Linux From Scratch]] :Devops:Linux:
 ** [[https://techbeacon.com/enterprise-it/monitoring-demystified-guide-logging-tracing-metrics][Really nice guide on Logging, tracing and metrics]] :Logging:Tracing:Metrics:DevOps:
 ** [[https://www.oreilly.com/library/view/anomaly-detection-for/9781492042341/][Anolmaly detection and monitoring]]:DevOps:Monitoring:AnomalyDetection:
