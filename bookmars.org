@@ -66,8 +66,9 @@ as WELL [29] and xor shift[19
 **** [[https://github.com/githwxi/ATS-Postiats/wiki/keywords][Keywords in ats]]:ATS:FP:
 **** [[http://ats-lang.sourceforge.net/DOCUMENT/ATS2TUTORIAL/HTML/ATS2TUTORIAL-BOOK-onechunk.html][Keywords in ats contd]]                                           :ATS:FP:
 **** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][Keywords in ats contd 2]]                                         :ATS:FP:
-**** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]]
+**** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]] :ATS:FP
       
+**** [[http://ats-lang.github.io/EXAMPLE/EFFECTIVATS/GraphSearch/main.html][Walkthrough ATS Graph Example]] :ATS:Graph:FP:
 *** CSS
 **** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS:                                 :Example:
 *** Haskell
