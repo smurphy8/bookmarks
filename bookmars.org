@@ -174,7 +174,7 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
 *** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
 ** exampleprograms
 *** [[https://graphs.grevian.org/example][graphviz]]      :graphviz:examples:
-**** [[https://github.com/mkirchner/linked-list-good-taste][Linked List Elegant Linus]] :C Programming:Refactor:
+**** [[https://github.com/mkirchner/linked-list-good-taste][kLinked List Elegant Linus]] :C Programming:Refactor:
 * design 
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
