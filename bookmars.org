@@ -134,6 +134,8 @@ as WELL [29] and xor shift[19
 We are living in a time where more and more data is being created every day as well as new techniques and complex algorithms that try to extract the most out of it. As such, CPU capabilities are approaching a bottleneck in their computing power. GPU computing opened its way into a new paradigm for high-performance and parallel computation a long time ago, but it was not until recently that it become massively used for data science.
 In this interview, Tim Besard, one of the main contributors to the JuliaGPU project, digs into some of the details about GPU computing and the features that make Julia a language suited for such tasks, not only from a performance perspective but also from a user one.
      
+*** TLA+
+**** [[https://www.tautvidas.com/blog/2017/12/experimenting-with-tla-and-pluscal-3-throttling-multiple-senders/][TLA Plus Throttling Multiple Senders]] :TLA+:Specifications:FormalSystems:
 ** Numerical Computing
 *** [[https://en.wikipedia.org/wiki/row-_and_column-major_order][row major columm major wiki entry (popular method)]] :matrixrepresentation:numericalcomputing:
 *** [[https://news.ycombinator.com/item?id=24681914][Sparse Matrix Representation]] :MatrixRepresentation:SparseMatrix:NumericalComputing:
@@ -172,6 +174,7 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
 *** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
 ** exampleprograms
 *** [[https://graphs.grevian.org/example][graphviz]]      :graphviz:examples:
+**** [[https://github.com/mkirchner/linked-list-good-taste][Linked List Elegant Linus]] :C Programming:Refactor:
 * design 
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
