@@ -399,6 +399,7 @@ some possible reasons.
 ** [[http://www.haskellforall.com/2019/06/the-cap-theorem-for-software-engineering.html][cap theorem and development]] :captheorem:development:management:
 ** [[https://www.stephnass.com/blog/startup-financial-model][saas financial model]] :business:finance:business model:
 as a founder, there comes a time when you need a business plan, complete with financial forecasts, income statements, and fancy graphs that will impress your investors.
+** [[https://tomtunguz.com/mispricing-of-software-companies/][Mispricing of software companies]] :business:finance:business:
 ** [[https://theotherlifenow.com/how-i-made-3300-on-a-short-niche-philosophy-book/][post on hard tests]] :hardtests:business:
 from the post: 
 a hard test is one that is unlikely to find evidence, so if you find it you have a winner.
