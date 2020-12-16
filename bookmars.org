@@ -57,6 +57,7 @@ as WELL [29] and xor shift[19
 **** [[https://www.lysator.liu.se/c/ten-commandments.html][Nice Reminders in C]] :C Programming:Lint:
 **** [[https://blog.stephenmarz.com/2020/05/20/assemblys-perspective/][Assembly's Perspective of C]] :C Programming:Lint:
   Really interesting blog post on C interacting with assembly.
+**** [[https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/][Advanced Compilers]]:Compilers:Course:
 **** [[http://www.avabodh.com/cin/cin.html][C structures]]:C Programming:Lint:
 
 *** ATS 
@@ -175,6 +176,7 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
 ** exampleprograms
 *** [[https://graphs.grevian.org/example][graphviz]]      :graphviz:examples:
 **** [[https://github.com/mkirchner/linked-list-good-taste][kLinked List Elegant Linus]] :C Programming:Refactor:
+**** [[https://livebook.manning.com/book/haskell-in-depth/chapter-9/v-10/227][Haskell In Depth]] :DiffPatch:Haskell:Memory:
 * design 
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
@@ -373,6 +375,16 @@ When you're solving a problem, how do you know if the answer you've found is cor
 ** [[https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/][Machine Learning Bert]] :MachineLearning:NLP:Bert:
 ** [[https://github.com/onnx/onnx][ONNX Open Neural Net Exchange]] :MachineLearning:DevOps:
 ** [[https://github.com/abarbu/haskell-torch][haskell torch]] :MachineLearning:Haskell:Torch:
+** [[https://eigenfoo.xyz/tensor-computation-libraries/][What I Wish Someone Had Told Me About Tensor Computation Libraries ]]:Tensorflow:PyTorch:
+In this blog post, we’ll break down what tensor computation libraries actually are, and how they differ. 
+We’ll take a detailed look at some popular libraries, and end with an observation on the future of Theano 
+in the context of contemporary tensor computation libraries. 
+** [[https://nn-512.com/][Neural Nets C Code Generator]] :NeuralNet:C-Code:
+NN-512 is a compiler that generates C99 code for neural net inference
+
+It takes as input a simple text description of a convolutional neural net inference graph
+It produces as output a stand-alone C99 implementation of that graph
+The generated C99 code uses AVX-512 vector instructions to perform inference
 ** ML Hardware 
 *** [[https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/][GPU Guide for Deep Learning]] :GPU:MachineLearning:Hardware:
 ** Clustering Algorithms
@@ -516,6 +528,7 @@ use jupyter-run-repl in org mode
 *** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][simplex as a vector space]] :math:                                 :linear:
 *** [[http://www-math.mit.edu/~etingof/egnobookfinal.pdf][tensor categories]] :math:                                         :linear:
 ** category theory
++ [[https://github.com/pamellies/lambda-calculus-and-categories][Lambda Calculus and Categories]] :LambdaCalculus:CategoryTheory:
 + [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#comments][profunctor optics a categorical view]]
 ** complexity and information theory
 *** [[https://www.waveform.com/blogs/main/5g-and-shannons-law][shannons law]] :information theory:shannon:
