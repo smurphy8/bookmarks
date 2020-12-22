@@ -625,6 +625,10 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 * Signal Processing
 ** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]                           :SignalProcessing: 
 * SMT and Static Analysis
+** [[https://www.philipzucker.com/Modelling_TLA_in_z3py/][Modelling TLA in z3]] :SMT:TLA+
+It’s that time of year again where I’m fiddling around with Z3Py. I’m booting it back up because I’m scheduled to do a tutorial on Z3 on Feb 3. 
+It’s kind of silly because I probably already have too much content, and the tutorial is aimed at newbies, but there are some fun new things that 
+I’ve learned in the last year I can do in Z3. As one example, it’s not so hard to build a pretty reasonable simulacrum of TLA+ in Z3.:
 ** [[https://cacm.acm.org/magazines/2019/8/238344-scaling-static-analyses-at-facebook/fulltext][Static Analysis]]  
 Static analysis tools are programs that examine, and attempt to draw conclusions about, 
 the source of other programs without running them. At Facebook, we have been investing 
