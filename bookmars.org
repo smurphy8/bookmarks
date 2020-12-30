@@ -44,7 +44,32 @@ F2-linear maps.1This means that the state of the generator is a vector ofbits of
 vector on F2, the field with two elements, and thenext-state function of the generator is anF2-linear map. Since sum in
 F2is just xor, it is easy toimplement such maps so that they can be computed quickly. Several linear PRNGs indeed exist,such 
 as WELL [29] and xor shift[19
+*** [[https://www.solipsys.co.uk/new/BinarySearchReconsidered.html?TwoEqualsFour][Binary Search, an interesting problem]] :Algorithm:ComputerScience:BinarySearch:
+"Binary Search" was made popular as an interesting test problem by Jon Bentley in his book Programming Pearls. 
+There he says that it's an interesting problem, and baits the hook by saying:
+
+"I've assigned this problem in courses at Bell Labs and IBM.
+
+
+"Professional programmers had a couple of hours to convert the above description into a program in the language of their choice ... 
+At the end of the specified time, almost all the programmers reported that they had correct code for the task ... 
+ninety percent of the programmers found bugs in their programs
+
 ** Languages
+*** SaC
+****  [[https://arxiv.org/pdf/1912.05234.pdf][SAC]]
+Modern machine learning frameworks are complex: they aretypically 
+organised in multiple layers each of which is writ-ten in a different 
+language and they depend on a number ofexternal libraries, but at 
+their core they mainly consist of ten-sor operations. As 
+array-oriented languages provide perfectabstractions to implement 
+tensor operations, we consider aminimalistic machine learning 
+framework that is shallowlyembedded in an array-oriented language 
+and we study itsproductivity and performance. We do this by implementinga 
+state of the art Convolutional Neural Network (CNN) andcompare it against 
+implementations in TensorFlow and Py-Torch — two state of the art 
+industrial-strength frameworks.It turns out that our implementation 
+is2 and 3 times fast
 *** Coq
 **** [[https://gopiandcode.uk/logs/log-bloomfilters-debunked.html][Bloom Filter Proof in Coq]]:FormalVerification:Coq:
 **** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq:                                                   :Library:
@@ -177,6 +202,7 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
 *** [[https://graphs.grevian.org/example][graphviz]]      :graphviz:examples:
 **** [[https://github.com/mkirchner/linked-list-good-taste][kLinked List Elegant Linus]] :C Programming:Refactor:
 **** [[https://livebook.manning.com/book/haskell-in-depth/chapter-9/v-10/227][Haskell In Depth]] :DiffPatch:Haskell:Memory:
+
 * design 
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
@@ -203,6 +229,7 @@ what we need is to inform people better, and produce better and healthier guidel
 ** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
 ** [[https://blog.trailofbits.com/2020/06/05/breaking-the-solidity-compiler-with-a-fuzzer/][Usinga  fuzzer to break a compiler]] :DevTools:Fuzzer:
 * DevOps
+** [[https://how.complexsystems.fail/][How Complex Systems Fail]]
 ** [[https://codefaster.substack.com/p/mastering-jq-part-1-59c][jq mast                                                        :DevOps:jq:
 
 ery pt1]]
@@ -712,3 +739,22 @@ toggles available to us when it comes to font rendering and see what they do, le
 ** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][flexbox a guide]] :flexbox:webdesign:css:ui:
 * web specs
 ** [[https://tools.ietf.org/html/rfc3986#section-3.3][general http uri]] 
+* Interent Link Dumps
+** [[https://csgordon.github.io/books.html][Textbooks Free]]
+Electronic References
+
+Below is a loosely-categorized collection of links to CS textbooks in a variety of areas that are freely available online, usually because they are one of the following:
+
+    An open textbook (such as PLAI, SF, or the HoTT book)
+    An older book that is out of print, for which the copyright has returned to the original author(s) (such as TTFP)
+    An author’s own preprint or draft of a textbook. This includes cases where the author has made special arrangements with a publisher to host an electronic copy of a 
+published text on their homepage while it remains in print.
+
+Most of these I’ve only used for brief personal reference, and have not read in depth. The exceptions, those books I’ve spent considerable time with and highly recommend, are marked with asterisks.
+
+I also include below a list of papers I consider good stand-alone introductions to certain topics, and a list of links to thorough special topics courses.
+
+If you find one of the links below is broken or has moved, feel free to let me know.
+
+Those with time to spare and looking to have less of it may enjoy browsing the QA call numbers in UPenn’s extensive listing of online books. Most of those listed here were 
+found independently over the years, but I’ve just now (June 2020) learned of this excellent repository of links. I’ll add to the links below as I find promising books.   
