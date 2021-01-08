@@ -203,6 +203,18 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
 **** [[https://github.com/mkirchner/linked-list-good-taste][kLinked List Elegant Linus]] :C Programming:Refactor:
 **** [[https://livebook.manning.com/book/haskell-in-depth/chapter-9/v-10/227][Haskell In Depth]] :DiffPatch:Haskell:Memory:
 
+** Domain Specific Programming Languages
+*** [[https://www.gnu.org/software/units/][units a language for unit conversion]]
+** Testing
+*** [[https://blog.7mind.io/constructive-test-taxonomy.html][Constructive Test Taxonomy]] :Testing:DummyTests:
+Many engineers don’t pay enough attention to tests. There are two reasons for this: it’s hard to make 
+good tests and it’s not easy to formalize which tests are good and which are bad.
+
+We have created own test taxonomy, an alternative to classic Unit/Functional/Integration trinity, 
+allowing engineers to establish useful guidelines for their work on test suites.
+
+*** [[https://dropbox.tech/infrastructure/athena-our-automated-build-health-management-system][Dropbox testing system]] :Testing:Athena:Dropbox:
+[[./img/athena-dropbox.jpg]]
 * design 
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
@@ -229,6 +241,7 @@ what we need is to inform people better, and produce better and healthier guidel
 ** [[http://www.hiqpdf.com/demo/ConvertHtmlToSvg.aspx][HTML to SVG]] :DevTools: :Html: :Svg:
 ** [[https://blog.trailofbits.com/2020/06/05/breaking-the-solidity-compiler-with-a-fuzzer/][Usinga  fuzzer to break a compiler]] :DevTools:Fuzzer:
 * DevOps
+** [[https://github.com/nsriram/lambda-the-terraform-way][Terraform Lambda]] :DevOps:  
 ** [[https://how.complexsystems.fail/][How Complex Systems Fail]]
 ** [[https://codefaster.substack.com/p/mastering-jq-part-1-59c][jq mast                                                        :DevOps:jq:
 
@@ -513,6 +526,7 @@ students undertaking a bachelor of commerce or a bachelor of business degree at 
 *** [[https://kanoki.org/2020/04/30/time-series-analysis-and-forecasting-with-arima-python/][arima forecasting]] :math:stat:forecasting:
 in the previous post we have seen how to visualize a time series data. in this post we will discuss 
 how to do a time series modelling using arma and arima models. here ar stands for auto-regressive and ma stands for moving average
+*** [[https://www.stats.ox.ac.uk/~doucet/andrieu_doucet_holenstein_PMCMC.pdf][Particle Markov chain Monte Carlo methods]]
 ** Serialization
 *** [[https://formats.kaitai.io/][KaiTai]] :KaiTai:Serialization
 
@@ -600,6 +614,8 @@ Richard Bellman invented Dynamic programming. What a cool thing to invent.
 * Networking
 *** [[http://www.tcpipguide.com/index.htm][TCP/IP]]  :Networking: :TCP:
 *** [[https://medium.com/@copyconstruct/nonblocking-i-o-99948ad7c957][Nonblocking IO]]
+*** [[https://tailscale.com/blog/how-nat-traversal-works/][Nat Traversal]]:Nat:Networking:
+[[./img/nat-intro.png]]    
 * Nix
 ** [[https://iohk.io/blog/how-we-use-nix-at-iohk/][IOHK How we use Nix]] :IOHK:Nix:
 Why Nix?
