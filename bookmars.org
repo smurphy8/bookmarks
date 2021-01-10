@@ -99,6 +99,9 @@ is2 and 3 times fast
 **** [[http://ats-lang.github.io/EXAMPLE/EFFECTIVATS/GraphSearch/main.html][Walkthrough ATS Graph Example]] :ATS:Graph:FP:
 *** CSS
 **** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS:                                 :Example:
+*** [[https://github.com/mirth-lang/mirth][Mirth]]
+An ATS inspired language???
+
 *** Haskell
 **** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
 **** [[https://www.parsonsmatt.org/2020/10/13/unpack_your_existentials.html][Unpack your existentials]] :Haskell:Existentials:
