@@ -56,7 +56,9 @@ At the end of the specified time, almost all the programmers reported that they 
 ninety percent of the programmers found bugs in their programs
 
 ** Languages
+*** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]]  :Frink:AltProgramming:Unit:Units:   
 *** SaC
+    
 ****  [[https://arxiv.org/pdf/1912.05234.pdf][SAC]]
 Modern machine learning frameworks are complex: they aretypically 
 organised in multiple layers each of which is writ-ten in a different 
@@ -215,6 +217,20 @@ allowing engineers to establish useful guidelines for their work on test suites.
 
 *** [[https://dropbox.tech/infrastructure/athena-our-automated-build-health-management-system][Dropbox testing system]] :Testing:Athena:Dropbox:
 [[./img/athena-dropbox.jpg]]
+** Image Processing
+*** [[https://jakearchibald.com/2020/avif-has-landed/][AVIF]] :AVIF:ImageFormat:Comparison:
+[[./img/racecar.png]]
+Back in ancient July I released a video that dug into how lossy and lossless 
+image compression works and how to apply that knowledge to compress a set of 
+different images for the web. Well, that's already out of date because AVIF 
+has arrived. Brilliant.
+
+AVIF is a new image format derived from the keyframes of AV1 video. It's a 
+royalty-free format, and it's already supported in Chrome 85 on desktop. 
+Android support will be added soon, Firefox is working on an implementation, 
+and although it took Safari 10 years to add WebP support, I don't think we'll 
+see the same delay here, as Apple are a member of the group that created AV1.
+
 * design 
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
@@ -635,8 +651,6 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 * oilfield
 ** [[https://www.scribd.com/document/97677521/abb-totalflow-plunger-user-guide][abb total flow]]  :plungerlift: :oil:
 ** [[https://www.shaletec.com/home/faq/which-algorithm/][Plunger Lift Optimization]] :plungerlift:oil:
-* Other Programming Languages
-** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]] :Frink:AltProgramming:Unit:Units:
 * particular specifications
 ** excel format
 + [[http://download.microsoft.com/download/3/e/3/3e3435bd-aa68-4b32-b84d-b633f0d0f90d/spreadsheetmlbasics.ppt][power point excel format]]
