@@ -16,6 +16,10 @@
 **** [[https://fsharpforfunandprofit.com/posts/designing-with-types-making-illegal-states-unrepresentable/][Making Illegal States Unrepresentable]] :TypeDrivenDesign:    
 *** Gotchas
 **** [[https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/][People have names]] :Gotchas:Names:
+** Production System Best Practices
+*** Logging
+**** [[https://www.youtube.com/watch?v=qzOQOmmkKEM][Duncan Coutts Logging]] :Logging:Haskell:
+
 ** ComputerScience Theory Programming Languages
 **** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][graph models of the lambda calculus]] :ProgrammingLanguages: :ComputerScience: :theory:
 **** [[https://www.cs.utexas.edu/~wcook/drafts/2012/graphs.pdf][functional programming with structured graphs]] :ProgrammingLanguages: :ComputerScience: :theory:
@@ -28,9 +32,28 @@
 
 **** [[file:papers/join_methods_actor_pattern.pdf][Complex Event Processing Advanced join patterns]] :ProgrammingLanguages:Algorithms:Events:
 ** Computer Science Theory algorithms
-*** [[https://arxiv.org/pdf/1708.03486.pdf][p vs np]] :Computer Science: :theory: :complexity:
-*** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][tuning linear algebra kernels]]    :ComputerScience: :theory: :algorithms:
+*** [[https://travisdowns.github.io/blog/2019/05/22/sorting.html][QSort Adjustments for speed]] :theory:sort:algorithms:
+Benchmarking Qsort
 
+First, let’s take a look at what qsort is doing, to see if there is any delicous low-hanging performance fruit. 
+We use perf record ./bench qsort to capture profiling data, and perf report --stdio to print a summary3:
+
++ Samples: 101K of event 'cycles:ppp'
++ Event count (approx.): 65312285835
+
+| Overhead | Command | Shared Object             | Symbol                     |
+|----------+---------+---------------------------+----------------------------+
+|   64.90% | bench   | libc-2.23.so              | [.] msort_with_tmp.part.0  |
+|   21.45% | bench   | bench                     | [.] compare_uint64_t       |
+|    8.65% | bench   | libc-2.23.so              | [.] __memcpy_sse2          |
+|    0.87% | bench   | libc-2.23.so              | [.] __memcpy_avx_unaligned |
+|    0.83% | bench   | bench                     | [.] main                   |
+|    0.41% | bench   | [kernel.kallsyms]         | [k] clear_page_erms        |
+|    0.34% | bench   | [kernel.kallsyms]         | [k] native_irq_return_iret |
+|    0.31% | bench   | bench                     | [.] bench_one              |
+
+*** [[https://arxiv.org/pdf/1708.03486.pdf][p vs np]] :Computer Science: :theory: :complexity:
+*** [[http://rintintin.colorado.edu/~karlini/pohll08.pdf][tuning linear algebra kernels]]    :ComputerScience:theory:algorithms:
 *** [[https://www.jsoftware.com/books/pdf/cmc.pdf][Concrete Mathematics]] :math:discreteMath:
 *** [[http://graphblas.org/index.php?title=graph_blas_forum][graph blas]] :graph theory project:
 **** [[http://www.mit.edu/~kepner/GraphBLAS/GraphBLAS-Math-release.pdf][Graph Blas Math Definitions]] :graph theory:GraphBlas:
@@ -793,3 +816,14 @@ If you find one of the links below is broken or has moved, feel free to let me k
 
 Those with time to spare and looking to have less of it may enjoy browsing the QA call numbers in UPenn’s extensive listing of online books. Most of those listed here were 
 found independently over the years, but I’ve just now (June 2020) learned of this excellent repository of links. I’ll add to the links below as I find promising books.   
+
+
+America (/ 1174.0 (/ (* 2.8 100 ) 1e6)) 4.192e6
+
+UK      (/ 1222  (/ (* 4.2  100) 1e6)) 2.909e6
+
+Ireland (/ 483   (/ (* 0.7 100) 1e6)) 6.9e6
+
+Spain   (/ 1127      (/ (* 1.0 100 ) 1e6)) 11.27e6
+
+Germany (/ 517 (/ (* 0.8 100) 1e6)) 6.42 e6
