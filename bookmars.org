@@ -471,6 +471,7 @@ It produces as output a stand-alone C99 implementation of that graph
 The generated C99 code uses AVX-512 vector instructions to perform inference
 ** ML Hardware 
 *** [[https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/][GPU Guide for Deep Learning]] :GPU:MachineLearning:Hardware:
+*** [[https://blog.inten.to/hardware-for-deep-learning-part-4-asic-96a542fe6a81][A More Broad Guide to ML Hardware]] :MachineLearning:Hardware:
 ** Clustering Algorithms
 *** [[https://micans.org/mcl/][Markov Clustering]] :MachineLearning:Clustering:
 *** [[https://en.wikipedia.org/wiki/Louvain_Modularity][Louvain Clustering]] :MachineLearning:Clustering:
