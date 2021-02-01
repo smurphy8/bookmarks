@@ -516,6 +516,7 @@ prioritize work on non-prod like you will on prod, because customers don’t dir
 Eventually, you’ll be scrambling to keep this popsicle sticks and duct tape environment up and running 
 so you can test changes in it, lying to yourself, pretending it bears any resemblance to production.
 
+** [[https://proformapartners.com/value/][Valuation Services]] :business:
 * manufacturing
 ** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][garment quality]] :fashion:quality:manufacturing:
 * [[https://a16z.com/2020/09/07/on-productivity-scheduling-reading-habits-marc-andreessen/][Marc Andreessen]] :Business:Productivity:
