@@ -79,6 +79,9 @@ At the end of the specified time, almost all the programmers reported that they 
 ninety percent of the programmers found bugs in their programs
 
 ** Languages
+*** PLC 
+**** [[http://www.semdesigns.com/Company/People/idbaxter/][Open PLC XML stuff]]
+**** [[https://www.automation.com/en-us/articles/2003-1/automatic-plc-code-generation-design-interchange-s][Automatic Code Generation]]
 *** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]]  :Frink:AltProgramming:Unit:Units:   
 *** SaC
     
@@ -153,6 +156,7 @@ An ATS inspired language???
 **** [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/][GHC Users Guide]] :GHC:Guide:Manual:
 **** [[https://tech.fpcomplete.com/blog/2018/04/async-exception-handling-haskell/][Exception Handling Problems with Async]]:Haskell:Exceptions:Async:
 **** [[https://hackage.haskell.org/package/gdiff-1.1/docs/Data-Generic-Diff.html][Diff patch library in haskell]] :DiffPatch:Haskell:
+**** [[https://well-typed.com/blog/2021/01/fragmentation-deeper-look/][ghc-debug]] :Debug:GHC:MemLeak:     
 *** Agda
 **** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
   Probability Monads in Cubical Agda
@@ -180,6 +184,7 @@ An ATS inspired language???
 **** [[https://blog.hackages.io/reasonml-ppx-8ecd663d5640][A good walkthrough on Reason PPX]] :PPX:Ocaml:
 **** [[http://www.weaselhat.com/2020/08/07/formulog-ml-datalog-smt/][Formulog]] :ML:SMT:DataLog:
 **** [[http://caml.inria.fr/pub/docs/u3-ocaml/index.html][Understanding the OCaml language]]:ML:Ocaml:
+**** [[https://www.javierchavarri.com/data-first-and-data-last-a-comparison/][Data First Vs Last]] :ML:Reason:Opinions:
 *** Julia
 **** [[https://opensourc.es/blog/javis-v0.2-and-future/][animations in Julia]] :Julia:Animation:video:
 [[https://github.com/Wikunia/Javis.jl][Javis The actual library]] :Julia:Animation:
@@ -303,6 +308,8 @@ Using a URL is a way to do that, this post goes over how to do that securely
 ** [[https://news.ycombinator.com/item?id=20442200][bpf performance tools]] :devops:bpf:d-trace:
 ** [[https://mxtoolbox.com/][email mx records toolbox]] :mail:mx:   
 website mx record test health
+* History
+** [[https://archive.org/details/sim_editor-publisher_1911-06-24_10_52/page/n3/mode/2up][Newspapers over time]] :History:Newspapers:
 * economics and econometrics
 ** history of econ
 *** [[https://www.econlib.org/five-more-books-revisionist-accounts-of-the-soviet-experience/][revisionist soviet economic history ]] :history:economics:communism:planning:
@@ -375,6 +382,13 @@ demonstrates that the nand gate is a universal gate, and demonstrates how other 
 universal gates that can be used to construct any logic gate.
 [[./otheruniversalgates.png]]
 
+*** [[https://projectf.io/posts/fpga-graphics/][FPGA Graphics]] :FGPA:Hardware:Display:Graphics:
+Exploring FPGA Graphics
+Welcome to Exploring FPGA Graphics. In this series, we explore graphics at the hardware level and 
+get a feel for the power of FPGAs. We start by learning how displays work, before racing the beam with Pong, 
+starfields and sprites, simulating life with bitmaps, drawing lines and triangles, and finally creating simple 3D models. 
+I’ll be writing and revising this series throughout 2020 and 2021.
+In this first post, we learn how computer displays work and animate simple shapes with an FPGA.    
 * gas temp alarm
 * gifs
 [[https://i.imgur.com/aft0yt4.gif]]
@@ -724,6 +738,13 @@ program verification. The tools we describe in this article (Infer and Zoncolan)
 issues related to crashes and to the security of our services, they perform sometimes 
 complex reasoning spanning many procedures or files, and they are integrated into 
 engineering workflows in a way that attempts to bring value while minimizing friction.
+
+** [[https://research.nccgroup.com/2021/01/29/software-verification-and-analysis-using-z3/][Z3 and Protocol Verification]] :SMT:Z3:Protocol:
+This post provides a technical introduction on how to leverage the Z3 Theorem Prover 
+to reason about the correctness of cryptographic software, protocols and otherwise, 
+and to identify potential security vulnerabilities.
+
+
 * Text and Content Editing
 ** [[http://ergoemacs.org/emacs/elisp_syntax_coloring.html][Syntax Highlighting example in emacs]] :emacs:typography:
 ** [[https://joaotavora.github.io/yasnippet/snippet-development.html][YaSnippet examples]]
