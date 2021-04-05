@@ -195,7 +195,9 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
      
 *** TLA+
 **** [[https://www.tautvidas.com/blog/2017/12/experimenting-with-tla-and-pluscal-3-throttling-multiple-senders/][TLA Plus Throttling Multiple Senders]] :TLA+:Specifications:FormalSystems:
-** Numerical Computing
+*** Bash
+**** [[https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md][Safe Bash]]
+** Computation, visualization and that kind of thing
 *** [[https://en.wikipedia.org/wiki/row-_and_column-major_order][row major columm major wiki entry (popular method)]] :matrixrepresentation:numericalcomputing:
 *** [[https://news.ycombinator.com/item?id=24681914][Sparse Matrix Representation]] :MatrixRepresentation:SparseMatrix:NumericalComputing:
 *** [[https://fgiesen.wordpress.com/2011/05/04/row-major-vs-column-major-and-gl-es/][Row Major Blog post]] :MatrixRepresentation:NumericalComputing:
@@ -262,6 +264,11 @@ Android support will be added soon, Firefox is working on an implementation,
 and although it took Safari 10 years to add WebP support, I don't think we'll 
 see the same delay here, as Apple are a member of the group that created AV1.
 
+*** [[https://computationalthinking.mit.edu/Fall20/lecture26/][computational thinking]] :Probabalistic:Julia:Educational:
+This is an introductory course on Computational Thinking. We use the Julia programming language to 
+approach real-world problems in varied areas applying data analysis and computational and mathematical modeling. 
+In this class you will learn computer science, software, algorithms, applications, and mathematics as an integrated whole.
+*** [[https://3b1b.github.io/manim/index.html][Manim 3b1b vizualization]]
 * design 
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
@@ -280,6 +287,7 @@ what we need is to inform people better, and produce better and healthier guidel
 ** [[https://www.happyhues.co/palettes/14][interesting ui color pallettes]] :design:color:ui:
 ** [[https://practicaltypography.com/font-recommendations.html][font rec]]:fonts:typography:
 ** [[https://www.typography.com/blog/text-for-proofing-fonts][text for proofing fonts]] :fonts:typography:
+** [[https://pdf.math.dev/][Build PDFs out of Websites]]
 * Developer Tools   
 ** [[https://jvns.ca/blog/2020/06/28/entr/][entr, run on change program]] :DevTools:
 ** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
@@ -327,6 +335,7 @@ the ergodic hypothesis is a key analytical device of equilibrium statistical mec
 it underlies the assumption that the time average and the expectation value of 
 an observable are the same. where it is valid, dynamical descriptions can often 
 be replaced with much simpler probabilistic ones — time is essentially eliminated from the models.
+** [[https://polymarket.com/][Prediction Market Polymarket]] :prediction:econometrics:
 * electrical engineering
 ** telemetry 
 *** [[https://mikrotik.com/calculator][microtik range calculator]]
