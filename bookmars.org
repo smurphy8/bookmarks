@@ -270,6 +270,7 @@ approach real-world problems in varied areas applying data analysis and computat
 In this class you will learn computer science, software, algorithms, applications, and mathematics as an integrated whole.
 *** [[https://3b1b.github.io/manim/index.html][Manim 3b1b vizualization]]
 * design 
+** [[https://developer.apple.com/design/resources/][Apple Design Resources]] :apple:design:ui:
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
 i wanted to make a font based on my handwriting using only free software. 
@@ -278,7 +279,7 @@ about python and even less about typography, but i managed to hack together
 something that worked for me. if you’re reading this on my blog at https://sachachua.com/blog/ , 
 you’ll probably see the new font being used on the blog post titles. whee!
 ** [[https://practicaltypography.com/][practical typography]  :typography:design:
-** [[https://ciechanow.ski/color-spaces/][perception of color spaces]] :design:color:colortheory:goete:physics:
+** [[https://ciechanow.ski/color-spaces/][perception of color spaces]] :design:color:colortheory:goethe:physics:
    l** [[https://vega.github.io/vega/examples/tree-layout/][vega examples]] :vega:d3:
 example alternative language for d3
 ** [[https://medium.com/techtrument/bye-bye-material-design-acaebcc7c6b4][dont use md]]
@@ -540,6 +541,11 @@ Eventually, you’ll be scrambling to keep this popsicle sticks and duct tape en
 so you can test changes in it, lying to yourself, pretending it bears any resemblance to production.
 
 ** [[https://proformapartners.com/value/][Valuation Services]] :business:
+** [[https://calpaterson.com/metadata.html][Interesting Article on Metadata and AI]] :business:marketing:MachineLearning:
+Google has always performed a wide crawl of the entire web. But few webmasters are so 
+naive as to assume their pages will be found this way. Even this website, which has 
+fewer than 20 pages, has had problems with Google finding all of them. 
+Relying solely on the general crawl has proved unworkable for most.
 * manufacturing
 ** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][garment quality]] :fashion:quality:manufacturing:
 * [[https://a16z.com/2020/09/07/on-productivity-scheduling-reading-habits-marc-andreessen/][Marc Andreessen]] :Business:Productivity:
