@@ -125,6 +125,7 @@ is2 and 3 times fast
 **** [[http://ats-lang.github.io/EXAMPLE/EFFECTIVATS/GraphSearch/main.html][Walkthrough ATS Graph Example]] :ATS:Graph:FP:
 *** CSS
 **** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS:                                 :Example:
+**** [[https://web.dev/learn/css/][CSS Google]]
 *** [[https://github.com/mirth-lang/mirth][Mirth]]
 An ATS inspired language???
 
