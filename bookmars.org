@@ -2,6 +2,9 @@
 * arts and crafts
 ** [[http://www.supercoloring.com/][coloring and paper craft]] 
 ** [[https://peaksel.com/blog/18-free-printable-coloring-books-kids/][coloring books]]
+** Fine Art
+*** [[https://david.li/][Digital Art of David Li]]
+*** [[https://www.rafael-araujo.com/product-page/blue-spikes-shell][Digital Art Butterflies guy]]    
 * competitors
 ** [[https://openautomationsoftware.com/video-links/][open automation]] :scada:
 ** [[http://video.andium.com/][andium solutions]] :tankmeasurement:machinelearning:
@@ -158,6 +161,7 @@ An ATS inspired language???
 **** [[https://tech.fpcomplete.com/blog/2018/04/async-exception-handling-haskell/][Exception Handling Problems with Async]]:Haskell:Exceptions:Async:
 **** [[https://hackage.haskell.org/package/gdiff-1.1/docs/Data-Generic-Diff.html][Diff patch library in haskell]] :DiffPatch:Haskell:
 **** [[https://well-typed.com/blog/2021/01/fragmentation-deeper-look/][ghc-debug]] :Debug:GHC:MemLeak:     
+**** [[https://blog.josephmorag.com/posts/mcc0/][LLVM and Haskell]] :LLVM:Haskell:
 *** Agda
 **** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
   Probability Monads in Cubical Agda
@@ -590,6 +594,7 @@ it's the workhorse of formal epistemology, decision theory and behavioral econom
 *** [[https://medium.com/@allenfarrington/a-tale-of-two-talebs-1775dff3302b][a tale of two talebs, lots of links of probability]]:probability:critique:taleb
 while this is mostly a takedown of nassim taleb, there are lots of intersting links
 and thoughts from disciplines related to risk taking.
+*** [[http://www.infinitecuriosity.org/vizgp/][visualization of gausians]] :probability:
 ** calculus
 *** [[https://www.semanticscholar.org/paper/the-solution-of-the-problem-of-integration-in-fini-risch/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingpaperssort=is-influential&citingpaperslimit=10&citingpapersoffset=10&citedpaperssort=is-influential&citedpaperslimit=10&citedpapersoffset=0][risch algorithm]] :calculus:
 ** statistics
@@ -869,3 +874,7 @@ Ireland (/ 483   (/ (* 0.7 100) 1e6)) 6.9e6
 Spain   (/ 1127      (/ (* 1.0 100 ) 1e6)) 11.27e6
 
 Germany (/ 517 (/ (* 0.8 100) 1e6)) 6.42 e6
+
+
+10.48.252.31
+
