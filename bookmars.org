@@ -311,6 +311,7 @@ what we need is to inform people better, and produce better and healthier guidel
 
 ery pt1]]
 ** [[https://blog.gitguardian.com/secrets-api-management/][Secrets Management]] :Security:DevOps:
+** [[https://www.goldfiglabs.com/guide/saas-cto-security-checklist/][Security Checklist]] :Security:DevOps:
 ** [[https://neilmadden.blog/2019/01/16/can-you-ever-safely-include-credentials-in-a-url/][urls as capabilities]]:Security:DevOps:
 Sometimes you might want to share a link as a secure copy of a piece of information.
 Using a URL is a way to do that, this post goes over how to do that securely 
@@ -449,6 +450,7 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://arxiv.org/pdf/2105.04026.pdf][Modern Deep Learning Math]] :Math:DeepLearning:
 ** [[https://mbmlbook.com/MurderMystery.html][Model Based machine learning]] :MachineLearning:Models:
 This is the stuff that had the hidden markov model <-> Kalman filter connection
 ** [[https://www.jeremyjordan.me/testing-ml/][Effective Testing in Machine Learning]] :MachineLearning:Testing:
@@ -594,7 +596,7 @@ it's the workhorse of formal epistemology, decision theory and behavioral econom
 *** [[https://medium.com/@allenfarrington/a-tale-of-two-talebs-1775dff3302b][a tale of two talebs, lots of links of probability]]:probability:critique:taleb
 while this is mostly a takedown of nassim taleb, there are lots of intersting links
 and thoughts from disciplines related to risk taking.
-*** [[http://www.infinitecuriosity.org/vizgp/][visualization of gausians]] :probability:
+*** [[http://www.infinitecuriosity.org/vizgp/][visualization of gausian process]]:probability:
 ** calculus
 *** [[https://www.semanticscholar.org/paper/the-solution-of-the-problem-of-integration-in-fini-risch/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingpaperssort=is-influential&citingpaperslimit=10&citingpapersoffset=10&citedpaperssort=is-influential&citedpaperslimit=10&citedpapersoffset=0][risch algorithm]] :calculus:
 ** statistics
