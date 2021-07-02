@@ -445,6 +445,7 @@ induction and logical relations
 logical relations are a proof technique which allow you to prove things such as normalization (all programs terminate) 
 and program equivalence (these two programs are observationally equivalent under all program contexts).
 ** [[https://www.gutenberg.org/files/28696/28696-h/28696-h.htm][lewis carol symbolic logic]] :logic:
+** [[https://books.google.com/books/about/Formal_Languages_in_Logic.html?id=5ZV7AAAAQBAJ&printsec=frontcover&source=kp_read_button&newbks=1&newbks_redir=0&gboemv=1#v=onepage&q&f=false][fformal languages in logic]] :logic:languages:
 * Machine Code
 [[http://www.sizecoding.org/wiki/Main_Page][Small Programs for 80x86]] :Assembly:
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
@@ -690,10 +691,17 @@ methods of formal proof, such as proof by contradiction. this is in contrast to 
 Better explained has a nice set of visualizations to make learning some math concepts more
 intuitive.
 
+** Topology
+*** [[https://www.math.columbia.edu/~woit/wordpress/?p=12238][New Spaces in Math]] :Spaces:Math:
+** Symbols
+* [[https://mathvault.ca/hub/higher-math/math-symbols/][Math Symbols]] :Math:Symbols:
+*** [[https://mathvault.ca/hub/higher-math/math-symbols/set-theory-symbols/][Set Theory Symbols]] :Math:SetTheory:
 * Mathematicians 
 So sometimes I think someones whole work seems really cool but I am worried I won't remember their name.
 ** [[https://en.wikipedia.org/wiki/Richard_E._Bellman][Richard Bellman]]:Mathematician:DynamicProgramming:CurseOfDimensionality:
 Richard Bellman invented Dynamic programming. What a cool thing to invent.
+** [[file:papers/epsilon.pdf][Terence Tao Epsilon in a room]]
+I grabbed this paper because of looking for ways to understand Borel Algebra.
 * mechanical engineering 
 ** electric motors 
 *** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][electric machines]] :ee: :me: :motors: :drives:
