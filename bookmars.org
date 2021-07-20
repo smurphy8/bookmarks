@@ -430,6 +430,7 @@ Redlion is making some gorgeous hardware these days.
 *** [[https://tools.ietf.org/html/draft-handrews-json-schema-01][json-schema]]
 * kids stuff
 ** [[https://www.math-salamanders.com/math-puzzle-worksheets.html][Math Puzzles for Ellie (`2nd grade)]]:MathPuzzles:Kids:
+** [[file:papers/childrens_taskbook_arnold_en_0.pdf][Math Problems for Children]]:MathProblems:Kids:
 * Latex 
 ** A Deep Dive Through the Latex Tool Chaining
 *** [[https://tug.org/texinfohtml/kpathsea.html][kpathsea is how tex looks up paths]]
@@ -629,6 +630,7 @@ All formats in this gallery have formal specifications in Kaitai Struct language
     as a ready-made library in any of supported target programming languages (after compiling it with Kaitai Struct compiler).
    
 ** vizualization
+*** [[https://drossbucket.com/2021/06/30/hacker-news-folk-wisdom-on-visual-programming/][visual programming languages]] :Languages:visualization:
 *** [[https://mathoverflow.net/questions/366070/what-are-the-benefits-of-writing-vector-inner-products-as-langle-u-v-rangle/366118#366118][Terry Tao on Notation]] :Notation:math:visualization:
 *** [[https://news.ycombinator.com/item?id=23430282][penrose math formula visualization]] :visualization:math:
 a team of researchers from cmu and technion recently introduced a new system, penrose, 
@@ -778,7 +780,6 @@ This post provides a technical introduction on how to leverage the Z3 Theorem Pr
 to reason about the correctness of cryptographic software, protocols and otherwise, 
 and to identify potential security vulnerabilities.
 
-
 * Text and Content Editing
 ** [[http://ergoemacs.org/emacs/elisp_syntax_coloring.html][Syntax Highlighting example in emacs]] :emacs:typography:
 ** [[https://joaotavora.github.io/yasnippet/snippet-development.html][YaSnippet examples]]
@@ -814,6 +815,7 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 
 ** [[https://orgmode.org/org.html#Structure-templates][structure-templates for src control]]
 ** [[https://kunststube.net/encoding/][Text Encoding]] :text:unicode:encodings:
+
 * type theory
 ** [[https://blog.burakemir.ch/2020/04/higher-order-logic-and-equality.html?m=1][higher order logic and equality]] :typetheory:logic:lambdacalculus:
 o5e59da95b58a0266fc00004c
