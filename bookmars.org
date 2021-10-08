@@ -278,6 +278,9 @@ This is an introductory course on Computational Thinking. We use the Julia progr
 approach real-world problems in varied areas applying data analysis and computational and mathematical modeling. 
 In this class you will learn computer science, software, algorithms, applications, and mathematics as an integrated whole.
 *** [[https://3b1b.github.io/manim/index.html][Manim 3b1b vizualization]]
+*** Z 
+**** [[https://www.cs.cmu.edu/~15819/zedbook.pdf][Intro to Z language]]
+Nice book on Z programming, gives a really straight forward explanation of it.
 * design 
 ** [[https://developer.apple.com/design/resources/][Apple Design Resources]] :apple:design:ui:
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
@@ -891,7 +894,6 @@ Germany (/ 517 (/ (* 0.8 100) 1e6)) 6.42 e6
 
 
 10.48.252.31
-
 
 * Industrial 
 [[https://fcc.maps.arcgis.com/apps/webappviewer/index.html?id=6c1b2e73d9d749cdb7bc88a0d1bdd25b][Cell Modem Coverage Map]]
