@@ -20,6 +20,13 @@
 *** Gotchas
 **** [[https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/][People have names]] :Gotchas:Names:
 ** Production System Best Practices
+*** methodology    
++ [[https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/][Things I learned while programming]]
+Important, Read This First
+
+You’re about to read a blog post with a lot of advice. Learning from those who came before us is instrumental to success, but we often forget an important caveat. Almost all advice is contextual, yet it is rarely delivered with any context.
+
+“You just need to charge more!” says the company who has been in business for 20 years and spent years charging “too little” to gain customers and become successful.
 *** Logging
 **** [[https://www.youtube.com/watch?v=qzOQOmmkKEM][Duncan Coutts Logging]] :Logging:Haskell:
 
@@ -741,6 +748,8 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 + [[https://en.wikipedia.org/wiki/microsoft_office_xml_formats][wiki page]]
 + [[https://docs.microsoft.com/en-us/dotnet/api/documentformat.openxml.spreadsheet.cell?redirectedfrom=msdn&view=openxml-2.8.1][doc format link]]
 + [[https://www.example-code.com/csharp/parse_xls.asp][parser examples]]
+** email format 
++ [[https://datatracker.ietf.org/doc/html/rfc2045][email mime format]]
 * performance related
 ** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :optimization: :assembly:
 ** [[https://github.com/processone/tsung][tsung http]] :optimization:performance:htt
