@@ -253,6 +253,14 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
 **** [[https://github.com/mkirchner/linked-list-good-taste][kLinked List Elegant Linus]] :C Programming:Refactor:
 **** [[https://livebook.manning.com/book/haskell-in-depth/chapter-9/v-10/227][Haskell In Depth]] :DiffPatch:Haskell:Memory:
 
+*** [[https://seiya.me/writing-linux-clone-in-rust][Writing a Linux clone in rust]] :rust:linux:
+TL;DR: I'm writing a Linux clone in Rust just for fun. It does NOT aim to replace the Linux kernel.
+
+For the recent months, I've been working on a new operating system kernel Kerla, written from scratch in Rust which aims to be Linux-compatible at the ABI level. In other words, support running unmodified Linux binaries!
+
+I've already implemented basic features: fork(2) and execve(2), file operations, initramfs, TCP/UDP sockets, signals, tty / pty, pipe, poll, etc.
+
+You can ssh into Kerla running on an ephemeral Firecracker microVM which is automatically launched just for you:
 ** Domain Specific Programming Languages
 *** [[https://www.gnu.org/software/units/][units a language for unit conversion]]
 ** Testing
@@ -705,6 +713,7 @@ methods of formal proof, such as proof by contradiction. this is in contrast to 
 Better explained has a nice set of visualizations to make learning some math concepts more
 intuitive.
 
+*** [[https://learnaifromscratch.github.io/math.html#What%20is%20math][ Math Overview Terry Tao stuff included]]
 ** Topology
 *** [[https://www.math.columbia.edu/~woit/wordpress/?p=12238][New Spaces in Math]] :Spaces:Math:
 ** Symbols
