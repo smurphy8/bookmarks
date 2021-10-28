@@ -619,6 +619,12 @@ it's the workhorse of formal epistemology, decision theory and behavioral econom
 while this is mostly a takedown of nassim taleb, there are lots of intersting links
 and thoughts from disciplines related to risk taking.
 *** [[http://www.infinitecuriosity.org/vizgp/][visualization of gausian process]]:probability:
+*** [[file:papers/RoughPathTheory.pdf][Rough Paths]] :ODE:probability:
+Rough path theory is focused on capturing and making precise the interactions between 
+highly oscillatory and non-linear systems. It builds upon the harmonic analysis of L.C. Young, 
+the geometric algebra of K.T. Chen, the Lipschitz function theory of H. Whitney and core ideas 
+of stochastic analysis. The concepts and the uniform estimates have widespread application in 
+pure and applied Mathematics and beyond.
 ** calculus
 *** [[https://www.semanticscholar.org/paper/the-solution-of-the-problem-of-integration-in-fini-risch/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingpaperssort=is-influential&citingpaperslimit=10&citingpapersoffset=10&citedpaperssort=is-influential&citedpaperslimit=10&citedpapersoffset=0][risch algorithm]] :calculus:
 ** statistics
