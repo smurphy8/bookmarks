@@ -721,6 +721,9 @@ intuitive.
 
 *** [[https://learnaifromscratch.github.io/math.html#What%20is%20math][ Math Overview Terry Tao stuff included]]
 *** [[https://www.uni-muenster.de/Physik.TP/~munsteg/arnold.html][Math as Physics]] :Mathematics:Education:
+Mathematics is a part of physics. Physics is an experimental science, a part of natural science. Mathematics is the part of physics where experiments are cheap.
+
+
 ** Topology
 *** [[https://www.math.columbia.edu/~woit/wordpress/?p=12238][New Spaces in Math]] :Spaces:Math:
 ** Symbols
