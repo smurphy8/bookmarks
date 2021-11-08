@@ -720,6 +720,7 @@ Better explained has a nice set of visualizations to make learning some math con
 intuitive.
 
 *** [[https://learnaifromscratch.github.io/math.html#What%20is%20math][ Math Overview Terry Tao stuff included]]
+*** [[https://www.uni-muenster.de/Physik.TP/~munsteg/arnold.html][Math as Physics]] :Mathematics:Education:
 ** Topology
 *** [[https://www.math.columbia.edu/~woit/wordpress/?p=12238][New Spaces in Math]] :Spaces:Math:
 ** Symbols
