@@ -779,6 +779,13 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
 *** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]] :Physics:
 *** [[https://arxiv.org/pdf/1309.1801.pdf][Computational Complexity of Schrodinger]] :Physics:Quantum:
+Can the computational complexity theory of computer science and mathematics say something
+new about unresolved problems in quantum physics? Particularly, can the P versus NP ques-
+tion in the computational complexity theory be a factor in the elucidation of the emergency of
+classicality in quantum mechanics? The paper compares two different ways of deriving classical-
+ity from the quantum formalism resulted from two differing hypotheses regarding the P versus
+NP question – the approach of the quantum decoherence theory implying that P = NP and
+the computational complexity approach which assumes that P is not equal to NP    
 * productivity
 ** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][timezone app]] :timezone:scheduling:  
 * Reverse Engineering
