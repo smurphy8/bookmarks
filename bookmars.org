@@ -932,3 +932,5 @@ Germany (/ 517 (/ (* 0.8 100) 1e6)) 6.42 e6
 
 * Industrial 
 [[https://fcc.maps.arcgis.com/apps/webappviewer/index.html?id=6c1b2e73d9d749cdb7bc88a0d1bdd25b][Cell Modem Coverage Map]]
+* Accounting 
+** [[https://www.accountingcoach.com/][Free Accounting Class]]
