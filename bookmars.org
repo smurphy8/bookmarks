@@ -774,6 +774,7 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 ** [[https://lwn.net/SubscriberLink/827180/a1c1305686bfea67/][Lockless Algorithms for mere mortals]] :optimization:performance:linux kernel:
 * personal
 ** [[https://youthsoccerrankings.us/team.html?teamid=1603613][soccer rankings]] :soccer:
+** [[https://drive.google.com/drive/folders/1o2OQchaACXzpoN2TfZsSZpraRAvm0ZFO][Soccer Tactics Drive]]
 * Physics
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
@@ -822,6 +823,7 @@ and to identify potential security vulnerabilities.
 
 * Text and Content Editing
 ** [[http://ergoemacs.org/emacs/elisp_syntax_coloring.html][Syntax Highlighting example in emacs]] :emacs:typography:
+** [[http://hilite.me/][Syntax Highlights on the web]] :web:typography:
 ** [[https://joaotavora.github.io/yasnippet/snippet-development.html][YaSnippet examples]]
 Really nice examples of using YaSnippet including the one I forget all the time 
 
