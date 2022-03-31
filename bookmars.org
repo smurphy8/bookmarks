@@ -161,8 +161,7 @@ An ATS inspired language???
 **** [[https://www.reddit.com/r/programming/comments/w4gs6/levenshtein_distance_in_haskell/c5a6jjz/][Levenshtein Distance]] :Haskell: :Optimization:
 **** [[http://hackage.haskell.org/package/generic-lens-1.0.0.1/docs/Data-Generics-Product-Fields.html#t:HasField][Generic Lens]] :Haskell: :Lens:
 **** [[https://github.com/haskell-suite/haskell-src-exts/blob/master/tests/examples/DerivingVia.hs#L165][Deriving Via Example]]
-
-**** [[http://www.well-typed.com/blog/2019/09/eventful-ghc/][GHC Eventlog]] :EventLog:GHC:
+**** [[http://www.well-typed.com/blog/2019/09/eventful-ghc/][GHC Eventlog]]                                              :EventLog:GHC:
 
 **** [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/][GHC Users Guide]] :GHC:Guide:Manual:
 **** [[https://tech.fpcomplete.com/blog/2018/04/async-exception-handling-haskell/][Exception Handling Problems with Async]]:Haskell:Exceptions:Async:
@@ -305,7 +304,7 @@ it turns out that fontforge can be scripted with python. i know just a little
 about python and even less about typography, but i managed to hack together 
 something that worked for me. if you’re reading this on my blog at https://sachachua.com/blog/ , 
 you’ll probably see the new font being used on the blog post titles. whee!
-** [[https://practicaltypography.com/][practical typography]  :typography:design:
+** [[https://practicaltypography.com/][practical typography]]                                   :typography:design:
 ** [[https://ciechanow.ski/color-spaces/][perception of color spaces]] :design:color:colortheory:goethe:physics:
    l** [[https://vega.github.io/vega/examples/tree-layout/][vega examples]] :vega:d3:
 example alternative language for d3
@@ -316,6 +315,7 @@ what we need is to inform people better, and produce better and healthier guidel
 ** [[https://practicaltypography.com/font-recommendations.html][font rec]]:fonts:typography:
 ** [[https://www.typography.com/blog/text-for-proofing-fonts][text for proofing fonts]] :fonts:typography:
 ** [[https://pdf.math.dev/][Build PDFs out of Websites]]
+
 * Developer Tools   
 ** [[https://jvns.ca/blog/2020/06/28/entr/][entr, run on change program]] :DevTools:
 ** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
@@ -427,6 +427,7 @@ get a feel for the power of FPGAs. We start by learning how displays work, befor
 starfields and sprites, simulating life with bitmaps, drawing lines and triangles, and finally creating simple 3D models. 
 I’ll be writing and revising this series throughout 2020 and 2021.
 In this first post, we learn how computer displays work and animate simple shapes with an FPGA.    
+*** [[https://groupgets.com/campaigns/1003-clear-the-open-source-fpga-asic-by-chipignite][FPGA ASIC]] :FPGA:
 * gas temp alarm
 * gifs
 [[https://i.imgur.com/aft0yt4.gif]]
@@ -896,6 +897,13 @@ definition (1366x768 with 96 dpi) and rather old-ish laptop, unlike some font de
 where everyone has the latest macbook. Thus, good and legible font rendering is important. Let’s play with lesser known 
 toggles available to us when it comes to font rendering and see what they do, let’s have fun and explore possibilities.   
 ** [[https://css-tricks.com/snippets/css/a-guide-to-flexbox/][flexbox a guide]] :flexbox:webdesign:css:ui:
+** [[https://gankra.github.io/blah/text-hates-you/][Text Rendering Explainer]] :fonts:ui:DeepDive:
+Rendering text, how hard could it be? As it turns out, incredibly hard! To my knowledge, 
+literally no system renders text “perfectly”. It’s all best-effort, although some efforts 
+are more important than others.
+I’ll be assuming you want to support arbitrary text provided by users with custom fonts, 
+colors, and styles with line-wrapping and support for text-selection. Basically the minimum 
+required to properly display a simple rich-text document, terminal, webpage, or anything else.
 * web specs
 ** [[https://tools.ietf.org/html/rfc3986#section-3.3][general http uri]] 
 * Interent Link Dumps
@@ -934,6 +942,11 @@ Germany (/ 517 (/ (* 0.8 100) 1e6)) 6.42 e6
 
 * Industrial 
 [[https://fcc.maps.arcgis.com/apps/webappviewer/index.html?id=6c1b2e73d9d749cdb7bc88a0d1bdd25b][Cell Modem Coverage Map]]
+** [[https://or.stackexchange.com/questions/506/counter-intuitive-results-in-or][counter intuitive results in OR]]
+When teaching introductory OR courses I have often found that presenting counter-intuitive or paradox-like results is 
+a great eye-opener for the students. I use these examples and results as a motivation for why we need to learn OR techniques. 
+One of the examples I have used is the Braess Paradox stating that adding a link to a congested road network can end up 
+increasing the overall journey time. What other counter-intuitive results do we have in OR that could be used as motivating examples?
 * Accounting 
 ** [[https://www.accountingcoach.com/][Free Accounting Class]]
 * Music 
