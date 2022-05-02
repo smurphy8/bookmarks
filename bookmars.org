@@ -227,6 +227,10 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
 *** Jupyter Notebook Links
 **** [[https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb][Introduction Plot Example]]
 **** [[https://tkf.github.io/emacs-ipython-notebook/#setup][Emacs Ipython Notbook]] 
+*** Data Science 
+**** [[https://tomaugspurger.github.io/modern-1-intro][Modern Pandas 1]] :Python:Pandas:DataIngestion:
+This series is about how to make effective use of pandas, a data analysis library for the Python programming language. It's targeted at an intermediate level: people who have some experience with pandas, but are looking to improve.
+
 *** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]] :LogisticRegression:NumericalComputing:
 ** database related
 *** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db: :datalog:
