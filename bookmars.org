@@ -41,6 +41,7 @@ You’re about to read a blog post with a lot of advice. Learning from those who
 **** [[http://plzoo.andrej.com/index.html][programming language zoo]] :ProgrammingLanguages: :ComputerScience: :theory:
 
 **** [[file:papers/join_methods_actor_pattern.pdf][Complex Event Processing Advanced join patterns]] :ProgrammingLanguages:Algorithms:Events:
+**** [[http://bnfc.digitalgrammars.com/][BNF Grammar generator]]
 ** Computer Science Theory algorithms
 *** [[https://travisdowns.github.io/blog/2019/05/22/sorting.html][QSort Adjustments for speed]] :theory:sort:algorithms:
 Benchmarking Qsort
@@ -295,7 +296,14 @@ In this class you will learn computer science, software, algorithms, application
 *** Z 
 **** [[https://www.cs.cmu.edu/~15819/zedbook.pdf][Intro to Z language]]
 Nice book on Z programming, gives a really straight forward explanation of it.
+
 * design 
+** [[https://www.sliderules.org/][Virtual Slide Rules]]
+It is a Slide Rule Simulator or Emulator
+All the scales are programmatically drawn based on reverse enginered mathematical equations.
+As such, no images are used for visualisation (only some decorations).
+And this is why those simulations are of the highest quality.
+This is also why the word "replica" is quite appropriate for those simulations.
 ** [[https://developer.apple.com/design/resources/][Apple Design Resources]] :apple:design:ui:
 ** [[https://www.figma.com/blog/when-fonts-fall/][Font Fallback]] :typography:fonts:
 ** [[https://sachachua.com/blog/2020/06/pythonfontforgeorg-i-made-a-font-based-on-my-handwriting/][make your handwriting a font]] :typography:design:
