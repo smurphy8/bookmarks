@@ -460,6 +460,7 @@ Redlion is making some gorgeous hardware these days.
 *** [[https://reaktor.com/blog/javascript-performance-fundamentals-make-bluebird-fast/][Optimizing JS]] :Javascript: :Optimization:
 *** [[https://overreacted.io/a-complete-guide-to-useeffect/][React Reason useEffect]] :javascript:hooks:react:Reason:Ocaml:BuckleScript:
 *** [[https://tools.ietf.org/html/draft-handrews-json-schema-01][json-schema]]
+*** [[https://javascript.info/][modern javascript guide]] :javascript:
 * kids stuff
 ** [[https://www.math-salamanders.com/math-puzzle-worksheets.html][Math Puzzles for Ellie (`2nd grade)]]:MathPuzzles:Kids:
 ** [[file:papers/childrens_taskbook_arnold_en_0.pdf][Math Problems for Children]]:MathProblems:Kids:
