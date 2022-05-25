@@ -538,6 +538,11 @@ NN-512 is a compiler that generates C99 code for neural net inference
 It takes as input a simple text description of a convolutional neural net inference graph
 It produces as output a stand-alone C99 implementation of that graph
 The generated C99 code uses AVX-512 vector instructions to perform inference
+** [[https://mlu-explain.github.io/][Visual Explanations of machine learning]] :MachineLearning:Visualization:
+Machine Learning University (MLU) is an education initiative from Amazon designed to teach machine learning theory and practical application.
+
+As part of that goal, MLU-Explain exists to teach important machine learning concepts through visual essays in a fun, informative, and accessible manner.
+MLU Robot Deriving Beta Coefficient For Least Squares on Whiteboard 
 ** ML Hardware 
 *** [[https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/][GPU Guide for Deep Learning]] :GPU:MachineLearning:Hardware:
 *** [[https://blog.inten.to/hardware-for-deep-learning-part-4-asic-96a542fe6a81][A More Broad Guide to ML Hardware]] :MachineLearning:Hardware:
