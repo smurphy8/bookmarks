@@ -462,8 +462,9 @@ Redlion is making some gorgeous hardware these days.
 *** [[https://tools.ietf.org/html/draft-handrews-json-schema-01][json-schema]]
 *** [[https://javascript.info/][modern javascript guide]] :javascript:
 * kids stuff
-** [[https://www.math-salamanders.com/math-puzzle-worksheets.html][Math Puzzles for Ellie (`2nd grade)]]:MathPuzzles:Kids:
-** [[file:papers/childrens_taskbook_arnold_en_0.pdf][Math Problems for Children]]:MathProblems:Kids:
+** [[https://www.math-salamanders.com/math-puzzle-worksheets.html][Math Puzzles for Ellie (`2nd grade)]]:MathPuzzles:Kids:Education:
+** [[file:papers/childrens_taskbook_arnold_en_0.pdf][Math Problems for Children]]:MathProblems:Kids:Education:
+** [[https://play.battlesnake.com/][Battle Snakes]] :Programming:Education:Kids:
 * Latex 
 ** A Deep Dive Through the Latex Tool Chaining
 *** [[https://tug.org/texinfohtml/kpathsea.html][kpathsea is how tex looks up paths]]
@@ -613,7 +614,7 @@ really interesting case study on product market fit
 ** graph theory 
 *** [[http://web.stanford.edu/~saberi/sis2.pdf][random graph generation]]   :math:                            :graphtheory:
 *** [[http://web.cs.elte.hu/~lovasz/bookxx/geomgraphbook/geombook2019.01.11.pdf][graphs and geometry]] :graphtheory:geometry:
-** meta math
+p** meta math
 *** [[https://plus.google.com/u/0/+terencetao27/posts/6diqmz1jqrb][terrance tao, the meaning of =]]   :math: :graphtheory:               :tao:
 *** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][history of math]]  :math:                                         :history:
 ** probability
