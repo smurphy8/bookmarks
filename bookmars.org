@@ -828,6 +828,12 @@ classicality in quantum mechanics? The paper compares two different ways of deri
 ity from the quantum formalism resulted from two differing hypotheses regarding the P versus
 NP question – the approach of the quantum decoherence theory implying that P = NP and
 the computational complexity approach which assumes that P is not equal to NP    
+*** [[https://materialsproject.org/][Material Science all Material DB]] :Physcis:MaterialScience:
+Harnessing the power of supercomputing and state-of-the-art methods,
+the Materials Project provides open web-based access to computed
+information on known and predicted materials as well as powerful
+analysis tools to inspire and design novel materials.
+
 * productivity
 ** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][timezone app]] :timezone:scheduling:  
 * Reverse Engineering
