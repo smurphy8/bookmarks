@@ -850,6 +850,20 @@ analysis tools to inspire and design novel materials.
 * Signal Processing
 ** [[http://www.anuncommonlab.com/articles/how-kalman-filters-work/][kalman filters, how they work]]                           :SignalProcessing: 
 * SMT and Static Analysis
+** [[http://picat-lang.org/picatbook2015.html][PICAT]] :SMT:StaticAnalysis:
+This book presents Picat as a modeling and solving language for two
+important classes of combinatorial problems: constraint satisfaction
+and planning. The constraint satisfaction problem (CSP) is a basic class
+of combinatorial problems. A CSP consists of a set of variables, each
+of which is defined over a domain, a set of constraints among the variables,
+and, optionally, an objective function. A solution to a CSP is a valuation of
+the variables that satisfies all the constraints and optimizes the objective
+function, if it exists. Chapters 2 and 3 are devoted to constraint modeling.
+Chapter 2 introduces the basic built-in constraints in the common API of the three
+solver modules (cp, sat, and mip), and gives several simple example models that
+use these constraints. Chapter 3 describes the more sophisticated constraints
+in the API and gives ``real-world'' example models for scheduling, resource allocation, and design.
+
 ** [[https://www.philipzucker.com/Modelling_TLA_in_z3py/][Modelling TLA in z3]] :SMT:TLA+
 It’s that time of year again where I’m fiddling around with Z3Py. I’m booting it back up because I’m scheduled to do a tutorial on Z3 on Feb 3. 
 It’s kind of silly because I probably already have too much content, and the tutorial is aimed at newbies, but there are some fun new things that 
