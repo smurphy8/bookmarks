@@ -507,6 +507,20 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://thenumb.at/Autodiff/][Auto Differentiation]]
+
+Max Slater
+
+Computer Graphics, Programming, and Math
+Home Projects
+Differentiable Programming from Scratch
+
+Differentiable programming has been a hot research topic over the past few years,
+and not only due to the popularity of machine learning libraries like TensorFlow, PyTorch, and JAX.
+Many fields apart from machine learning are also finding differentiable programming to be a
+useful tool for solving many kinds of optimization problems. In computer graphics,
+differentiable rendering, differentiable physics, and neural representations are
+all poised to be important tools going forward.
 ** [[https://arxiv.org/pdf/2105.04026.pdf][Modern Deep Learning Math]] :Math:DeepLearning:
 ** [[https://mbmlbook.com/MurderMystery.html][Model Based machine learning]] :MachineLearning:Models:
 This is the stuff that had the hidden markov model <-> Kalman filter connection
@@ -820,6 +834,14 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
 *** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]] :Physics:
+*** [[https://www.cs.ox.ac.uk/people/jamie.vicary/IntroductionToCategoricalQuantumMechanics.pdf][Introduction to Categorical Quantum Mechanics]] :Physics:Quantum:CategoryTheory:
+The central idea of this course is that the ability to group
+individual systems into compound systems should be taken seriously. We
+take the action of grouping systems together as a primitive notion, and
+build models of quantum mechanics from there.
+The mathematical tool we use for this is category theory, one of the
+most wide-ranging parts of modern mathematics.
+- Chris Heunen and Jamie Vicary
 *** [[https://arxiv.org/pdf/1309.1801.pdf][Computational Complexity of Schrodinger]] :Physics:Quantum:
 Can the computational complexity theory of computer science and mathematics say something
 new about unresolved problems in quantum physics? Particularly, can the P versus NP ques-
@@ -920,6 +942,13 @@ We refer the tab stops with placeholders as a field. A field can have mirrors. A
 ** [[https://kunststube.net/encoding/][Text Encoding]] :text:unicode:encodings:
 
 * type theory
+** [[http://www.andrej.com/zapiski/MGS-2022/notes-on-realizability.pdf][Notes on realizability]]:typetheory:logic:realizability:
+These notes are at best a modest introduction that aims to
+strike a balance between approachable concreteness and inspiring generality. Because my purpose was to
+educate, I did not hesitate to include informal explanations and recollection of material that I could have
+relegated to background reading. Suggestions for further reading will hopefully help direct those who seek
+deeper knowledge of realizability.
+- Andrej Bauer
 ** [[https://blog.burakemir.ch/2020/04/higher-order-logic-and-equality.html?m=1][higher order logic and equality]] :typetheory:logic:lambdacalculus:
 o5e59da95b58a0266fc00004c
 #+begin_src
@@ -938,6 +967,7 @@ it was only much later that i discovered church's 1940 typed λ calculus was in 
 *** [[http://homepages.inf.ed.ac.uk/gdp/publications/abstract_syn.pdf][marcelo fiore abstract syntax variable binding]] :ComputerScience:
 *** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahukewjwl4qbplnrahwoi1qkhaigajmqfggjmai&url=http%3a%2f%2fresearchmap.jp%2f%3faction%3dcv_download_main%26upload_id%3d50501&usg=afqjcnfv2jrokhvmqbp_4cryjfcxcrvpng][mako hamana, syntax]] :ComputerScience: :ProgrammingLanguages:
 *** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][basic proof theory]] :ComputerScience: :lectures:                  :course:
+
 ** [[https://arxiv.org/abs/1803.02294][a self-contained, brief and complete formulation of voevodsky's univalence axiom]] :typetheory: :univalence:
 ** [[https://vrahli.github.io/articles/fcs-long.pdf][computability beyond choice sequences]] :typetheory: :intuitionist:
 ** [[https://github.com/oplss/introduction-to-algebraic-effects-and-handlers][introduction to algebraic effects]] :andrej:typetheory:algebraiceffects:
