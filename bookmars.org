@@ -507,6 +507,8 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** Language Model
+*** [[https://codelanguageconverter.com/][code language converter]] :programming:MachineLearning:
 ** [[https://thenumb.at/Autodiff/][Auto Differentiation]]
 
 Max Slater
@@ -593,6 +595,7 @@ Decision trees and random forest, an understandable introduction to me.
 * makefiles
 ** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
 * management & business
+** [[https://www.leanproduction.com/theory-of-constraints/][GoldRatts Theory of Constraints]]:business:
 ** [[https://blog.thinkst.com/2020/07/a-steve-jobs-masterclass-from-decade-ago.html?m=1][steve jobs masterclass]] :stevejobs:apple:marketing:strategy:
 ** [[https://stripe.com/atlas/guides/scaling-eng][scaling an engineering organization]]
 ** [[https://fs.blog/mental-models/][mental models]]:business:mentalmodels:farnumstreet:
