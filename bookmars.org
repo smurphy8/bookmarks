@@ -544,6 +544,8 @@ and you can’t even begin to guess how the inputs affect the outputs.
 At the warehouse, everything seems to go fine when you have less than 
 four employees, but when you hit five employees, they get in each others’ 
 way so much that the fifth employee effectively does no additional work.
+** [[https://gorgeous.adityashankar.xyz/][Artist Prompt help]] :diffusion:MachineLearning:
+Use the same prompt and compare different artist styles.
 ** [[https://medium.com/@vitali.usau/install-cuda-10-0-cudnn-7-3-and-build-tensorflow-gpu-from-source-on-ubuntu-18-04-3daf720b83fe][Installing tensor flow]] :TensorFlow:
 ** [[https://arxiv.org/abs/1707.09627][Graphics Inference]] :MachineLearning:
 ** [[https://arxiv.org/abs/2007.04929][Graph Algorithms]] :MachineLearning:GraphTheory:
@@ -965,11 +967,20 @@ it was only much later that i discovered church's 1940 typed λ calculus was in 
 
 
 ** [[https://github.com/michaelt/martin-lof][collected works of per martin loh]] :typetheory: :loh: :papers:
-*** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][foundations of programming languages pfenning]] :typetheory: :book:
-*** [[http://www.cs.cmu.edu/~rwh/courses/hott/][bob harper hott]] :book: :typetheory: :ProgrammingLanguages:
-*** [[http://homepages.inf.ed.ac.uk/gdp/publications/abstract_syn.pdf][marcelo fiore abstract syntax variable binding]] :ComputerScience:
-*** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahukewjwl4qbplnrahwoi1qkhaigajmqfggjmai&url=http%3a%2f%2fresearchmap.jp%2f%3faction%3dcv_download_main%26upload_id%3d50501&usg=afqjcnfv2jrokhvmqbp_4cryjfcxcrvpng][mako hamana, syntax]] :ComputerScience: :ProgrammingLanguages:
-*** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][basic proof theory]] :ComputerScience: :lectures:                  :course:
+** [[http://www.cs.cmu.edu/~fp/courses/15312-f04/handouts/][foundations of programming languages pfenning]] :typetheory:          :book:
+** [[http://www.cs.cmu.edu/~rwh/courses/hott/][bob harper hott]] :book: :typetheory:                 :ProgrammingLanguages:
+** [[http://homepages.inf.ed.ac.uk/gdp/publications/abstract_syn.pdf][marcelo fiore abstract syntax variable binding]]           :ComputerScience:
+** [[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0ahukewjwl4qbplnrahwoi1qkhaigajmqfggjmai&url=http%3a%2f%2fresearchmap.jp%2f%3faction%3dcv_download_main%26upload_id%3d50501&usg=afqjcnfv2jrokhvmqbp_4cryjfcxcrvpng][mako hamana, syntax]] :ComputerScience:               :ProgrammingLanguages:
+** [[https://www.cs.uoregon.edu/research/summerschool/summer15/curriculum.html][basic proof theory]] :ComputerScience: :lectures:                   :course:
+** [[http://math.andrej.com/2010/03/29/proof-of-negation-and-proof-by-contradiction/][proof by contradiction vs proof by negation]] :mathematics:intuitionist:constructivist:proof:
+Proof of negation is an inference rule which explains how to prove a negation:
+To prove  ¬ϕ , assume ϕ derive absurdity... the absurdity exists see.
+Which means  ¬ϕ , ¬ϕ is just fine... it is ¬¬ϕ that is the problem
+
+
+Proof by contradiction, or reductio ad absurdum, is a different kind of animal. As a reasoning principle it says:
+
+    To prove , assume and derive absurdity.
 
 ** [[https://arxiv.org/abs/1803.02294][a self-contained, brief and complete formulation of voevodsky's univalence axiom]] :typetheory: :univalence:
 ** [[https://vrahli.github.io/articles/fcs-long.pdf][computability beyond choice sequences]] :typetheory: :intuitionist:
