@@ -523,6 +523,14 @@ Many fields apart from machine learning are also finding differentiable programm
 useful tool for solving many kinds of optimization problems. In computer graphics,
 differentiable rendering, differentiable physics, and neural representations are
 all poised to be important tools going forward.
+** [[https://mobile.twitter.com/marktenenholtz/status/1577992133079756801][Leave One Out]] :MachineLearning:FeatureSelection:
+Most data scientists use linear/logistic regression to
+figure out which features are important in a dataset.
+I almost never do this.
+Instead, I generally use leave-one-out feature importance (LOFO) + LightGBM.
++ [[https://lightgbm.readthedocs.io/en/v3.3.2/][LightGBM]]
++ [[https://github.com/aerdem4/lofo-importance][Leave One Out]]  
+
 ** [[https://arxiv.org/pdf/2105.04026.pdf][Modern Deep Learning Math]] :Math:DeepLearning:
 ** [[https://mbmlbook.com/MurderMystery.html][Model Based machine learning]] :MachineLearning:Models:
 This is the stuff that had the hidden markov model <-> Kalman filter connection
