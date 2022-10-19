@@ -4,7 +4,8 @@
 ** [[https://peaksel.com/blog/18-free-printable-coloring-books-kids/][coloring books]]
 ** Fine Art
 *** [[https://david.li/][Digital Art of David Li]]
-*** [[https://www.rafael-araujo.com/product-page/blue-spikes-shell][Digital Art Butterflies guy]]    
+*** [[https://www.rafael-araujo.com/product-page/blue-spikes-shell][Digital Art Butterflies guy]]
+*** [[https://www.botto.com/][AI Generated Art BOTTO]] :ML:DallE:
 * competitors
 ** [[https://openautomationsoftware.com/video-links/][open automation]] :scada:
 ** [[http://video.andium.com/][andium solutions]] :tankmeasurement:machinelearning:
@@ -605,6 +606,19 @@ Decision trees and random forest, an understandable introduction to me.
 * makefiles
 ** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
 * management & business
+** [[https://commoncog.com/focus-saying-no-to-good-ideas/][ Focus Cedric Chin ]]:business:management:strategy:
+There’s a famous saying, often attributed to Steve Jobs, that goes “focus is saying no to good ideas.” The more experience that I have with business, the more I appreciate just how true this is.
+** [[https://www.reforge.com/monetization-pricing][Growth Model (reforge)]]                             :growth:business:model:
+ What Is Growth Marketing In 2022? We Asked 6 Growth Experts
+Reforge Team
+
+If we asked a hundred marketers to define growth marketing, we would likely get a hundred different answers.
+
+And all of them might be correct. Over the last two decades, growth marketing has continued to grow in popularity even though most executives and many marketers continue to maintain a fuzzy – at best – grasp of the concept.
+
+The vagueness of this domain has turned it into an overused buzzword. And it doesn’t help that the nature of growth marketing work continues to change as marketing tools and tactics evolve.
+
+So we turned to a handful of marketing experts to help capture what the growth marketing function looks like in 2022.
 ** [[https://www.leanproduction.com/theory-of-constraints/][GoldRatts Theory of Constraints]]:business:
 ** [[https://blog.thinkst.com/2020/07/a-steve-jobs-masterclass-from-decade-ago.html?m=1][steve jobs masterclass]] :stevejobs:apple:marketing:strategy:
 ** [[https://stripe.com/atlas/guides/scaling-eng][scaling an engineering organization]]
