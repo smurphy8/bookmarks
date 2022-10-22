@@ -210,6 +210,18 @@ In this interview, Tim Besard, one of the main contributors to the JuliaGPU proj
 *** TLA+
 **** [[https://www.tautvidas.com/blog/2017/12/experimenting-with-tla-and-pluscal-3-throttling-multiple-senders/][TLA Plus Throttling Multiple Senders]] :TLA+:Specifications:FormalSystems:
 **** [[https://hillelwayne.com/post/action-properties/][Action Properties]] :TLA+:Specifications:FormalSystems:
+*** [[https://apalache.informal.systems/docs/apalache/principles/folds.html][More in depth TLA apalche]] :TLA+:
+**** [[https://pron.github.io/posts/tlaplus_part2][TLA+ in Practice and Theory]] :TLA+:
+Most interesting objects we deal with both in mathematics and programming are not normally thought of as sets.
+TLA+ lets us cleanly express standard mathematical and programming objects, for which the function serves as the main building block.
+
+Usually, a function is defined to be a one-valued relation, where a relation is a set of pairs —
+in other words, a function is defined by its graph — but in TLA+ functions are not defined as sets of pairs
+but as primitives (meaning that, like numbers, their encoding as sets is unknown, or opaque
+). In fact, it is pairs that are actually functions in TLA+ as they’re a special case of sequences,
+which are in turn a special case of functions, as we’ll see. In any event, functions in TLA+ are not
+computations; they have no dynamic behavior and no computational complexity. They are just values in the state space of algorithms.
+Programmers may best think of them as associative arrays, albeit possibly infinite in size (even uncountably big).
 *** Bash
 **** [[https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md][Safe Bash]]
 ** Computation, visualization and that kind of thing
@@ -607,7 +619,7 @@ Decision trees and random forest, an understandable introduction to me.
 ** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
 * management & business
 ** [[https://commoncog.com/focus-saying-no-to-good-ideas/][ Focus Cedric Chin ]]:business:management:strategy:
-There’s a famous saying, often attributed to Steve Jobs, that goes “focus is saying no to good ideas.” The more experience that I have with business, the more I appreciate just how true this is.
+There’s a famous saying, often attributed to Steve Jobs, that goes “focus is saying no to good ideas.” The more experience that I have with business, the more I appreciate just how true this is.x
 ** [[https://www.reforge.com/monetization-pricing][Growth Model (reforge)]]                             :growth:business:model:
  What Is Growth Marketing In 2022? We Asked 6 Growth Experts
 Reforge Team
