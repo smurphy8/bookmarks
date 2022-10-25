@@ -619,6 +619,7 @@ Decision trees and random forest, an understandable introduction to me.
 ** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
 * management & business
 ** [[https://commoncog.com/focus-saying-no-to-good-ideas/][ Focus Cedric Chin ]]:business:management:strategy:
+
 There’s a famous saying, often attributed to Steve Jobs, that goes “focus is saying no to good ideas.” The more experience that I have with business, the more I appreciate just how true this is.x
 ** [[https://www.reforge.com/monetization-pricing][Growth Model (reforge)]]                             :growth:business:model:
  What Is Growth Marketing In 2022? We Asked 6 Growth Experts
