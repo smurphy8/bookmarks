@@ -723,6 +723,24 @@ pure and applied Mathematics and beyond.
 ** calculus
 *** [[https://www.semanticscholar.org/paper/the-solution-of-the-problem-of-integration-in-fini-risch/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingpaperssort=is-influential&citingpaperslimit=10&citingpapersoffset=10&citedpaperssort=is-influential&citedpaperslimit=10&citedpapersoffset=0][risch algorithm]] :calculus:
 ** statistics
+
+*** [[https://www.quora.com/How-can-l-detect-whether-my-data-are-ergodic-and-stationary][Stationary Processes]] :stat:math:
+A stochastic process (SP) is a collection of random variables (RV) indexed by time, 𝑘
+A stationary SP is one in which the statistics of the RV, which is “tossed” at each time instant 𝑘
+, are invariant along the time; these ”statistics” are usually the average, the variance and the cross-term properties (covariance, correlation) of the RV.
+
+*** [[https://stats.stackexchange.com/questions/326955/difference-between-stochastic-variational-inference-and-variational-inference][stochastic variational inference]] :math:stat:svi:
+Stochastic VI means you don't use the exact, complete, information you have [because it's too complicated, or computationally expensive] but rather a stochastic version of it.
+
+While the paper about SVI only deals with the Exponential Family, and one type of stochasticity, I think the term should also apply to any general purpose VI algorithm where you use Stochastic-Gradient-Ascent (e.g., Automatic Differentiation VI / ADVI), or any VI algorithm that uses some form of stochasticity.
+
+In my opinion you can divide the literature into 2:
+
+    SVI for Expo. Family (e.g., Stochastic Variational Inference, Hoffman et al. 2013)
+    SVI in General (e.g., ADVI, Kucukelbir et al. 2016)
+
+The stochasticity doesn't have to come only from optimizing the "local" parameters by sampling from your dataset 𝑥
+, as in the global-local type of problems that the SVI paper looks at, but it can also come from using MC integration and sampling your parameters 𝜃 as the ADVI paper uses.
 *** [[http://www.stat.uchicago.edu/~pmcc/tensorbook/][tensor methods in statistics]]  :math: :stat:                      :tensor:
 *** [[https://lindeloev.github.io/tests-as-linear/][statistical tests as linear models]]
 [[./linear-models-statistical-tests.png]]
