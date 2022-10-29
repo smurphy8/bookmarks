@@ -633,6 +633,11 @@ The vagueness of this domain has turned it into an overused buzzword. And it doe
 
 So we turned to a handful of marketing experts to help capture what the growth marketing function looks like in 2022.
 ** [[https://www.leanproduction.com/theory-of-constraints/][GoldRatts Theory of Constraints]]:business:
+** [[https://mkt1.substack.com/p/high-impact-content][High Impact Contact MKT1]]:Marketing:Business:
+GACC stands for goals, audience, creative/unique take, and channels/distribution.
+When you are planning a campaign, writing a blog post, deciding the focus of an event,
+or creating anything longer than a Tweet, you probably need a GACC.
+
 ** [[https://blog.thinkst.com/2020/07/a-steve-jobs-masterclass-from-decade-ago.html?m=1][steve jobs masterclass]] :stevejobs:apple:marketing:strategy:
 ** [[https://stripe.com/atlas/guides/scaling-eng][scaling an engineering organization]]
 ** [[https://fs.blog/mental-models/][mental models]]:business:mentalmodels:farnumstreet:
