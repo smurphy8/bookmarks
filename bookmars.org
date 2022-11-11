@@ -281,6 +281,8 @@ You can ssh into Kerla running on an ephemeral Firecracker microVM which is auto
 ** Domain Specific Programming Languages
 *** [[https://www.gnu.org/software/units/][units a language for unit conversion]]
 ** Testing
+*** [[https://playwright.dev/docs/writing-tests][Playwright, Frontend Test System]]:Testing:E2ETesting:
+Test Mobile Web. Native mobile emulation of Google Chrome for Android and Mobile Safari. The same rendering engine works on your Desktop and in the Cloud.
 *** [[https://blog.7mind.io/constructive-test-taxonomy.html][Constructive Test Taxonomy]] :Testing:DummyTests:
 Many engineers don’t pay enough attention to tests. There are two reasons for this: it’s hard to make 
 good tests and it’s not easy to formalize which tests are good and which are bad.
@@ -520,8 +522,17 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://ericmjl.github.io/blog/2019/5/29/reasoning-about-shapes-and-probability-distributions/][Reasoning About Tensor Shapes and Probability Distributions]] :MachineLearning:TensorShapes:Probability:
+[[./img/tensor-shapes-and-probability.png]]
+To summarize, here are the various kinds of shapes, defined:
++ Event shape: The atomic shape of a single event/observation from the distribution (or batch of distributions of the same family).
++ Batch shape: The atomic shape of a single sample of observations from one or more distributions of the same family. As an example, we can’t have a batch of a Gaussian and a Gamma distribution together, but we can have a batch of more than one Gaussians.
++ Sample shape: The shape of a bunch of samples drawn from the distributions.
+
+And finally, here’s the full spread of possibilities, using one or two draws, uni- or bi-variate Gaussians, and one or two batches of distributions as an illustration.
 ** Language Model
 *** [[https://codelanguageconverter.com/][code language converter]] :programming:MachineLearning:
+
 ** [[https://thenumb.at/Autodiff/][Auto Differentiation]]
 
 Max Slater
@@ -567,6 +578,14 @@ four employees, but when you hit five employees, they get in each others’
 way so much that the fifth employee effectively does no additional work.
 ** [[https://gorgeous.adityashankar.xyz/][Artist Prompt help]] :diffusion:MachineLearning:
 Use the same prompt and compare different artist styles.
+** [[https://github.com/carefree0910/carefree-creator#tldr][Carefree Creator]]:diffusion:MachineLearning:
+
++ An infinite draw board for you to save, review and edit all your creations.
++ Almost EVERY feature about Stable Diffusion (txt2img, img2img, sketch2img, variations, outpainting, circular/tiling textures, sharing, ...).
++ Many useful image editing methods (super resolution, inpainting, ...).
++ Integrations of different Stable Diffusion versions (waifu diffusion, ...).
++ GPU RAM optimizations, which makes it possible to enjoy these features with an NVIDIA GeForce GTX 1080 Ti (*)!
+
 ** [[https://medium.com/@vitali.usau/install-cuda-10-0-cudnn-7-3-and-build-tensorflow-gpu-from-source-on-ubuntu-18-04-3daf720b83fe][Installing tensor flow]] :TensorFlow:
 ** [[https://arxiv.org/abs/1707.09627][Graphics Inference]] :MachineLearning:
 ** [[https://arxiv.org/abs/2007.04929][Graph Algorithms]] :MachineLearning:GraphTheory:
