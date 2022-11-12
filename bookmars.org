@@ -821,6 +821,7 @@ use jupyter-run-repl in org mode
 *** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][simplex as a vector space]] :math:                                 :linear:
 *** [[http://www-math.mit.edu/~etingof/egnobookfinal.pdf][tensor categories]] :math:                                         :linear:
 ** category theory
+*** [[https://ncatlab.org/nlab/show/counterexamples+in+category+theory][Counter Examples in Category Theory]] :CategoryTheory:
 + [[https://github.com/pamellies/lambda-calculus-and-categories][Lambda Calculus and Categories]] :LambdaCalculus:CategoryTheory:
 + [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#comments][profunctor optics a categorical view]]
 ** complexity and information theory
