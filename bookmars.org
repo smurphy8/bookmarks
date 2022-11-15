@@ -522,6 +522,22 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://alexrachnog.medium.com/financial-forecasting-with-probabilistic-programming-and-pyro-db68ab1a1dba][Pyro and Forecasting by hand]] :MachineLearning:Probabalistic:Programming:
+Now I want to define the same neural network we trained in Keras, but in PyTorch:
+
+#+BEGIN_Example python
+  class Net(torch.nn.Module):
+    def __init__(self, n_feature, n_hidden):
+        super(Net, self).__init__()
+        self.hidden = torch.nn.Linear(n_feature, n_hidden)   # hidden layer
+        self.predict = torch.nn.Linear(n_hidden, 1)   # output layerdef forward(self, x):
+        x = self.hidden(x)
+        x = self.predict(x)
+        return x
+#+END_Example
+
+
+
 ** [[https://ericmjl.github.io/blog/2019/5/29/reasoning-about-shapes-and-probability-distributions/][Reasoning About Tensor Shapes and Probability Distributions]] :MachineLearning:TensorShapes:Probability:
 [[./img/tensor-shapes-and-probability.png]]
 To summarize, here are the various kinds of shapes, defined:
