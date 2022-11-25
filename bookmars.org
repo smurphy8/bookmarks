@@ -760,6 +760,8 @@ highly oscillatory and non-linear systems. It builds upon the harmonic analysis 
 the geometric algebra of K.T. Chen, the Lipschitz function theory of H. Whitney and core ideas 
 of stochastic analysis. The concepts and the uniform estimates have widespread application in 
 pure and applied Mathematics and beyond.
+*** [[https://www.cs.ru.nl/~freek/100/][Theorems Proved automatically]] :Math:TheoremProver:Coq:
+Theorem Prover usage for various proofs
 ** calculus
 *** [[https://www.semanticscholar.org/paper/the-solution-of-the-problem-of-integration-in-fini-risch/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingpaperssort=is-influential&citingpaperslimit=10&citingpapersoffset=10&citedpaperssort=is-influential&citedpaperslimit=10&citedpapersoffset=0][risch algorithm]] :calculus:
 ** statistics
