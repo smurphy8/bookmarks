@@ -693,6 +693,9 @@ This guy tries to break that out.
 from the post: 
 a hard test is one that is unlikely to find evidence, so if you find it you have a winner.
 ** [[https://news.ycombinator.com/item?id=24149020][Adventures in Improving AI]]
+** [[https://yehohanan7.medium.com/why-domain-driven-design-203099adf32a][Domain Driven Design]] :business:development:
+Why Domain Driven Design?
+DDD has gained a lot of popularity in recent days although the idea has been around for more than 10 years. I think it’s primarily because people are 
 ** [[https://paulosman.me/2019/12/30/production-oriented-development.html][Production Oriented Development]]
 Interesting discussion of ideas that I find myself agreeing with.
 8. Non-Production Environments Have Diminishing Returns
