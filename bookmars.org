@@ -844,6 +844,15 @@ use jupyter-run-repl in org mode
 + [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#comments][profunctor optics a categorical view]]
 ** complexity and information theory
 *** [[https://www.waveform.com/blogs/main/5g-and-shannons-law][shannons law]] :information theory:shannon:
+*** [[./2211.10099.pdf][Shannon + Scott Theory of Information]] :TheoryOfInformation:Math:
+To give a satisfactory account of information flow in computer programs it is necessary to consider both
+theories together, in order to understand not only what information is conveyed by a program (viewed
+as a channel, à la Shannon) but also how the precision with which that information can be observed is
+determined by the definedness of its encoding (à la Scott). To this end we show how these theories can be
+fruitfully combined, by defining the Lattice of Computable Information (LoCI), a lattice of preorders rather
+than equivalence relations. LoCI retains the rich lattice structure of Shannon’s theory, filters out elements
+that do not make computational sense, and refines the remaining information elements to reflect how Scott’s
+ordering captures possible varieties in the way that information is presented.
 *** [[https://necsi.edu/dynamics-of-complex-systems   ][dynamics of complex systems]]
 dynamics of complex systems is the first text describing the modern unified study of complex systems. 
 it is designed for upper-undergraduate/beginning graduate-level students, and covers a wide range of 
