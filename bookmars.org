@@ -537,7 +537,6 @@ Now I want to define the same neural network we trained in Keras, but in PyTorch
 #+END_Example
 
 
-
 ** [[https://ericmjl.github.io/blog/2019/5/29/reasoning-about-shapes-and-probability-distributions/][Reasoning About Tensor Shapes and Probability Distributions]] :MachineLearning:TensorShapes:Probability:
 [[./img/tensor-shapes-and-probability.png]]
 To summarize, here are the various kinds of shapes, defined:
@@ -639,6 +638,16 @@ Machine Learning University (MLU) is an education initiative from Amazon designe
 
 As part of that goal, MLU-Explain exists to teach important machine learning concepts through visual essays in a fun, informative, and accessible manner.
 MLU Robot Deriving Beta Coefficient For Least Squares on Whiteboard 
+** LLM Code
+*** [[https://github.com/THUDM/GLM-130B][GLM-130B]]:MachineLearning:LLM:GPT:
+GLM-130B is an open bilingual (English & Chinese) bidirectional dense model with 130 billion parameters,
+pre-trained using the algorithm of General Language Model (GLM). It is designed to support inference tasks
+with the 130B parameters on a single A100 (40G * 8) or V100 (32G * 8) server. With INT4 quantization, the
+hardware requirements can further be reduced to a single server with 4 * RTX 3090 (24G) with almost no
+performance degradation. As of July 3rd, 2022, GLM-130B has been trained on over 400 billion text tokens
+(200B each for Chinese and English) and it has the following unique features:
+*** [[https://github.com/lucidrains/PaLM-rlhf-pytorch][Googles PaLM rlhf]]:LLM:GPT:MachineLearning:
+Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of the PaLM architecture. Maybe I'll add retrieval functionality too
 ** ML Hardware 
 *** [[https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/][GPU Guide for Deep Learning]] :GPU:MachineLearning:Hardware:
 *** [[https://blog.inten.to/hardware-for-deep-learning-part-4-asic-96a542fe6a81][A More Broad Guide to ML Hardware]] :MachineLearning:Hardware:
@@ -829,7 +838,6 @@ sinplot()
 *** [[https://discourse.julialang.org/t/jupyter-integration-with-emacs/21496/5][jupyter and emacs ]]
 this is a nice blog post on emacs jupyter 
 *** [[https://github.com/dzop/emacs-jupyter][emacs-jupyter package]]
-
 this is the actual package for emacs and jupyter integration 
 use jupyter-run-repl in org mode
 ** geometry
