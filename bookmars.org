@@ -522,6 +522,12 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://colah.github.io/posts/2015-08-Understanding-LSTMs/][UnderstandingLSTM]]
+Step-by-Step LSTM Walk Through
+
+The first step in our LSTM is to decide what information we’re going to throw away from the cell state.
+This decision is made by a sigmoid layer called the “forget gate layer.” It looks at ht−1
+and xt, and outputs a number between 0 and 1 for each number in the cell state Ct−1. A 1 represents “completely keep this” while a 0 represents “completely get rid of this.”
 ** [[https://alexrachnog.medium.com/financial-forecasting-with-probabilistic-programming-and-pyro-db68ab1a1dba][Pyro and Forecasting by hand]] :MachineLearning:Probabalistic:Programming:
 Now I want to define the same neural network we trained in Keras, but in PyTorch:
 
