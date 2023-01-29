@@ -783,7 +783,7 @@ Theorem Prover usage for various proofs
 ** calculus
 *** [[https://www.semanticscholar.org/paper/the-solution-of-the-problem-of-integration-in-fini-risch/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingpaperssort=is-influential&citingpaperslimit=10&citingpapersoffset=10&citedpaperssort=is-influential&citedpaperslimit=10&citedpapersoffset=0][risch algorithm]] :calculus:
 ** statistics
-
+*** [[https://allendowney.blogspot.com/2013/08/are-my-data-normal.html][Picking Models for my data]]
 *** [[https://www.quora.com/How-can-l-detect-whether-my-data-are-ergodic-and-stationary][Stationary Processes]] :stat:math:
 A stochastic process (SP) is a collection of random variables (RV) indexed by time, 𝑘
 A stationary SP is one in which the statistics of the RV, which is “tossed” at each time instant 𝑘
@@ -860,6 +860,20 @@ use jupyter-run-repl in org mode
 + [[https://github.com/pamellies/lambda-calculus-and-categories][Lambda Calculus and Categories]] :LambdaCalculus:CategoryTheory:
 + [[https://golem.ph.utexas.edu/category/2020/01/profunctor_optics_the_categori.html#comments][profunctor optics a categorical view]]
 ** complexity and information theory
+*** [[https://legacy.cs.indiana.edu/~sabry/papers/information-effects.pdf][Information-Effects]] :InformationTheory:Computation:ProgrammingLanguages: 
+Turing hoped that his abstracted-paper-tape model was
+so simple, so transparent and well defined, that it would
+not depend on any assumptions about physics that could
+conceivably be falsified, and therefore that it could become
+the basis of an abstract theory of computation that was
+independent of the underlying physics. ‘He thought,’ as
+Feynman once put it, ‘that he understood paper.’ But he
+was mistaken. Real, quantum-mechanical paper is wildly
+different from the abstract stuff that the Turing machine
+uses. The Turing machine is entirely classical, and does
+not allow for the possibility the paper might have different
+symbols written on it in different universes, and that those
+might interfere with one another.” [11, p.252]]
 *** [[https://www.waveform.com/blogs/main/5g-and-shannons-law][shannons law]] :information theory:shannon:
 *** [[./2211.10099.pdf][Shannon + Scott Theory of Information]] :TheoryOfInformation:Math:
 To give a satisfactory account of information flow in computer programs it is necessary to consider both
