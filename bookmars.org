@@ -522,6 +522,12 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://www.featureform.com/post/the-definitive-guide-to-embeddings][Definitive Guide to Embeddings]]
+Embeddings have pervaded the data scientist’s toolkit, and dramatically changed how NLP,
+computer vision, and recommender systems work. However, many data scientists find
+them archaic and confusing. Many more use them blindly without understanding what they are.
+In this article, we’ll deep dive into what embeddings are, how they work, and how they are often operationalized in real-world systems.
+
 ** [[https://colah.github.io/posts/2015-08-Understanding-LSTMs/][UnderstandingLSTM]]
 Step-by-Step LSTM Walk Through
 
