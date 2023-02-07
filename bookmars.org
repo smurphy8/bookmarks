@@ -527,7 +527,13 @@ Embeddings have pervaded the data scientist’s toolkit, and dramatically change
 computer vision, and recommender systems work. However, many data scientists find
 them archaic and confusing. Many more use them blindly without understanding what they are.
 In this article, we’ll deep dive into what embeddings are, how they work, and how they are often operationalized in real-world systems.
-
+** [[https://arxiv.org/pdf/2001.08317.pdf][Time Forecasting with Transformers]]
+In this paper, we present a new approach to time
+series forecasting. Time series data are preva-
+lent in many scientific and engineering disciplines.
+Time series forecasting is a crucial task in mod-
+eling time series data, and is an important area
+of machine learning
 ** [[https://colah.github.io/posts/2015-08-Understanding-LSTMs/][UnderstandingLSTM]]
 Step-by-Step LSTM Walk Through
 
@@ -586,6 +592,7 @@ Instead, I generally use leave-one-out feature importance (LOFO) + LightGBM.
 ** [[https://mbmlbook.com/MurderMystery.html][Model Based machine learning]] :MachineLearning:Models:
 This is the stuff that had the hidden markov model <-> Kalman filter connection
 ** [[https://www.jeremyjordan.me/testing-ml/][Effective Testing in Machine Learning]] :MachineLearning:Testing:
+** [[https://twitter.com/AndrewYNg/status/1622683606492778496][Twitter Thread On Large Language Models (LLM)]] :MachineLearning:LLM:Transformers:
 ** [[https://www.amazon.science/latest-news/machine-learning-course-free-online-from-amazon-machine-learning-university][Amazon Machine Learning]] :MachineLearning:Amazon:
 ** [[https://dennybritz.com/blog/ai-trading/][AI Trading Platform]] :MachineLearning:TradingPlatform:CaseStudy:
 ** [[https://github.com/jonathan-laurent/AlphaZero.jl][Alpha Go Zero in Julia]]   :MachineLearning:Julia:AlphaGo:
