@@ -142,6 +142,7 @@ is2 and 3 times fast
 An ATS inspired language???
 
 *** Haskell
+**** [[https://haskell-docs.netlify.app/][Haskell Guide Beginningers]] :Haskell:Beginning:
 **** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
 **** [[https://www.parsonsmatt.org/2020/10/13/unpack_your_existentials.html][Unpack your existentials]] :Haskell:Existentials:
 
@@ -522,6 +523,9 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://jacobbuckman.substack.com/p/deep-learning-is-better-than-linear][replace regression with machine learning]] :MachineLearning:Ops:
+** [[https://fullstackdeeplearning.com/cloud-gpus/][List of GPUS in Cloud]] :MachineLearning:Ops:
+** [[https://twitter.com/danhockenmaier/status/1639288056183410688/photo/1][Machine learning reading list]] :MachineLearning:
 ** [[https://www.featureform.com/post/the-definitive-guide-to-embeddings][Definitive Guide to Embeddings]]
 Embeddings have pervaded the data scientist’s toolkit, and dramatically changed how NLP,
 computer vision, and recommender systems work. However, many data scientists find
@@ -534,6 +538,7 @@ lent in many scientific and engineering disciplines.
 Time series forecasting is a crucial task in mod-
 eling time series data, and is an important area
 of machine learning
+** [[https://machinelearningmastery.com/training-the-transformer-model/][Training Transformer Neural Net]]
 ** [[https://colah.github.io/posts/2015-08-Understanding-LSTMs/][UnderstandingLSTM]]
 Step-by-Step LSTM Walk Through
 
