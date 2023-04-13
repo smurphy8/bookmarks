@@ -517,14 +517,14 @@ and program equivalence (these two programs are observationally equivalent under
 ** [[https://www.gutenberg.org/files/28696/28696-h/28696-h.htm][lewis carol symbolic logic]] :logic:
 ** [[https://books.google.com/books/about/Formal_Languages_in_Logic.html?id=5ZV7AAAAQBAJ&printsec=frontcover&source=kp_read_button&newbks=1&newbks_redir=0&gboemv=1#v=onepage&q&f=false][fformal languages in logic]] :logic:languages:
 
-
 * Machine Code
 [[http://www.sizecoding.org/wiki/Main_Page][Small Programs for 80x86]] :Assembly:
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://github.com/microsoft/DeepSpeed/blob/master/blogs/deepspeed-chat/README.md][Deep Speed Fast Training]] :MachineLearning:Ops:
 ** [[https://jacobbuckman.substack.com/p/deep-learning-is-better-than-linear][replace regression with machine learning]] :MachineLearning:Ops:
-** [[https://fullstackdeeplearning.com/cloud-gpus/][List of GPUS in Cloud]] :MachineLearning:Ops:
+** [[https://fullstackdeeplearning.com/cloud-gpus/][List of GPUS in Cloud]]                                :MachineLearning:Ops:
 ** [[https://twitter.com/danhockenmaier/status/1639288056183410688/photo/1][Machine learning reading list]] :MachineLearning:
 ** [[https://www.featureform.com/post/the-definitive-guide-to-embeddings][Definitive Guide to Embeddings]]
 Embeddings have pervaded the data scientist’s toolkit, and dramatically changed how NLP,
