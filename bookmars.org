@@ -522,6 +522,16 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://arxiv.org/pdf/1807.03748.pdf][Contrastive predictive coding]]
+In this paper we presented Contrastive Predictive Coding (CPC), a framework for extracting compact
+latent representations to encode predictions over future observations. CPC combines autoregressive
+modeling and noise-contrastive estimation with intuitions from predictive coding to learn abstract
+representations in an unsupervised fashion. We tested these representations in a wide variety of
+domains: audio, images, natural language and reinforcement learning and achieve strong or state-
+of-the-art performance when used as stand-alone features. The simplicity and low computational
+requirements to train the model, together with the encouraging results in challenging reinforcement
+learning domains when used in conjunction with the main loss are exciting developments towards
+useful unsupervised learning that applies universally to many more data modalities.
 ** [[https://github.com/microsoft/DeepSpeed/blob/master/blogs/deepspeed-chat/README.md][Deep Speed Fast Training]] :MachineLearning:Ops:
 ** [[https://jacobbuckman.substack.com/p/deep-learning-is-better-than-linear][replace regression with machine learning]] :MachineLearning:Ops:
 ** [[https://fullstackdeeplearning.com/cloud-gpus/][List of GPUS in Cloud]]                                :MachineLearning:Ops:
@@ -1162,8 +1172,6 @@ are more important than others.
 I’ll be assuming you want to support arbitrary text provided by users with custom fonts, 
 colors, and styles with line-wrapping and support for text-selection. Basically the minimum 
 required to properly display a simple rich-text document, terminal, webpage, or anything else.
-* web specs
-** [[https://tools.ietf.org/html/rfc3986#section-3.3][general http uri]] 
 * Interent Link Dumps
 ** [[https://csgordon.github.io/books.html][Textbooks Free]]
 Electronic References
@@ -1209,4 +1217,5 @@ increasing the overall journey time. What other counter-intuitive results do we 
 ** [[https://www.accountingcoach.com/][Free Accounting Class]]
 * Music 
 ** [[https://www.musiciansinspired.com/post/how-to-read-notes-fast-the-landmark-system][Landmark Piano Reading]] :Music:SheetMusic:Piano:
+
 
