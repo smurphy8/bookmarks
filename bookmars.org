@@ -142,10 +142,10 @@ is2 and 3 times fast
 An ATS inspired language???
 
 *** Haskell
+**** [[https://haskell.foundation/hs-opt-handbook.github.io/][Haskell Optimization Handbook]] :Haskell:Optimization:
 **** [[https://haskell-docs.netlify.app/][Haskell Guide Beginningers]] :Haskell:Beginning:
 **** [[http://blog.ezyang.com/2017/08/backpack-for-deep-learning/][Backpack]] :Haskell:
 **** [[https://www.parsonsmatt.org/2020/10/13/unpack_your_existentials.html][Unpack your existentials]] :Haskell:Existentials:
-
 **** [[https://hackage.haskell.org/package/massiv-0.5.1.0][massive an array library]]:Haskell:Library:Numeric:
 **** [[https://hackage.haskell.org/package/discrimination][Discrimination encoding]]     :Haskell: :Library:
 **** [[https://hackage.haskell.org/package/Frames-0.1.4?utm_source=twitterfeed&utm_medium=twitter][Data Frames]] :Haskell: :Library:
@@ -165,8 +165,7 @@ An ATS inspired language???
 **** [[http://hackage.haskell.org/package/generic-lens-1.0.0.1/docs/Data-Generics-Product-Fields.html#t:HasField][Generic Lens]] :Haskell: :Lens:
 **** [[https://github.com/haskell-suite/haskell-src-exts/blob/master/tests/examples/DerivingVia.hs#L165][Deriving Via Example]]
 **** [[http://www.well-typed.com/blog/2019/09/eventful-ghc/][GHC Eventlog]]                                              :EventLog:GHC:
-
-**** [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/][GHC Users Guide]] :GHC:Guide:Manual:
+**** [[https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/][GHC Users Guide]]                                       :GHC:Guide:Manual:
 **** [[https://tech.fpcomplete.com/blog/2018/04/async-exception-handling-haskell/][Exception Handling Problems with Async]]:Haskell:Exceptions:Async:
 **** [[https://hackage.haskell.org/package/gdiff-1.1/docs/Data-Generic-Diff.html][Diff patch library in haskell]] :DiffPatch:Haskell:
 **** [[https://well-typed.com/blog/2021/01/fragmentation-deeper-look/][ghc-debug]] :Debug:GHC:MemLeak:     
@@ -522,7 +521,9 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
-** [[https://arxiv.org/pdf/1807.03748.pdf][Contrastive predictive coding]]
+
+** [[http://incompleteideas.net/book/RLbook2020.pdf][Reinforcement Learning]]:MachineLearning:ReinforcementLearning:
+** [[https://arxiv.org/pdf/1807.03748.pdf][Contrastive predictive coding]] :MachineLearning:TimeSeries:
 In this paper we presented Contrastive Predictive Coding (CPC), a framework for extracting compact
 latent representations to encode predictions over future observations. CPC combines autoregressive
 modeling and noise-contrastive estimation with intuitions from predictive coding to learn abstract
