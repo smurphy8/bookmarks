@@ -521,7 +521,20 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
-
+** [[https://arxiv.org/abs/2305.07185][Megabyte Paper]] :MachineLearning:Transformers:
+Autoregressive transformers are spectacular models for short sequences but scale poorly
+to long sequences such as high-resolution images, podcasts, code, or books. We proposed Megabyte,
+a multi-scale decoder architecture that enables end-to-end differentiable modeling of sequences
+of over one million bytes. Megabyte segments sequences into patches and uses a local submodel
+within patches and a global model between patches. This enables sub-quadratic self-attention,
+much larger feedforward layers for the same compute, and improved parallelism during
+decoding -- unlocking better performance at reduced cost for both training and generation.
+Extensive experiments show that Megabyte allows byte-level models to perform competitively
+with subword models on long context language modeling, achieve state-of-the-art density
+estimation on ImageNet, and model audio from raw files. Together, these results establish the
+viability of tokenization-free autoregressive sequence modeling at scale.
+** [[https://arxiv.org/abs/2305.14314][QLoRA: Efficient Finetuning of Quantized LLMs]] :MachineLearning:
+Quantized LLMs Paper
 ** [[http://incompleteideas.net/book/RLbook2020.pdf][Reinforcement Learning]]:MachineLearning:ReinforcementLearning:
 ** [[https://arxiv.org/pdf/1807.03748.pdf][Contrastive predictive coding]] :MachineLearning:TimeSeries:
 In this paper we presented Contrastive Predictive Coding (CPC), a framework for extracting compact
