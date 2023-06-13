@@ -503,7 +503,8 @@ We have PDFs of the complete text in the Open Logic master branch, arranged in a
 
 Individual Textbooks
 
-There are already a few textbooks that show how one might "remix" the material in the Open Logic Project to produce nice textbooks. These vary in the material that's included, the design, and the configuration options used. They may also include additional material specific to those courses.
+There are already a few textbooks that show how one might "remix" the material in the Open Logic Project to produce nice textbooks.
+These vary in the material that's included, the design, and the configuration options used. They may also include additional material specific to those courses.
 Sets, Logic, Computation
 
 ** Logic History 
@@ -521,6 +522,16 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://towardsdatascience.com/a-deep-dive-into-autoencoders-and-their-relationship-to-pca-and-svd-97e37c81898a][Autoencoders and PCA]] :MachineLearning:
+An autoencoder is a type of neural network that learns to reconstruct its input. It consists of an encoder network that compresses
+the input data into a low-dimensional space and a decoder network that reconstructs the input data from that space. The encoder and
+decoder are trained jointly to minimize the reconstruction error between the input data and its reconstruction.
+** [[https://penkovsky.com/neural-networks/day1/][Neural Networks the hard way]] :MachineLearning:Haskell:
+** [[https://twitter.com/DrJimFan/status/1595459499732926464][Mine Dojo Feed]] :MachineLearning:ReinforcementLearning:Minecraft:
+Finally, we propose a conceptually simple method to learn a Minecraft-playing agent from in-the-wild YouTube videos. 
+It is far from solving the game, but shows a baby step towards our vision of an “embodied GPT3” that takes the right *actions* given any language prompts. 
+
+
 ** [[https://arxiv.org/abs/2305.07185][Megabyte Paper]] :MachineLearning:Transformers:
 Autoregressive transformers are spectacular models for short sequences but scale poorly
 to long sequences such as high-resolution images, podcasts, code, or books. We proposed Megabyte,
