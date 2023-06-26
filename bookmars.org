@@ -694,6 +694,7 @@ When you're solving a problem, how do you know if the answer you've found is cor
 ** [[https://blog.jle.im/entry/practical-dependent-types-in-haskell-1.html][Neural Network example in haskell]] :Haskell:MachineLearning:
 ** [[https://www.pnas.org/content/early/2019/06/21/1817218116][Principal Component Analysis]]
 ** [[https://joellaity.com/2018/10/18/pca.html][PCA Spread Out]]
+** [[https://pydojo.onrender.com/][Py Dojo from SID]] :Sid:ML:
 ** [[https://towardsml.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/][Machine Learning Bert]] :MachineLearning:NLP:Bert:
 ** [[https://github.com/onnx/onnx][ONNX Open Neural Net Exchange]] :MachineLearning:DevOps:
 ** [[https://github.com/abarbu/haskell-torch][haskell torch]] :MachineLearning:Haskell:Torch:
@@ -739,6 +740,12 @@ Decision trees and random forest, an understandable introduction to me.
 ** [[https://commoncog.com/focus-saying-no-to-good-ideas/][ Focus Cedric Chin ]]:business:management:strategy:
 
 There’s a famous saying, often attributed to Steve Jobs, that goes “focus is saying no to good ideas.” The more experience that I have with business, the more I appreciate just how true this is.x
+
+** [[https://medium.com/@allspaw/dark-debt-a508adb848dc][Dark Debt]]:management:technical:software:
+Dark debt was named that to draw a parallel with dark matter.
+Dark matter has detectable effects on the world but cannot be seen or detected directly.
+Matter that can be seen and measured directly accounts for only about
+15% of the mass of the universe; the remaining 85% is dark matter.
 ** [[https://www.reforge.com/monetization-pricing][Growth Model (reforge)]]                             :growth:business:model:
  What Is Growth Marketing In 2022? We Asked 6 Growth Experts
 Reforge Team
