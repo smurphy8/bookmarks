@@ -140,7 +140,22 @@ is2 and 3 times fast
 **** [[https://web.dev/learn/css/][CSS Google]]
 *** [[https://github.com/mirth-lang/mirth][Mirth]]
 An ATS inspired language???
-
+*** Python
+**** [[https://towardsdatascience.com/modeling-the-world-in-a-deterministic-way-with-gekko-6dc8edbe5842][Gekko Article]] :Python:Library:
+Deterministic modeling is the antithesis to modeling with randomness.
+It is a method to simplify certain aspects of the modeling process by
+removing the messiness introduced by the real world. These models are idealistic in nature,
+meaning that they represent an ideal solution based on specific assumptions. These assumptions can
+stem from a set of opinionated, probabilistic, or generalized rules, and assumes that a well-defined
+pattern exists between the inputs and outputs. While this may sound similar to modeling with
+stochastic data, the main difference is that the model now is determined by the
+these predefined assumptions rather than training data. A question might now be popping
+into your head asking, “well if I’m not training the model on the data, where do I get these model assumptions from?”.
+The answer to this is quite simple yet sometimes overlooked, domain knowledge. Domain knowledge is a set of
+rules and concepts known on a specific topic. It is through domain knowledge that the assumptions are derived,
+serving as the foundation for deterministic modeling. In any programming language these deterministic models can
+be written using custom code, but as models become more complex, libraries have been written to specifically
+tackle this task. In python one such library called GEKKO will be explored.
 *** Haskell
 **** [[https://haskell.foundation/hs-opt-handbook.github.io/][Haskell Optimization Handbook]] :Haskell:Optimization:
 **** [[https://haskell-docs.netlify.app/][Haskell Guide Beginningers]] :Haskell:Beginning:
@@ -609,7 +624,16 @@ Now I want to define the same neural network we trained in Keras, but in PyTorch
         return x
 #+END_Example
 
-
+** [[https://arxiv.org/abs/2305.06112][Bayes Category theory thing]]  :Probability:Bayes:CategoryTheory:
+Bayes’ rule tells us how to invert a causal process in order to update our beliefs in light of new
+evidence. If the process is believed to have a complex compositional structure, we may observe
+that the inversion of the whole can be computed piecewise in terms of the component processes.
+We study the structure of this compositional rule, noting that it relates to the lens pattern in
+functional programming. Working in a suitably general axiomatic presentation of a category of
+Markov kernels, we see how we can think of Bayesian inversion as a particular instance of a state-
+dependent morphism in a fibred category. We discuss the compositional nature of this, formulated
+as a functor on the underlying category and explore how this can used for a more type-driven
+approach to statistical inference.
 ** [[https://ericmjl.github.io/blog/2019/5/29/reasoning-about-shapes-and-probability-distributions/][Reasoning About Tensor Shapes and Probability Distributions]] :MachineLearning:TensorShapes:Probability:
 [[./img/tensor-shapes-and-probability.png]]
 To summarize, here are the various kinds of shapes, defined:
@@ -1050,6 +1074,7 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 *** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Case for blackholes]] :Physics:Blackholes:
 **** [[http://philsci-archive.pitt.edu/13523/1/blackhole_review.pdf][Blackholes II]] :Physics:Blackholes:
 *** [[https://mitpress.mit.edu/sites/default/files/titles/content/sicm_edition_2/toc.html][Structure and Interpretation of Mechanics]] :Physics:
+ 
 *** [[https://www.cs.ox.ac.uk/people/jamie.vicary/IntroductionToCategoricalQuantumMechanics.pdf][Introduction to Categorical Quantum Mechanics]] :Physics:Quantum:CategoryTheory:
 The central idea of this course is that the ability to group
 individual systems into compound systems should be taken seriously. We
