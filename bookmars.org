@@ -1,3 +1,4 @@
+
 * [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]                                            :Business:
 * arts and crafts
 ** [[http://www.supercoloring.com/][coloring and paper craft]] 
@@ -561,7 +562,27 @@ decoder are trained jointly to minimize the reconstruction error between the inp
 Finally, we propose a conceptually simple method to learn a Minecraft-playing agent from in-the-wild YouTube videos. 
 It is far from solving the game, but shows a baby step towards our vision of an “embodied GPT3” that takes the right *actions* given any language prompts. 
 
-
+** [[https://arxiv.org/abs/2307.03172][Middle Learning Problem]] :MachineLearning:Transformers:
+Abstract
+While recent language models have the ability
+to take long contexts as input, relatively little
+is known about how well the language models
+use longer context. We analyze language model
+performance on two tasks that require identify-
+ing relevant information within their input con-
+texts: multi-document question answering and
+key-value retrieval. We find that performance is
+often highest when relevant information occurs
+at the beginning or end of the input context,
+and significantly degrades when models must
+access relevant information in the middle of
+long contexts. Furthermore, performance sub-
+stantially decreases as the input context grows
+longer, even for explicitly long-context models.
+Our analysis provides a better understanding
+of how language models use their input con-
+text and provides new evaluation protocols for
+future long-context models.
 ** [[https://arxiv.org/abs/2305.07185][Megabyte Paper]] :MachineLearning:Transformers:
 Autoregressive transformers are spectacular models for short sequences but scale poorly
 to long sequences such as high-resolution images, podcasts, code, or books. We proposed Megabyte,
@@ -761,6 +782,7 @@ Decision trees and random forest, an understandable introduction to me.
 * makefiles
 ** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
 * management & business
+** [[https://theorg.com/org/camino-natural-resources][Org Chart Discovery]]:orgchart:business:Marketing:
 ** [[https://commoncog.com/focus-saying-no-to-good-ideas/][ Focus Cedric Chin ]]:business:management:strategy:
 
 There’s a famous saying, often attributed to Steve Jobs, that goes “focus is saying no to good ideas.” The more experience that I have with business, the more I appreciate just how true this is.x
@@ -1291,4 +1313,6 @@ increasing the overall journey time. What other counter-intuitive results do we 
 ** [[https://www.musiciansinspired.com/post/how-to-read-notes-fast-the-landmark-system][Landmark Piano Reading]] :Music:SheetMusic:Piano:
 * Anime
 + Cyberpunk
+* Silly
++ [[https://wiby.me/surprise/][Random Website 1.0 link]]
 
