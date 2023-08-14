@@ -33,6 +33,11 @@ You’re about to read a blog post with a lot of advice. Learning from those who
 **** [[https://www.youtube.com/watch?v=qzOQOmmkKEM][Duncan Coutts Logging]] :Logging:Haskell:
 
 ** ComputerScience Theory Programming Languages
+**** [[https://langdev.stackexchange.com/questions/2692/how-should-i-read-type-system-notation/2693#2693][How to read Programming Language notation]] :ProgrammingLanguages:Notation:
+I sometimes read articles or papers about type systems that use some funny-looking,
+two-dimensional notation with lots of unfamiliar symbols and Greek letters.
+The notation seems mathematical, but it’s entirely unlike any mathematics
+I learned in school. It’s quite intimidating, and I don’t even know where to start.
 **** [[https://github.com/jozefg/graph-models/blob/master/graphs.pdf][graph models of the lambda calculus]] :ProgrammingLanguages: :ComputerScience: :theory:
 **** [[https://www.cs.utexas.edu/~wcook/drafts/2012/graphs.pdf][functional programming with structured graphs]] :ProgrammingLanguages: :ComputerScience: :theory:
 **** [[http://tata.gforge.inria.fr/][tree automata]] :ProgrammingLanguages: :ComputerScience: :theory:
@@ -538,6 +543,8 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://towardsdatascience.com/different-ways-of-training-llms-c57885f388ed][Summary of Training Methods for LLM (2023)]] :MachineLearning:LLM:GPT:
+This post summarizes training an LLM at a beginner level.
 ** [[https://arxiv.org/abs/1409.0473][First Attention Paper]] :MachineLearning:Attention:
 Neural Machine Translation by Jointly Learning to Align and Translate
 
@@ -563,7 +570,7 @@ Finally, we propose a conceptually simple method to learn a Minecraft-playing ag
 It is far from solving the game, but shows a baby step towards our vision of an “embodied GPT3” that takes the right *actions* given any language prompts. 
 
 ** [[https://arxiv.org/abs/2307.03172][Middle Learning Problem]] :MachineLearning:Transformers:
-Abstract
+gAbstract
 While recent language models have the ability
 to take long contexts as input, relatively little
 is known about how well the language models
