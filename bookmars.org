@@ -543,6 +543,9 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+
+** [[https://arxiv.org/abs/2307.10169][Large Language Model OVerview]] :MachineLearning:LLM:SurveyPaper:
+This is the survey paper that best explains state of the art as of Summer 2023 
 ** [[https://twitter.com/RiversHaveWings/status/1682519211887972352][Collab Notebook on RLHF]] :MachineLearning:Notebooks:LLM:RLHF:
 The link above goes to an RLHF example notebook [[https://colab.research.google.com/drive/1sRKX3fMT-DqbEny70Zhk-4S-QFryAuHA][Here]]
 The summary:
