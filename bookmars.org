@@ -543,6 +543,18 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://twitter.com/RiversHaveWings/status/1682519211887972352][Collab Notebook on RLHF]] :MachineLearning:Notebooks:LLM:RLHF:
+The link above goes to an RLHF example notebook [[https://colab.research.google.com/drive/1sRKX3fMT-DqbEny70Zhk-4S-QFryAuHA][Here]]
+The summary:
+Fine-tunes a language model using natural language criteria for its sampled outputs.
+
+This notebook fine-tunes EleutherAI's Pythia 160M language model using a zero-shot reward model derived from an instruct tuned language model (Katherine Crowson's instruct fine-tune of OpenLLaMA 7B).
+
+The zero-shot reward model is obtained by asking the instruct model yes/no questions about the generations from the model that is being RLAIF tuned. It takes the logits for the first token of the response and forms a binary classifier logit as log(p(yes) + p(neither) / 2) - log(p(no) + p(neither) / 2). It uses log(sigmoid(logit)) (log probability of the "yes" class) as the reward. It uses weighted "soft conjunctions" of multiple binary classifier logits to fine-tune the model to satisfy multiple natural language criteria simultaneously.
+
+The gradient estimator is DiCE, a variant of REINFORCE. It uses a fixed strength KL penalty to constrain the fine-tuned model's distribution over tokens to not vary too far from the original model's.
+
+If you like this notebook you should check out MiniHF, the language model fine-tuning and inference tool the code was originally written for.
 ** [[https://towardsdatascience.com/different-ways-of-training-llms-c57885f388ed][Summary of Training Methods for LLM (2023)]] :MachineLearning:LLM:GPT:
 This post summarizes training an LLM at a beginner level.
 ** [[https://arxiv.org/abs/1409.0473][First Attention Paper]] :MachineLearning:Attention:
@@ -860,9 +872,6 @@ fewer than 20 pages, has had problems with Google finding all of them.
 Relying solely on the general crawl has proved unworkable for most.
 * manufacturing
 ** [[https://anuschkarees.com/blog/2014/05/01/how-to-assess-the-quality-of-garments-a-beginners-guide-part-i/][garment quality]] :fashion:quality:manufacturing:
-* [[https://a16z.com/2020/09/07/on-productivity-scheduling-reading-habits-marc-andreessen/][Marc Andreessen]] :Business:Productivity:
-The thing I’ve tried to do the last few years is really “barbell” the inputs. 
-I basically read things that are either up to this minute or things that are timeless–
 * marketing
 ** budgeting
 *** [[https://www.kracov.co/writing/the-math-behind-saas-marketing-teams][math behind saas marketing]] :marketing:budget:saas:
@@ -1128,6 +1137,9 @@ analysis tools to inspire and design novel materials.
 
 * productivity
 ** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][timezone app]] :timezone:scheduling:  
+** [[https://a16z.com/2020/09/07/on-productivity-scheduling-reading-habits-marc-andreessen/][Marc Andreessen]]                                    :Business:Productivity:
+The thing I’ve tried to do the last few years is really “barbell” the inputs. 
+I basically read things that are either up to this minute or things that are timeless–
 * Reverse Engineering
 ** [[https://www.thirtythreeforty.net/posts/2020/05/hacking-reolink-cameras-for-fun-and-profit/][Reverse engineering ]]      :ReverseEngineering:
 ** [[https://mika-s.github.io/wireshark/lua/dissector/2017/11/04/creating-a-wireshark-dissector-in-lua-1.html][Lua Scripts in wireshark]]   :ReverseEngineering:
@@ -1318,8 +1330,6 @@ increasing the overall journey time. What other counter-intuitive results do we 
 ** [[https://www.accountingcoach.com/][Free Accounting Class]]
 * Music 
 ** [[https://www.musiciansinspired.com/post/how-to-read-notes-fast-the-landmark-system][Landmark Piano Reading]] :Music:SheetMusic:Piano:
-* Anime
-+ Cyberpunk
 * Silly
 + [[https://wiby.me/surprise/][Random Website 1.0 link]]
 
