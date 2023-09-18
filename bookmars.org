@@ -585,7 +585,7 @@ Finally, we propose a conceptually simple method to learn a Minecraft-playing ag
 It is far from solving the game, but shows a baby step towards our vision of an “embodied GPT3” that takes the right *actions* given any language prompts. 
 
 ** [[https://arxiv.org/abs/2307.03172][Middle Learning Problem]] :MachineLearning:Transformers:
-gAbstract
+Abstract
 While recent language models have the ability
 to take long contexts as input, relatively little
 is known about how well the language models
@@ -647,6 +647,12 @@ Time series forecasting is a crucial task in mod-
 eling time series data, and is an important area
 of machine learning
 ** [[https://machinelearningmastery.com/training-the-transformer-model/][Training Transformer Neural Net]]
+** [[https://arxiv.org/pdf/2307.01717.pdf][Constrained Time Series Generation]]:MachineLearning:Synthesis:TimeSeries:
+ However, these approaches would require re-training if we change con-
+straints, and rejection sampling can be computationally expensive, or impractical
+for complex constraints. In this paper, we propose a novel set of methods to tackle
+the constrained time series generation problem and provide efficient sampling
+while ensuring the realism of generated time series
 ** [[https://colah.github.io/posts/2015-08-Understanding-LSTMs/][UnderstandingLSTM]]
 Step-by-Step LSTM Walk Through
 
