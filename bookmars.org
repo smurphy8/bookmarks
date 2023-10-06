@@ -479,6 +479,8 @@ In this first post, we learn how computer displays work and animate simple shape
 * gas temp alarm
 * gifs
 [[https://i.imgur.com/aft0yt4.gif]]
+* Power Systems
+** [[https://www.e-t-a.com/resource_center/glossary/][Circuit Protection Glossary]]
 * industrial automation
 ** [[https://www.plcacademy.com/ladder-logic-tutorial/][ladder logic programming]]
 ** [[file:papers/bainbridge_1983_automatica.pdf][irony of automation]] :industrialautomation:
@@ -647,6 +649,13 @@ Time series forecasting is a crucial task in mod-
 eling time series data, and is an important area
 of machine learning
 ** [[https://machinelearningmastery.com/training-the-transformer-model/][Training Transformer Neural Net]]
+** [[https://arxiv.org/pdf/2302.08571.pdf][Edge Computing and ML, a survey]]:MachineLearning:Survey:EdgeComputing:
+We start by identifying the
+Edge ML requirements driven by the joint constraints. We then extensively survey more than twenty
+paradigms and techniques along with their representative work, covering two main parts: edge
+inference, and edge learning. In particular, we analyze how each technique fits into Edge ML by
+meeting a subset of the identified requirements. We also summarize Edge ML frameworks and open
+issues to shed light on future directions for Edge ML.
 ** [[https://arxiv.org/pdf/2307.01717.pdf][Constrained Time Series Generation]]:MachineLearning:Synthesis:TimeSeries:
  However, these approaches would require re-training if we change con-
 straints, and rejection sampling can be computationally expensive, or impractical
@@ -1072,10 +1081,18 @@ Mathematics is a part of physics. Physics is an experimental science, a part of 
 *** [[https://mathvault.ca/hub/higher-math/math-symbols/set-theory-symbols/][Set Theory Symbols]] :Math:SetTheory:
 * Mathematicians 
 So sometimes I think someones whole work seems really cool but I am worried I won't remember their name.
-** [[https://en.wikipedia.org/wiki/Richard_E._Bellman][Richard Bellman]]:Mathematician:DynamicProgramming:CurseOfDimensionality:
+** [[https://en.wikipedia.org/wiki/Richard_E._Bellman][Richard Bellman ]]:Mathematician:DynamicProgramming:CurseOfDimensionality:
 Richard Bellman invented Dynamic programming. What a cool thing to invent.
 ** [[file:papers/epsilon.pdf][Terence Tao Epsilon in a room]]
 I grabbed this paper because of looking for ways to understand Borel Algebra.
+** [[https://terrytao.wordpress.com/2010/10/21/245a-problem-solving-strategies/][Terry Tao Problem Solving Strategies]]
+** [[https://terrytao.wordpress.com/2023/09/30/bounding-sums-or-integrals-of-non-negative-quantities/][Terry Tao Finite Sums]]
+estimation of sums or integrals of non-negative elementary expressions is a
+relatively straightforward task, and can be accomplished by a variety of methods.
+The art of obtaining such estimates is typically not explicitly taught in textbooks,
+other than through some examples and exercises; it is typically picked up by analysts
+(or those working in adjacent areas, such as PDE, combinatorics, or theoretical computer science)
+as graduate students, while they work through their thesis or their first few papers in the subject. 
 * mechanical engineering 
 ** electric motors 
 *** [[http://people.ucalgary.ca/~aknigh/electrical_machines/fundamentals/f_main.html][electric machines]] :ee: :me: :motors: :drives:
