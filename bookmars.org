@@ -641,6 +641,10 @@ Embeddings have pervaded the data scientist’s toolkit, and dramatically change
 computer vision, and recommender systems work. However, many data scientists find
 them archaic and confusing. Many more use them blindly without understanding what they are.
 In this article, we’ll deep dive into what embeddings are, how they work, and how they are often operationalized in real-world systems.
+** [[https://arxiv.org/pdf/2308.13068.pdf][Problems with Anomaly detection definition]]
+So flawed is one very popular protocol, the so-called point-
+adjust protocol, that a random guess can be shown to systematically
+outperform all algorithms developed so far.
 ** [[https://arxiv.org/pdf/2001.08317.pdf][Time Forecasting with Transformers]]
 In this paper, we present a new approach to time
 series forecasting. Time series data are preva-
@@ -1358,4 +1362,7 @@ increasing the overall journey time. What other counter-intuitive results do we 
 ** [[https://www.musiciansinspired.com/post/how-to-read-notes-fast-the-landmark-system][Landmark Piano Reading]] :Music:SheetMusic:Piano:
 * Silly
 + [[https://wiby.me/surprise/][Random Website 1.0 link]]
+* Fitness
+** [[https://runninglevel.com/running-times/5k-times][Running Level]]
+** [[https://runbundle.com/tools/pace-tables/mph][Running Pace]]
 
