@@ -666,6 +666,15 @@ straints, and rejection sampling can be computationally expensive, or impractica
 for complex constraints. In this paper, we propose a novel set of methods to tackle
 the constrained time series generation problem and provide efficient sampling
 while ensuring the realism of generated time series
+[[https://arxiv.org/pdf/2308.13068.pdf][Fancy Algorithm proglem]] :TimeSeries:MachineLearning:
+Abstract. Multivariate Time Series (MVTS) anomaly detection is a
+long-standing and challenging research topic that has attracted tremen-
+dous research effort from both industry and academia recently. However,
+a careful study of the literature makes us realize that 1) the community
+is active but not as organized as other sibling machine learning commu-
+nities such as Computer Vision (CV) and Natural Language Processing
+(NLP), and 2) most proposed solutions are evaluated using either inap-
+propriate or highly flawed protocols
 ** [[https://colah.github.io/posts/2015-08-Understanding-LSTMs/][UnderstandingLSTM]]
 Step-by-Step LSTM Walk Through
 
