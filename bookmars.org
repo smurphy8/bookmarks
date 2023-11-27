@@ -1175,7 +1175,14 @@ information on known and predicted materials as well as powerful
 analysis tools to inspire and design novel materials.
 
 * productivity
-** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][timezone app]] :timezone:scheduling:  
+** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][timezone app]] :timezone:scheduling:
+** [[https://twitter.com/george__mack/status/1728696014754676952][Useful razors]] :Business:Productivity:
+The most useful razors and rules I've found:
+
+1. Bragging Razor - If someone brags about their success or happiness, assume it’s half what they claim
+
+If someone downplays their success or happiness, assume it’s double what they claim
+
 ** [[https://a16z.com/2020/09/07/on-productivity-scheduling-reading-habits-marc-andreessen/][Marc Andreessen]]                                    :Business:Productivity:
 The thing I’ve tried to do the last few years is really “barbell” the inputs. 
 I basically read things that are either up to this minute or things that are timeless–
@@ -1374,4 +1381,5 @@ increasing the overall journey time. What other counter-intuitive results do we 
 * Fitness
 ** [[https://runninglevel.com/running-times/5k-times][Running Level]]
 ** [[https://runbundle.com/tools/pace-tables/mph][Running Pace]]
+** [[https://ycharts.com/indicators/us_rotary_rigs][Rig count]]
 
