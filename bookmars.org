@@ -244,6 +244,7 @@ which are in turn a special case of functions, as we’ll see. In any event, fun
 computations; they have no dynamic behavior and no computational complexity. They are just values in the state space of algorithms.
 Programmers may best think of them as associative arrays, albeit possibly infinite in size (even uncountably big).
 *** Bash
+*** [[https://scottlocklin.wordpress.com/2024/01/08/unix-etl-tools-are-better-than-you/][ETL Tools on the command line - Locklin]] :Bash:sed:locklin:
 **** [[https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md][Safe Bash]]
 ** Computation, visualization and that kind of thing
 *** [[https://en.wikipedia.org/wiki/row-_and_column-major_order][row major columm major wiki entry (popular method)]] :matrixrepresentation:numericalcomputing:
