@@ -245,6 +245,17 @@ computations; they have no dynamic behavior and no computational complexity. The
 Programmers may best think of them as associative arrays, albeit possibly infinite in size (even uncountably big).
 *** Bash
 *** [[https://scottlocklin.wordpress.com/2024/01/08/unix-etl-tools-are-better-than-you/][ETL Tools on the command line - Locklin]] :Bash:sed:locklin:
+I daresay most don’t know about them at all, so let me name them:
+
+    #+begin_example
+    cut sort uniq tr split join: main transformation tools
+
+    cat head tail wc : UIs
+
+    od grep sed: secondaries
+    | > >> :connecting shell bits
+    awk: if all else fails
+    #+end_example
 **** [[https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md][Safe Bash]]
 ** Computation, visualization and that kind of thing
 *** [[https://en.wikipedia.org/wiki/row-_and_column-major_order][row major columm major wiki entry (popular method)]] :matrixrepresentation:numericalcomputing:
