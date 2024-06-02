@@ -512,6 +512,7 @@ Redlion is making some gorgeous hardware these days.
 *** [[https://tools.ietf.org/html/draft-handrews-json-schema-01][json-schema]]
 *** [[https://javascript.info/][modern javascript guide]] :javascript:
 * kids stuff
+** [[https://www.geogebra.org/calculator][Nice Geometry and Calculator System]]
 ** [[https://www.math-salamanders.com/math-puzzle-worksheets.html][Math Puzzles for Ellie (`2nd grade)]]:MathPuzzles:Kids:Education:
 ** [[file:papers/childrens_taskbook_arnold_en_0.pdf][Math Problems for Children]]:MathProblems:Kids:Education:
 ** [[https://play.battlesnake.com/][Battle Snakes]] :Programming:Education:Kids:
@@ -583,6 +584,19 @@ and phi-1-small, a smaller model with 350M parameters trained with the same pipe
 still achieves 45% on HumanEval.
 ** [[https://arxiv.org/abs/2307.10169][Large Language Model OVerview]] :MachineLearning:LLM:SurveyPaper:
 This is the survey paper that best explains state of the art as of Summer 2023 
+** [[https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1][Fine Web V1]] :MachineLearning:Training:
+The performance of a large language model (LLM) depends heavily on the quality and size of its pretraining dataset.
+However, the pretraining datasets for state-of-the-art open LLMs like Llama 3 and Mixtral are not
+publicly available and very little is known about how they were created.
+Reading time: 45 min. For the best reading experience, we recommend not using a mobile phone.
+
+Recently, we released 🍷 FineWeb, a new, large-scale (15-trillion tokens, 44TB disk space) dataset for LLM pretraining.
+FineWeb is derived from 96 CommonCrawl snapshots and produces better-performing LLMs than other open pretraining datasets.
+To bring more clarity in machine learning and advance the open understanding of how to train good quality large language
+models, we carefully documented and ablated all of the design choices used in FineWeb, including in-depth investigations
+of deduplication and filtering strategies. The present long form report is a deep dive in how to create a large and
+high-quality web-scale dataset for LLM pretraining. The dataset itself, 🍷 FineWeb, is available here.
+
 ** [[https://twitter.com/RiversHaveWings/status/1682519211887972352][Collab Notebook on RLHF]] :MachineLearning:Notebooks:LLM:RLHF:
 The link above goes to an RLHF example notebook [[https://colab.research.google.com/drive/1sRKX3fMT-DqbEny70Zhk-4S-QFryAuHA][Here]]
 The summary:
