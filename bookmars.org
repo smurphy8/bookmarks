@@ -212,6 +212,14 @@ tackle this task. In python one such library called GEKKO will be explored.
 **** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 **** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
 **** [[http://blog.shaynefletcher.org/2017/05/more-type-classes-in-ocaml.html][Ocaml To Haskell]] :Haskell:OCaml:Reason:
+**** [[https://blog.janestreet.com/making-something-out-of-nothing-or-why-none-is-better-than-nan-and-null/][Something Out of Nothing ]] :OCaml:FP:
+Null is a pervasive concept in computing. Virtually all programming languages have a way of expressing nothing, nullity, no answer. But handling nulls correctly turns out to be tricky, and many of the contexts in which you find nulls, you’ll also find confusing and error-prone semantics surrounding them.
+
+The heart of the problem is that, in an attempt to make programming with null easier, nulls are often propagated implicitly through computations, allowing the programmer to write code that deals with nulls without explicitly contemplating how nulls should be dealt with.
+
+My experience has been that this is a mistake; that if you want robust, easy-to-reason-about code, the programmer must think explicitly about how to handle null cases, and that programming languages would do well to provide programmers with good support for the requisite case analysis
+
+The point can be illustrated by considering some of the contexts in which null arises.
 
 **** [[https://github.com/shrynx/awesome-ppx-reasonml][PPX resources]] :PPX:Ocaml:
 **** [[https://jaredforsyth.com/posts/template-based-macros-for-reason-ocaml/][Forsythe PPX]]:PPX:Ocaml:
