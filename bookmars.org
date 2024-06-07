@@ -1,4 +1,3 @@
-
 * [[https://inc42.com/buzz/10-rules-success-marc-andreessen/][10 Rules success marc]]                                            :Business:
 * arts and crafts
 ** [[http://www.supercoloring.com/][coloring and paper craft]] 
@@ -305,7 +304,11 @@ This series is about how to make effective use of pandas, a data analysis librar
 *** [[https://github.com/elastic/elasticsearch-formal-models][elastic search formal model]] :tla:distributed:modeling:elastic:
 *** [[https://codahale.com/you-cant-sacrifice-partition-tolerance/][CAP Theorem]] :CAPTheorem:distributed:
 ** Computer Graphics
-*** [[https://thebookofshaders.com/][Book of Shaders, how cool]] :ComputerGraphics:Shaders:
+*** [[https://edw.is/learning-vulkan/][Learning Vulkan Shader Language]] :ComputerGraphics:Shaders:
+This article documents my experience of learning Vulkan and writing a small game/engine with it.
+It took me around 3 months to do it without any previous knowledge of Vulkan
+(I had previous OpenGL experience and some experience with making game engines, though).
+*** [[https://thebookofshaders.com/][Book of Shaders, how cool]]                      :ComputerGraphics:Shaders:
 ** exampleprograms
 *** [[https://graphs.grevian.org/example][graphviz]]      :graphviz:examples:
 **** [[https://github.com/mkirchner/linked-list-good-taste][kLinked List Elegant Linus]] :C Programming:Refactor:
@@ -773,7 +776,7 @@ And finally, here’s the full spread of possibilities, using one or two draws, 
 ** Language Model
 *** [[https://codelanguageconverter.com/][code language converter]] :programming:MachineLearning:
 
-** [[https://thenumb.at/Autodiff/][Auto Differentiation]]
+* [[https://thenumb.at/Autodiff/][Auto Differentiation]]
 
 Max Slater
 
