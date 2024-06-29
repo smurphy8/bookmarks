@@ -351,6 +351,8 @@ Android support will be added soon, Firefox is working on an implementation,
 and although it took Safari 10 years to add WebP support, I don't think we'll 
 see the same delay here, as Apple are a member of the group that created AV1.
 
+*** [[https://encore.dev/blog/queueing][Queueing THeory animations]] :Educational:Algorithms:
+Queues are everywhere. We queue at bars, in restaurants, and at the bank. When you loaded this web page, the request to fetch it interacted with dozens of different queues on its way from your machine to the server this page is hosted on. Queues are fundamental.
 *** [[https://computationalthinking.mit.edu/Fall20/lecture26/][computational thinking]] :Probabalistic:Julia:Educational:
 This is an introductory course on Computational Thinking. We use the Julia programming language to 
 approach real-world problems in varied areas applying data analysis and computational and mathematical modeling. 
@@ -569,6 +571,7 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://arxiv.org/pdf/2311.03989][Causal Method prediction]] :MachineLearning:Forccasting:Prediction:LLM:
 ** [[http://www.incompleteideas.net/IncIdeas/BitterLesson.html][Bitter Lesson]]
 The biggest lesson that can be read from 70 years of AI research is that general methods that
 leverage computation are ultimately the most effective, and by a large margin. The
