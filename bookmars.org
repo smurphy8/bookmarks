@@ -1445,4 +1445,4 @@ increasing the overall journey time. What other counter-intuitive results do we 
 ** [[https://runninglevel.com/running-times/5k-times][Running Level]]
 ** [[https://runbundle.com/tools/pace-tables/mph][Running Pace]]
 ** [[https://ycharts.com/indicators/us_rotary_rigs][Rig count]]
-
+** [[https://lukaskollmer.de/ieee-754-visualizer/][iee-754 analyzer]] :Numeric:Double:IEEE:
