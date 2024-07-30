@@ -1242,6 +1242,8 @@ information on known and predicted materials as well as powerful
 analysis tools to inspire and design novel materials.
 
 * productivity
+** [[https://docs.google.com/document/d/1ZJZbv4J6FZ8Dnb0JuMhJxTnwl-dwqx5xl0s65DE3wO8/edit][CEO within]] :Business:Productivity:
+A document with loads of interesting CEO stuff
 ** [[https://www.timeanddate.com/worldclock/meetingtime.html?year=2019&month=9&day=10&p1=122&p2=31&p3=184][timezone app]] :timezone:scheduling:
 ** [[https://twitter.com/george__mack/status/1728696014754676952][Useful razors]] :Business:Productivity:
 The most useful razors and rules I've found:
