@@ -1011,6 +1011,10 @@ of stochastic analysis. The concepts and the uniform estimates have widespread a
 pure and applied Mathematics and beyond.
 *** [[https://www.cs.ru.nl/~freek/100/][Theorems Proved automatically]] :Math:TheoremProver:Coq:
 Theorem Prover usage for various proofs
+*** [[https://adam.math.hhu.de/#/g/leanprover-community/nng4][Theorem Proving]] :TheoremProver:FormalVerification:
+An introduction to mathematical proof.
+
+In this game, we will build the basic theory of the natural numbers {0,1,2,3,4,...} from scratch. Our first goal is to prove that 2 + 2 = 4. Next we'll prove that x + y = y + x. And at the end we'll see if we can prove Fermat's Last Theorem. We'll do this by solving levels of a computer puzzle game called Lean.
 ** calculus
 *** [[https://www.semanticscholar.org/paper/the-solution-of-the-problem-of-integration-in-fini-risch/de5adc98bc00734d0714be30ba268a1b0e818e6d?citingpaperssort=is-influential&citingpaperslimit=10&citingpapersoffset=10&citedpaperssort=is-influential&citedpaperslimit=10&citedpapersoffset=0][risch algorithm]] :calculus:
 ** statistics
