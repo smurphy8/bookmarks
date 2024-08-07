@@ -363,6 +363,7 @@ In this class you will learn computer science, software, algorithms, application
 Nice book on Z programming, gives a really straight forward explanation of it.
 
 * design 
+
 ** [[https://www.sliderules.org/][Virtual Slide Rules]]
 It is a Slide Rule Simulator or Emulator
 All the scales are programmatically drawn based on reverse enginered mathematical equations.
@@ -1256,6 +1257,19 @@ If someone downplays their success or happiness, assume it’s double what they 
 The thing I’ve tried to do the last few years is really “barbell” the inputs. 
 I basically read things that are either up to this minute or things that are timeless–
 * Reverse Engineering
+** [[https://x86re.com/][Reverse Engineering Blog]] :ReverseEngineering:
+At a high level, reverse engineering is learning how something works
+without knowledge of it. With software, our goal is to understand the
+source code of a binary which we do not have the source code to. As a
+question: 'what does this do, and how does it do it?' Our desired
+outcomes come in varying degrees, from essentially re-creating software
+to just understanding what certain functions are performing. A large
+amount of analysis can be done by simply running and observing software,
+however this document is primarily about static analysis and examining
+the executable machine code. We gain a detailed view of the binary
+because, simply put, we are looking at the exact instructions which are
+running on a CPU.
+
 ** [[https://www.thirtythreeforty.net/posts/2020/05/hacking-reolink-cameras-for-fun-and-profit/][Reverse engineering ]]      :ReverseEngineering:
 ** [[https://mika-s.github.io/wireshark/lua/dissector/2017/11/04/creating-a-wireshark-dissector-in-lua-1.html][Lua Scripts in wireshark]]   :ReverseEngineering:
 ** [[https://ghidra-sre.org/][NSA hacking Tool ghidra]]:ReverseEngineering:
