@@ -286,6 +286,9 @@ This series is about how to make effective use of pandas, a data analysis librar
 
 *** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]] :LogisticRegression:NumericalComputing:
 ** database related
+*** [[https://umbra-db.com/][UMBRA]] :db:column:
+Made by the team that built Tableau.
+From the Analytics Engineering Podcast.
 *** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db: :datalog:
 *** [[https://pdfs.semanticscholar.org/8b8e/27602f142b838cbeb6059865d942251d5d6a.pdf][datalog with existensials]]
 *** [[http://arxiv.org/pdf/1210.2316v1.pdf][disjunctive quantifiers for datalog]] :db: :datalog:
