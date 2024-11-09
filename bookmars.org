@@ -96,25 +96,34 @@ At the end of the specified time, almost all the programmers reported that they 
 ninety percent of the programmers found bugs in their programs
 
 ** Languages
-*** PLC 
-**** [[http://www.semdesigns.com/Company/People/idbaxter/][Open PLC XML stuff]]
-**** [[https://www.automation.com/en-us/articles/2003-1/automatic-plc-code-generation-design-interchange-s][Automatic Code Generation]]
-*** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]]  :Frink:AltProgramming:Unit:Units:   
-*** SaC
-    
-****  [[https://arxiv.org/pdf/1912.05234.pdf][SAC]]
-Modern machine learning frameworks are complex: they aretypically 
-organised in multiple layers each of which is writ-ten in a different 
-language and they depend on a number ofexternal libraries, but at 
-their core they mainly consist of ten-sor operations. As 
-array-oriented languages provide perfectabstractions to implement 
-tensor operations, we consider aminimalistic machine learning 
-framework that is shallowlyembedded in an array-oriented language 
-and we study itsproductivity and performance. We do this by implementinga 
-state of the art Convolutional Neural Network (CNN) andcompare it against 
-implementations in TensorFlow and Py-Torch — two state of the art 
-industrial-strength frameworks.It turns out that our implementation 
-is2 and 3 times fast
+*** Agda
+**** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
+  Probability Monads in Cubical Agda
+  Posted on April 17, 2019
+  Tags: Agda, Probability
+
+  Cubical Agda has just come out, and I’ve been playing around with it for a bit. 
+  There’s a bunch of info out there on the theory of cubical types, 
+  and Homotopy Type Theory more generally 
+  (cubical type theory is kind of like an “implementation” of Homotopy type theory), 
+  but I wanted to make a post demonstrating cubical Agda in practice, and one of 
+  its cool uses from a programming perspective.
+  So What is Cubical Agda?
+  I don’t really know! Cubical type theory is quite complex (even for a type theory), 
+  and I’m not nearly qualified to properly explain it. In lieu of a proper 
+  first-principles explanation, then, I’ll try and give a few examples of how 
+  it differs from normal Agda, before moving on to the main example of this post. 
+*** ATS 
+**** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]]                            :Pointers:ATS:FP:LinearTypes:
+**** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]]                                                           :ATS:
+**** [[https://bluishcoder.co.nz/2017/12/02/cross-compiling-ats-programs.html][cross compiling ats programs]]                              :ATS:Building:
+**** [[https://github.com/githwxi/ATS-Postiats/wiki/keywords][Keywords in ats]]:ATS:FP:
+**** [[http://ats-lang.sourceforge.net/DOCUMENT/ATS2TUTORIAL/HTML/ATS2TUTORIAL-BOOK-onechunk.html][Keywords in ats contd]]                                           :ATS:FP:
+**** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][Keywords in ats contd 2]]                                         :ATS:FP:
+**** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]] :ATS:FP
+      
+**** [[http://ats-lang.github.io/EXAMPLE/EFFECTIVATS/GraphSearch/main.html][Walkthrough ATS Graph Example]] :ATS:Graph:FP:
+*** Bash
 *** Coq
 **** [[https://gopiandcode.uk/logs/log-bloomfilters-debunked.html][Bloom Filter Proof in Coq]]:FormalVerification:Coq:
 **** [[https://gist.github.com/relrod/0e19d50c17c162d7389f460c8a6c2082][printf]] :Coq:                                                   :Library:
@@ -130,37 +139,27 @@ is2 and 3 times fast
 **** [[https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/][Advanced Compilers]]:Compilers:Course:
 **** [[http://www.avabodh.com/cin/cin.html][C structures]]:C Programming:Lint:
 
-*** ATS 
-**** [[https://bluishcoder.co.nz/2013/01/25/an-introduction-to-pointers-in-ats.html][Pointers in ATS]]                            :Pointers:ATS:FP:LinearTypes:
-**** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][ATS Lang]]                                                           :ATS:
-**** [[https://bluishcoder.co.nz/2017/12/02/cross-compiling-ats-programs.html][cross compiling ats programs]]                              :ATS:Building:
-**** [[https://github.com/githwxi/ATS-Postiats/wiki/keywords][Keywords in ats]]:ATS:FP:
-**** [[http://ats-lang.sourceforge.net/DOCUMENT/ATS2TUTORIAL/HTML/ATS2TUTORIAL-BOOK-onechunk.html][Keywords in ats contd]]                                           :ATS:FP:
-**** [[http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/INT2PROGINATS-BOOK-onechunk.html][Keywords in ats contd 2]]                                         :ATS:FP:
-**** [[http://cs.likai.org/ats/ml-programmers-guide-to-ats][MLprogrammers guide to ATS]] :ATS:FP
-      
-**** [[http://ats-lang.github.io/EXAMPLE/EFFECTIVATS/GraphSearch/main.html][Walkthrough ATS Graph Example]] :ATS:Graph:FP:
 *** CSS
 **** [[https://robots.thoughtbot.com/you-don-t-need-javascript-for-that][Css tricks to replace JS]] :CSS:                                 :Example:
 **** [[https://web.dev/learn/css/][CSS Google]]
-*** [[https://github.com/mirth-lang/mirth][Mirth]]
-An ATS inspired language???
-*** Python
-**** [[https://towardsdatascience.com/modeling-the-world-in-a-deterministic-way-with-gekko-6dc8edbe5842][Gekko Article]] :Python:Library:
-Deterministic modeling is the antithesis to modeling with randomness.
-It is a method to simplify certain aspects of the modeling process by
-removing the messiness introduced by the real world. These models are idealistic in nature,
-meaning that they represent an ideal solution based on specific assumptions. These assumptions can
-stem from a set of opinionated, probabilistic, or generalized rules, and assumes that a well-defined
-pattern exists between the inputs and outputs. While this may sound similar to modeling with
-stochastic data, the main difference is that the model now is determined by the
-these predefined assumptions rather than training data. A question might now be popping
-into your head asking, “well if I’m not training the model on the data, where do I get these model assumptions from?”.
-The answer to this is quite simple yet sometimes overlooked, domain knowledge. Domain knowledge is a set of
-rules and concepts known on a specific topic. It is through domain knowledge that the assumptions are derived,
-serving as the foundation for deterministic modeling. In any programming language these deterministic models can
-be written using custom code, but as models become more complex, libraries have been written to specifically
-tackle this task. In python one such library called GEKKO will be explored.
+*** [[https://scottlocklin.wordpress.com/2024/01/08/unix-etl-tools-are-better-than-you/][ETL Tools on the command line - Locklin]] :Bash:sed:locklin:
+I daresay most don’t know about them at all, so let me name them:
+
+    #+begin_example
+    cut sort uniq tr split join: main transformation tools
+
+    cat head tail wc : UIs
+
+    od grep sed: secondaries
+    | > >> :connecting shell bits
+    awk: if all else fails
+    #+end_example
+**** [[https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md][Safe Bash]]
+*** Futhark
+**** [[https://futhark-lang.org/blog/2018-09-21-futhark-0.7.1-released.html#histogram-computations][Futhark Blog on Histograms]] :Futhark:Programming:
+Interesting article on the difficulty of parallelizing bin sorting problems in a functional context.
+
+*** [[https://www.hillelwayne.com/post/frink/][Frank a programming language for Units]]  :Frink:AltProgramming:Unit:Units:   
 *** Haskell
 **** [[https://haskell.foundation/hs-opt-handbook.github.io/][Haskell Optimization Handbook]] :Haskell:Optimization:
 **** [[https://haskell-docs.netlify.app/][Haskell Guide Beginningers]] :Haskell:Beginning:
@@ -190,23 +189,62 @@ tackle this task. In python one such library called GEKKO will be explored.
 **** [[https://hackage.haskell.org/package/gdiff-1.1/docs/Data-Generic-Diff.html][Diff patch library in haskell]] :DiffPatch:Haskell:
 **** [[https://well-typed.com/blog/2021/01/fragmentation-deeper-look/][ghc-debug]] :Debug:GHC:MemLeak:     
 **** [[https://blog.josephmorag.com/posts/mcc0/][LLVM and Haskell]] :LLVM:Haskell:
-*** Agda
-**** [[https://doisinkidney.com/posts/2019-04-17-cubical-probability.html][Cubical Probability in Agda]] :Agda:CubalTypes:Probability
-  Probability Monads in Cubical Agda
-  Posted on April 17, 2019
-  Tags: Agda, Probability
+*** Julia
+**** [[https://opensourc.es/blog/javis-v0.2-and-future/][animations in Julia]] :Julia:Animation:video:
+[[https://github.com/Wikunia/Javis.jl][Javis The actual library]] :Julia:Animation:
+[[file:img/eeg.gif]]
+**** [[https://notamonadtutorial.com/julia-gpu-98a461d33e21][GPU processing in Julia]]
+We are living in a time where more and more data is being created every day as well as new techniques and complex algorithms that try to extract the most out of it. As such, CPU capabilities are approaching a bottleneck in their computing power. GPU computing opened its way into a new paradigm for high-performance and parallel computation a long time ago, but it was not until recently that it become massively used for data science.
+In this interview, Tim Besard, one of the main contributors to the JuliaGPU project, digs into some of the details about GPU computing and the features that make Julia a language suited for such tasks, not only from a performance perspective but also from a user one.
+     
+*** [[https://github.com/mirth-lang/mirth][Mirth]]
+An ATS inspired language???
+*** [[https://apalache.informal.systems/docs/apalache/principles/folds.html][More in depth TLA apalche]] :TLA+:
+**** [[https://pron.github.io/posts/tlaplus_part2][TLA+ in Practice and Theory]] :TLA+:
+Most interesting objects we deal with both in mathematics and programming are not normally thought of as sets.
+TLA+ lets us cleanly express standard mathematical and programming objects, for which the function serves as the main building block.
 
-  Cubical Agda has just come out, and I’ve been playing around with it for a bit. 
-  There’s a bunch of info out there on the theory of cubical types, 
-  and Homotopy Type Theory more generally 
-  (cubical type theory is kind of like an “implementation” of Homotopy type theory), 
-  but I wanted to make a post demonstrating cubical Agda in practice, and one of 
-  its cool uses from a programming perspective.
-  So What is Cubical Agda?
-  I don’t really know! Cubical type theory is quite complex (even for a type theory), 
-  and I’m not nearly qualified to properly explain it. In lieu of a proper 
-  first-principles explanation, then, I’ll try and give a few examples of how 
-  it differs from normal Agda, before moving on to the main example of this post. 
+Usually, a function is defined to be a one-valued relation, where a relation is a set of pairs —
+in other words, a function is defined by its graph — but in TLA+ functions are not defined as sets of pairs
+but as primitives (meaning that, like numbers, their encoding as sets is unknown, or opaque
+). In fact, it is pairs that are actually functions in TLA+ as they’re a special case of sequences,
+which are in turn a special case of functions, as we’ll see. In any event, functions in TLA+ are not
+computations; they have no dynamic behavior and no computational complexity. They are just values in the state space of algorithms.
+Programmers may best think of them as associative arrays, albeit possibly infinite in size (even uncountably big).
+*** PLC 
+**** [[http://www.semdesigns.com/Company/People/idbaxter/][Open PLC XML stuff]]
+**** [[https://www.automation.com/en-us/articles/2003-1/automatic-plc-code-generation-design-interchange-s][Automatic Code Generation]]
+*** Python
+**** [[https://towardsdatascience.com/modeling-the-world-in-a-deterministic-way-with-gekko-6dc8edbe5842][Gekko Article]] :Python:Library:
+Deterministic modeling is the antithesis to modeling with randomness.
+It is a method to simplify certain aspects of the modeling process by
+removing the messiness introduced by the real world. These models are idealistic in nature,
+meaning that they represent an ideal solution based on specific assumptions. These assumptions can
+stem from a set of opinionated, probabilistic, or generalized rules, and assumes that a well-defined
+pattern exists between the inputs and outputs. While this may sound similar to modeling with
+stochastic data, the main difference is that the model now is determined by the
+these predefined assumptions rather than training data. A question might now be popping
+into your head asking, “well if I’m not training the model on the data, where do I get these model assumptions from?”.
+The answer to this is quite simple yet sometimes overlooked, domain knowledge. Domain knowledge is a set of
+rules and concepts known on a specific topic. It is through domain knowledge that the assumptions are derived,
+serving as the foundation for deterministic modeling. In any programming language these deterministic models can
+be written using custom code, but as models become more complex, libraries have been written to specifically
+tackle this task. In python one such library called GEKKO will be explored.
+*** SaC
+    
+****  [[https://arxiv.org/pdf/1912.05234.pdf][SAC]]
+Modern machine learning frameworks are complex: they aretypically 
+organised in multiple layers each of which is writ-ten in a different 
+language and they depend on a number ofexternal libraries, but at 
+their core they mainly consist of ten-sor operations. As 
+array-oriented languages provide perfectabstractions to implement 
+tensor operations, we consider aminimalistic machine learning 
+framework that is shallowlyembedded in an array-oriented language 
+and we study itsproductivity and performance. We do this by implementinga 
+state of the art Convolutional Neural Network (CNN) andcompare it against 
+implementations in TensorFlow and Py-Torch — two state of the art 
+industrial-strength frameworks.It turns out that our implementation 
+is2 and 3 times fast
 *** SML, Ocaml, Reason
 **** [[http://www.cs.cmu.edu/~crary/papers/2018/cmtool.pdf][Parser Generators]] :SML:Haskell:Parsing:
 **** [[https://jozefg.bitbucket.io/posts/2015-01-08-modules.html][ML Modules]] :SML: :Programming: :FP:
@@ -227,43 +265,9 @@ The point can be illustrated by considering some of the contexts in which null a
 **** [[http://caml.inria.fr/pub/docs/u3-ocaml/index.html][Understanding the OCaml language]]:ML:Ocaml:
 **** [[https://www.javierchavarri.com/data-first-and-data-last-a-comparison/][Data First Vs Last]] :ML:Reason:Opinions:
 **** [[https://www.cs.cornell.edu/courses/cs3110/2021sp/textbook/intro/intro.html][learn ocaml]] :Ocaml:
-*** Julia
-**** [[https://opensourc.es/blog/javis-v0.2-and-future/][animations in Julia]] :Julia:Animation:video:
-[[https://github.com/Wikunia/Javis.jl][Javis The actual library]] :Julia:Animation:
-[[file:img/eeg.gif]]
-**** [[https://notamonadtutorial.com/julia-gpu-98a461d33e21][GPU processing in Julia]]
-We are living in a time where more and more data is being created every day as well as new techniques and complex algorithms that try to extract the most out of it. As such, CPU capabilities are approaching a bottleneck in their computing power. GPU computing opened its way into a new paradigm for high-performance and parallel computation a long time ago, but it was not until recently that it become massively used for data science.
-In this interview, Tim Besard, one of the main contributors to the JuliaGPU project, digs into some of the details about GPU computing and the features that make Julia a language suited for such tasks, not only from a performance perspective but also from a user one.
-     
 *** TLA+
 **** [[https://www.tautvidas.com/blog/2017/12/experimenting-with-tla-and-pluscal-3-throttling-multiple-senders/][TLA Plus Throttling Multiple Senders]] :TLA+:Specifications:FormalSystems:
 **** [[https://hillelwayne.com/post/action-properties/][Action Properties]] :TLA+:Specifications:FormalSystems:
-*** [[https://apalache.informal.systems/docs/apalache/principles/folds.html][More in depth TLA apalche]] :TLA+:
-**** [[https://pron.github.io/posts/tlaplus_part2][TLA+ in Practice and Theory]] :TLA+:
-Most interesting objects we deal with both in mathematics and programming are not normally thought of as sets.
-TLA+ lets us cleanly express standard mathematical and programming objects, for which the function serves as the main building block.
-
-Usually, a function is defined to be a one-valued relation, where a relation is a set of pairs —
-in other words, a function is defined by its graph — but in TLA+ functions are not defined as sets of pairs
-but as primitives (meaning that, like numbers, their encoding as sets is unknown, or opaque
-). In fact, it is pairs that are actually functions in TLA+ as they’re a special case of sequences,
-which are in turn a special case of functions, as we’ll see. In any event, functions in TLA+ are not
-computations; they have no dynamic behavior and no computational complexity. They are just values in the state space of algorithms.
-Programmers may best think of them as associative arrays, albeit possibly infinite in size (even uncountably big).
-*** Bash
-*** [[https://scottlocklin.wordpress.com/2024/01/08/unix-etl-tools-are-better-than-you/][ETL Tools on the command line - Locklin]] :Bash:sed:locklin:
-I daresay most don’t know about them at all, so let me name them:
-
-    #+begin_example
-    cut sort uniq tr split join: main transformation tools
-
-    cat head tail wc : UIs
-
-    od grep sed: secondaries
-    | > >> :connecting shell bits
-    awk: if all else fails
-    #+end_example
-**** [[https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md][Safe Bash]]
 ** Computation, visualization and that kind of thing
 *** [[https://en.wikipedia.org/wiki/row-_and_column-major_order][row major columm major wiki entry (popular method)]] :matrixrepresentation:numericalcomputing:
 *** [[https://news.ycombinator.com/item?id=24681914][Sparse Matrix Representation]] :MatrixRepresentation:SparseMatrix:NumericalComputing:
@@ -286,7 +290,7 @@ This series is about how to make effective use of pandas, a data analysis librar
 
 *** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]] :LogisticRegression:NumericalComputing:
 ** database related
-*** [[https://umbra-db.com/][UMBRA]] :db:column:
+*** [[https://umbra-db.com/][kUMBRA]]                             :db:column:
 Made by the team that built Tableau.
 From the Analytics Engineering Podcast.
 *** [[http://www.lirmm.fr/~mugnier/articlespostscript/mugnierrr2011-keynote.pdf][advanced datalog]] :db: :datalog:
@@ -979,6 +983,27 @@ Relying solely on the general crawl has proved unworkable for most.
 *** [[https://www.thefxck.com/interviews/product-positioning-april-dunford][april dunford, product positioning]]
 really interesting case study on product market fit
 * math
+** John Cook Interesting Articles
+*** [[https://www.johndcook.com/blog/2024/09/07/aryabhata/][Cosine Approximation]]
+I’ve written a couple posts on the approximation
+
+\cos x \approx \frac{\pi^2 - 4x^2}{\pi^2 + x^2}
+
+by the Indian astronomer Aryabhata (476–550). The approximation is accurate for x in [−π/2, π/2].
+*** [[https://www.johndcook.com/blog/2024/08/31/craigs-formula/][Normal Integral approx]]
+If you wanted to compute this probability numerically, you could obviously evaluate its defining
+integral numerically. But as is often the case in numerical analysis, the most obvious
+approach is not the best approach. The range of integration is unbounded and it varies with the argument.
+*** [[https://www.johndcook.com/blog/2024/08/18/bessel-everett/][Bessel Everett Interpolation]]
+I never heard of Bessel or Everett interpolation until long after college. I saw Lagrange interpolation several times.
+Why Lagrange and not Bessel or Everett?
+
+First of all, Bessel interpolation and Everett interpolation are not different kinds of interpolation; they
+are different algorithms for carrying out the same interpolation as Lagrange. There is a unique polynomial
+of degree n fitting a function at n + 1 points, and all three methods evaluate this same polynomial.
+*** [[https://www.johndcook.com/blog/2024/08/15/distorted-cosines/][Distorted Cosines]]
+Another gem from Numerical Methods that work.
+
 ** graph theory 
 *** [[http://web.stanford.edu/~saberi/sis2.pdf][random graph generation]]   :math:                            :graphtheory:
 *** [[http://web.cs.elte.hu/~lovasz/bookxx/geomgraphbook/geombook2019.01.11.pdf][graphs and geometry]] :graphtheory:geometry:
