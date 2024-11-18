@@ -6,6 +6,12 @@
 *** [[https://david.li/][Digital Art of David Li]]
 *** [[https://www.rafael-araujo.com/product-page/blue-spikes-shell][Digital Art Butterflies guy]]
 *** [[https://www.botto.com/][AI Generated Art BOTTO]] :ML:DallE:
+*** [[https://archive.org/details/galaxymagazine][Galaxy Magazine]] :Comic:SciFi:Art:
+Galaxy Science Fiction was an American digest-size science fiction magazine,
+published from 1950 to 1980. It was founded by an Italian company, World Editions,
+which was looking to break in to the American market. World Editions hired as editor
+H. L. Gold, who rapidly made Galaxy the leading science fiction (sf) magazine
+of its time, focusing on stories about social issues rather than technology. 
 * competitors
 ** [[https://openautomationsoftware.com/video-links/][open automation]] :scada:
 ** [[http://video.andium.com/][andium solutions]] :tankmeasurement:machinelearning:
