@@ -326,7 +326,7 @@ It took me around 3 months to do it without any previous knowledge of Vulkan
 *** [[https://graphs.grevian.org/example][graphviz]]      :graphviz:examples:
 **** [[https://github.com/mkirchner/linked-list-good-taste][kLinked List Elegant Linus]] :C Programming:Refactor:
 **** [[https://livebook.manning.com/book/haskell-in-depth/chapter-9/v-10/227][Haskell In Depth]] :DiffPatch:Haskell:Memory:
-
+**** [[https://rust-unofficial.github.io/too-many-lists/][Learn Rust with too many linked lists]] :rust:fp:
 *** [[https://seiya.me/writing-linux-clone-in-rust][Writing a Linux clone in rust]] :rust:linux:
 TL;DR: I'm writing a Linux clone in Rust just for fun. It does NOT aim to replace the Linux kernel.
 
