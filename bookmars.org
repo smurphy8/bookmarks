@@ -327,6 +327,10 @@ It took me around 3 months to do it without any previous knowledge of Vulkan
 **** [[https://github.com/mkirchner/linked-list-good-taste][kLinked List Elegant Linus]] :C Programming:Refactor:
 **** [[https://livebook.manning.com/book/haskell-in-depth/chapter-9/v-10/227][Haskell In Depth]] :DiffPatch:Haskell:Memory:
 **** [[https://rust-unofficial.github.io/too-many-lists/][Learn Rust with too many linked lists]] :rust:fp:
+I fairly frequently get asked how to implement a linked list in Rust.
+The answer honestly depends on what your requirements are, and it's obviously
+not super easy to answer the question on the spot. As such I've decided to
+write this book to comprehensively answer the question once and for all.
 *** [[https://seiya.me/writing-linux-clone-in-rust][Writing a Linux clone in rust]] :rust:linux:
 TL;DR: I'm writing a Linux clone in Rust just for fun. It does NOT aim to replace the Linux kernel.
 
@@ -1121,6 +1125,11 @@ use jupyter-run-repl in org mode
 *** [[http://erikdemaine.org/papers/cgta2000/paper.pdf][algorithmic paper folding]] :math: :geometry:                     :origami:
 *** [[https://www.scribd.com/document/190482625/a-practical-algorithm-for-decomposing-polygonal-domains-into-convex-polygons-by-diagonals][convex hull decomposition]] :math: :geometry:       :computationalgeometry:
 *** [[https://www.cs.cmu.edu/~kmcrane/projects/dgpdec/paper.pdf][discrete differential geometry]] :geometry:differentialgeometry:
+*** [[https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf][What is Differrential Geometry]] :geometry:differentialgeometry:
+Carl Friedrich Gauß (1777-1855) is the father of differential geometry. He
+was (among many other things) a cartographer and many terms in modern
+differential geometry (chart, atlas, map, coordinate system, geodesic, etc.)
+reflect these origins.
 ** linear
 *** [[https://networkscience.wordpress.com/2012/05/04/taxonomy-of-matrices/][taxonomy of matricies]] :math:                                     :linear:
 *** [[https://golem.ph.utexas.edu/category/2016/06/how_the_simplex_is_a_vector_sp.html][simplex as a vector space]] :math:                                 :linear:
