@@ -437,6 +437,8 @@ Using a URL is a way to do that, this post goes over how to do that securely
 ** [[https://mxtoolbox.com/][email mx records toolbox]] :mail:mx:   
 website mx record test health
 * History
+** [[https://www.oldmapsonline.org/en/history/rulers#position=2.436/43.9/48.9/-5.41&year=1631][World Map Over Time]] :History:Map:
+Timeline with map of history of the world
 ** [[https://archive.org/details/sim_editor-publisher_1911-06-24_10_52/page/n3/mode/2up][Newspapers over time]] :History:Newspapers:
 * economics and econometrics
 ** history of econ
