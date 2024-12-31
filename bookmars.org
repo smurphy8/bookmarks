@@ -1023,7 +1023,13 @@ p** meta math
 *** [[https://plus.google.com/u/0/+terencetao27/posts/6diqmz1jqrb][terrance tao, the meaning of =]]   :math: :graphtheory:               :tao:
 *** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][history of math]]  :math:                                         :history:
 ** probability
-*** [[https://www.sciencedirect.com/topics/mathematics/borel-field][Borel Field In Depth]] :math:search:porbability:   
+*** [[https://win-vector.com/2024/12/19/kelly-cant-fail/][Kelly Can't Fail]] :KellyCriterion:betting:probability:
+This was a really interesting article on a game to illustrate kelly betting.
+The final result was the standard binary transmission with rate p of error and q of success.
+p=q don't bet
+p>q bet on p
+p<q bet on q
+*** [[https://www.sciencedirect.com/topics/mathematics/borel-field][Borel Field In Depth]] :math:search:probability:   
 *** [[file:papers/316-m-resone.pdf][History of Probability D'Alembert]] :math:probability:stat:gambling:
 In this article, we ask a question not so often addressed: what made various bettingsystems 
 so attractive to novice gamblers?  Because the systems were often touted bycasinos to encourage 
