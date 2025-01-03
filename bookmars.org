@@ -1517,3 +1517,23 @@ increasing the overall journey time. What other counter-intuitive results do we 
 ** [[https://runbundle.com/tools/pace-tables/mph][Running Pace]]
 ** [[https://ycharts.com/indicators/us_rotary_rigs][Rig count]]
 ** [[https://lukaskollmer.de/ieee-754-visualizer/][iee-754 analyzer]] :Numeric:Double:IEEE:
+* Writing
+** [[https://refactoringenglish.com/chapters/rules-for-software-tutorials/][Writing Software Tutorials]]
+0    Write for beginners
+1    Promise a clear outcome in the title
+2    Explain the goal in the introduction
+3    Show the end result
+4    Make code snippets copy/pasteable
+5    Use long versions of command-line flags
+6    Separate user-defined values from reusable logic
+7    Spare the reader from mindless tasks
+8    Let computers evaluate conditional logic
+9    Keep your code in a working state
+10    Teach one thing
+11    Don’t try to look pretty
+12    Minimize dependencies
+13    Specify filenames clearly
+14    Use consistent, descriptive headings
+15    Demonstrate that your solution works
+16    Link to a complete example
+
