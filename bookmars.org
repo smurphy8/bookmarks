@@ -1537,3 +1537,8 @@ increasing the overall journey time. What other counter-intuitive results do we 
 15    Demonstrate that your solution works
 16    Link to a complete example
 
+* Game Design
+** [[https://book.leveldesignbook.com/][Level Design Book]] :GameDesign:Levels:
+The Level Design Book gathers level design knowledge for 3D video games in an approachable,
+up-to-date, and critical way. It is for designers of all experience levels and game engines.
+
