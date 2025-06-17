@@ -1325,6 +1325,8 @@ running on a CPU.
 ** [[https://mika-s.github.io/wireshark/lua/dissector/2017/11/04/creating-a-wireshark-dissector-in-lua-1.html][Lua Scripts in wireshark]]   :ReverseEngineering:
 ** [[https://ghidra-sre.org/][NSA hacking Tool ghidra]]:ReverseEngineering:
 * security related
+** [[https://tailscale.com/blog/managing-passwords-is-so-2020][Tailscale Password Advisor]] :security:
+Using open standards to govern security behavior.
 ** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][ios security]] :security:
 ** [[https://webcache.googleusercontent.com/search?q=cache:jtkf6wuc348j:https://humblesec.wordpress.com/2017/07/05/assemby-to-pseudo-code-manually/][assembly to pseudo code]] :security:
 ** [[http://www.phrack.org/papers/attacking_javascript_engines.html][attacking javascript engines]] :security:
