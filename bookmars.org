@@ -1260,6 +1260,9 @@ In a nutshell, NixOS is a operating system based on Linux that provides a declar
 ** email format 
 + [[https://datatracker.ietf.org/doc/html/rfc2045][email mime format]]
 * performance related
+** Emacs
+*** [[https://coredumped.dev/2025/06/18/making-tramp-go-brrrr./][Emacs Tramp Performance]] :optimization:emacs:
+Same topic, but the [[https://news.ycombinator.com/item?id=44356346][HN article]]. 
 ** [[https://www.nayuki.io/page/a-fundamental-introduction-to-x86-assembly-programming][assembly programming introduction]]  :optimization: :assembly:
 ** [[https://github.com/processone/tsung][tsung http]] :optimization:performance:htt
 ** [[https://lwn.net/SubscriberLink/827180/a1c1305686bfea67/][Lockless Algorithms for mere mortals]] :optimization:performance:linux kernel:
