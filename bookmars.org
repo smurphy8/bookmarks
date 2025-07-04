@@ -1567,3 +1567,5 @@ No  generic terms like "various improvements"
 The Level Design Book gathers level design knowledge for 3D video games in an approachable,
 up-to-date, and critical way. It is for designers of all experience levels and game engines.
 
+** [[https://www.cs.cmu.edu/~112/notes/student-tp-guides/Terrain.pdf][Terrain Generation Techniques]]
+Guide to several algorithms for terrain generation and other references
