@@ -591,6 +591,7 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://arxiv.org/pdf/2404.17625][AAlice’s adventures in a differentiable wonderland]] :MachineLearning:NN:AutomatedDifferentiation:
 ** [[https://arxiv.org/pdf/2311.03989][Causal Method prediction]] :MachineLearning:Forccasting:Prediction:LLM:
 ** [[http://www.incompleteideas.net/IncIdeas/BitterLesson.html][Bitter Lesson]]
 The biggest lesson that can be read from 70 years of AI research is that general methods that
@@ -994,6 +995,7 @@ Relying solely on the general crawl has proved unworkable for most.
 ** positioning
 *** [[https://www.thefxck.com/interviews/product-positioning-april-dunford][april dunford, product positioning]]
 really interesting case study on product market fit
+
 * math
 ** John Cook Interesting Articles
 *** [[https://www.johndcook.com/blog/2024/09/07/aryabhata/][Cosine Approximation]]
@@ -1541,6 +1543,24 @@ increasing the overall journey time. What other counter-intuitive results do we 
 14    Use consistent, descriptive headings
 15    Demonstrate that your solution works
 16    Link to a complete example
+
+** [[https://refactoringenglish.com/chapters/release-announcements/][Writing Press Releases]]
+Key Takeaways:
+A a release announcement explains how the users experience is better today than yesterday.
+Release notes are not the same as release announcements and should be treated differently.
+
+A few questions:
+What can a user do they couldn't before?
+What workflows became faster?
+What workflows became easier?
+
+I guess these are also important things to think about when designing features!
+
+Focus on the positive:
+"Faster" not "less slow".
+
+No  generic terms like "various improvements"
+
 
 * Game Design
 ** [[https://book.leveldesignbook.com/][Level Design Book]] :GameDesign:Levels:
