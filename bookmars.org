@@ -720,6 +720,25 @@ useful unsupervised learning that applies universally to many more data modaliti
 ** [[https://jacobbuckman.substack.com/p/deep-learning-is-better-than-linear][replace regression with machine learning]] :MachineLearning:Ops:
 ** [[https://fullstackdeeplearning.com/cloud-gpus/][List of GPUS in Cloud]]                                :MachineLearning:Ops:
 ** [[https://twitter.com/danhockenmaier/status/1639288056183410688/photo/1][Machine learning reading list]] :MachineLearning:
+** [[https://damek.github.io/random/basic-facts-about-gpus/][GPU Basic Facts 2025]] :MachineLearning:
+Table of Contents
+
+    Compute and memory hierarchy
+    Two Performance Regimes: Memory-Bound and Compute-Bound
+    The Third Regime: Overhead
+    Two basic strategies for increasing performance: Fusion and Tiling
+        Operator Fusion
+        Tiling: Strategy for Compute-Bound Kernels
+            The Coalesced Load: HBM to SRAM
+            Synchronization
+            The On-Chip Hardware: Banks and Warps
+            The Bank Conflict Problem
+            The On-Chip Compute Phase: Increasing Arithmetic Intensity
+    Additional Performance Considerations
+        Occupancy and Latency Hiding
+        Avoiding Thread Divergence
+        Quantization
+
 ** [[https://www.featureform.com/post/the-definitive-guide-to-embeddings][Definitive Guide to Embeddings]]
 Embeddings have pervaded the data scientist’s toolkit, and dramatically changed how NLP,
 computer vision, and recommender systems work. However, many data scientists find
