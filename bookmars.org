@@ -296,6 +296,17 @@ This series is about how to make effective use of pandas, a data analysis librar
 
 *** [[https://philippmuens.com/logistic-regression-from-scratch/][logistic-regression from scratch]] :LogisticRegression:NumericalComputing:
 ** database related
+*** [[https://spacetimedb.com/pricing][spacetimedb]] :db:multiplayer:
+Today has been a very long time coming and I'm so excited that we're finally here. I'm incredibly thrilled to finally announce the release of SpacetimeDB 1.0!
+
+What initially started as crude dream to improve the development process for a social media app, and became the inspiration for a completely new way of
+developing multiplayer games when we began working on our MMORPG, BitCraft Online, has culminated in a production ready, real-time, relational database
+sync engines for games and multiplayer applications.
+
+SpacetimeDB 1.0 is the product of the collective efforts of some amazingly talented engineers over years to deliver a stable, powerful relational
+database system, with elegant and easy-to-use APIs implemented in three different programming languages. Multiple teams already run SpacetimeDB
+in production, and we have been testing it for years as the backend of BitCraft Online.
+
 *** [[https://umbra-db.com/][kUMBRA]]                             :db:column:
 Made by the team that built Tableau.
 From the Analytics Engineering Podcast.
