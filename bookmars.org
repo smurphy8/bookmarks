@@ -1599,3 +1599,9 @@ up-to-date, and critical way. It is for designers of all experience levels and g
 
 ** [[https://www.cs.cmu.edu/~112/notes/student-tp-guides/Terrain.pdf][Terrain Generation Techniques]]
 Guide to several algorithms for terrain generation and other references
+
+** [[https://google.github.io/filament/Materials.md.html][Guide for game materials]] :GameDesign:Graphics:
+Filament is a physically based rendering (PBR) engine for Android.
+Filament offers a customizable material system that you can use to create
+both simple and complex materials. This document describes all the features
+available to materials and how to create your own material. 
