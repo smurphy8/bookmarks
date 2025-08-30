@@ -1483,6 +1483,8 @@ Proof by contradiction, or reductio ad absurdum, is a different kind of animal. 
 ** [[https://github.com/sickcodes/Docker-OSX][Docker OSX]] :Docker:OSX:Computer Applications:
 (setq helm-locate-fuzzy-match t)
 
+** [[https://wikigrapher.com/paths][Wikigraph]] :Wikipedia:graphtheory:
+You can take any two subjects and graph them together in wiki form. 
 * ux ui api dsl 
 ** [[https://www.dexplo.org/dexplot/][dex plot table plotting library]] :table:plotting:
 this library is a possible helper for custom table
@@ -1605,3 +1607,4 @@ Filament is a physically based rendering (PBR) engine for Android.
 Filament offers a customizable material system that you can use to create
 both simple and complex materials. This document describes all the features
 available to materials and how to create your own material. 
+
