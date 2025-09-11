@@ -602,6 +602,13 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://karpathy.github.io/2019/04/25/recipe/][Andrej Karpathy's incredibly useful guide to model training]] :MachineLearning:NN:Stats:
+This is an amazing set of steps to understand Machine learning.
+So I thought it could be fun to brush off my dusty blog to expand my tweet to the long form that this topic deserves.
+However, instead of going into an enumeration of more common errors or fleshing them out, I wanted to dig a
+bit deeper and talk about how one can avoid making these errors altogether (or fix them very fast). The trick to
+doing so is to follow a certain process, which as far as I can tell is not very often documented.
+Let’s start with two important observations that motivate it.
 ** [[https://arxiv.org/pdf/2404.17625][AAlice’s adventures in a differentiable wonderland]] :MachineLearning:NN:AutomatedDifferentiation:
 ** [[https://arxiv.org/pdf/2311.03989][Causal Method prediction]] :MachineLearning:Forccasting:Prediction:LLM:
 ** [[http://www.incompleteideas.net/IncIdeas/BitterLesson.html][Bitter Lesson]]
