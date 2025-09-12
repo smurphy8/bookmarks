@@ -1563,6 +1563,7 @@ increasing the overall journey time. What other counter-intuitive results do we 
 ** [[https://runbundle.com/tools/pace-tables/mph][Running Pace]]
 ** [[https://ycharts.com/indicators/us_rotary_rigs][Rig count]]
 ** [[https://lukaskollmer.de/ieee-754-visualizer/][iee-754 analyzer]] :Numeric:Double:IEEE:
+** [[https://float.exposed/0x44bf9400][All Floating Point variant analyzer]] :Numeric:Double:IEEE:
 * Writing
 ** [[https://refactoringenglish.com/chapters/rules-for-software-tutorials/][Writing Software Tutorials]]
 0    Write for beginners
