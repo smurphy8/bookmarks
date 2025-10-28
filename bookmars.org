@@ -319,7 +319,15 @@ From the Analytics Engineering Podcast.
 ** distributed computing
 *** [[https://www.info.ucl.ac.be/~pvr/book.html][concepts techniques]] :ComputerScience: :distributed: :book:
 *** [[http://www.sosp.org/2001/papers/welsh.pdf][stage driven event architecture]] :distributed: :ComputerScience: :paper:
-*** [[https://13a75b74-a-62cb3a1a-s-sites.googlegroups.com/site/umutacar/publications/pramod-thesis.pdf?attachauth=anoy7cqv4v3ed2lvttcmv-owtkgark9xtiq95sdsan_j2r4ecmbqyeofkfp6ezugi24oltguurabzbavpe7yvja5kj2xj-zhvmsbnz8g9tpti2tfv3jr57wbiwkb9jfnifxs5u5tx5pp5sn7vbd9p5hizsfscfmaiqizbabapjbd9yhprnfxppf0h3ec3vvcipwngppatxrq9ciwu9lfqn8tkjwqfd9ss3nwoprgk_6dkvskzfg5bgs%3d&attredirects=0][incremental parallel]] :incremental:distributed:ComputerScience:paper:
+*** [[https://github.com/janestreet/incremental][incremental parallel]] :incremental:distributed:ComputerScience:paper:Ocaml:
+Incremental is a library that gives you a way of building complex computations that can update efficiently in
+response to their inputs changing, inspired by the work of Umut Acar et. al. on self-adjusting computations.
+Incremental can be useful in a number of applications, including:
+
++ Building large calculations (of the kind you might build into a spreadsheet) that can react efficiently to changing data.
++ Constructing views in GUI applications that can incorporate new data efficiently.
++ Computing derived data while guaranteeing that the derived data stays in sync with the source data, for instance filtering or inversing a mapping.
+
 *** [[https://www.slideshare.net/koenighotze/event-sourcing-you-are-doing-it-wrong-devoxx][event sourcing doing it wrong]] :eventsourcing:distributed:
 *** [[https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/leslie_lamport.pdf][tla+ example]] :tla:distributed:modeling:
 *** [[https://lamport.azurewebsites.net/video/videos.html][tla+ videos leslie lamport]] :tla:distributed:modeling:
@@ -837,7 +845,7 @@ And finally, here’s the full spread of possibilities, using one or two draws, 
 ** Language Model
 *** [[https://codelanguageconverter.com/][code language converter]] :programming:MachineLearning:
 
-* [[https://thenumb.at/Autodiff/][Auto Differentiation]]
+** [[https://thenumb.at/Autodiff/][Auto Differentiation]]
 
 Max Slater
 
@@ -950,6 +958,11 @@ Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of th
 *** [[https://victorzhou.com/blog/intro-to-random-forests/][Intro to random forests]]
 [[./decisiontree.png]]
 Decision trees and random forest, an understandable introduction to me.
+* Prompting and Vibe Stuff
+** [[https://towardsdatascience.com/prompt-engineering-for-time-series-analysis-with-large-language-models/][Prompt Engineering for Time-Series Analysis with Large Language Models]] :PromptEngineering:TimeSeries:
+Working with time-series data is often different from regular analysis, mainly because of challenges
+regarding the time-dependency that every data scientist eventually runs into.
+What if you could speed up and improve your analysis with just the right prompt?
 * makefiles
 ** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
 * management & business
@@ -1600,7 +1613,6 @@ Focus on the positive:
 "Faster" not "less slow".
 
 No  generic terms like "various improvements"
-
 
 * Game Design
 ** [[https://book.leveldesignbook.com/][Level Design Book]] :GameDesign:Levels:
