@@ -731,7 +731,18 @@ estimation on ImageNet, and model audio from raw files. Together, these results 
 viability of tokenization-free autoregressive sequence modeling at scale.
 ** [[https://arxiv.org/abs/2305.14314][QLoRA: Efficient Finetuning of Quantized LLMs]] :MachineLearning:
 Quantized LLMs Paper
-** [[http://incompleteideas.net/book/RLbook2020.pdf][Reinforcement Learning]]:MachineLearning:ReinforcementLearning:
+** [[https://www.argmin.net/p/reformist-reinforcement-learning][Reformed Reinforcement Learning]] :MachineLearning:ReinforcementLearning:
+This means that if you can sample from p(x; w) for any setting of the weights, you can run
+stochastic gradient ascent on the objective you care about. That’s it. For historical reasons,
+stochastic gradient with this gradient estimator is called policy gradient. You choose a distribution
+parameterized so you can sample from it. You draw samples from your current distribution.
+You tune the weights to increase the probability where the samples found promising values.
+** [[http://incompleteideas.net/book/RLbook2020.pdf][Reinforcement Learning]] :MachineLearning:ReinforcementLearning:
+** [[https://towardsdatascience.com/temporal-difference-learning-and-the-importance-of-exploration-an-illustrated-guide/][Temporal Difference Learning]] :MachineLearning:ReinforcementLearning:
+Temporal-Difference Learning is a combination of Monte Carlo (MC) and Dynamic Programming (DP) methods:
++ Like MC methods, TD methods can learn from experience without requiring a model of the environment’s dynamics.
++ Like DP methods, TD methods update estimates after every step based on other learned estimates without waiting for the outcome (this is called bootstrapping).
+
 ** [[https://arxiv.org/pdf/1807.03748.pdf][Contrastive predictive coding]] :MachineLearning:TimeSeries:
 In this paper we presented Contrastive Predictive Coding (CPC), a framework for extracting compact
 latent representations to encode predictions over future observations. CPC combines autoregressive
