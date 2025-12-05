@@ -398,6 +398,13 @@ In this class you will learn computer science, software, algorithms, application
 **** [[https://www.cs.cmu.edu/~15819/zedbook.pdf][Intro to Z language]]
 Nice book on Z programming, gives a really straight forward explanation of it.
 
+** Case Study
+*** [[https://renerocks.ai/blog/2025-11-02--tigerfans/][High Performance Ticketing]] :Ticketing:EventLog:HighPerformance:CaseStudy:
+That was Joran Dirk Greef’s response when someone on Twitter asked how you’d build a ticketing solution for an Oasis-scale concert—hundreds of thousands of people flooding your website at once, where you need to guarantee no ticket gets sold twice and everyone who pays gets a ticket. Joran is the CEO and founder of TigerBeetle.
+
+He was right. Everyone who knows TigerBeetle would give the same advice. TigerBeetle is a financial transactions database designed for exactly this kind of problem: counting resources with absolute correctness under extreme load.
+
+But I wanted to understand the concrete implementation. Not just conceptually—I needed to see the actual code.
 * design 
 
 ** [[https://www.sliderules.org/][Virtual Slide Rules]]
