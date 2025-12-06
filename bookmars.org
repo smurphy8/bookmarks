@@ -345,6 +345,7 @@ It took me around 3 months to do it without any previous knowledge of Vulkan
 *** [[https://graphs.grevian.org/example][graphviz]]      :graphviz:examples:
 **** [[https://github.com/mkirchner/linked-list-good-taste][kLinked List Elegant Linus]] :C Programming:Refactor:
 **** [[https://livebook.manning.com/book/haskell-in-depth/chapter-9/v-10/227][Haskell In Depth]] :DiffPatch:Haskell:Memory:
+**** [[https://corrode.dev/blog/defensive-programming/][Defensive Programming in Rust]] :rust:fp:
 **** [[https://rust-unofficial.github.io/too-many-lists/][Learn Rust with too many linked lists]] :rust:fp:
 I fairly frequently get asked how to implement a linked list in Rust.
 The answer honestly depends on what your requirements are, and it's obviously
