@@ -16,6 +16,11 @@ of its time, focusing on stories about social issues rather than technology.
 ** [[https://openautomationsoftware.com/video-links/][open automation]] :scada:
 ** [[http://video.andium.com/][andium solutions]] :tankmeasurement:machinelearning:
 * Computer Programming
+** Computer Architecture
+*** [[https://jax-ml.github.io/scaling-book/][Scaling LLM]] :LLM:Scale:
+*** [[https://damek.github.io/random/basic-facts-about-gpus/][Facts about GPU]] :GPU:Hardware:
+I’ve been trying to get a better sense of how GPUs work.
+I’ve read a lot online, but the following posts were particularly helpful:
 ** FP General
 *** [[https://cdsmith.wordpress.com/2012/04/18/why-do-monads-matter/][Why Monads Matter]]   :FP: :Theory:
 *** [[https://github.com/GaloisInc/ivorylang-org/blob/master/extras/ivory-rust/ivory-rust.md][ivory vs. rust]] :Rust: :Ivory: 
@@ -485,6 +490,11 @@ it underlies the assumption that the time average and the expectation value of
 an observable are the same. where it is valid, dynamical descriptions can often 
 be replaced with much simpler probabilistic ones — time is essentially eliminated from the models.
 ** [[https://polymarket.com/][Prediction Market Polymarket]] :prediction:econometrics:
+** [[https://towardsdatascience.com/the-economics-of-two-sided-platforms/][Economics of 2 sided platforms]] :econometrics:prediction:
+Data science as a field is great at measurement and algorithms,
+but falls behind in problem formulation (which we have left to PMs and execs).
+Understanding these theoretical foundations informs how we think about what metrics
+to measure and what algorithms to build. 
 * electrical engineering
 ** telemetry 
 *** [[https://mikrotik.com/calculator][microtik range calculator]]
@@ -618,6 +628,7 @@ and program equivalence (these two programs are observationally equivalent under
 [[http://xlogicx.net/][Assembly is too high level]] :Assembly:Blog:
 [[https://www.agner.org/optimize/][Optimization Resources for Assembly]] :Assembly:Optimization:
 * Machine Learning
+** [[https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches][Building Reasoning from Scratch]] :MachineLearning:Reasoning:
 ** [[https://karpathy.github.io/2019/04/25/recipe/][Andrej Karpathy's incredibly useful guide to model training]] :MachineLearning:NN:Stats:
 This is an amazing set of steps to understand Machine learning.
 So I thought it could be fun to brush off my dusty blog to expand my tweet to the long form that this topic deserves.
@@ -864,6 +875,7 @@ And finally, here’s the full spread of possibilities, using one or two draws, 
 ** Language Model
 *** [[https://codelanguageconverter.com/][code language converter]] :programming:MachineLearning:
 
+
 ** [[https://thenumb.at/Autodiff/][Auto Differentiation]]
 
 Max Slater
@@ -878,6 +890,13 @@ Many fields apart from machine learning are also finding differentiable programm
 useful tool for solving many kinds of optimization problems. In computer graphics,
 differentiable rendering, differentiable physics, and neural representations are
 all poised to be important tools going forward.
+** [[https://towardsdatascience.com/the-greedy-boruta-algorithm-faster-feature-selection-without-sacrificing-recall/][Feature Selection Algorithm]]:FeatureSelction:
+The Greedy Boruta Algorithm: Faster Feature Selection Without Sacrificing Recall
+Feature selection remains one of the most critical yet computationally expensive
+steps in the machine learning pipeline. When working with high-dimensional datasets,
+identifying which features truly contribute to predictive power can mean the
+difference between an interpretable, efficient model and an overfit, sluggish one.
+
 ** [[https://mobile.twitter.com/marktenenholtz/status/1577992133079756801][Leave One Out]] :MachineLearning:FeatureSelection:
 Most data scientists use linear/logistic regression to
 figure out which features are important in a dataset.
@@ -985,6 +1004,7 @@ What if you could speed up and improve your analysis with just the right prompt?
 * makefiles
 ** [[https://www.gnu.org/software/make/manual/html_node/static-usage.html][makefile manual static usage]] :makefile:
 * management & business
+** [[https://lawsofsoftwareengineering.com/][Laws of Software Engineering]]
 ** [[https://theorg.com/org/camino-natural-resources][Org Chart Discovery]]:orgchart:business:Marketing:
 ** [[https://commoncog.com/focus-saying-no-to-good-ideas/][ Focus Cedric Chin ]]:business:management:strategy:
 
@@ -1200,11 +1220,17 @@ this is a nice blog post on emacs jupyter
 this is the actual package for emacs and jupyter integration 
 use jupyter-run-repl in org mode
 ** geometry
+
 *** [[http://www.math.chalmers.se/~wastlund/cosmic.pdf][geometric proof of eulers formula]] :math:                       :geometry:
 *** [[http://erikdemaine.org/papers/cgta2000/paper.pdf][algorithmic paper folding]] :math: :geometry:                     :origami:
 *** [[https://www.scribd.com/document/190482625/a-practical-algorithm-for-decomposing-polygonal-domains-into-convex-polygons-by-diagonals][convex hull decomposition]] :math: :geometry:       :computationalgeometry:
-*** [[https://www.cs.cmu.edu/~kmcrane/projects/dgpdec/paper.pdf][discrete differential geometry]] :geometry:differentialgeometry:
-*** [[https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf][What is Differrential Geometry]] :geometry:differentialgeometry:
+*** Differential Geometry
+**** [[https://math.stackexchange.com/questions/3766220/what-is-exponential-map-in-differential-geometry][Exponential Map]] :geometry:differentialgeometry:
+Is expq(v) a projection of point q to some point q′ along the geodesic
+whose tangent (right?) at q is the vector v? And so expq(v) is the projection
+of point q to some point along the geodesic between q and q′?
+**** [[https://www.cs.cmu.edu/~kmcrane/projects/dgpdec/paper.pdf][discrete differential geometry]]           :geometry:differentialgeometry:
+**** [[https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf][What is Differrential Geometry]]           :geometry:differentialgeometry:
 Carl Friedrich Gauß (1777-1855) is the father of differential geometry. He
 was (among many other things) a cartographer and many terms in modern
 differential geometry (chart, atlas, map, coordinate system, geodesic, etc.)
