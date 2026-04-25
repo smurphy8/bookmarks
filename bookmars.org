@@ -1225,6 +1225,15 @@ use jupyter-run-repl in org mode
 *** [[http://erikdemaine.org/papers/cgta2000/paper.pdf][algorithmic paper folding]] :math: :geometry:                     :origami:
 *** [[https://www.scribd.com/document/190482625/a-practical-algorithm-for-decomposing-polygonal-domains-into-convex-polygons-by-diagonals][convex hull decomposition]] :math: :geometry:       :computationalgeometry:
 *** Differential Geometry
+*** [[https://www.tangramvision.com/blog/the-deceptively-asymmetric-unit-sphere][Unit Sphere]]
+
++ File on disk [[file:~/notes/blog-posts/diff-geo-articles/tanagram-work.org][Diff Geo Notes]]
++ Part I: Focal Length And Collinearity
++ Part 2: Introducing Lens Distortion
++ Part 3: Exploring Distortion and Distortion Models
++ Part 4: Pinhole Obsession
++ Part 5: The Deceptively Asymmetric Unit Sphere
+
 **** [[https://math.stackexchange.com/questions/3766220/what-is-exponential-map-in-differential-geometry][Exponential Map]] :geometry:differentialgeometry:
 Is expq(v) a projection of point q to some point q′ along the geodesic
 whose tangent (right?) at q is the vector v? And so expq(v) is the projection
