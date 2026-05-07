@@ -440,6 +440,11 @@ what we need is to inform people better, and produce better and healthier guidel
 ** [[https://pdf.math.dev/][Build PDFs out of Websites]]
 
 * Developer Tools   
+** [[https://statecharts.dev/][State Charts]] :Visualization:
+Put simply, a statechart is a beefed up state machine.
+The beefing up solves a lot of the problems that state machines have,
+especially state explosion that happens as state machines grow.
+One of the goals of this site is to help explain what statecharts are and how they are useful.
 ** [[https://jvns.ca/blog/2020/06/28/entr/][entr, run on change program]] :DevTools:
 ** [[http://orgmode.org/manual/Easy-templates.html#Easy-templates][org-mode easy templates]]                                         :DevTools: :OrgMode:
 ** [[https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-yuan.pdf][Simple Testing Prevents most failures (distributed testing)]]     :DevTools: :Testing:
@@ -522,8 +527,10 @@ I intentionally designed these boards from scratch rather than starting with som
 *** [[https://lwn.net/articles/250967/][what every prog should know about memory]]
 *** [[https://www.seeedstudio.com/][internet of things stuff]] :iot:embedded:market
 ** embedded programming 
-+ [[http://electronut.in/stm32-returns/][stm32 tool chain]]
-+ [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][stm32 arm abi firmware chain]]
+
+*** [[http://electronut.in/stm32-returns/][stm32 tool chain]]
+*** [[http://www.wolinlabs.com/blog/linux.stm32.discovery.gcc.html][stm32 arm abi firmware chain]]
+*** [[https://promwad.com/news/webassembly-for-embedded-systems-cross-platform-firmware][Cross Platform Web assembly]] :Embedded:WebAssembly:
 ** rf theory
 *** [[http://www.antenna-theory.com/m/index.php][antenna theory website]] :antenna:rftheory:
  about this site:
@@ -996,6 +1003,7 @@ Implementation of RLHF (Reinforcement Learning with Human Feedback) on top of th
 *** [[https://victorzhou.com/blog/intro-to-random-forests/][Intro to random forests]]
 [[./decisiontree.png]]
 Decision trees and random forest, an understandable introduction to me.
+
 * Prompting and Vibe Stuff
 ** [[https://towardsdatascience.com/prompt-engineering-for-time-series-analysis-with-large-language-models/][Prompt Engineering for Time-Series Analysis with Large Language Models]] :PromptEngineering:TimeSeries:
 Working with time-series data is often different from regular analysis, mainly because of challenges
@@ -1434,6 +1442,20 @@ running on a CPU.
 ** [[https://mika-s.github.io/wireshark/lua/dissector/2017/11/04/creating-a-wireshark-dissector-in-lua-1.html][Lua Scripts in wireshark]]   :ReverseEngineering:
 ** [[https://ghidra-sre.org/][NSA hacking Tool ghidra]]:ReverseEngineering:
 * security related
+** [[https://corrode.dev/blog/bugs-rust-wont-catch/][Bugs Rust won't catch]] :CVE:Security:Rust:
+What’s notable is that all of these bugs landed in a production Rust codebase,
+written by people who knew what they were doing, and none of them were caught
+by the borrow checker, clippy lints, or cargo audit.
+
+I’m not writing this to criticize the uutils team. Quite the contrary; I actually
+want to thank them for sharing the audit results in such detail so that we can all learn from them.
+
+We also had Jon Seager, VP Engineering for Ubuntu, on our ‘Rust in Production’ podcast
+recently and a lot of listeners appreciated his honesty about the state of Rust at Canonical.
+
+If you write systems code in Rust, this is the most concentrated look at where Rust’s
+safety ends that you’ll likely find anywhere right nowo.
+
 ** [[https://tailscale.com/blog/managing-passwords-is-so-2020][Tailscale Password Advisor]] :security:
 Using open standards to govern security behavior.
 ** [[https://woumn.wordpress.com/2016/05/02/security-principles-in-ios-architecture/][ios security]] :security:
