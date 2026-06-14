@@ -1122,6 +1122,10 @@ p** meta math
 *** [[https://plus.google.com/u/0/+terencetao27/posts/6diqmz1jqrb][terrance tao, the meaning of =]]   :math: :graphtheory:               :tao:
 *** [[https://linguotopia.wordpress.com/2016/04/24/notes-on-a-history-of-mathematics/][history of math]]  :math:                                         :history:
 ** probability
+*** [[https://www.perfectlynormal.co.uk/blog-kl-divergence][KL Divergence Explained]] :probability:InformationTheory:KLDivergence:
+A clear, visual walkthrough of Kullback-Leibler divergence: building it up from
+information/surprise and entropy, showing how it measures the extra cost of using
+one probability distribution to approximate another, and why it is asymmetric.
 *** [[https://win-vector.com/2024/12/19/kelly-cant-fail/][Kelly Can't Fail]] :KellyCriterion:betting:probability:
 This was a really interesting article on a game to illustrate kelly betting.
 The final result was the standard binary transmission with rate p of error and q of success.
