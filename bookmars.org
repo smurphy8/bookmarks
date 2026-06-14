@@ -1153,6 +1153,7 @@ it's the workhorse of formal epistemology, decision theory and behavioral econom
 while this is mostly a takedown of nassim taleb, there are lots of intersting links
 and thoughts from disciplines related to risk taking.
 *** [[https://arxiv.org/abs/2001.10488][Statistical Consequences of Fat Tails]] :probability:stat:FatTails:Taleb:
+(bayesian model checking)
 A Gaussian distribution 10 𝜎 event is ~ 1/10^23
 A [[https://en.wikipedia.org/wiki/Student%27s_t-distribution][Student T]] distribution 10 𝜎 event is ~ 1/200
 
