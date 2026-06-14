@@ -1152,6 +1152,18 @@ it's the workhorse of formal epistemology, decision theory and behavioral econom
 *** [[https://medium.com/@allenfarrington/a-tale-of-two-talebs-1775dff3302b][a tale of two talebs, lots of links of probability]]:probability:critique:taleb
 while this is mostly a takedown of nassim taleb, there are lots of intersting links
 and thoughts from disciplines related to risk taking.
+*** [[https://arxiv.org/abs/2001.10488][Statistical Consequences of Fat Tails]] :probability:stat:FatTails:Taleb:
+A Gaussian distribution 10 𝜎 event is ~ 1/10^23
+A [[https://en.wikipedia.org/wiki/Student%27s_t-distribution][Student T]] distribution 10 𝜎 event is ~ 1/200
+
+Taleb then computes the probability that, given a 10 𝜎 event happened, the distribution was Gaussian.
+
+P(Gaussian) = 0.999999
+P(Gaussian|ItHappened) = P(G)·P(Event|G) / P(ItHappened)
+Use [[https://en.wikipedia.org/wiki/Law_of_total_probability][Law of total probability]] to transform:
+P(Gaussian|ItHappened) = P(G)·P(Event|G) / [(1 − P(Gaussian))P(Event|NonGaussian) + P(Gaussian)P(Event|Gaussian)]
+Computing we get the following even in the case that the probability it is gaussian is high.
+P(Gaussian|ItHappened) = 2 × 10⁻¹⁵
 *** [[http://www.infinitecuriosity.org/vizgp/][visualization of gausian process]]:probability:
 *** [[file:papers/RoughPathTheory.pdf][Rough Paths]] :ODE:probability:
 Rough path theory is focused on capturing and making precise the interactions between 
